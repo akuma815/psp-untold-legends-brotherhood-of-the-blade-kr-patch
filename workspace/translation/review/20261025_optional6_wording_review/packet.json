@@ -1,0 +1,452 @@
+{
+  "status": "DEFERRED_OPTIONAL6_EXACT_REVIEW_ONLY_NOT_ADOPTED",
+  "artifact_sha256": "8d2bd3a0e28e2c20a167fbce035c21ae3d3618f6512f9022424ec065a8a24c5a",
+  "prior_packet": "workspace/translation/review/20261025_ability_contextual_second_pass/packet.json",
+  "prior_packet_sha256": "21f1c1a458a2046d8b2c54ee89817e225308b2fe2f7c0083216f5be32c9688d2",
+  "inventory": "workspace/translation/review/20261025_schema22_inventory_v14/packet.json",
+  "inventory_sha256": "e08f896a211d49f03e5a0c4eb00533922010c8f4728e60560b481ffdb13d16d0",
+  "entries_sha256": "ad40660cc0c6c586d47a6cfb6b2e2a9099c4f4088959c6d35c7fad04bfd3b894",
+  "terminology_sha256": "2764534652f859271e620515543e6f45e2804a941497de1e9b166719c0b5ea9a",
+  "proposals": [
+    {
+      "key": 3096,
+      "title": "정신 교란",
+      "source": "Converts $1 of enemies to fight for you over a $2 second duration.",
+      "before": "적의 $1 비율을 $2초 동안 아군으로 바꾸어 싸우게 합니다.",
+      "after": "적 중 $1를 $2초 동안 아군으로 바꾸어 싸우게 합니다.",
+      "reason": "문법 선택안. 변환되는 대상이 적임을 직접 나타냅니다. 비율 의미는 유지하며 과거에 배제한 개수/비율 해석 문제를 다시 제기하지 않습니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 61,
+        "max_UTF8_bytes_including_NUL": 163,
+        "numeric_occurrences": 2,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 59,
+        "max_UTF8_bytes_including_NUL": 157,
+        "numeric_occurrences": 2,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "grammar",
+      "before_sha256": "3d60bf32eb63fb7dd9db1ed1ca11cd419ae72286781885a290f748d049317692",
+      "after_sha256": "d5084fc15cf9b55c01c3d7e46c33c76e6a8019f9926cbca27ae17a32c3ccbb46",
+      "source_sha256": "1bc4da0eba5cd42bc2ccd920a67b9cf4ed1773ce155b7153d52e9cff4e0e90f8",
+      "font_metric_checks": [
+        {
+          "key": 3096,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 366,
+          "after_template_advance": 338,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3096,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 375,
+          "after_template_advance": 347,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3096,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 375,
+          "after_template_advance": 347,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3096,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 369,
+          "after_template_advance": 341,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3096,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 356,
+          "after_template_advance": 328,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false
+    },
+    {
+      "key": 3104,
+      "title": "방어",
+      "source": "Adds $1 extra damage mitigation to all blocks. Has a $2 chance of rooting the attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 속박합니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 속박합니다.",
+      "reason": "명확성 선택안. 원문의 blocks/while blocking을 방어 수치와 구분하고 현재3081의 막기 표현과 맞춥니다. 속박 효과는 유지합니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 95,
+        "max_UTF8_bytes_including_NUL": 253,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 93,
+        "max_UTF8_bytes_including_NUL": 247,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "block",
+      "before_sha256": "d10f790683d15e8f0d75dd29540a90888e25d0d88ff36de9c875bbe41a7e8457",
+      "after_sha256": "8704f4ced6263307d28f872cb1f291cd3c7c7b8155a95d7f35fb07d2759500b1",
+      "source_sha256": "054b8c866af1b2f6d7227175574242194bcac3d6e528a690f82e538334a04eaf",
+      "font_metric_checks": [
+        {
+          "key": 3104,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 591,
+          "after_template_advance": 563,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3104,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 605,
+          "after_template_advance": 577,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3104,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 605,
+          "after_template_advance": 577,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3104,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 595,
+          "after_template_advance": 567,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3104,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 576,
+          "after_template_advance": 548,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false
+    },
+    {
+      "key": 3116,
+      "title": "방어",
+      "source": "Adds $1 extra damage mitigation to all blocks.  Has a $2 chance of stunning the attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 기절시킵니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 기절시킵니다.",
+      "reason": "명확성 선택안. 원문의 blocks/while blocking을 막기 동작으로 표시합니다. 기절 효과는 유지합니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 96,
+        "max_UTF8_bytes_including_NUL": 256,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 94,
+        "max_UTF8_bytes_including_NUL": 250,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "block",
+      "before_sha256": "7ac612deb2f5d1415e04b80090a65d6a75f7351e3962409e696ae59510fd54fc",
+      "after_sha256": "b4021ee63aadae66937969c307e584fb70628e08a641e7336a95bcbec1a6064b",
+      "source_sha256": "35eaff65c8064e9d02f215ade33870256255aa85bbe9852c8f38902a1d853bd1",
+      "font_metric_checks": [
+        {
+          "key": 3116,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 605,
+          "after_template_advance": 577,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3116,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 619,
+          "after_template_advance": 591,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3116,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 619,
+          "after_template_advance": 591,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3116,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 609,
+          "after_template_advance": 581,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3116,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 590,
+          "after_template_advance": 562,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false
+    },
+    {
+      "key": 3122,
+      "title": "강타",
+      "source": "Swing your melee weapon multiple times for a chance to hit each enemy in a radius around you for $1-$2 damage per swing.",
+      "before": "근접 무기를 여러 번 휘두릅니다. 휘두를 때마다 주변 범위 안의 각 적에게 $1-$2 피해를 줄 기회가 있습니다.",
+      "after": "근접 무기를 여러 번 휘두릅니다. 휘두를 때마다 주변 범위 안의 각 적에게 $1-$2 피해를 줄 수 있습니다.",
+      "reason": "문장 선택안. 피해를 줄 기회가 있다는 표현을 줄 수 있다는 문장으로 다듬습니다. 별도의 발동 확률이나 보장 피해를 새로 적지 않습니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 90,
+        "max_UTF8_bytes_including_NUL": 230,
+        "numeric_occurrences": 2,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 88,
+        "max_UTF8_bytes_including_NUL": 224,
+        "numeric_occurrences": 2,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "grammar",
+      "before_sha256": "f70b42d7c981311ca7c4a8e45f98aaa271ea4a462e7a4b228440d557506f7d7a",
+      "after_sha256": "cea11d1ff230adb5291a56d341f9ba63c019d16bb70b8709927a6e27a2a1121d",
+      "source_sha256": "5b1772515092fd0d55b8dd9f46568430d6abb05272754e5954d281b92114cd2a",
+      "font_metric_checks": [
+        {
+          "key": 3122,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 680,
+          "after_template_advance": 652,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3122,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 692,
+          "after_template_advance": 664,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3122,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 692,
+          "after_template_advance": 664,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3122,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 683,
+          "after_template_advance": 655,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3122,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 667,
+          "after_template_advance": 639,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false
+    },
+    {
+      "key": 3129,
+      "title": "힘의 귀감",
+      "source": "Ups melee damage to $1, blocking to $2, and melee instant kill to $3.  Cuts speed to $4. Lasts $5 seconds.",
+      "before": "근접 피해는 $1, 방어는 $2, 근접 공격의 즉사 확률은 $3 수준으로 높아집니다. 속도는 $4 수준으로 낮아집니다. $5초 동안 지속됩니다.",
+      "after": "근접 피해는 $1, 막기는 $2, 근접 공격의 즉사 확률은 $3 수준으로 높아집니다. 속도는 $4 수준으로 낮아집니다. $5초 동안 지속됩니다.",
+      "reason": "명확성 선택안. 원문의 blocking을 막기로 특정합니다. 피해 경감량인지 성공 확률인지 새로운 기계적 해석을 덧붙이지 않습니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 146,
+        "max_UTF8_bytes_including_NUL": 390,
+        "numeric_occurrences": 5,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 146,
+        "max_UTF8_bytes_including_NUL": 390,
+        "numeric_occurrences": 5,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "block",
+      "before_sha256": "2c55e42c2e7335ef610043755967a3fd90384cf54290e217cd4ac920dc106652",
+      "after_sha256": "b2845e3b76c5224ba233318847877d32c4f37f7496950533fd376f21e8f2b1bb",
+      "source_sha256": "a94ebe2b39e3148e4beb012b9c89670eeba59c282a672b08952ca539e126d21d",
+      "font_metric_checks": [
+        {
+          "key": 3129,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 838,
+          "after_template_advance": 838,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3129,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 861,
+          "after_template_advance": 861,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3129,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 861,
+          "after_template_advance": 861,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3129,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 845,
+          "after_template_advance": 845,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3129,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 811,
+          "after_template_advance": 811,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false,
+      "existing_current_capture": {
+        "path": "qa/runtime/20261025_class_long_ability_attempt01/actual3129_panel.png",
+        "sha256": "40702f087673fb8086605de09c7e3cc9918c1abd117d0565091fd27841757bf3",
+        "proposal_after_capture": false
+      }
+    },
+    {
+      "key": 3131,
+      "title": "방어",
+      "source": "Adds $1 extra damage mitigation to all blocks.  Has a $2 chance of slowing an attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 느리게 만듭니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 느리게 만듭니다.",
+      "reason": "명확성 선택안. 원문의 blocks/while blocking을 막기 동작으로 표시합니다. 둔화 효과는 유지합니다.",
+      "before_storage_bound": {
+        "max_UTF16_units_including_NUL": 98,
+        "max_UTF8_bytes_including_NUL": 260,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "after_storage_bound": {
+        "max_UTF16_units_including_NUL": 96,
+        "max_UTF8_bytes_including_NUL": 254,
+        "numeric_occurrences": 3,
+        "slot_staged_units": 15,
+        "storage_bound_not_numeric_accuracy": true
+      },
+      "new_numeric_or_control_semantics": false,
+      "adopted": false,
+      "group": "block",
+      "before_sha256": "ff3d810950e26cc7e2f7e1ea71b1a43b77156e0d7d2e66fb05a4e4ac9ddc7c41",
+      "after_sha256": "dd9ff1579a167d9a11d9c020182c73d849b8124f48a7d428dd70dbaefd83b02b",
+      "source_sha256": "d76e8e50a7b9349e22919d8ee80b5eb47b952d42a17574e00fe968e3b0da1383",
+      "font_metric_checks": [
+        {
+          "key": 3131,
+          "font": "Fonts\\fon_Arial10",
+          "before_template_advance": 624,
+          "after_template_advance": 596,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3131,
+          "font": "Fonts\\fon_Arial13",
+          "before_template_advance": 638,
+          "after_template_advance": 610,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3131,
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_template_advance": 638,
+          "after_template_advance": 610,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3131,
+          "font": "Fonts\\fon_Morpheus",
+          "before_template_advance": 628,
+          "after_template_advance": 600,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        },
+        {
+          "key": 3131,
+          "font": "Fonts\\fon_Small",
+          "before_template_advance": 609,
+          "after_template_advance": 581,
+          "all_proposed_characters_in_current_font": true,
+          "not_actual_after_runtime_or_human_layout_approval": true
+        }
+      ],
+      "applied": false,
+      "approved": false
+    }
+  ],
+  "approval_requested": false,
+  "game_prose_applied": false,
+  "release_eligible": false
+}

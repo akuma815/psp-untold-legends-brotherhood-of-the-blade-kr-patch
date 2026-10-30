@@ -1,0 +1,32 @@
+{
+  "status": "FROZEN_TITLE_MAP_CAPTIONS_VISUAL_REVIEW_PENDING",
+  "captions": [
+    "아벤",
+    "황무지"
+  ],
+  "rectangles": [
+    [
+      28,
+      246,
+      80,
+      272
+    ],
+    [
+      374,
+      221,
+      473,
+      256
+    ]
+  ],
+  "old_ink_luma_threshold": 27,
+  "cleanup_dilation": 3,
+  "background": "adopted_local_background512.png",
+  "background_method": "800 fixed-boundary Jacobi iterations only inside old English ink mask,then original256-color palette quantization",
+  "changed_pixels": 2251,
+  "new_palette_colors": 0,
+  "protected_outside_mask_equal": true,
+  "logo_and_other_clipped_English_unchanged": true,
+  "header_palette1056bytes_equal": true,
+  "full_human_layout_accepted": false,
+  "release_eligible": false
+}

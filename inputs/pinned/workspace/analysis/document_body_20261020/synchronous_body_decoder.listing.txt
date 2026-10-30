@@ -1,0 +1,39 @@
+000705DC addiu       $sp, $sp, -0x30
+000705E0 sw          $s0, 0x28($sp)
+000705E4 sw          $ra, 0x2C($sp)
+000705E8 blez        $a1, . + 4 + (0x1E << 2)
+000705EC nop
+000705F0 sw          $a1, 0x24($sp)
+000705F4 sw          $a0, 0x20($sp)
+000705F8 lw          $a0, 0x4($a0)
+000705FC jal 0x000D6BAC
+00070600 ori         $a1, $zero, 0x67
+00070604 lw          $a0, 0x20($sp)
+00070608 ori         $a1, $zero, 0x68
+0007060C lw          $a2, 0x4($a0)
+00070610 sw          $v0, 0x0($a0)
+00070614 jal 0x000D6C38
+00070618 or          $a0, $a2, $zero
+0007061C lw          $a0, 0x20($sp)
+00070620 jal 0x0006F068
+00070624 sw          $v0, 0x0($a0)
+00070628 lw          $a0, 0x20($sp)
+0007062C lw          $a3, 0x24($sp)
+00070630 addiu       $s0, $a0, 0x20
+00070634 lui         $t0, 0x3F00
+00070638 lw          $a0, 0x4($a0)
+0007063C mtc1        $t0, $f12
+00070640 or          $a1, $s0, $zero
+00070644 jal 0x000DA634
+00070648 ori         $a2, $zero, 0x800
+0007064C lw          $a0, 0x20($sp)
+00070650 lw          $a1, 0x24($sp)
+00070654 jal 0x0006F0DC
+00070658 sw          $v0, 0x0($a0)
+0007065C beq         $zero, $zero, . + 4 + (0x2 << 2)
+00070660 or          $v0, $s0, $zero
+00070664 or          $v0, $zero, $zero
+00070668 lw          $s0, 0x28($sp)
+0007066C lw          $ra, 0x2C($sp)
+00070670 jr          $ra
+00070674 addiu       $sp, $sp, 0x30

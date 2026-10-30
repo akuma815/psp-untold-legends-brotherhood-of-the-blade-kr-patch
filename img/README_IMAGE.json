@@ -1,0 +1,26 @@
+{
+  "images": [
+    {
+      "path": "img/title-20261030.png",
+      "source": "qa/runtime/20261030_map27_regular_load_attempt01/title_menu.png",
+      "caption": "현재27 실제 타이틀 메뉴. 로고와 배경 지도명은 사용자 결정으로 원문 유지.",
+      "size": 343100,
+      "sha256": "cb2f28a71880f8911ed14efe5b2123dcf9846ecde13580fff3bc4155ea61d3f2"
+    },
+    {
+      "path": "img/map-20261030.png",
+      "source": "qa/runtime/20261030_map27_regular_load_attempt01/loaded_map.png",
+      "caption": "현재27에서 일반 불러오기 후 연 지도. 후기 지역 자연 진행 증거는 아님.",
+      "size": 343999,
+      "sha256": "5546d22c70da31a57dab5b9d41b903d16744eed7fc712fb6deb22752ee7119cf"
+    },
+    {
+      "path": "img/menu-20261030.png",
+      "source": "qa/runtime/20261030_map27_regular_load_attempt01/pause_menu.png",
+      "caption": "같은 현재27 실행의 일시 정지 메뉴. 전체 경로 검수 완료를 뜻하지 않음.",
+      "size": 260560,
+      "sha256": "96a7a030c8eaf0594da184b9c565d483f3bd37ea66a653d073bd87cc31057edf"
+    }
+  ],
+  "validation_class": "Existing actual emulator captures;no new runtime test during publication"
+}

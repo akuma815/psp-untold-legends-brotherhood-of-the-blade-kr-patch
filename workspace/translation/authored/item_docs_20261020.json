@@ -1,0 +1,528 @@
+{
+  "policy": "individual_manual_development_proposals",
+  "drafts": [
+    {
+      "key": 3622,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3622",
+      "source_sha256": "314e2d9e12c95b19d7137025eeda65aeea5d03b8b5cc3adcb11687d87e37768d",
+      "source_text": "This rope is made from a fine weave of adamantine steel thread. \r\n\r\nWith this rope, you may now traverse through otherwise deadly pits that had once barred you from further exploration.",
+      "text": "아다만틴 강철 실을 촘촘하게 엮어 만든 밧줄이다.\r\n\r\n이 밧줄이 있으면 더 깊은 탐험을 가로막던 치명적인 구덩이도 건널 수 있다.",
+      "references": [
+        [
+          5,
+          2030,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3638,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3638",
+      "source_sha256": "42e671ade57564427455b80c5b549c0812efb650ec419eec1f4d4677df7aa889",
+      "source_text": "This symbolic crest bears the unmistakable emblem of the Shaelunn Maul.  This item is undoubtedly of significant importance to Aven's cast of noble knights.",
+      "text": "이 문장에는 분명한 셰일룬 몰의 문양이 새겨져 있다. 아벤의 고귀한 기사들에게 상당히 중요한 물건임이 틀림없다.",
+      "references": [
+        [
+          5,
+          2031,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3628,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3628",
+      "source_sha256": "80b3cdc3392a23da1efe8f27b63e97e67edfdb2e0a77d659f9953a7bad8d6eb8",
+      "source_text": "This fragment of a golden amulet bears a small portion of what you recognize to be the emblem of the wildling outcasts.\r\n\r\nOn the back of the shard is a portion of an inscription that indicates that this amulet once belonged to the outcast woman Tael, who sacrificed herself beside the historian Aldus all those centuries ago.\r\n\r\nWhat use this shard will bear toward your further exploration of this world has yet to be determined.",
+      "text": "금빛 부적의 이 조각에는 와일들링 추방자들의 것으로 알아볼 수 있는 문양 일부가 새겨져 있다.\r\n\r\n뒷면에 남은 글 일부를 보면, 이 부적은 수백 년 전 역사가 알두스와 함께 자신을 희생한 추방자 여인 타엘의 것이었던 듯하다.\r\n\r\n앞으로 이 세상을 더 탐험하는 데 이 조각이 어떤 쓰임이 있을지는 아직 알 수 없다.",
+      "references": [
+        [
+          5,
+          2032,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3626,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3626",
+      "source_sha256": "836e7f0c15fb0532fd0ca8198646bb07a67e3aa942ecd34a2da5f21a7df91774",
+      "source_text": "The opalescent potion swirls hypnotically inside the crystal vial.\r\n\r\nYou know from Csuragaul that this potion will grant you passage through astral space.",
+      "text": "수정 약병 안에서 오팔빛 물약이 최면을 걸 듯 소용돌이친다.\r\n\r\n수라가울의 말에 따르면 이 물약은 영적인 공간을 통과할 수 있게 해 준다.",
+      "references": [
+        [
+          5,
+          2034,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3642,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3642",
+      "source_sha256": "0fc2626b1949f7e268fad0846319f60b86de3d8df9ed8948c25131b6560c46ee",
+      "source_text": "You find an ancient scroll amidst the ashes in the urn.  The scroll contains the following text:\r\n\r\nThe final resting places of the Brotherhood of Blade are scattered throughout the territories of Unataca.\r\n\r\nThe fourth mausoleum is guarded by the Phantom Savant who roams eternal in a sacred place known as the Elysian Chamber.  The chamber is kept secret by the Icen Halls East.",
+      "text": "유골함의 재 속에서 고대 두루마리를 발견했다. 다음과 같은 글이 적혀 있다.\r\n\r\n검의 형제단이 마지막으로 잠든 곳들은 우나타카의 여러 영토에 흩어져 있다.\r\n\r\n네 번째 영묘는 엘리시안 석실이라는 성스러운 장소를 영원히 떠도는 환영의 현자가 지킨다. 그 석실은 아이센 전당 동부에 비밀스럽게 감춰져 있다.",
+      "references": [
+        [
+          5,
+          2035,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3646,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3646",
+      "source_sha256": "acb73f149ab3a9099bedf2fcaa5210ecd14081e1d4c29b2e7fa589a0aad30504",
+      "source_text": "This item appears completely alien to you and you wonder how on earth could the ancient people of Aven used it for their defense.",
+      "text": "완전히 낯선 물건이다. 고대 아벤 사람들이 대체 어떻게 이런 물건으로 스스로를 지켰을지 의문이 든다.",
+      "references": [
+        [
+          5,
+          2036,
+          72
+        ],
+        [
+          5,
+          2044,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3637,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3637",
+      "source_sha256": "3363f9583671f1c8b0c4beb36ae42b67039a79279c10c9b95e0f45b1ceed5045",
+      "source_text": "This crystal shard radiates a faint aura of power.  You can tell that its power has begun to wane beneath the neglect of the passing centuries.",
+      "text": "이 수정 조각에서는 희미한 힘의 기운이 뿜어져 나온다. 수백 년 동안 방치되어 그 힘이 약해지기 시작했음을 알 수 있다.",
+      "references": [
+        [
+          5,
+          2037,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3635,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3635",
+      "source_sha256": "ee2790df7b30079a2f53e3836186864534fbe19ca2bd5a1cc10411e2f05b0498",
+      "source_text": "This crystal is as clear as water and shines as brilliantly as any diamond.",
+      "text": "물처럼 맑고 어떤 다이아몬드 못지않게 찬란히 빛나는 수정이다.",
+      "references": [
+        [
+          5,
+          2038,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3636,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3636",
+      "source_sha256": "78b093d256269b484b6de634bf2eea12014f468521696d4231950f5c405e457e",
+      "source_text": "This wreath is made of beautiful, lush ivy vines and the most fragrant flowers you've ever smelled.  It is obviously an icon of significant importance to the druidic people.",
+      "text": "아름답고 무성한 담쟁이 덩굴과 지금껏 맡아 본 것 중 가장 향기로운 꽃들로 만든 화환이다. 드루이드들에게 상당히 중요한 상징임이 분명하다.",
+      "references": [
+        [
+          5,
+          2039,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3625,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3625",
+      "source_sha256": "60558340d807647b3ff552d28062cc89f34802668ef8e264d20f653f6b8a6b36",
+      "source_text": "This key appears to be covered in rust at first glance, but with further inspection, you realize it is more than a mundane old metal key.  In fact, it doesn't seem to be a material object at all.\r\n\r\nThis key seems to be entirely made of magical energies, for it has neither weight, texture or temperature.\r\n\r\nAn ancient power eminates from the key, leading you to believe that it will unlock those magically sealed doors you had previously been unable to pass through.\r\n\r\nOnly further exploration of the forgotten ruins of this world will uncover the true extent of the key's worth and use.",
+      "text": "얼핏 보면 녹이 슨 열쇠지만, 자세히 살피면 평범한 낡은 금속 열쇠 이상임을 깨닫는다. 실은 물질로 된 물건 같지도 않다.\r\n\r\n무게도 질감도 온도도 없는 이 열쇠는 순수한 마법 에너지로만 만들어진 듯하다.\r\n\r\n열쇠에서 고대의 힘이 뿜어져 나온다. 이전에는 지나갈 수 없었던 마법으로 봉인된 문들을 열 수 있으리라는 생각이 든다.\r\n\r\n이 세상의 잊힌 폐허를 더 탐험해야만 열쇠의 진정한 가치와 쓰임을 모두 알아낼 수 있을 것이다.",
+      "references": [
+        [
+          5,
+          2042,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3644,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3644",
+      "source_sha256": "8ea97fe39fe41829ce6db26c4bc882e557eaae47c7eb8a159c12ce3be5ee3dbc",
+      "source_text": "You find an ancient scroll amidst the ashes in the urn.  The scroll contains the following text:\r\n\r\nThe final resting places of the Brotherhood of Blade are scattered throughout the territories of Unataca.\r\n\r\nThis is the final urn of the Brotherhood of the Blade.  The Avatar awaits their return...",
+      "text": "유골함의 재 속에서 고대 두루마리를 발견했다. 다음과 같은 글이 적혀 있다.\r\n\r\n검의 형제단이 마지막으로 잠든 곳들은 우나타카의 여러 영토에 흩어져 있다.\r\n\r\n이것이 검의 형제단의 마지막 유골함이다. 화신이 그들의 귀환을 기다린다...",
+      "references": [
+        [
+          5,
+          2043,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 2718,
+      "source_id": "ULKS46015-v1.01:en_us/trans:2718",
+      "source_sha256": "d36898c4d7f13c9561428839d3daa0d56843e84fef9db6efc6d3ba3b77a91d08",
+      "source_text": "You find an ancient scroll amidst the ashes in the urn.  The scroll contains the following text:\r\n\r\nThe final resting places of the Brotherhood of Blade are scattered throughout the territories of Unataca.\r\n\r\nThe first masters chose to remain in the heart of the Watchtower, forever guarding the sacred charge of Aven and her people.\r\n\r\nThe second master chose the earth as their tomb.  Nestled deep beneath the mines of the woodlands.  The Earthrest Crypts are home to the ashes of the second that are guarded by the undying Lunar Sage.",
+      "text": "유골함의 재 속에서 고대 두루마리를 발견했다. 다음과 같은 글이 적혀 있다.\r\n\r\n검의 형제단이 마지막으로 잠든 곳들은 우나타카의 여러 영토에 흩어져 있다.\r\n\r\n첫 대가들은 망루의 중심부에 남아 아벤과 그 백성의 성스러운 사명을 영원히 지키기로 했다.\r\n\r\n두 번째 대가는 땅을 무덤으로 삼았다. 숲의 광산 아래 깊이 자리한 어스레스트 묘실에는 죽지 않는 달의 현자가 지키는 두 번째 대가의 유골이 있다.",
+      "references": [
+        [
+          5,
+          2045,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3757,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3757",
+      "source_sha256": "bd91ffc528d45b97dd755a9d57acca3d0d33a2905bbf1c03b583110622d308a0",
+      "source_text": "This brilliant, shimmering stone has been enhanced by Lysetta's own alchemy to generate a soft, glowing light.\r\n\r\nThe Overseer has assured you that the light from this stone is powerful enough to penetrate the dreary darkness of the catacombs beneath the city.",
+      "text": "찬란하게 반짝이는 이 돌은 리세타의 연금술로 강화되어 부드러운 빛을 내뿜는다.\r\n\r\n감독관은 이 돌의 빛이라면 도시 아래 지하묘지의 음울한 어둠을 뚫기에 충분하다고 장담했다.",
+      "references": [
+        [
+          5,
+          2062,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 2719,
+      "source_id": "ULKS46015-v1.01:en_us/trans:2719",
+      "source_sha256": "a0ffe991c3db18fb13a506a18e7850202856129b67a41602f183db0f9db29664",
+      "source_text": "You find an ancient scroll amidst the ashes in the urn.  The scroll contains the following text:\r\n\r\nThe final resting places of the Brotherhood of Blade are scattered throughout the territories of Unataca.\r\n\r\nThe ashes of the third reside in the clutches of the Savage Matriarch, who dwells eternal in her lair beneath the barren wastelands beyond the Splinterfull Woods.  The Den of the Wolf lies safe beneath the Gasping Caves of the Riven Flats.",
+      "text": "유골함의 재 속에서 고대 두루마리를 발견했다. 다음과 같은 글이 적혀 있다.\r\n\r\n검의 형제단이 마지막으로 잠든 곳들은 우나타카의 여러 영토에 흩어져 있다.\r\n\r\n세 번째 대가의 유골은 야성의 여족장의 손아귀에 있다. 그녀는 스플린터풀 숲 너머의 메마른 황무지 아래 소굴에서 영원히 살아간다. 늑대의 소굴은 리븐 평원의 헐떡이는 동굴 아래 안전하게 자리하고 있다.",
+      "references": [
+        [
+          5,
+          2063,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3641,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3641",
+      "source_sha256": "a82ad8743437c73391fcd7d0bbedea0520e6954e6682471b805e3457ae102be0",
+      "source_text": "A small crystal shard that has been perfectly cut.  It is obvious to you that this is but one piece of a larger item.",
+      "text": "완벽하게 세공된 작은 수정 조각이다. 더 큰 물건의 일부일 뿐임이 분명하다.",
+      "references": [
+        [
+          5,
+          2064,
+          72
+        ],
+        [
+          5,
+          2069,
+          72
+        ],
+        [
+          5,
+          2078,
+          72
+        ],
+        [
+          5,
+          2079,
+          72
+        ],
+        [
+          5,
+          2086,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3650,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3650",
+      "source_sha256": "e39a03856b07252f91b15cc92f5283390d2554e0735290e138b8a64e76b8aa1b",
+      "source_text": "The Necrosis Tome appears to have been bound in the flesh of outcasts and written in their blood.\r\n\r\nWhen you attempt to read the necromantic words, a wave of nausea comes over you and fear envelopes your heart.\r\n\r\nYou immediately realize that you are not equipped to handle the dark magics of the necromancers and close the book before anything worse overcomes you.",
+      "text": "네크로시스 고서는 추방자들의 살가죽으로 묶이고 그들의 피로 쓰인 듯하다.\r\n\r\n사령술 문구를 읽으려 하자 구역질이 밀려오고 두려움이 가슴을 감싼다.\r\n\r\n사령술사들의 어둠의 마법을 다룰 준비가 되어 있지 않다는 사실을 곧바로 깨닫고, 더 나쁜 일이 닥치기 전에 책을 덮는다.",
+      "references": [
+        [
+          5,
+          2065,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3627,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3627",
+      "source_sha256": "a9e8b35306f5e76e2f63eba9342c80189bb58cb8718c699b089f8afa825830d9",
+      "source_text": "This magical orb seems to be made out of nothing more than mere glass.\r\n\r\nHowever, you know that this orb is more than it seems.  In truth, this orb is the only key that will allow you entry into the magically warded domains of this world.",
+      "text": "그저 유리로 만든 것처럼 보이는 마법 구슬이다.\r\n\r\n하지만 보기보다 대단한 물건임을 알고 있다. 실은 이 세상에서 마법으로 보호되는 영역으로 들어갈 수 있게 해 주는 유일한 열쇠다.",
+      "references": [
+        [
+          5,
+          2066,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3640,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3640",
+      "source_sha256": "c4ddd97b45a654acb3ebac8e510e72c499be06a1779ac80db0a5ad09e275091d",
+      "source_text": "This flawless opaline orb radiates with ancient energies.",
+      "text": "흠 하나 없는 오팔빛 구슬에서 고대의 에너지가 뿜어져 나온다.",
+      "references": [
+        [
+          5,
+          2067,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3905,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3905",
+      "source_sha256": "cf1c807af3920269d618889d97e0018fefade6e5e2f53808050fa8f74169a8d3",
+      "source_text": "The venom of Athloxxia is as thick as molasses and the stench of decaying matter eminating from beyond the thick crystal vial is sickening to even your hardened stomach.",
+      "text": "애슬록시아의 독은 당밀처럼 걸쭉하다. 두꺼운 수정 약병 밖으로도 새어 나오는 썩은 냄새에, 웬만한 것에는 끄떡없는 위장마저 메스꺼워진다.",
+      "references": [
+        [
+          5,
+          2070,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3113,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3113",
+      "source_sha256": "d69f19a3521d141ac422616b29bbba897cc30accd7900a10fb9fb5a570f3ce68",
+      "source_text": "[i_PI_RonanWalkerScroll]Shadows are everywhere.  Tell Dorian, he was right.  I'm so sorry...\r\n\r\nAth...  Athloxxia...  My queen...",
+      "text": "[i_PI_RonanWalkerScroll]어디에나 그림자가 있다. 도리안에게 전해 줘. 그 말이 맞았어. 정말 미안해...\r\n\r\n애... 애슬록시아... 나의 여왕이여...",
+      "references": [
+        [
+          5,
+          2072,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3639,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3639",
+      "source_sha256": "c959365133e8f1f2cfff2a75f9bac1b2264f259cb8fce88a5bfa575e9596b38d",
+      "source_text": "This potion is encased in an ornate crystal vial that bears the symbol of Aven's Academy etched on the surface.\r\n\r\nYou recall an old legend of a salve that had the power to cure any disease and even bring life back to the dead.  Somehow, you believe that you have found this object of legend.",
+      "text": "아벤의 아카데미 문양을 겉면에 새긴 화려한 수정 약병에 담긴 물약이다.\r\n\r\n어떤 병이든 고치고 죽은 이마저 되살릴 힘이 있는 연고에 관한 오랜 전설이 떠오른다. 어쩐지 바로 그 전설 속 물건을 찾아낸 것 같은 생각이 든다.",
+      "references": [
+        [
+          5,
+          2073,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3623,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3623",
+      "source_sha256": "4cd29d54498f4c1842e94977e91ecdcf07da1b08e099fe6f0e610b9de004671f",
+      "source_text": "This golden seal bears the ancient heraldic crest of Aven.\r\n\r\nThe Seal of Aven is the only key that will unlock the magically sealed gates to the city.",
+      "text": "금빛 인장에는 아벤의 고대 문장이 새겨져 있다.\r\n\r\n아벤의 인장은 도시의 마법으로 봉인된 성문을 열 유일한 열쇠다.",
+      "references": [
+        [
+          5,
+          2074,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3647,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3647",
+      "source_sha256": "d44ae618a78700d21e0b9774c0fd053f1ed64b0f259aa4361d5b4491ba0c4c6c",
+      "source_text": "This ancient signet was worn by each of the four members of the Brotherhood of the Blade.\r\n\r\nYou can feel its ancient power surround you and suddenly, you know neither fear nor hesitation.  What must be done is obvious -- the Shadowed God must be destroyed, else all will fall in the wake of his freedom.",
+      "text": "검의 형제단 네 구성원이 각자 지녔던 고대의 인장이다.\r\n\r\n고대의 힘이 주위를 감싸자 갑자기 두려움도 망설임도 사라진다. 해야 할 일은 분명하다. 그림자 신을 파괴해야 한다. 그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+      "references": [
+        [
+          5,
+          2076,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3651,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3651",
+      "source_sha256": "5f4cddc05b917f903d450503f064d2b30f87c00661a477c4042400e07b699bc4",
+      "source_text": "This ancient testimony was written in what appears to be a code of some sort, one that is likely kept by the highest ranks of the Shaelunn Maul.",
+      "text": "일종의 암호로 기록된 듯한 고대의 증언이다. 아마 셰일룬 몰의 최고위층만이 아는 암호일 것이다.",
+      "references": [
+        [
+          5,
+          2077,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3756,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3756",
+      "source_sha256": "2811b9493c2b3c80680d979b9024ef3a717ad0ebb79ac6356187fd71342ecca2",
+      "source_text": "This is the first volume supposedly detailing the history of Aven.  Unfortunately, you are unable to decipher any of the ancient text written within its pages.",
+      "text": "아벤의 역사를 상세히 기록했다는 첫 번째 책이다. 안타깝게도 책장에 적힌 고대 문구는 하나도 해독할 수 없다.",
+      "references": [
+        [
+          5,
+          2081,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3649,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3649",
+      "source_sha256": "f4f0713fbe2997f579dc73d11a6317a07b1738e36df6936e38b1151f037fd75f",
+      "source_text": "This is the second volume of the Tome of Aven.  Unfortunately, it is written is an ancient language that is completely foreign to you.",
+      "text": "아벤의 고서 두 번째 책이다. 안타깝게도 전혀 모르는 고대 언어로 쓰여 있다.",
+      "references": [
+        [
+          5,
+          2082,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3624,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3624",
+      "source_sha256": "5e435bd85bb1c676f01c14059d91476712bda537f0f5c33487f0649776772286",
+      "source_text": "The Warden's Key is made of a very strange, glowing silver material -- perhaps enchanted metal or adamantine?\r\n\r\nWhat you do know is that this key will unlock the door that safeguards the Shadowed God in the Vault.\r\n\r\nPerhaps this key may open more secret passageways into the forgotten recesses of the world.  Only through exploration will you find out for certain.",
+      "text": "간수의 열쇠는 빛나는 은빛의 아주 기묘한 물질로 만들어졌다. 마법이 깃든 금속일까, 아다만틴일까?\r\n\r\n분명한 것은 이 열쇠가 봉인실에서 그림자 신을 가로막고 있는 문을 연다는 사실이다.\r\n\r\n세상의 잊힌 깊은 곳으로 이어지는 다른 비밀 통로도 열 수 있을지 모른다. 탐험을 통해서만 확실히 알아낼 수 있을 것이다.",
+      "references": [
+        [
+          5,
+          2083,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3645,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3645",
+      "source_sha256": "4c1eb1082f4980359d564e53661f6310604497914cccc4842d92619fb374c7c4",
+      "source_text": "This totem is made of bone, wolf fangs, and beautifully colored feathers.  It is obviously of great spiritual importance to the Berserkers of Aven.",
+      "text": "뼈와 늑대의 송곳니, 아름다운 색의 깃털로 만든 토템이다. 아벤의 광전사들에게 영적으로 매우 중요한 물건임이 분명하다.",
+      "references": [
+        [
+          5,
+          2085,
+          72
+        ]
+      ],
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    }
+  ],
+  "held_drafts": [
+    {
+      "key": 2813,
+      "source_id": "ULKS46015-v1.01:en_us/trans:2813",
+      "source_sha256": "d121945eaa242c1a54d85bdb0497c573d7ba3b5c341d561c816aead07837c860",
+      "source_text": "Introduction Passage:\r\n\r\nContained within the following pages is a detailed account of Aven's darkest history; a time when a tyrant rules our domain and her fanatic loyalists prowl the streets, the taverns, and our homes for dissenters.\r\n\r\nMany keep quiet, fearful of the zealots that threaten them with exile; terrified of the world beyond the constricting safety of Aven's gates.  This is not a way of life. They have traded freedom and enlightenment for fear and oppression and it shall not be forgotten.\r\n\r\nFrom the depths of carnage, shackled freedom, and the near-genocide of our ideals and passion, the wayfarers emerge.  Although we must roam far from her gates, we are and shall always be, the keepers of Aven's history, passion and beauty.\r\n\r\nThis is our testament.  This is our legacy.  [The rest of the tome is written in a language I do not understand.]",
+      "text": "서문.\r\n\r\n이 책에는 아벤의 가장 어두웠던 역사가 상세히 담겨 있다. 폭군이 우리 땅을 다스리고, 광신적인 추종자들이 반대자를 찾아 거리와 술집, 집 안까지 뒤지던 시대의 기록이다.\r\n\r\n많은 이들이 추방을 들먹이며 위협하는 광신자들을 두려워해 입을 다문다. 아벤의 성문이 가두어 주는 안전 너머의 세상이 무섭기 때문이다. 이것은 삶이라 할 수 없다. 그들은 자유와 깨우침을 두려움과 억압으로 바꾸었으며, 이 일은 잊혀서는 안 된다.\r\n\r\n학살의 깊은 곳, 족쇄에 묶인 자유와 우리의 이상과 열정을 거의 말살하려던 참상 속에서 나그네들이 나타난다. 비록 성문에서 멀리 떠돌아야 하지만, 우리는 지금도 앞으로도 영원히 아벤의 역사와 열정과 아름다움을 지키는 이들이다.\r\n\r\n이것이 우리의 증언이다. 이것이 우리의 유산이다. [The rest of the tome is written in a language I do not understand.]",
+      "references": [
+        [
+          5,
+          2084,
+          72
+        ]
+      ],
+      "rationale": "Literal bracket text consumer/translation policy unresolved; original bracket note remains English in manuscript and complete source payload retained in build.",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    }
+  ],
+  "corrections": [],
+  "term_proposals": {}
+}

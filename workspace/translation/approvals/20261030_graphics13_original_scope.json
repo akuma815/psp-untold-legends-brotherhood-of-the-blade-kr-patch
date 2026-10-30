@@ -1,0 +1,150 @@
+{
+  "status": "USER_SELECTED_ORIGINAL13_PRESERVATION_AND_CURRENT_CLOSEOUT_TRACE_EXCLUSION",
+  "authority": "user",
+  "date_local": "2026-10-30",
+  "question_item_id": "[\"request_user_input_async\",\"call_347a7eb20b544e85924e7fda8d7ecefa\",0]",
+  "answer": "원본 13개 유지·이번 추가 추적 제외 (권장)",
+  "chosen_option": "retain_original13_close_trace_scope",
+  "frozen_choice_packet": {
+    "path": "workspace/translation/review/20261030_remaining_graphics13_scope/packet.json",
+    "size": 17560,
+    "sha256": "fb9487a99bb3f2b13a2aefc2dffc545a05993661fc9472d60617a6dc375e9af7"
+  },
+  "artifact_sha256": "92175a8588d22b3640d588379f603c368ad200514758943e5e67b707ed5b3103",
+  "records": [
+    {
+      "index": 3886,
+      "label": "Textures\\tex_e_stencil",
+      "group": "tiny_texture",
+      "offset": 287547392,
+      "bytes": 128,
+      "source_sha256": "1701797a623c388b0bc3eb8df04c08f7383de98c3f84e7c78e566ba5dd042d59",
+      "current_sha256": "1701797a623c388b0bc3eb8df04c08f7383de98c3f84e7c78e566ba5dd042d59"
+    },
+    {
+      "index": 3934,
+      "label": "Textures\\tex_for_blue_sheen",
+      "group": "tiny_texture",
+      "offset": 288223232,
+      "bytes": 224,
+      "source_sha256": "63f1ff56cb49a0e930355bfd7383fe44c29985960d0814498c70d5a77f7b9470",
+      "current_sha256": "63f1ff56cb49a0e930355bfd7383fe44c29985960d0814498c70d5a77f7b9470"
+    },
+    {
+      "index": 4603,
+      "label": "Textures\\tex_sft_void",
+      "group": "tiny_texture",
+      "offset": 294819840,
+      "bytes": 104,
+      "source_sha256": "2509610fbc0b3f7c1445e7928232c994c56314b444e2ffde9fe5aba62a1746ec",
+      "current_sha256": "2509610fbc0b3f7c1445e7928232c994c56314b444e2ffde9fe5aba62a1746ec"
+    },
+    {
+      "index": 4723,
+      "label": "Textures\\tex_til_pan_void_blackness",
+      "group": "tiny_texture",
+      "offset": 295991296,
+      "bytes": 224,
+      "source_sha256": "82f32fdfd81e5504d970305f927efe59f695a7bd5d46985f36c719416118f53b",
+      "current_sha256": "82f32fdfd81e5504d970305f927efe59f695a7bd5d46985f36c719416118f53b"
+    },
+    {
+      "index": 4765,
+      "label": "Textures\\tex_void_faked",
+      "group": "tiny_texture",
+      "offset": 296325120,
+      "bytes": 128,
+      "source_sha256": "f086696bc1566ea0cce1f8ebd54b87b8e4a0d7f06cc42a41247c9fa59c5ca8d1",
+      "current_sha256": "f086696bc1566ea0cce1f8ebd54b87b8e4a0d7f06cc42a41247c9fa59c5ca8d1"
+    },
+    {
+      "index": 4850,
+      "label": "Textures\\Ui\\tex_ui_ActivisionSplash",
+      "group": "identity",
+      "offset": 297205760,
+      "bytes": 263200,
+      "source_sha256": "65b945a01f3255cdbfe4b51fa36e3a06f981007ca773da73990c82d272a7974e",
+      "current_sha256": "65b945a01f3255cdbfe4b51fa36e3a06f981007ca773da73990c82d272a7974e"
+    },
+    {
+      "index": 4870,
+      "label": "Textures\\Ui\\tex_ui_ControlScheme_01",
+      "group": "functional_UI",
+      "offset": 297594880,
+      "bytes": 263200,
+      "source_sha256": "4c4cd975dba6abbd699de4ed58248319a5a74c517fe0a2aa75764da7c794ce74",
+      "current_sha256": "4c4cd975dba6abbd699de4ed58248319a5a74c517fe0a2aa75764da7c794ce74"
+    },
+    {
+      "index": 4871,
+      "label": "Textures\\Ui\\tex_ui_ControlScheme_02",
+      "group": "functional_UI",
+      "offset": 297859072,
+      "bytes": 263200,
+      "source_sha256": "2efd7ccc61da61cb7f3c18eb0f4f398a29a16eb4246b5f13eb3d7b8d88ece738",
+      "current_sha256": "2efd7ccc61da61cb7f3c18eb0f4f398a29a16eb4246b5f13eb3d7b8d88ece738"
+    },
+    {
+      "index": 5079,
+      "label": "Textures\\Ui\\tex_ui_loading",
+      "group": "functional_UI",
+      "offset": 299481088,
+      "bytes": 5152,
+      "source_sha256": "d75be9348b7b4c808ef320e7441fb8930ab72ce91ef315dd0ef0557c56005043",
+      "current_sha256": "d75be9348b7b4c808ef320e7441fb8930ab72ce91ef315dd0ef0557c56005043"
+    },
+    {
+      "index": 5511,
+      "label": "Textures\\Ui\\tex_ui_SoeSplash",
+      "group": "identity",
+      "offset": 306802688,
+      "bytes": 263200,
+      "source_sha256": "427dff569201923e769778a7348e69a211c293243d1c857399e5b4f65d9860a0",
+      "current_sha256": "427dff569201923e769778a7348e69a211c293243d1c857399e5b4f65d9860a0"
+    },
+    {
+      "index": 5526,
+      "label": "Textures\\Ui\\tex_ui_Ui__d8",
+      "group": "identity",
+      "offset": 307154944,
+      "bytes": 263200,
+      "source_sha256": "0b0b121a603a780db763c76ca4643277cfa6060abcd2c8ba523259a11eb57095",
+      "current_sha256": "0b0b121a603a780db763c76ca4643277cfa6060abcd2c8ba523259a11eb57095"
+    },
+    {
+      "index": 5527,
+      "label": "Textures\\Ui\\tex_ui_UI_ACTV_0_d8",
+      "group": "identity",
+      "offset": 307419136,
+      "bytes": 263200,
+      "source_sha256": "4505e6f32e38d7cf96bb01fd29727eb9278e5bed9d1ec221dfd7859d81516e3e",
+      "current_sha256": "4505e6f32e38d7cf96bb01fd29727eb9278e5bed9d1ec221dfd7859d81516e3e"
+    },
+    {
+      "index": 5532,
+      "label": "Textures\\Ui\\tex_ui_UI_ACTV_d8",
+      "group": "identity",
+      "offset": 308740096,
+      "bytes": 263200,
+      "source_sha256": "3da0789bee5debaf57f3b0afbe696db681ccfaeb9d2cfda96aad551e4d17aaee",
+      "current_sha256": "3da0789bee5debaf57f3b0afbe696db681ccfaeb9d2cfda96aad551e4d17aaee"
+    }
+  ],
+  "preserve_source_records": true,
+  "exclude_further_consumer_sampling_tracing_from_this_closeout": true,
+  "English_controls_generic_loading_may_remain_if_displayed_explicitly_accepted": true,
+  "global_nonuse_proven": false,
+  "all_graphics_translation_completed": false,
+  "original_Korean_drafts_and_all_evidence_preserved": true,
+  "unaffected": [
+    "Confirmed3571wordings",
+    "User-excluded404text",
+    "Korean map25tiles and actual loading1",
+    "Prior original-title-map decision",
+    "Game/source/save bytes"
+  ],
+  "reassess_if": "Concrete relevant route,changed applicability or defect appears;do not use this choice as proof of nonuse or a fix.",
+  "whole_support_or_distribution_approved": false,
+  "new_game_or_SSOT_or_native_or_ISO_changes": 0,
+  "release_eligible": false
+}

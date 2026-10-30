@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "source_sha256": "27bdf09512f138ed40f76f4c575fd9d373a95026355e6c8d97e300c2d4a0c621",
+  "validation_class": "static candidates and byte roundtrips only",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "locales": [
+    {
+      "locale": "en_us",
+      "directory_records": 858,
+      "static_records": 2852,
+      "static_header_raw": 4008,
+      "static_max_id": 4008,
+      "static_header_semantics": "unconfirmed; not a record count",
+      "static_duplicate_ids": {},
+      "id_overlap_trans_static": [],
+      "trans_bytes": 206894,
+      "eng_bytes": 206892,
+      "static_bytes": 64044,
+      "max_trans_entry_bytes": 1878,
+      "trans_larger_than_eng_entries": 1,
+      "trans_encoding_candidates": {
+        "utf-8": 858
+      },
+      "eng_encoding_candidates": {
+        "utf-8": 857,
+        "latin-1": 1
+      },
+      "static_encoding_candidates": {
+        "utf-8": 2852
+      },
+      "all_four_file_roundtrips_exact": true,
+      "trans_unique_codepoints": 82,
+      "hangul_syllable_count": 0,
+      "sha256": {
+        "dir": "3e414006517beb42c448c2216e11fc87db50a4289b8bd3880d44b1053feefc2e",
+        "eng": "2ea1f035b098a962b0437824614dc57ecd99c9f23a73cb9806976846c15bdf97",
+        "trans": "30bc95d1813ccff79290572e515052d9034711051c460173b0d156f54ea3aca4",
+        "static": "3a177dc02b3c23d198aea3498c526448f8d458189d09cd84541086cf59ab3ae1"
+      }
+    },
+    {
+      "locale": "de_de",
+      "directory_records": 858,
+      "static_records": 2852,
+      "static_header_raw": 4008,
+      "static_max_id": 4008,
+      "static_header_semantics": "unconfirmed; not a record count",
+      "static_duplicate_ids": {},
+      "id_overlap_trans_static": [],
+      "trans_bytes": 226851,
+      "eng_bytes": 206892,
+      "static_bytes": 69535,
+      "max_trans_entry_bytes": 2007,
+      "trans_larger_than_eng_entries": 676,
+      "trans_encoding_candidates": {
+        "utf-8": 858
+      },
+      "eng_encoding_candidates": {
+        "utf-8": 857,
+        "latin-1": 1
+      },
+      "static_encoding_candidates": {
+        "utf-8": 2852
+      },
+      "all_four_file_roundtrips_exact": true,
+      "trans_unique_codepoints": 87,
+      "hangul_syllable_count": 0,
+      "sha256": {
+        "dir": "36d2a249c14149f90fa388611bbd7adb667e0f8af87c6d01bbc42139ea2fbe65",
+        "eng": "2ea1f035b098a962b0437824614dc57ecd99c9f23a73cb9806976846c15bdf97",
+        "trans": "105fa623bb63a297b14a4058e61dc1047969a4523b87c8de4622c97b952d458c",
+        "static": "f84308904ffc95db1b184511fc3569545212ee221a890518cffc3a404aa0f9b0"
+      }
+    },
+    {
+      "locale": "es_es",
+      "directory_records": 858,
+      "static_records": 2853,
+      "static_header_raw": 4008,
+      "static_max_id": 4008,
+      "static_header_semantics": "unconfirmed; not a record count",
+      "static_duplicate_ids": {},
+      "id_overlap_trans_static": [],
+      "trans_bytes": 223249,
+      "eng_bytes": 206892,
+      "static_bytes": 78296,
+      "max_trans_entry_bytes": 1999,
+      "trans_larger_than_eng_entries": 676,
+      "trans_encoding_candidates": {
+        "utf-8": 858
+      },
+      "eng_encoding_candidates": {
+        "utf-8": 857,
+        "latin-1": 1
+      },
+      "static_encoding_candidates": {
+        "utf-8": 2853
+      },
+      "all_four_file_roundtrips_exact": true,
+      "trans_unique_codepoints": 92,
+      "hangul_syllable_count": 0,
+      "sha256": {
+        "dir": "e7b9f966587e369e89499b32104579dafad774589cfd5af959167c9a32a03efa",
+        "eng": "2ea1f035b098a962b0437824614dc57ecd99c9f23a73cb9806976846c15bdf97",
+        "trans": "522a41a8d3ebc413272a389660036ade8920123f37a71fedf9bf3c9a9410df09",
+        "static": "4644c23d517b309198bc9b95ad29f39b70df167d6295eecd096163ecf0e93809"
+      }
+    },
+    {
+      "locale": "fr_fr",
+      "directory_records": 858,
+      "static_records": 2852,
+      "static_header_raw": 4008,
+      "static_max_id": 4008,
+      "static_header_semantics": "unconfirmed; not a record count",
+      "static_duplicate_ids": {},
+      "id_overlap_trans_static": [],
+      "trans_bytes": 235189,
+      "eng_bytes": 206892,
+      "static_bytes": 107589,
+      "max_trans_entry_bytes": 1991,
+      "trans_larger_than_eng_entries": 737,
+      "trans_encoding_candidates": {
+        "utf-8": 858
+      },
+      "eng_encoding_candidates": {
+        "utf-8": 857,
+        "latin-1": 1
+      },
+      "static_encoding_candidates": {
+        "utf-8": 2852
+      },
+      "all_four_file_roundtrips_exact": true,
+      "trans_unique_codepoints": 103,
+      "hangul_syllable_count": 0,
+      "sha256": {
+        "dir": "b5933c69fe3bb6257b57ffc909f070d853c24fcb33651a2868035638a38d49c5",
+        "eng": "2ea1f035b098a962b0437824614dc57ecd99c9f23a73cb9806976846c15bdf97",
+        "trans": "0d757a2b428350c30bd989b44eb9c87fd9406db2cb66df8e18d9992c2e293870",
+        "static": "a28fa0d43231c366510dfc34138a01712b52a66c1a3bb5cd37ce6ae1578830e0"
+      }
+    },
+    {
+      "locale": "it_it",
+      "directory_records": 858,
+      "static_records": 2853,
+      "static_header_raw": 4008,
+      "static_max_id": 4008,
+      "static_header_semantics": "unconfirmed; not a record count",
+      "static_duplicate_ids": {
+        "3509": 2
+      },
+      "id_overlap_trans_static": [],
+      "trans_bytes": 213712,
+      "eng_bytes": 206892,
+      "static_bytes": 125200,
+      "max_trans_entry_bytes": 1936,
+      "trans_larger_than_eng_entries": 530,
+      "trans_encoding_candidates": {
+        "utf-8": 858
+      },
+      "eng_encoding_candidates": {
+        "utf-8": 857,
+        "latin-1": 1
+      },
+      "static_encoding_candidates": {
+        "utf-8": 2853
+      },
+      "all_four_file_roundtrips_exact": true,
+      "trans_unique_codepoints": 94,
+      "hangul_syllable_count": 0,
+      "sha256": {
+        "dir": "a86f2804ea02d462b4ad24c739cf6383b2f699894a9d5694dd9d4c4518bb6ef4",
+        "eng": "2ea1f035b098a962b0437824614dc57ecd99c9f23a73cb9806976846c15bdf97",
+        "trans": "91595b60f4383661df8777d6bc056f282907c3334aeede888bf4a217bb65146c",
+        "static": "5c9b441c400865fde3bed1679ebfee1825673ea6d3cd93abfd41955a2e224806"
+      }
+    }
+  ],
+  "ui_rsc": {
+    "count": 263,
+    "size": 15452,
+    "sha256": "5806488880f4e47c0a73d8ae2d40661f35b9d5cbc1a51345d999b8ca96f8d487",
+    "roundtrip_exact": true,
+    "encoding_candidate": "utf-16le",
+    "hangul_syllable_count": 0
+  },
+  "english_candidate_record_count": 3973,
+  "wad": {
+    "size": 346785792,
+    "sha256": "696b7618de5fc7c2610666b7b9f543ec2be5e91bcd0bcdd86c20d0d5db47870d",
+    "entry_count_candidate": 7543,
+    "all_extents_in_bounds_nonoverlapping": true,
+    "trailing_ascii_labels": 7543,
+    "fonts": [
+      {
+        "index": 949,
+        "key1_hex": "097085d8",
+        "key2_hex": "9fc400f8",
+        "offset": 36200448,
+        "size_candidate": 41440,
+        "next_offset": 36243456,
+        "trailing_label_candidate": "Fonts\\fon_Arial10",
+        "sha256": "854f9aa5537280a84d6d34f02231ee0a191486d3b3c50827b6168e65dc3fd4ff",
+        "header_u32": [
+          158369240,
+          267,
+          0,
+          0
+        ],
+        "raw_u32_at_0x150": [
+          256,
+          8576,
+          0,
+          0
+        ],
+        "record_id_sequence_0_to_255_at_0x17c_stride32": true,
+        "mapping_and_texture_format_verified": false
+      },
+      {
+        "index": 950,
+        "key1_hex": "097085db",
+        "key2_hex": "9fc400fb",
+        "offset": 36243456,
+        "size_candidate": 41440,
+        "next_offset": 36286464,
+        "trailing_label_candidate": "Fonts\\fon_Arial13",
+        "sha256": "3083c2d95ecf0fdac40c98db9320be0c542b0f6ea8e1506510a9ecb332f57aff",
+        "header_u32": [
+          158369243,
+          267,
+          0,
+          0
+        ],
+        "raw_u32_at_0x150": [
+          256,
+          8576,
+          0,
+          0
+        ],
+        "record_id_sequence_0_to_255_at_0x17c_stride32": true,
+        "mapping_and_texture_format_verified": false
+      },
+      {
+        "index": 951,
+        "key1_hex": "4d32afbf",
+        "key2_hex": "27cdd67f",
+        "offset": 36286464,
+        "size_candidate": 41440,
+        "next_offset": 36329472,
+        "trailing_label_candidate": "Fonts\\fon_Arial13_OLD",
+        "sha256": "138520331981fa3cfdb413129f3fb9575d4ac5f5e4177a4d289833ba0a1c7973",
+        "header_u32": [
+          1295167423,
+          267,
+          0,
+          0
+        ],
+        "raw_u32_at_0x150": [
+          256,
+          8576,
+          0,
+          0
+        ],
+        "record_id_sequence_0_to_255_at_0x17c_stride32": true,
+        "mapping_and_texture_format_verified": false
+      },
+      {
+        "index": 952,
+        "key1_hex": "2dba8b75",
+        "key2_hex": "1a728cd5",
+        "offset": 36329472,
+        "size_candidate": 41440,
+        "next_offset": 36372480,
+        "trailing_label_candidate": "Fonts\\fon_Morpheus",
+        "sha256": "edf979667560f0562e2073e05b7d97437a1762e231c927318e07294c3557508e",
+        "header_u32": [
+          767200117,
+          267,
+          0,
+          0
+        ],
+        "raw_u32_at_0x150": [
+          256,
+          8576,
+          0,
+          0
+        ],
+        "record_id_sequence_0_to_255_at_0x17c_stride32": true,
+        "mapping_and_texture_format_verified": false
+      },
+      {
+        "index": 953,
+        "key1_hex": "7c7dbf31",
+        "key2_hex": "ae348951",
+        "offset": 36372480,
+        "size_candidate": 41440,
+        "next_offset": 36415488,
+        "trailing_label_candidate": "Fonts\\fon_Small",
+        "sha256": "18c66b670bd55c8b6ff5e4607419e7410c4c121cd4c2c5240f38648f810b571d",
+        "header_u32": [
+          2088615729,
+          267,
+          0,
+          0
+        ],
+        "raw_u32_at_0x150": [
+          256,
+          8576,
+          0,
+          0
+        ],
+        "record_id_sequence_0_to_255_at_0x17c_stride32": true,
+        "mapping_and_texture_format_verified": false
+      }
+    ],
+    "rebuilt_or_runtime_verified": false
+  },
+  "executable": {
+    "boot_sha256": "b603934d7d1a938ae4d3f6cfdac83ef96cdbf12489f673f4079666eae447d1d1",
+    "boot_magic": "ELF32 little endian",
+    "eboot_magic_hex": "7e505350",
+    "capstone_version": "5.0.7",
+    "selected_windows_elf_relative": [
+      [
+        "0xfa3bc",
+        "0xfa538"
+      ],
+      [
+        "0xfa7a0",
+        "0xfa808"
+      ]
+    ],
+    "locale_path_helper_elf_relative": "0xfa7a0",
+    "locale_code_selector_elf_relative": "0xfa494",
+    "ko_kr_string_present": true,
+    "ko_kr_assets_present": false,
+    "runtime_loader_encoding_and_font_consumer_unresolved": true
+  },
+  "all_game_text_extracted": false,
+  "font_renderer_verified": false,
+  "iso_rebuild_verified": false,
+  "runtime_tested": false,
+  "decision": "conditional_go_for_font_and_runtime_PoC_not_full_translation"
+}

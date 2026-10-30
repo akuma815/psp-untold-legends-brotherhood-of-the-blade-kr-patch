@@ -1,0 +1,29 @@
+{
+  "schema_version": 25,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_dialogue3541_20261026.json",
+  "parent_config_sha256": "ddd04188e27d1337efa9891d63acfa67a6470a1163dcf50ffa6f566a34df9d22",
+  "parent_artifact": "workspace/runtime/dialogue3541_20261026/artifact.json",
+  "parent_artifact_sha256": "6847b0b4d0627af0fc5cf2c7d02569d95f320bd0d70047f45c6fb49c7922b2f2",
+  "hub": "qa/reports/optional_layout11_review_20261030.json",
+  "hub_sha256": "5c0778f3de2fc164622d1973ceb556e3490a00c57c45e399cf99790ed7b3677d",
+  "approval": "workspace/translation/approvals/20261030_optional_layout11.json",
+  "approval_sha256": "5e74d2680e80cf340a4e443065e799719b217409bccb009bf38018c9d4605b7d",
+  "author": "workspace/translation/authored/optional_layout_20261030.json",
+  "author_sha256": "eea903ce2ff3aaa1ef36e24bc0278402475f9dadd585f81e0b07a74674936b0c",
+  "exact_trans_keys": [
+    2320,
+    2362,
+    2377,
+    2405,
+    2407,
+    2561,
+    2675,
+    2823,
+    2919,
+    3552,
+    3647
+  ],
+  "scope": "Only11 exact user-chosen prose fragment pairs;all other body/paragraphs/portraits/controls/numbers/refs/game behavior retained. No wholewording/layout/support/releaseapproval.",
+  "release_eligible": false
+}

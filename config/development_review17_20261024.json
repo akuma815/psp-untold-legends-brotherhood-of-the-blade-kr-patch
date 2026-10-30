@@ -1,0 +1,32 @@
+{
+  "schema_version": 21,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_property_grouping_20261024.json",
+  "parent_config_sha256": "51843f10e48864c4d21e41959c34ad5eab89223dedb7fe5bc7ce8622e6a2a6e2",
+  "packet": "workspace/translation/review/20261024_schema20_inventory_v7/packet.json",
+  "packet_sha256": "fd3653be6b740f6bc5bae1792cb92d88f620aefc55bed4483c08da0b786a4e79",
+  "approval": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+  "approval_sha256": "903333c5e9f864f3f6826e86a4d844417fa560cefde2b1d212746dbaf147cf4c",
+  "author": "workspace/translation/authored/review17_20261024.json",
+  "author_sha256": "1f918f230ae608a3c571cc1b7278a0063d009176d84bc1fdbad343a6dce290a4",
+  "exact_keys": [
+    468,
+    569,
+    772,
+    3865,
+    3866,
+    2280,
+    2281,
+    2284,
+    2285,
+    2597,
+    2678,
+    2903,
+    3098,
+    3101,
+    3118,
+    3143,
+    3732
+  ],
+  "release_eligible": false
+}

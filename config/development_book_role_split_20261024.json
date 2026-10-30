@@ -1,0 +1,78 @@
+{
+  "schema_version": 9,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_shared_voice_20261023.json",
+  "parent_config_sha256": "ed2076f7645df9915d550a868910c3c43472d309494740a22fdff50a39d7d83a",
+  "roles": [
+    {
+      "source_key": 2334,
+      "key": 2334,
+      "role": "npc_dialogue",
+      "text": "[i_PI_BronMorris]네 속셈은 다 보여, \"영웅\" 나리. 곧 네가 모두를 실망시킬 날이 오겠지.\r\n*BUG THIS*",
+      "source_text": "[i_PI_BronMorris]I see right through ya, \"hero.\"  Soon enough, ya'll let them all down.\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 13,
+          "row": 8,
+          "field": 12,
+          "width": 4,
+          "offset": 338112,
+          "expected_hex": "1e090000",
+          "role": "npc_dialogue",
+          "key": 2334
+        }
+      ]
+    },
+    {
+      "source_key": 2335,
+      "key": 2335,
+      "role": "npc_dialogue",
+      "text": "[i_PI_BronMorris]나한테 말할 때는 웃어라, 꼬맹아! 앨리스가 보고 있잖아. 내가 좋은 인상을 주도록 도와주면 멀쩡히 걸어 나가게 해 주지, 알아들었냐?\r\n*BUG THIS*",
+      "source_text": "[i_PI_BronMorris]Smile when you talk to me, kid!  Alice is watchin' an' if ya help me make a good impression, I'll let ya walk out o' here in one piece, got it?\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 13,
+          "row": 8,
+          "field": 16,
+          "width": 4,
+          "offset": 338116,
+          "expected_hex": "1f090000",
+          "role": "npc_dialogue",
+          "key": 2335
+        }
+      ]
+    },
+    {
+      "source_key": 2334,
+      "key": 4009,
+      "role": "quest_title",
+      "text": "영웅을 향한 불신",
+      "source_text": "[i_PI_BronMorris]I see right through ya, \"hero.\"  Soon enough, ya'll let them all down.\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 15,
+          "row": 81,
+          "field": 40,
+          "width": 4
+        }
+      ]
+    },
+    {
+      "source_key": 2335,
+      "key": 4010,
+      "role": "Book_body",
+      "text": "나한테 말할 때는 웃어라, 꼬맹아! 앨리스가 보고 있잖아. 내가 좋은 인상을 주도록 도와주면 멀쩡히 걸어 나가게 해 주지, 알아들었냐?",
+      "source_text": "[i_PI_BronMorris]Smile when you talk to me, kid!  Alice is watchin' an' if ya help me make a good impression, I'll let ya walk out o' here in one piece, got it?\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 15,
+          "row": 81,
+          "field": 24,
+          "width": 4
+        }
+      ]
+    }
+  ],
+  "choice_path": "qa/reports/book_role_split_user_choice_20261024.json",
+  "choice_sha256": "932753a530e8e52c2a9a947336232095278d23b8212a42903621577d442b8579"
+}

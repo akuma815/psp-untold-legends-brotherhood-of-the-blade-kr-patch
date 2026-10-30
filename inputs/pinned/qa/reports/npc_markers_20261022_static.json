@@ -1,0 +1,271 @@
+{
+  "status": "PASS_SOURCE_ASTERISK_REFLEXIVE_DISPATCH_AND_NPC_ACTOR_BOUNDARY",
+  "windows": [
+    {
+      "name": "NPC_cache",
+      "start": 428828,
+      "end": 429316,
+      "sha256": "88ad013e1571c188c2db04fa4b89ee9008eec2d0cf7368e29f9fdb74cdcff9c1",
+      "instructions": 122
+    },
+    {
+      "name": "NPC_sync_decoder",
+      "start": 460540,
+      "end": 460748,
+      "sha256": "f98b22b0674c775541d2fed90044c895cd950bdf2d96bbbd1af1aa3f64d92dd3",
+      "instructions": 52
+    },
+    {
+      "name": "actor_format_dispatch",
+      "start": 907796,
+      "end": 908344,
+      "sha256": "db149f8ffc958337d4592bcb866e18cc9a925c2398c455989be39c95eebaf518",
+      "instructions": 137
+    },
+    {
+      "name": "reflexive_callback_exact",
+      "start": 908420,
+      "end": 908944,
+      "sha256": "ca7cf69994063328150e6b2664c5a414241e3b487cf55f6d48ac8539035dd175",
+      "instructions": 131
+    }
+  ],
+  "original_star_jump": {
+    "table": 1303592,
+    "index": 7,
+    "target": 908208,
+    "call": 908216,
+    "callee": 908420
+  },
+  "Itself_path": {
+    "load_pc": 908672,
+    "pointer_slot": 1721272,
+    "string_relative": 1303088,
+    "ASCII": "Itself"
+  },
+  "static_scope": "DDA14 dispatches format kind* to DDC84 reflexive variants. The observed Itself branch is one actor/context path, not every possible result. No escape policy adopted.",
+  "NPC_consumer": "68CC8 loads object+1830 into a2 for706FC at68CD0.706FC uses actor fields0/6C..6F when non-null before DA634. Null-actor707CC fixture is not equivalent NPC context.",
+  "dynamic_evidence": "qa/reports/npc_markers_source_20261022_runtime.json",
+  "affected_marker_records": [
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2280",
+      "bank": "trans",
+      "key": 2280,
+      "source_sha256": "e5deb4dd6e197b0cfe974be989e77f4eca1cbf679c206ce0fb00e4f1c525b34f",
+      "asterisk_spans": [
+        "*Bug This if You See It*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2281",
+      "bank": "trans",
+      "key": 2281,
+      "source_sha256": "0873a137ba9a9d882b524b285795fb53b24bf2940ef287697772abe405bc23a0",
+      "asterisk_spans": [
+        "*Bug This if You See It*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2284",
+      "bank": "trans",
+      "key": 2284,
+      "source_sha256": "a715580e4fd210458bc38e33bd7dedd2c6d3ec112c4e060f6f75c897c75fff26",
+      "asterisk_spans": [
+        "*Bug This if You See It*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2285",
+      "bank": "trans",
+      "key": 2285,
+      "source_sha256": "b10837ada7c43938802bd017b1f1f96cc0e82f4c3726cd74323d9e709a1a62f2",
+      "asterisk_spans": [
+        "*Bug This if You See It*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2299",
+      "bank": "trans",
+      "key": 2299,
+      "source_sha256": "127111d2a998b36b14216e319936a8bba11c184511c305f3c868355e7d93bd33",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2300",
+      "bank": "trans",
+      "key": 2300,
+      "source_sha256": "7f8ea8c4966af68a0c0f9d6bbef88e87804c92441db8f93d76888c6a1fad839d",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2301",
+      "bank": "trans",
+      "key": 2301,
+      "source_sha256": "5d5b69358a3222984faa42eef1428bb63e3a18afeae9df187983f4978cebcaf4",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2309",
+      "bank": "trans",
+      "key": 2309,
+      "source_sha256": "fd4c63a14f29ca1abe6bf377addc18e8fb7e3b80653f2d5b255c2dcedabd73aa",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2317",
+      "bank": "trans",
+      "key": 2317,
+      "source_sha256": "55ad64d22c3bfb94e0103323e8acb80d15fd22e57548e8d9e53b7db710185d26",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2320",
+      "bank": "trans",
+      "key": 2320,
+      "source_sha256": "2f297b00cc8df6612650ac7ea6dd52f6b82ce0bd274e6a18d3a0af262b33e937",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2322",
+      "bank": "trans",
+      "key": 2322,
+      "source_sha256": "9a1ea3dfdf602359691be46500a00618a958938647b0b85b6e0d63957ab0e556",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2325",
+      "bank": "trans",
+      "key": 2325,
+      "source_sha256": "1294c54efb2e2c97921b41aea9e76db8429b9867f925f0c3c0ad93ed778e8bba",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2332",
+      "bank": "trans",
+      "key": 2332,
+      "source_sha256": "e192060195b708e5f983f9dd249f4e56100d857c79177ce279a9f454fdef553f",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2333",
+      "bank": "trans",
+      "key": 2333,
+      "source_sha256": "d8e2bb7912cb3106151fdd7aa88f7246b4ce89422c28e9a891b884790cc72f6b",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2334",
+      "bank": "trans",
+      "key": 2334,
+      "source_sha256": "6316bfc9d1e38b14c1fa05af44137577c5bae2076805618a57adcbdad966f0a8",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2335",
+      "bank": "trans",
+      "key": 2335,
+      "source_sha256": "81242d74af0933e238fa6be89d038db57b745409154b0fcb24737644a0783a01",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2351",
+      "bank": "trans",
+      "key": 2351,
+      "source_sha256": "6eec4c477376401720ad77498da4e0677234cd7bd6a73c909c096323feb6a528",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2352",
+      "bank": "trans",
+      "key": 2352,
+      "source_sha256": "de339730f3336c586e488c082aac4ce05b77037f67388570a0771f5feef050f1",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2353",
+      "bank": "trans",
+      "key": 2353,
+      "source_sha256": "678a6952c8d41699f842a815bec5da9d9a670229880bcfb18b0d57ec737acb96",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2354",
+      "bank": "trans",
+      "key": 2354,
+      "source_sha256": "7f492086101a2bc1033240943f0e8196a854073212436c0d1be491bf7b96927d",
+      "asterisk_spans": [
+        "*BUG THIS*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2363",
+      "bank": "trans",
+      "key": 2363,
+      "source_sha256": "b3529a3275bbb3b3f0eab129353f4e32080387fa42381f02c76a15fbb169fe40",
+      "asterisk_spans": [
+        "*BUG ME*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2364",
+      "bank": "trans",
+      "key": 2364,
+      "source_sha256": "97aa3eec6202377285d3ee393793fb17c8c18cc22091ec4910736b8444905d88",
+      "asterisk_spans": [
+        "*BUG ME*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2365",
+      "bank": "trans",
+      "key": 2365,
+      "source_sha256": "e24cebd5aa4244f9d589c47b2d100ae4893fab0d78e11df1d86ea277d0136bdd",
+      "asterisk_spans": [
+        "*BUG ME*"
+      ]
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2366",
+      "bank": "trans",
+      "key": 2366,
+      "source_sha256": "25dc8dc448c041e5b06fc6a3f69c15e8cce6e79a88070cf4d43108f16424dd96",
+      "asterisk_spans": [
+        "*BUG ME*"
+      ]
+    }
+  ],
+  "new_development_selection": 0,
+  "game_or_SSOT_changed": false,
+  "next": "Observe actual706FC NPC actor/object context and formatter path. Retain original macro-like marker and English manuscript suffix until a deliberate narrow policy is justified.",
+  "release_eligible": false
+}

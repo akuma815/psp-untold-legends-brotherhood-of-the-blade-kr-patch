@@ -1,0 +1,158 @@
+{
+  "policy": "Exact frozen v7 full strings selected by user; no corpus rewrite",
+  "records": [
+    {
+      "id": "ULKS46015-v1.01:en_us/static:468:occurrence1",
+      "bank": "static",
+      "key": 468,
+      "source_sha256": "41a934291ad87d6a7975b3c8c50e8875a963df1d9298ef827ddea6b3b4a2a9d6",
+      "before": "띠 두른 대형 망치",
+      "text": "띠 두른 마울",
+      "previous_decision": "development_weapons_ac_20261020:static:468"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:569:occurrence1",
+      "bank": "static",
+      "key": 569,
+      "source_sha256": "48b414e7432aa961bf817c56f1e16f6c4859c88970c0d14d69a854860a05a459",
+      "before": "검은뼈 대형 망치",
+      "text": "검은뼈 마울",
+      "previous_decision": "development_weapons_ac_20261020:static:569"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:772:occurrence1",
+      "bank": "static",
+      "key": 772,
+      "source_sha256": "4885ea7a53c25f96371af44d7f0b054e0acedc9d0d94ba903f585547a7212775",
+      "before": "성전사 하라데일",
+      "text": "성전기사 하라데일",
+      "previous_decision": "development_actor_variants_20261021:static:772"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:3865:occurrence1",
+      "bank": "static",
+      "key": 3865,
+      "source_sha256": "3aa87ffe8df938b5e382cb3c6ae330853035106dd21dc96324f53879fed8f3fc",
+      "before": "그늘진 Pal 2h",
+      "text": "그늘진 양손 성기사",
+      "previous_decision": "development_actor_variants_20261021:static:3865"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:3866:occurrence1",
+      "bank": "static",
+      "key": 3866,
+      "source_sha256": "9ea6debba78d7af036500011aff3c166f3ab9a3bd242d2b86a86d1a292203930",
+      "before": "그늘진 Pal 에픽",
+      "text": "그늘진 에픽 성기사",
+      "previous_decision": "development_actor_variants_20261021:static:3866"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2280",
+      "bank": "trans",
+      "key": 2280,
+      "source_sha256": "e5deb4dd6e197b0cfe974be989e77f4eca1cbf679c206ce0fb00e4f1c525b34f",
+      "before": "뭐야? 그 크고 흉악한 거미들과 맞서기 전에 응원이라도 좀 해 달라는 거냐?\r\n*Bug This if You See It*",
+      "text": "뭐야? 그 크고 흉악한 거미들과 맞서기 전에 응원이라도 좀 해 달라는 거냐?",
+      "previous_decision": "development_npc_marker_preserve_20261022:trans:2280"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2281",
+      "bank": "trans",
+      "key": 2281,
+      "source_sha256": "0873a137ba9a9d882b524b285795fb53b24bf2940ef287697772abe405bc23a0",
+      "before": "그걸 영웅다운 짓이라고 한 거냐?! 쳇! 초보자 운이 좋았던 것뿐이야!\r\n*Bug This if You See It*",
+      "text": "그걸 영웅다운 짓이라고 한 거냐?! 쳇! 초보자 운이 좋았던 것뿐이야!",
+      "previous_decision": "development_npc_marker_preserve_20261022:trans:2281"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2284",
+      "bank": "trans",
+      "key": 2284,
+      "source_sha256": "a715580e4fd210458bc38e33bd7dedd2c6d3ec112c4e060f6f75c897c75fff26",
+      "before": "프레이톡스가 공격해 오는데 잡담이나 하자는 거냐? 제정신이야?!\r\n*Bug This if You See It*",
+      "text": "프레이톡스가 공격해 오는데 잡담이나 하자는 거냐? 제정신이야?!",
+      "previous_decision": "development_npc_marker_preserve_20261022:trans:2284"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2285",
+      "bank": "trans",
+      "key": 2285,
+      "source_sha256": "b10837ada7c43938802bd017b1f1f96cc0e82f4c3726cd74323d9e709a1a62f2",
+      "before": "도시에는 그 피에 굶주린 거미들이 더 있을지도 몰라. 너무 편히 쉬기 전에 거리를 돌며 다른 사람들도 모두 무사한지 확인하는 게 좋겠다.\r\n*Bug This if You See It*",
+      "text": "도시에는 그 피에 굶주린 거미들이 더 있을지도 몰라. 너무 편히 쉬기 전에 거리를 돌며 다른 사람들도 모두 무사한지 확인하는 게 좋겠다.",
+      "previous_decision": "development_npc_marker_preserve_20261022:trans:2285"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2597",
+      "bank": "trans",
+      "key": 2597,
+      "source_sha256": "7f67c5feb9ef87e3cb617f1a2214bdeb53ebe9cd39caa7db7d253833e458bbe2",
+      "before": "[i_PI_DeanLysetta]네더아이가 케일리에게 저주를 걸 때 쓴 주문을 찾아냈네. 쉽지는 않았지만, 그 책을 바탕으로 저주를 풀 주문을 제대로 만들어 낸 것 같군.\r\n\r\n다가올 싸움에 대비할 시간이 절박할 만큼 줄어들고 있네.\r\n\r\n형제단의 나머지 도구들을 한시라도 빨리 회수해야 하네. 세 번째 도구의 위치를 알아냈는데, 그 회수를 맡길 수 있는 사람은 자네뿐일세.\r\n\r\n예언에는 이 땅 어딘가에 얼어붙은 황무지가 있다고 나와 있네. 그 지역을 찾아냈지만, 그곳까지 가는 길은 몹시 위험할 걸세.\r\n\r\n꿈의 신전 아래에 있는 꿈의 공간으로 들어갈 길을 찾아야 하네. 그 영적인 영역을 통과해야만 늦지 않게 툰드라에 도착할 수 있어.\r\n\r\n툰드라에 도착하면 수정 탑이라는 곳을 찾아 주게. 예언에 따르면 재생의 연고는 그 탑의 맨 위층에 보관되어 있네.",
+      "text": "[i_PI_DeanLysetta]네더아이가 케일리에게 저주를 걸 때 쓴 주문을 찾아냈네. 쉽지는 않았지만, 그 책을 바탕으로 저주를 풀 주문을 제대로 만들어 낸 것 같군.\r\n\r\n다가올 싸움에 대비할 시간이 절박할 만큼 줄어들고 있네.\r\n\r\n형제단의 나머지 도구들을 한시라도 빨리 회수해야 하네. 세 번째 도구의 위치를 알아냈는데, 그 회수를 맡길 수 있는 사람은 자네뿐일세.\r\n\r\n예언에는 이 땅 어딘가에 얼어붙은 황무지가 있다고 나와 있네. 그 지역을 찾아냈지만, 그곳까지 가는 길은 몹시 위험할 걸세.\r\n\r\n꿈의 신전 아래에 있는, 경계가 삼엄한 꿈의 공간으로 들어갈 길을 찾아야 하네. 그 영적인 영역을 통과해야만 늦지 않게 툰드라에 도착할 수 있어.\r\n\r\n툰드라에 도착하면 수정 탑이라는 곳을 찾아 주게. 예언에 따르면 재생의 연고는 그 탑의 맨 위층에 보관되어 있네.",
+      "previous_decision": "development_relic_arc_20261020:trans:2597"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2678",
+      "bank": "trans",
+      "key": 2678,
+      "source_sha256": "341309f8188109c631f9f764cd1d13628a779d4919f5d2f679221921945ebb90",
+      "before": "가을 나무에 앉아 있던 새들이 갑자기 날아오른다. 작고 검은 형체들이 서둘러 안개 낀 푸른 저편으로 날갯짓하며 사라진다...\r\n\r\n다이애나 부인이 손가락을 입술에 대어 조용히 하라는 뜻을 전한다. 그녀는 고개를 아주 조금 기울이고, 아름다운 얼굴을 긴장시킨 채 집중한다. 침묵 속에서, 단련된 감각에 걸린 그 소리를 놓치지 않으려 귀를 기울인다.\r\n\r\n마침내 먼 곳에서 희미한 소리가 들려온다. 고통과 공포의 비명이 숲에서 솟구친다. 어둠의 도래를 알리는, 추방자들과 정찰병들의 마지막 외침이다...\r\n\r\n[i_PI_MadamDiana]\"파괴가 시작되는군요...\r\n\r\n\"지금 가요, 수호자! 모든 것을 잃기 전에 그를 막아요!\"",
+      "text": "가을 나무에 앉아 있던 새들이 갑자기 날아오른다. 작고 검은 형체들이 서둘러 안개 낀 푸른 저편으로 날갯짓하며 사라진다...\r\n\r\n다이애나 부인이 손가락을 입술에 대어 조용히 하라는 뜻을 전한다. 그녀는 고개를 아주 조금 기울이고, 아름다운 얼굴을 긴장시킨 채 집중한다. 침묵 속에서, 단련된 감각에 걸린 그 소리를 놓치지 않으려 귀를 기울인다.\r\n\r\n마침내 먼 곳에서 희미한 소리가 들려온다. 고통과 공포의 비명이 숲에서 솟구친다. 어둠의 도래를 알리는, 추방자들과 정찰병들의 마지막 외침이다...\r\n\r\n[i_PI_MadamDiana]\"파괴가 시작되는군...\r\n\r\n\"지금 가라, 수호자! 모든 것을 잃기 전에 그를 막아라!\"",
+      "previous_decision": "development_story_controls_20261023:trans:2678"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2903",
+      "bank": "trans",
+      "key": 2903,
+      "source_sha256": "12be741f195609aaacf01c978e9878939e675944d8630962dff2422b7876724f",
+      "before": "$1 확률로 체력 또는 기력 약병을 만듭니다. 다만 $2 확률로 하급 약병이 만들어집니다. 금화 $3 사용.",
+      "text": "$1 확률로 생명력 또는 기력 약병을 만듭니다. 다만 $2 확률로 하급 약병이 만들어집니다. 금화 $3 사용.",
+      "previous_decision": "development_abilities_20261020:trans:2903"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3098",
+      "bank": "trans",
+      "key": 3098,
+      "source_sha256": "fa975b29196e344e2e2b9734bd4479f34592c4ae72614a48e0eab51c9683a097",
+      "before": "체력 재생 속도가 $1 수준으로 높아집니다. 자신과 반경 $2 안의 아군에게 적용됩니다.",
+      "text": "생명력 재생 속도가 $1 수준으로 높아집니다. 자신과 반경 $2 안의 아군에게 적용됩니다.",
+      "previous_decision": "development_abilities_20261020:trans:3098"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3101",
+      "bank": "trans",
+      "key": 3101,
+      "source_sha256": "037c3eae4cba87e354690c11b1b78c5283c75ba82e61505f9e09397d8d709e28",
+      "before": "일정 확률로 $1초 동안 기절시키고 범위 안에 $2-$3 피해를 줍니다. 자신과 반경 $4 안의 아군에게 체력을 돌려줍니다.",
+      "text": "일정 확률로 $1초 동안 기절시키고 범위 안에 $2-$3 피해를 줍니다. 자신과 반경 $4 안의 아군에게 생명력을 돌려줍니다.",
+      "previous_decision": "development_abilities_20261020:trans:3101"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3118",
+      "bank": "trans",
+      "key": 3118,
+      "source_sha256": "fc101a141fbc971bd77a9ddf8e0a28fb7d1e739553ce0f2ac75e5d978ba03368",
+      "before": "반경 $1 안의 모든 플레이어와 자신의 체력을 $2-$3만큼 $4초에 걸쳐 회복합니다.",
+      "text": "반경 $1 안의 모든 플레이어와 자신의 생명력을 $2-$3만큼 $4초에 걸쳐 회복합니다.",
+      "previous_decision": "development_abilities_20261020:trans:3118"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3143",
+      "bank": "trans",
+      "key": 3143,
+      "source_sha256": "330299a90cd683f78f8b050d9c338692de08d406c740589f83fd7331cedf4df7",
+      "before": "적을 $1초 동안 아군으로 바꾸고 체력을 완전히 회복시킵니다. 그 적의 피해는 $2 수준으로 높아지며 $3초 동안 지속됩니다.",
+      "text": "적을 $1초 동안 아군으로 바꾸고 생명력을 완전히 회복시킵니다. 그 적의 피해는 $2 수준으로 높아지며 $3초 동안 지속됩니다.",
+      "previous_decision": "development_abilities_20261020:trans:3143"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3732",
+      "bank": "trans",
+      "key": 3732,
+      "source_sha256": "7548a991c8a24005a699fd0453af779026f6e9a1f4039f2f3bcec2c5a15a23a3",
+      "before": "일정 확률로 자신의 체력을 일부 회복합니다.",
+      "text": "일정 확률로 자신의 생명력을 일부 회복합니다.",
+      "previous_decision": "development_equipment_20261020:trans:3732"
+    }
+  ]
+}

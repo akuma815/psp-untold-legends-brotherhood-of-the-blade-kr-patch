@@ -1,0 +1,18 @@
+{
+  "generator": "built-in image_gen",
+  "source": "workspace/graphics/ui_source_candidates_20261024/5419_tex_ui_menu_splash_0.png",
+  "generated_source": "C:/Users/akuma/.codex/generated_images/01a144f9-078e-7992-9d6a-e42ffa5d54f9/exec-ea33ce6b-3843-408d-a448-ba6f515e55e5.png",
+  "prompt": "Edit the attached original PSP title-background texture for a Korean fan translation.\nExact target canvas: 512 by 512 pixels. Do not crop, zoom, recompose or extend it. The actual title artwork is in the top 272 rows; the bottom 240 rows are a flat very dark maroon padding area. Preserve that padding.\nTranslate ONLY these two place-name inscriptions in the parchment map:\n1. The inscription \"Aven\" near the bottom-left of the visible map, approximately x=28..79, y=246..270, must become exactly \"아벤\".\n2. The inscription \"THE BADLANDS\" near the bottom-right of the visible map, approximately x=373..472, y=221..251, must become exactly \"황무지\".\nRemove the English ink in these two small regions and restore the local paper beneath the old letters. Draw readable bold dark-brown Korean lettering with a narrow pale parchment outline. Keep each Korean caption completely inside its original named region, with no clipping at the bottom. Aven can use one line, and 황무지 can use one line. Use clear correct Hangul shapes suitable for a 480x272 PSP display.\nEvery other feature is protected: preserve the original UNTOLD LEGENDS / BROTHERHOOD of the BLADE English game logo, sword, trademark, glow, all terrain, paths, map circles, buildings, trees, map shading, and all other inscriptions including the partially clipped lettering at the far-left edge. Do not redraw the game logo or add any new logo, text, border or decoration. Keep the original dark sepia palette and composition.\nOutput a PNG image. This is an edit of the supplied texture, not a new map.\n",
+  "requested_size": [
+    512,
+    512
+  ],
+  "actual_size": [
+    1254,
+    1254
+  ],
+  "generated_sha256": "6b85bd81be8bbf65ab883f12c68c02ccfb43f04e368754be87e4e066f62d8760",
+  "direct_whole_generated_import": false,
+  "normalization": "Analysis512 coordinate space only;extract dark generated Korean silhouettes in two original caption slots. Final game texture comes from immutable original,local frozen cleanup and transferred generated ink.",
+  "release_eligible": false
+}

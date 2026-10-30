@@ -1,0 +1,101 @@
+{
+  "status": "PASS_REVERSIBLE_CAUSAL_GROUPING_EXPERIMENT_PRODUCT_FIX_PENDING",
+  "artifact_name": "title_geography_20261024",
+  "artifact_sha256": "d3667972e58de3a84caf8ec157562af5d8085822ab085166841814b06d47ce97",
+  "baseline_width": 224,
+  "width_before_current_glyph": 220,
+  "overflow_after_glyph": 234,
+  "overflow_char_index": 27,
+  "baseline_boundary": 27,
+  "grouped_boundary": 24,
+  "restored_boundary": 27,
+  "original_UTF16": " +8 민첩  +4 체력  +15 생명력  +5 총 무게",
+  "grouped_UTF16": " +8 민첩  +4 체력  +15 생명력  +5 총 무게",
+  "same_length_bytes": 64,
+  "replaced_space_indices": [
+    3,
+    10,
+    18,
+    26,
+    28
+  ],
+  "space_advance": 5,
+  "original_NBSP_advance": 0,
+  "experimental_NBSP_advance": 5,
+  "NBSP_code160_and_zero_ink_preserved": true,
+  "temporary_item_reference_bytes": 4,
+  "temporary_private_text_bytes": 64,
+  "temporary_metric_bytes": 4,
+  "all72_applied_bytes_and_full_metric32_item64_restored": true,
+  "causal_chain": "The space at26 updates word boundary27. At total-width234>224 renderer moves only label at27. Same widths with internal nonbreaking spaces retains field-start24 and moves amount+label together. Reversal restores boundary27 and split.",
+  "natural_item_acquisition_or_gameplay_claim": false,
+  "CPU_code_or_progression_writes": 0,
+  "product_or_SSOT_changed": false,
+  "product_fix_verified": false,
+  "visual": {
+    "baseline_amount_label_split": true,
+    "grouped_amount_and_label_same_second_line": true,
+    "spacing_preserved_by_NBSP_advance5": true,
+    "restored_baseline_split_again": true,
+    "original_item_restored": true,
+    "product_fix_applied": false,
+    "human_final_layout_approval": false
+  },
+  "screenshots": {
+    "baseline_property_wrap.png": {
+      "byte_len": 306707,
+      "format": "png",
+      "height": 272,
+      "sha256": "423f91cd62045dae53fa98f76e1016e5be6635c3c10e3a51d2a405e4cc632903",
+      "width": 480
+    },
+    "grouped_property_wrap.png": {
+      "byte_len": 306774,
+      "format": "png",
+      "height": 272,
+      "sha256": "eb0007811ca983646124e951b8762a2b8b24300a677bc67f7e62b71dc5eec7d4",
+      "width": 480
+    },
+    "original_item_restored.png": {
+      "byte_len": 308495,
+      "format": "png",
+      "height": 272,
+      "sha256": "854a6bd57cfa1a05a2658d55c5b07da5b3c7f0fc4c2175a5438cacaffdeaf88d",
+      "width": 480
+    },
+    "restored_property_wrap.png": {
+      "byte_len": 306621,
+      "format": "png",
+      "height": 272,
+      "sha256": "62acf08887e5acfe23a7bf06f94401be811d9abfcee5e8272d137b3da5d83eef",
+      "width": 480
+    }
+  },
+  "cleanup": {
+    "managed_files_restored": true,
+    "external_files_unchanged": true,
+    "user_save_and_state_files_unchanged": true,
+    "manual_GUI_alive_after": false,
+    "removed_only_three_unchanged_staged_files": true,
+    "emulator_state_imports": 0,
+    "guest_memory_writes": 0
+  },
+  "controlled_exit": {
+    "status": "OBSERVED_PROCESS_EXIT",
+    "pid": 11456,
+    "launch_id": "launch-01m5ppv94qwycske6n2apq9s63",
+    "exit_code_unsigned": 1,
+    "exit_code_hex": "0x00000001",
+    "observed_unix_ms": 1792837420456,
+    "cleanup_marker_present_at_observation": {
+      "launch_id": "launch-01m5ppv94qwycske6n2apq9s63",
+      "unix_ms": 1792837420306,
+      "reason": "Controlled reversible grouping experiment complete; wide text, full metric32 and item64 restored."
+    },
+    "no_process_writes_or_debug_attach": true,
+    "interpretation": "Exit code and cleanup-marker observation only;does not identify guest cause or prove a fix."
+  },
+  "owned_attempts": 38,
+  "final_human_layout_approval": false,
+  "release_eligible": false
+}

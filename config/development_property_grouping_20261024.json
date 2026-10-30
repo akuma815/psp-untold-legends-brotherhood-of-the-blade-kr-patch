@@ -1,0 +1,17 @@
+{
+  "schema_version": 20,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_title_geography_20261024.json",
+  "parent_config_sha256": "ede05d5a1b90aeb18b4c82671f326f551ef06fff309b93dc0a7393db6377d96d",
+  "property_grouping": {
+    "assembly": "config/property_grouping_20261024.asm",
+    "assembly_sha256": "08f2ae2180f4fcfc0f34d70736cc3830e9ab0690a04d873043591b41a015e124",
+    "evidence": "qa/reports/property_wrap_20261024_runtime.json",
+    "evidence_sha256": "5a5d4a726cdb411ba8c992b397dfa26fc6c961adb011f9f444b0ca4118053629",
+    "scope": "Three original25A94 formatter calls only;preserve leading separators,bind internal word spaces as NBSP;five zero-ink metric160 advances equal source spaces.",
+    "UTF16_scan_bound": 2048,
+    "common_renderer_unchanged": true,
+    "main_text_SSOT_changed": false
+  },
+  "release_eligible": false
+}

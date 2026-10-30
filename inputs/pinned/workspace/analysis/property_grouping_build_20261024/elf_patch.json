@@ -1,0 +1,64 @@
+{
+  "hook_origin": 5750704,
+  "hook_file_offset": 2174192,
+  "hook_size": 148,
+  "hook_sha256": "8510e7f7806163be430c77589cd01052124024bc17914bcaa486f628d49e67fd",
+  "symbols": {
+    "property_integer_group": 5750704,
+    "property_percent_group": 5750728,
+    "property_group_normalize": 5750744,
+    "property_group_leading": 5750756,
+    "property_group_body": 5750792,
+    "property_group_next": 5750816,
+    "property_group_done": 5750840
+  },
+  "sites": [
+    {
+      "pc": 154396,
+      "old_target": 457972,
+      "new_target": 5750704,
+      "before": "3dbf010c",
+      "after": "ecef150c"
+    },
+    {
+      "pc": 154456,
+      "old_target": 458272,
+      "new_target": 5750728,
+      "before": "88bf010c",
+      "after": "f2ef150c"
+    },
+    {
+      "pc": 154500,
+      "old_target": 458272,
+      "new_target": 5750728,
+      "before": "88bf010c",
+      "after": "f2ef150c"
+    }
+  ],
+  "new_relocations": [
+    [
+      1400,
+      516
+    ],
+    [
+      1424,
+      516
+    ]
+  ],
+  "parent_first_two_PT_LOAD_unchanged": true,
+  "old_third_code_preserved": true,
+  "old_BSS_preserved": true,
+  "old_relocation_table_preserved_bytes": 327920,
+  "third_segment_growth": 160,
+  "placement_checks": [
+    {
+      "base": 142622720,
+      "relocated_hook_sha256": "e6cfa8dc06c8bffd11209ebf3a8150873ea1e0d3b3348b9cab299a7be0c6e2ee"
+    },
+    {
+      "base": 143671296,
+      "relocated_hook_sha256": "d083660d833e9f42d9537cdf3f7a865575f0842bbe433cd66cd83290db3649dc"
+    }
+  ],
+  "relative_call_relocation_policy": "Reuse segment0 base-add original sites;new calls write in segment2/read segment0 (0x204)."
+}

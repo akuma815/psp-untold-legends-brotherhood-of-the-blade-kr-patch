@@ -1,0 +1,2702 @@
+{
+  "schema_version": 1,
+  "authority": "Sole terminology and voice registry for ULKS46015-v1.01;only explicitly approved decisions are authoritative.",
+  "approved_decisions": [
+    {
+      "id": "approved-inn-howling-pine-131",
+      "source_referent": "The Howling Pine Inn / Howling Pine Tavern and Inn",
+      "approved_wording": "울부짖는 소나무 여관",
+      "applicability": "ULKS46015 v1.01 confirmed inn referent;map34/prologue3881/journal2314. Future mentions require same-referent context.",
+      "exclusions": [
+        "Howling Pine Square (static2888) is a distinct square label;not automatically renamed",
+        "Unconfirmed place references or substring-only matches"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-18",
+        "question": "같은 여관의 이름이 지도 초안에서는 울부짖는 소나무 여관,프롤로그·일지 초안에서는 하울링 파인으로 갈립니다.앞으로 어느 표기로 통일할까요?",
+        "chosen_answer": "울부짖는 소나무 여관 — 뜻을 살린 현재 지도 표기 (권장)",
+        "scope": "Confirmed same inn name only;not overall translation,voice,font or release approval"
+      },
+      "normalization_policy": "Manual context-specific edits;preserve tavern role and all other prose;no blanket source/corpus substring rewrite"
+    },
+    {
+      "id": "approved-actor-label-775-20261023",
+      "source_referent": "Praetox Spider",
+      "source_id": "ULKS46015-v1.01:en_us/static:775:occurrence1",
+      "source_sha256": "88d2e8ac7e3cab39b164bf9fc7b61bea6f554bf38bfb892c10fff34cb16b2a0a",
+      "approved_wording": "프레이톡스 거미",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, spellings, actor variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "표시명 네 개를 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no automatic prose or other-key rewriting."
+    },
+    {
+      "id": "approved-actor-label-787-20261023",
+      "source_referent": "Templar Draven",
+      "source_id": "ULKS46015-v1.01:en_us/static:787:occurrence1",
+      "source_sha256": "7fc590249457396ed62652c72904dcc175fe348829f2a6bf190a0c1cfb18e8f6",
+      "approved_wording": "성전기사 드레이븐",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, spellings, actor variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "표시명 네 개를 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no automatic prose or other-key rewriting."
+    },
+    {
+      "id": "approved-actor-label-3189-20261023",
+      "source_referent": "The Shadowed God",
+      "source_id": "ULKS46015-v1.01:en_us/static:3189:occurrence1",
+      "source_sha256": "b8f41bb43320a5a6cf38dff9c6319ca1185d803e4df039f78d4729a5fdfaf083",
+      "approved_wording": "그림자 신",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, spellings, actor variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "표시명 네 개를 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no automatic prose or other-key rewriting."
+    },
+    {
+      "id": "approved-actor-label-757-20261023",
+      "source_referent": "Shadowed Praetox",
+      "source_id": "ULKS46015-v1.01:en_us/static:757:occurrence1",
+      "source_sha256": "5c5e04f3634f963b82b597c8d18022f1541e8e8b17942fa3c0266cd6f41ec3e1",
+      "approved_wording": "그림자 프레이톡스",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, spellings, actor variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "표시명 네 개를 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no automatic prose or other-key rewriting."
+    },
+    {
+      "id": "approved-actor-label-3864-20261023",
+      "source_referent": "The Steel Warden",
+      "source_id": "ULKS46015-v1.01:en_us/static:3864:occurrence1",
+      "source_sha256": "857b7a0a68ff0da97a6818b333904a7521fdce3a76d4555a8439b5eeee3eeb64",
+      "approved_wording": "강철의 간수",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "세 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/additional_actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3200-20261023",
+      "source_referent": "The Savage Matriarch",
+      "source_id": "ULKS46015-v1.01:en_us/static:3200:occurrence1",
+      "source_sha256": "18877393b6c045fa5372a5b3dbca3369af1ac747f1bf2c7bd3468e4b9df9b892",
+      "approved_wording": "야성의 여족장",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "세 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/additional_actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3507-20261023",
+      "source_referent": "The Harbinger",
+      "source_id": "ULKS46015-v1.01:en_us/static:3507:occurrence1",
+      "source_sha256": "17b3c6267438314bf51ff1ca99208db1832585ddda990a32e8e453b4f0779fde",
+      "approved_wording": "전령",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor label and its confirmed table2 name reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "세 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/additional_actor_label_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3852-20261023",
+      "source_referent": "Praetox Soldier Fire",
+      "source_id": "ULKS46015-v1.01:en_us/static:3852:occurrence1",
+      "source_sha256": "23803220cbe88dddba418871d2c462ee71d416e692d7a53295ddfa80a3d826a0",
+      "approved_wording": "프레이톡스 병사 불꽃",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3853-20261023",
+      "source_referent": "Praetox Soldier Ice",
+      "source_id": "ULKS46015-v1.01:en_us/static:3853:occurrence1",
+      "source_sha256": "9ff02a40246ad1c3a36ec0592e41aee9befd8fda834c0b9d81a7f53e46d2f838",
+      "approved_wording": "프레이톡스 병사 얼음",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3854-20261023",
+      "source_referent": "Praetox Soldier Lightning",
+      "source_id": "ULKS46015-v1.01:en_us/static:3854:occurrence1",
+      "source_sha256": "2516b56920b2e284e4dd2ab1fd398c352bc5325db780cd68e47ef9a810ec1e64",
+      "approved_wording": "프레이톡스 병사 번개",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3855-20261023",
+      "source_referent": "Praetox Soldier Magic",
+      "source_id": "ULKS46015-v1.01:en_us/static:3855:occurrence1",
+      "source_sha256": "a7aacf1381da42bff61af584baa006941c58e43e0778da4864da89bcac0af763",
+      "approved_wording": "프레이톡스 병사 마법",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3856-20261023",
+      "source_referent": "Praetox Soldier Poison",
+      "source_id": "ULKS46015-v1.01:en_us/static:3856:occurrence1",
+      "source_sha256": "f93c32f80998de82b1b0549cc9a564cc160bee45a15444f2c346ce114465dfbe",
+      "approved_wording": "프레이톡스 병사 독",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-actor-label-3857-20261023",
+      "source_referent": "Praetox Worker Poison",
+      "source_id": "ULKS46015-v1.01:en_us/static:3857:occurrence1",
+      "source_sha256": "ba885427b506b2cf048b356f99f3ae6edb0a87502144bc20a8a0a7464cbd6f66",
+      "approved_wording": "프레이톡스 일꾼 독",
+      "applicability": "Only this exact ULKS46015 v1.01 static actor variant label and its confirmed table2 reference.",
+      "exclusions": [
+        "Other source keys, variants and prose are outside this approval."
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-23",
+        "chosen_answer": "여섯 표시명을 제안대로 통일 (권장)",
+        "choice_ref": "qa/reports/praetox_variant_human_choice_20261023.json",
+        "scope": "Exact wording only; not presentation/full translation/release approval"
+      },
+      "normalization_policy": "Exact full label replacement only; no prose or other-key rewrite."
+    },
+    {
+      "id": "approved-review17-468-20261024",
+      "source_id": "ULKS46015-v1.01:en_us/static:468:occurrence1",
+      "source_sha256": "41a934291ad87d6a7975b3c8c50e8875a963df1d9298ef827ddea6b3b4a2a9d6",
+      "source_referent": "Banded Maul",
+      "approved_wording": "띠 두른 마울",
+      "applicability": "Only this exact static label; no other-key/prose normalization",
+      "exclusions": [
+        "Other keys, prose and spelling variants"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-24",
+        "chosen_answer": "17개 모두 제시한 범위로 반영",
+        "choice_ref": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+        "scope": "Exact label wording only"
+      },
+      "normalization_policy": "Exact full replacement only"
+    },
+    {
+      "id": "approved-review17-569-20261024",
+      "source_id": "ULKS46015-v1.01:en_us/static:569:occurrence1",
+      "source_sha256": "48b414e7432aa961bf817c56f1e16f6c4859c88970c0d14d69a854860a05a459",
+      "source_referent": "Blackbone Maul",
+      "approved_wording": "검은뼈 마울",
+      "applicability": "Only this exact static label; no other-key/prose normalization",
+      "exclusions": [
+        "Other keys, prose and spelling variants"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-24",
+        "chosen_answer": "17개 모두 제시한 범위로 반영",
+        "choice_ref": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+        "scope": "Exact label wording only"
+      },
+      "normalization_policy": "Exact full replacement only"
+    },
+    {
+      "id": "approved-review17-772-20261024",
+      "source_id": "ULKS46015-v1.01:en_us/static:772:occurrence1",
+      "source_sha256": "4885ea7a53c25f96371af44d7f0b054e0acedc9d0d94ba903f585547a7212775",
+      "source_referent": "Templar Haradale",
+      "approved_wording": "성전기사 하라데일",
+      "applicability": "Only this exact static label; no other-key/prose normalization",
+      "exclusions": [
+        "Other keys, prose and spelling variants"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-24",
+        "chosen_answer": "17개 모두 제시한 범위로 반영",
+        "choice_ref": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+        "scope": "Exact label wording only"
+      },
+      "normalization_policy": "Exact full replacement only"
+    },
+    {
+      "id": "approved-review17-3865-20261024",
+      "source_id": "ULKS46015-v1.01:en_us/static:3865:occurrence1",
+      "source_sha256": "3aa87ffe8df938b5e382cb3c6ae330853035106dd21dc96324f53879fed8f3fc",
+      "source_referent": "Shadowed Pal 2h",
+      "approved_wording": "그늘진 양손 성기사",
+      "applicability": "Only this exact static label; no other-key/prose normalization",
+      "exclusions": [
+        "Other keys, prose and spelling variants"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-24",
+        "chosen_answer": "17개 모두 제시한 범위로 반영",
+        "choice_ref": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+        "scope": "Exact label wording only"
+      },
+      "normalization_policy": "Exact full replacement only"
+    },
+    {
+      "id": "approved-review17-3866-20261024",
+      "source_id": "ULKS46015-v1.01:en_us/static:3866:occurrence1",
+      "source_sha256": "9ea6debba78d7af036500011aff3c166f3ab9a3bd242d2b86a86d1a292203930",
+      "source_referent": "Shadowed Pal Epic",
+      "approved_wording": "그늘진 에픽 성기사",
+      "applicability": "Only this exact static label; no other-key/prose normalization",
+      "exclusions": [
+        "Other keys, prose and spelling variants"
+      ],
+      "state": "approved",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-24",
+        "chosen_answer": "17개 모두 제시한 범위로 반영",
+        "choice_ref": "workspace/translation/review/20261024_schema20_inventory_v7/approval_exact17.json",
+        "scope": "Exact label wording only"
+      },
+      "normalization_policy": "Exact full replacement only"
+    },
+    {
+      "id": "approved-second-review26-1386-20261030",
+      "source_id": "ULKS46015-v1.01:en_us/static:1386:occurrence1",
+      "source_sha256": "36115e14873e8e09ad347e9562527187bf7f36f8a4675aef330423fc05f8cae4",
+      "source_referent": "Templar Plate Great Helm",
+      "approved_wording": "성전기사 판금 대형 투구",
+      "state": "approved",
+      "applicability": "Only this exact five-set item label; no faction-identity claim or other-key normalization",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-30",
+        "chosen_answer": "6개 모두 제안대로 반영 (권장)",
+        "choice_ref": "workspace/translation/approvals/20261030_second_review6.json",
+        "scope": "Exact label only"
+      },
+      "normalization_policy": "Exact full label replacement only"
+    },
+    {
+      "id": "approved-second-review26-1582-20261030",
+      "source_id": "ULKS46015-v1.01:en_us/static:1582:occurrence1",
+      "source_sha256": "cb12058ca67f3e1f1fc8429f19cc41f91fd84a74cc526605429e155416182e11",
+      "source_referent": "Templar Plate Legplates",
+      "approved_wording": "성전기사 판금 다리 판금",
+      "state": "approved",
+      "applicability": "Only this exact five-set item label; no faction-identity claim or other-key normalization",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-30",
+        "chosen_answer": "6개 모두 제안대로 반영 (권장)",
+        "choice_ref": "workspace/translation/approvals/20261030_second_review6.json",
+        "scope": "Exact label only"
+      },
+      "normalization_policy": "Exact full label replacement only"
+    },
+    {
+      "id": "approved-second-review26-1638-20261030",
+      "source_id": "ULKS46015-v1.01:en_us/static:1638:occurrence1",
+      "source_sha256": "67d25bf34cf2331a7ff8577848d83052e0b0e059b9f5082b9eeb6c2f92a4bc51",
+      "source_referent": "Templar Plate Vambraces",
+      "approved_wording": "성전기사 판금 팔뚝 보호대",
+      "state": "approved",
+      "applicability": "Only this exact five-set item label; no faction-identity claim or other-key normalization",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-30",
+        "chosen_answer": "6개 모두 제안대로 반영 (권장)",
+        "choice_ref": "workspace/translation/approvals/20261030_second_review6.json",
+        "scope": "Exact label only"
+      },
+      "normalization_policy": "Exact full label replacement only"
+    },
+    {
+      "id": "approved-second-review26-1834-20261030",
+      "source_id": "ULKS46015-v1.01:en_us/static:1834:occurrence1",
+      "source_sha256": "b1ea61587138d83849a6b775c1095556b08c8ab3770695cbaff766306c246ac3",
+      "source_referent": "Templar Plate Chestplate",
+      "approved_wording": "성전기사 판금 흉갑",
+      "state": "approved",
+      "applicability": "Only this exact five-set item label; no faction-identity claim or other-key normalization",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-30",
+        "chosen_answer": "6개 모두 제안대로 반영 (권장)",
+        "choice_ref": "workspace/translation/approvals/20261030_second_review6.json",
+        "scope": "Exact label only"
+      },
+      "normalization_policy": "Exact full label replacement only"
+    },
+    {
+      "id": "approved-second-review26-2030-20261030",
+      "source_id": "ULKS46015-v1.01:en_us/static:2030:occurrence1",
+      "source_sha256": "194a20f8325866e2f9186e37fecc19f29e9903d58eebead9753d1cfeb02cbc5a",
+      "source_referent": "Templar Plate Greaves",
+      "approved_wording": "성전기사 판금 경갑",
+      "state": "approved",
+      "applicability": "Only this exact five-set item label; no faction-identity claim or other-key normalization",
+      "approval": {
+        "authority": "user",
+        "date_local": "2026-10-30",
+        "chosen_answer": "6개 모두 제안대로 반영 (권장)",
+        "choice_ref": "workspace/translation/approvals/20261030_second_review6.json",
+        "scope": "Exact label only"
+      },
+      "normalization_policy": "Exact full label replacement only"
+    }
+  ],
+  "candidate_decisions": [
+    {
+      "id": "term-class-alchemist-001",
+      "source_referent": "Alchemist class",
+      "candidate_wording_decision_ref": "diagnostic031:2687",
+      "applicability": "ULKS46015-v1.01 observed class and attribute UI",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-class-druid-001",
+      "source_referent": "Druid class",
+      "candidate_wording_decision_ref": "diagnostic031:2688",
+      "applicability": "ULKS46015-v1.01 observed class and attribute UI",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-class-knight-001",
+      "source_referent": "Knight class",
+      "candidate_wording_decision_ref": "diagnostic031:2689",
+      "applicability": "ULKS46015-v1.01 observed class and attribute UI",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-class-berserker-001",
+      "source_referent": "Berserker class",
+      "candidate_wording_decision_ref": "diagnostic031:2690",
+      "applicability": "ULKS46015-v1.01 observed class and attribute UI",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-attribute-strength-001",
+      "source_referent": "Strength attribute",
+      "candidate_wording_decision_ref": "diagnostic031:2120",
+      "applicability": "ULKS46015-v1.01 attributes",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-attribute-intelligence-001",
+      "source_referent": "Intelligence attribute",
+      "candidate_wording_decision_ref": "diagnostic031:2122",
+      "applicability": "ULKS46015-v1.01 attributes",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-attribute-dexterity-001",
+      "source_referent": "Dexterity attribute",
+      "candidate_wording_decision_ref": "diagnostic031:2124",
+      "applicability": "ULKS46015-v1.01 attributes",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-attribute-stamina-001",
+      "source_referent": "Stamina attribute",
+      "candidate_wording_decision_ref": "diagnostic031:2126",
+      "applicability": "ULKS46015-v1.01 attributes",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-resource-power-001",
+      "source_referent": "Power mentioned by Intelligence description",
+      "candidate_wording_decision_ref": "diagnostic031:2123",
+      "applicability": "ULKS46015-v1.01 attribute description; resource HUD consumer not yet observed",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Confirm the resource represented by Power before selecting a game-wide Korean term"
+    },
+    {
+      "id": "term-place-aven-001",
+      "source_referent": "Aven place name",
+      "candidate_wording_decision_ref": "diagnostic081:2755",
+      "applicability": "Observed Recall To Aven pause caption;whole-game proper-name spelling unresolved",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Confirm Aven transliteration and shared place-name usage before approval"
+    },
+    {
+      "id": "term-setting-auto-split-089",
+      "source_referent": "Auto Split",
+      "candidate_wording_decision_ref": "diagnostic089:2763",
+      "applicability": "Observed settings label;mechanical effect and shared contexts unresolved",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Trace actual setting consumer before resolving terminology;current wording is a literal candidate"
+    },
+    {
+      "id": "term-setting-confirm-zone-request-089",
+      "source_referent": "Confirm Zone Request",
+      "candidate_wording_decision_ref": "diagnostic089:3621",
+      "applicability": "Observed settings label;mechanical effect and shared contexts unresolved",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Trace actual setting consumer before resolving terminology;current wording is a literal candidate"
+    },
+    {
+      "id": "term-setting-accept-traded-items-089",
+      "source_referent": "Accept Traded Items",
+      "candidate_wording_decision_ref": "diagnostic089:3758",
+      "applicability": "Observed settings label;mechanical effect and shared contexts unresolved",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Trace actual setting consumer before resolving terminology;current wording is a literal candidate"
+    },
+    {
+      "id": "term-place-howling-pine-093",
+      "source_referent": "The Howling Pine Inn",
+      "candidate_wording_decision_ref": "diagnostic093:34",
+      "applicability": "Observed map place title;whole-game proper name spelling and literal/localized naming unresolved",
+      "state": "adopted",
+      "approval": {
+        "decision_ref": "approved-inn-howling-pine-131"
+      },
+      "question": "Review literal place-name proposal against dialogue and all shared source contexts before approval"
+    },
+    {
+      "id": "term-item-ruined-098",
+      "source_referent": "Ruined",
+      "candidate_wording_decision_ref": "diagnostic098:2890",
+      "applicability": "Shared item quality adjective;actual quality semantics not tested",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Review proposed terminology and shared-key use before approval"
+    },
+    {
+      "id": "term-item-sackcloth-098",
+      "source_referent": "Sackcloth Pants",
+      "candidate_wording_decision_ref": "diagnostic098:1388",
+      "applicability": "Observed default pants;material wording unresolved",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Review proposed terminology and shared-key use before approval"
+    },
+    {
+      "id": "term-praetox-105",
+      "source_referent": "Praetox/praetox in initial quest2266/2502",
+      "candidate_wording_decision_ref": "diagnostic105:trans:2266",
+      "applicability": "Observed first quest title and body;other names/species contexts unreviewed",
+      "state": "unresolved",
+      "approval": null,
+      "question": "Review Korean transliteration and species naming before eligibility"
+    },
+    {
+      "id": "term-alice-112",
+      "source_referent": "Alice mentioned by initial scream quest2272",
+      "candidate_wording_decision_ref": "development112:trans:2272",
+      "applicability": "Only first scream journal;family name/identity and all other contexts unresolved",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-first-kill-aven-praetox-112",
+      "source_referent": "Aven and praetox in thought2501",
+      "candidate_wording_decision_ref": "development112:trans:2501",
+      "related_unapproved_candidate_ids": [
+        "term-place-aven-001",
+        "term-praetox-105"
+      ],
+      "applicability": "Additional narrative context;retains earlier proposed spellings without approving them",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-prologue-names-titles-115",
+      "source_referent": "Prologue3881 Aven,Crown,Guardian,Academy,Lysetta,Kaylee,Howling Pine Tavern and Inn",
+      "candidate_wording_decision_ref": "development115:trans:3881",
+      "applicability": "Only introductory narrative;Crown office versus physical crown differentiated provisionally,not an approved global glossary",
+      "related_unapproved_candidate_ids": [
+        "term-place-aven-001"
+      ],
+      "state": "unresolved",
+      "approval": null,
+      "resolved_subterms": [
+        {
+          "source": "Howling Pine Inn",
+          "decision_ref": "approved-inn-howling-pine-131"
+        }
+      ]
+    },
+    {
+      "id": "term-early-journal-120",
+      "source_referent": "Secret Catacombs versus Forbidden Catacombs;Athloxxia;introductory names/titles",
+      "candidate_wording_decision_refs": [
+        "working120:trans:2271",
+        "working120:trans:2273",
+        "working120:trans:2286",
+        "working120:trans:2287",
+        "working120:trans:2290",
+        "working120:trans:2313",
+        "working120:trans:2314",
+        "working120:trans:2315"
+      ],
+      "applicability": "Working journal drafts only;different catacombs names kept distinct;wild look nuance and transliterations need review",
+      "state": "unresolved",
+      "approval": null,
+      "resolved_subterms": [
+        {
+          "source": "Howling Pine Inn",
+          "decision_ref": "approved-inn-howling-pine-131"
+        }
+      ]
+    },
+    {
+      "id": "term-npc-voice-names-126",
+      "source_referent": "Alice,Layla,Nathan,Will,Bron,Brady in introductory inn dialogue",
+      "candidate_wording_decision_refs": [
+        "working126:trans:2270",
+        "working126:trans:2274",
+        "working126:trans:2275",
+        "working126:trans:2276",
+        "working126:trans:2277",
+        "working126:trans:2278",
+        "working126:trans:2279",
+        "working126:trans:2282",
+        "working126:trans:2283"
+      ],
+      "applicability": "Working NPC dialogue only;polite/haoche voice choices and name spellings unapproved",
+      "state": "unresolved",
+      "approval": null
+    },
+    {
+      "id": "term-conflict-howling-pine-126",
+      "source_referent": "The Howling Pine Inn / Howling Pine Tavern and Inn",
+      "related_unapproved_candidate_ids": [
+        "term-place-howling-pine-093",
+        "term-prologue-names-titles-115",
+        "term-early-journal-120"
+      ],
+      "candidate_forms": [
+        "울부짖는 소나무 여관",
+        "하울링 파인 여관"
+      ],
+      "applicability": "Map34 versus prologue3881/journal2314 currently differ;pending user preference,do not silently normalize prose",
+      "state": "resolved",
+      "approval": {
+        "decision_ref": "approved-inn-howling-pine-131"
+      },
+      "resolution": "Literal inn-name form selected by user;phonetic candidate not adopted for this inn"
+    },
+    {
+      "id": "term-place-scholar-way-240",
+      "source_referent": "Scholar Way",
+      "candidate_wording_decision_ref": "working240:static:3034:occurrence1",
+      "applicability": "Exact named way static3034 and2298;not generic scholarly paths or other places",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/location_stage238_static.json",
+        "workspace/translation/packets/warnings_state228/REVIEW.md"
+      ]
+    },
+    {
+      "id": "term-place-2888-255",
+      "source_referent": "Howling Pine Square",
+      "candidate_wording_decision_ref": "working255:static:2888:occurrence1",
+      "applicability": "Exact static2888 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-2889-255",
+      "source_referent": "Watchtower Road",
+      "candidate_wording_decision_ref": "working255:static:2889:occurrence1",
+      "applicability": "Exact static2889 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3033-255",
+      "source_referent": "Nature's Path",
+      "candidate_wording_decision_ref": "working255:static:3033:occurrence1",
+      "applicability": "Exact static3033 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3036-255",
+      "source_referent": "Wild Grove",
+      "candidate_wording_decision_ref": "working255:static:3036:occurrence1",
+      "applicability": "Exact static3036 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3037-255",
+      "source_referent": "Market Plaza",
+      "candidate_wording_decision_ref": "working255:static:3037:occurrence1",
+      "applicability": "Exact static3037 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3038-255",
+      "source_referent": "Temple of Preservation",
+      "candidate_wording_decision_ref": "working255:static:3038:occurrence1",
+      "applicability": "Exact static3038 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3039-255",
+      "source_referent": "The Foundation Academy",
+      "candidate_wording_decision_ref": "working255:static:3039:occurrence1",
+      "applicability": "Exact static3039 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-place-3040-255",
+      "source_referent": "Athloxxia's Lair",
+      "candidate_wording_decision_ref": "working255:static:3040:occurrence1",
+      "applicability": "Exact static3040 named place;other mentions require same-referent evidence",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/place_stage254_context.json"
+      ]
+    },
+    {
+      "id": "term-map-54-422",
+      "source_referent": "Sacred Vaults",
+      "candidate_wording_decision_ref": "working422:static:54",
+      "applicability": "Exact static54 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-55-422",
+      "source_referent": "Lightfall Grove",
+      "candidate_wording_decision_ref": "working422:static:55",
+      "applicability": "Exact static55 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-56-422",
+      "source_referent": "Snoutrott Den",
+      "candidate_wording_decision_ref": "working422:static:56",
+      "applicability": "Exact static56 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-59-422",
+      "source_referent": "Tornwood Forest",
+      "candidate_wording_decision_ref": "working422:static:59",
+      "applicability": "Exact static59 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-63-422",
+      "source_referent": "Wallowpit Level 1",
+      "candidate_wording_decision_ref": "working422:static:63",
+      "applicability": "Exact static63 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-64-422",
+      "source_referent": "Wallowpit Level 2",
+      "candidate_wording_decision_ref": "working422:static:64",
+      "applicability": "Exact static64 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-map-65-422",
+      "source_referent": "Wallowpit Level 3",
+      "candidate_wording_decision_ref": "working422:static:65",
+      "applicability": "Exact static65 Map title;no approval inherited from quest drafts",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_places_stage421_context.json"
+      ]
+    },
+    {
+      "id": "term-name-2263-433",
+      "source_referent": "Druidic Wreath",
+      "candidate_wording_decision_ref": "working433:static:2263",
+      "applicability": "Exact static2263 name;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/names_stage432_context.json"
+      ]
+    },
+    {
+      "id": "term-name-3001-433",
+      "source_referent": "Marrowtusk",
+      "candidate_wording_decision_ref": "working433:static:3001",
+      "applicability": "Exact static3001 name;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/names_stage432_context.json"
+      ]
+    },
+    {
+      "id": "term-name-766-433",
+      "source_referent": "Krelgaak Snoutrott",
+      "candidate_wording_decision_ref": "working433:static:766",
+      "applicability": "Exact static766 name;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/names_stage432_context.json"
+      ]
+    },
+    {
+      "id": "term-name-776-433",
+      "source_referent": "Matron Skulkgra",
+      "candidate_wording_decision_ref": "working433:static:776",
+      "applicability": "Exact static776 name;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/names_stage432_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-61-475",
+      "source_referent": "Shattercove West",
+      "candidate_wording_decision_ref": "working475:static:61",
+      "applicability": "Exact static61;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-74-475",
+      "source_referent": "Shattercove East",
+      "candidate_wording_decision_ref": "working475:static:74",
+      "applicability": "Exact static74;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-75-475",
+      "source_referent": "Splinterfull Woods",
+      "candidate_wording_decision_ref": "working475:static:75",
+      "applicability": "Exact static75;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-76-475",
+      "source_referent": "Dreadwind Moor",
+      "candidate_wording_decision_ref": "working475:static:76",
+      "applicability": "Exact static76;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-77-475",
+      "source_referent": "Waning Wastes",
+      "candidate_wording_decision_ref": "working475:static:77",
+      "applicability": "Exact static77;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-83-475",
+      "source_referent": "Whispering Chasm",
+      "candidate_wording_decision_ref": "working475:static:83",
+      "applicability": "Exact static83;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-2523-475",
+      "source_referent": "Containment Shard",
+      "candidate_wording_decision_ref": "working475:static:2523",
+      "applicability": "Exact static2523;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-repair-name-3198-475",
+      "source_referent": "Alyssia the Hateful",
+      "candidate_wording_decision_ref": "working475:static:3198",
+      "applicability": "Exact static3198;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/repair_names_stage474_context.json"
+      ]
+    },
+    {
+      "id": "term-threat-name-69-518",
+      "source_referent": "Necrosis Citadel Level 1",
+      "candidate_wording_decision_ref": "working518:static:69",
+      "applicability": "Exact static69;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/threat_names_stage517_context.json"
+      ]
+    },
+    {
+      "id": "term-threat-name-68-518",
+      "source_referent": "Necrosis Citadel Level 2",
+      "candidate_wording_decision_ref": "working518:static:68",
+      "applicability": "Exact static68;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/threat_names_stage517_context.json"
+      ]
+    },
+    {
+      "id": "term-threat-name-67-518",
+      "source_referent": "Necrosis Citadel Level 3",
+      "candidate_wording_decision_ref": "working518:static:67",
+      "applicability": "Exact static67;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/threat_names_stage517_context.json"
+      ]
+    },
+    {
+      "id": "term-threat-name-3041-518",
+      "source_referent": "The Nethereye",
+      "candidate_wording_decision_ref": "working518:static:3041",
+      "applicability": "Exact static3041;not human-approved",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/threat_names_stage517_context.json"
+      ]
+    },
+    {
+      "id": "term-map-139-20261020",
+      "source_referent": "The City of Aven",
+      "candidate_wording_decision_ref": "development_map_20261020:static:139",
+      "applicability": "Exact static139 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-35-20261020",
+      "source_referent": "Secret Catacombs",
+      "candidate_wording_decision_ref": "development_map_20261020:static:35",
+      "applicability": "Exact static35 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-36-20261020",
+      "source_referent": "Forbidden Catacombs",
+      "candidate_wording_decision_ref": "development_map_20261020:static:36",
+      "applicability": "Exact static36 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-37-20261020",
+      "source_referent": "Deep Crypts",
+      "candidate_wording_decision_ref": "development_map_20261020:static:37",
+      "applicability": "Exact static37 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-40-20261020",
+      "source_referent": "The Long Walk",
+      "candidate_wording_decision_ref": "development_map_20261020:static:40",
+      "applicability": "Exact static40 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-39-20261020",
+      "source_referent": "Ancient Waterworks",
+      "candidate_wording_decision_ref": "development_map_20261020:static:39",
+      "applicability": "Exact static39 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-43-20261020",
+      "source_referent": "Forgotten Catacombs",
+      "candidate_wording_decision_ref": "development_map_20261020:static:43",
+      "applicability": "Exact static43 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-38-20261020",
+      "source_referent": "Western Catacombs",
+      "candidate_wording_decision_ref": "development_map_20261020:static:38",
+      "applicability": "Exact static38 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-41-20261020",
+      "source_referent": "Eastern Catacombs Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:41",
+      "applicability": "Exact static41 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-42-20261020",
+      "source_referent": "Eastern Catacombs Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:42",
+      "applicability": "Exact static42 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-51-20261020",
+      "source_referent": "Bleak Mines",
+      "candidate_wording_decision_ref": "development_map_20261020:static:51",
+      "applicability": "Exact static51 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-58-20261020",
+      "source_referent": "Dismal Lair",
+      "candidate_wording_decision_ref": "development_map_20261020:static:58",
+      "applicability": "Exact static58 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-52-20261020",
+      "source_referent": "Nightfall Tomb",
+      "candidate_wording_decision_ref": "development_map_20261020:static:52",
+      "applicability": "Exact static52 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-53-20261020",
+      "source_referent": "Shadowpine",
+      "candidate_wording_decision_ref": "development_map_20261020:static:53",
+      "applicability": "Exact static53 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-62-20261020",
+      "source_referent": "Rotting Nest",
+      "candidate_wording_decision_ref": "development_map_20261020:static:62",
+      "applicability": "Exact static62 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-57-20261020",
+      "source_referent": "Marrowrock North",
+      "candidate_wording_decision_ref": "development_map_20261020:static:57",
+      "applicability": "Exact static57 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-60-20261020",
+      "source_referent": "Wicked Burrow",
+      "candidate_wording_decision_ref": "development_map_20261020:static:60",
+      "applicability": "Exact static60 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-71-20261020",
+      "source_referent": "Ashfell Caverns",
+      "candidate_wording_decision_ref": "development_map_20261020:static:71",
+      "applicability": "Exact static71 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-102-20261020",
+      "source_referent": "Temple of Dreams Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:102",
+      "applicability": "Exact static102 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-84-20261020",
+      "source_referent": "Temple of Dreams Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:84",
+      "applicability": "Exact static84 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-85-20261020",
+      "source_referent": "Temple of Dreams Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:85",
+      "applicability": "Exact static85 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-78-20261020",
+      "source_referent": "The Riven Flats",
+      "candidate_wording_decision_ref": "development_map_20261020:static:78",
+      "applicability": "Exact static78 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-70-20261020",
+      "source_referent": "Deadeye Ridge",
+      "candidate_wording_decision_ref": "development_map_20261020:static:70",
+      "applicability": "Exact static70 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-66-20261020",
+      "source_referent": "Marrowrock South",
+      "candidate_wording_decision_ref": "development_map_20261020:static:66",
+      "applicability": "Exact static66 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-72-20261020",
+      "source_referent": "Cold Roar Den",
+      "candidate_wording_decision_ref": "development_map_20261020:static:72",
+      "applicability": "Exact static72 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-73-20261020",
+      "source_referent": "Ironstone Hollow",
+      "candidate_wording_decision_ref": "development_map_20261020:static:73",
+      "applicability": "Exact static73 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-79-20261020",
+      "source_referent": "Gasping Caves",
+      "candidate_wording_decision_ref": "development_map_20261020:static:79",
+      "applicability": "Exact static79 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-80-20261020",
+      "source_referent": "Fellroot Tunnels",
+      "candidate_wording_decision_ref": "development_map_20261020:static:80",
+      "applicability": "Exact static80 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-81-20261020",
+      "source_referent": "Screeching Halls Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:81",
+      "applicability": "Exact static81 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-82-20261020",
+      "source_referent": "Screeching Halls Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:82",
+      "applicability": "Exact static82 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-86-20261020",
+      "source_referent": "The Forbidden Altar",
+      "candidate_wording_decision_ref": "development_map_20261020:static:86",
+      "applicability": "Exact static86 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-89-20261020",
+      "source_referent": "Hailshard Fortress Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:89",
+      "applicability": "Exact static89 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-88-20261020",
+      "source_referent": "Hailshard Fortress Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:88",
+      "applicability": "Exact static88 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-87-20261020",
+      "source_referent": "Hailshard Fortress Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:87",
+      "applicability": "Exact static87 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-90-20261020",
+      "source_referent": "Gloomfall Wastes",
+      "candidate_wording_decision_ref": "development_map_20261020:static:90",
+      "applicability": "Exact static90 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-91-20261020",
+      "source_referent": "Frostwail Cavern",
+      "candidate_wording_decision_ref": "development_map_20261020:static:91",
+      "applicability": "Exact static91 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-92-20261020",
+      "source_referent": "Glimmering Caves",
+      "candidate_wording_decision_ref": "development_map_20261020:static:92",
+      "applicability": "Exact static92 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-93-20261020",
+      "source_referent": "Crystalline Pass West",
+      "candidate_wording_decision_ref": "development_map_20261020:static:93",
+      "applicability": "Exact static93 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-94-20261020",
+      "source_referent": "Crystalline Pass East",
+      "candidate_wording_decision_ref": "development_map_20261020:static:94",
+      "applicability": "Exact static94 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-95-20261020",
+      "source_referent": "The Eclipsed Land",
+      "candidate_wording_decision_ref": "development_map_20261020:static:95",
+      "applicability": "Exact static95 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-96-20261020",
+      "source_referent": "Hoarfrost Asylum Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:96",
+      "applicability": "Exact static96 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-97-20261020",
+      "source_referent": "Hoarfrost Asylum Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:97",
+      "applicability": "Exact static97 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-140-20261020",
+      "source_referent": "Hoarfrost Asylum Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:140",
+      "applicability": "Exact static140 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-98-20261020",
+      "source_referent": "The Icen Halls West",
+      "candidate_wording_decision_ref": "development_map_20261020:static:98",
+      "applicability": "Exact static98 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-100-20261020",
+      "source_referent": "The Icen Halls East",
+      "candidate_wording_decision_ref": "development_map_20261020:static:100",
+      "applicability": "Exact static100 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-99-20261020",
+      "source_referent": "The Icen Halls Deep",
+      "candidate_wording_decision_ref": "development_map_20261020:static:99",
+      "applicability": "Exact static99 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-101-20261020",
+      "source_referent": "Dreamspace",
+      "candidate_wording_decision_ref": "development_map_20261020:static:101",
+      "applicability": "Exact static101 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-103-20261020",
+      "source_referent": "Glacial Steppes",
+      "candidate_wording_decision_ref": "development_map_20261020:static:103",
+      "applicability": "Exact static103 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-106-20261020",
+      "source_referent": "Crystal Tower Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:106",
+      "applicability": "Exact static106 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-105-20261020",
+      "source_referent": "Crystal Tower Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:105",
+      "applicability": "Exact static105 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-104-20261020",
+      "source_referent": "Crystal Tower Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:104",
+      "applicability": "Exact static104 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-107-20261020",
+      "source_referent": "Shiverdark",
+      "candidate_wording_decision_ref": "development_map_20261020:static:107",
+      "applicability": "Exact static107 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-114-20261020",
+      "source_referent": "Temple of Nightmares Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:114",
+      "applicability": "Exact static114 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-115-20261020",
+      "source_referent": "Temple of Nightmares Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:115",
+      "applicability": "Exact static115 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-138-20261020",
+      "source_referent": "Temple of Nightmares Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:138",
+      "applicability": "Exact static138 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-108-20261020",
+      "source_referent": "Pandemonium's Gate",
+      "candidate_wording_decision_ref": "development_map_20261020:static:108",
+      "applicability": "Exact static108 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-109-20261020",
+      "source_referent": "Burning Labyrinth",
+      "candidate_wording_decision_ref": "development_map_20261020:static:109",
+      "applicability": "Exact static109 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-110-20261020",
+      "source_referent": "Infernal Abyss",
+      "candidate_wording_decision_ref": "development_map_20261020:static:110",
+      "applicability": "Exact static110 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-111-20261020",
+      "source_referent": "Obsidian Cavern",
+      "candidate_wording_decision_ref": "development_map_20261020:static:111",
+      "applicability": "Exact static111 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-112-20261020",
+      "source_referent": "Meridian Tower",
+      "candidate_wording_decision_ref": "development_map_20261020:static:112",
+      "applicability": "Exact static112 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-113-20261020",
+      "source_referent": "Meridian Fortress",
+      "candidate_wording_decision_ref": "development_map_20261020:static:113",
+      "applicability": "Exact static113 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-116-20261020",
+      "source_referent": "Meridian Oubliette",
+      "candidate_wording_decision_ref": "development_map_20261020:static:116",
+      "applicability": "Exact static116 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-117-20261020",
+      "source_referent": "Summit Tower",
+      "candidate_wording_decision_ref": "development_map_20261020:static:117",
+      "applicability": "Exact static117 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-118-20261020",
+      "source_referent": "Summit Fortress",
+      "candidate_wording_decision_ref": "development_map_20261020:static:118",
+      "applicability": "Exact static118 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-119-20261020",
+      "source_referent": "Summit Oubliette",
+      "candidate_wording_decision_ref": "development_map_20261020:static:119",
+      "applicability": "Exact static119 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-120-20261020",
+      "source_referent": "Spire Tower",
+      "candidate_wording_decision_ref": "development_map_20261020:static:120",
+      "applicability": "Exact static120 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-121-20261020",
+      "source_referent": "Spire Fortress",
+      "candidate_wording_decision_ref": "development_map_20261020:static:121",
+      "applicability": "Exact static121 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-122-20261020",
+      "source_referent": "Spire Oubliette",
+      "candidate_wording_decision_ref": "development_map_20261020:static:122",
+      "applicability": "Exact static122 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-123-20261020",
+      "source_referent": "Ardor's Pass",
+      "candidate_wording_decision_ref": "development_map_20261020:static:123",
+      "applicability": "Exact static123 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-124-20261020",
+      "source_referent": "Zenith Tower",
+      "candidate_wording_decision_ref": "development_map_20261020:static:124",
+      "applicability": "Exact static124 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-125-20261020",
+      "source_referent": "Zenith Fortress",
+      "candidate_wording_decision_ref": "development_map_20261020:static:125",
+      "applicability": "Exact static125 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-126-20261020",
+      "source_referent": "Zenith Oubliette",
+      "candidate_wording_decision_ref": "development_map_20261020:static:126",
+      "applicability": "Exact static126 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-127-20261020",
+      "source_referent": "Pinnacle Tower",
+      "candidate_wording_decision_ref": "development_map_20261020:static:127",
+      "applicability": "Exact static127 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-128-20261020",
+      "source_referent": "Pinnacle Fortress",
+      "candidate_wording_decision_ref": "development_map_20261020:static:128",
+      "applicability": "Exact static128 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-129-20261020",
+      "source_referent": "Pinnacle Oubliette",
+      "candidate_wording_decision_ref": "development_map_20261020:static:129",
+      "applicability": "Exact static129 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-130-20261020",
+      "source_referent": "Marianas Guard Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:130",
+      "applicability": "Exact static130 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-131-20261020",
+      "source_referent": "Marianas Guard Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:131",
+      "applicability": "Exact static131 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-132-20261020",
+      "source_referent": "Marianas Guard Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:132",
+      "applicability": "Exact static132 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-133-20261020",
+      "source_referent": "Marianas Guard Level 4",
+      "candidate_wording_decision_ref": "development_map_20261020:static:133",
+      "applicability": "Exact static133 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-134-20261020",
+      "source_referent": "Marianas Guard Level 5",
+      "candidate_wording_decision_ref": "development_map_20261020:static:134",
+      "applicability": "Exact static134 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-135-20261020",
+      "source_referent": "The Vault Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:135",
+      "applicability": "Exact static135 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-136-20261020",
+      "source_referent": "The Vault Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:136",
+      "applicability": "Exact static136 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-137-20261020",
+      "source_referent": "The Vault Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:137",
+      "applicability": "Exact static137 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-44-20261020",
+      "source_referent": "The Halls of Honor Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:44",
+      "applicability": "Exact static44 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-45-20261020",
+      "source_referent": "The Halls of Honor Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:45",
+      "applicability": "Exact static45 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-46-20261020",
+      "source_referent": "The Halls of Honor Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:46",
+      "applicability": "Exact static46 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-50-20261020",
+      "source_referent": "Lost Catacombs",
+      "candidate_wording_decision_ref": "development_map_20261020:static:50",
+      "applicability": "Exact static50 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-49-20261020",
+      "source_referent": "Earthrest Crypts Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:49",
+      "applicability": "Exact static49 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-48-20261020",
+      "source_referent": "Earthrest Crypts Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:48",
+      "applicability": "Exact static48 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-47-20261020",
+      "source_referent": "Earthrest Crypts Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:47",
+      "applicability": "Exact static47 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-141-20261020",
+      "source_referent": "Den of the Sleeping Wolf",
+      "candidate_wording_decision_ref": "development_map_20261020:static:141",
+      "applicability": "Exact static141 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-142-20261020",
+      "source_referent": "Temple of the Sleeping Wolf",
+      "candidate_wording_decision_ref": "development_map_20261020:static:142",
+      "applicability": "Exact static142 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-143-20261020",
+      "source_referent": "Lair of the Sleeping Wolf",
+      "candidate_wording_decision_ref": "development_map_20261020:static:143",
+      "applicability": "Exact static143 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-144-20261020",
+      "source_referent": "Elysian Chamber Level 1",
+      "candidate_wording_decision_ref": "development_map_20261020:static:144",
+      "applicability": "Exact static144 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-145-20261020",
+      "source_referent": "Elysian Chamber Level 2",
+      "candidate_wording_decision_ref": "development_map_20261020:static:145",
+      "applicability": "Exact static145 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-map-146-20261020",
+      "source_referent": "Elysian Chamber Level 3",
+      "candidate_wording_decision_ref": "development_map_20261020:static:146",
+      "applicability": "Exact static146 Map label; no implicit prose replacement",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/map_corpus_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-relic-arc-20261020-0",
+      "source_referent": "Salve of Regeneration",
+      "candidate_wording": "재생의 연고",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2597"
+    },
+    {
+      "id": "term-relic-arc-20261020-1",
+      "source_referent": "The Dreamkeeper",
+      "candidate_wording": "꿈의 수호자",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2600"
+    },
+    {
+      "id": "term-relic-arc-20261020-2",
+      "source_referent": "Ethereal Key",
+      "candidate_wording": "에테르 열쇠",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:3075"
+    },
+    {
+      "id": "term-relic-arc-20261020-3",
+      "source_referent": "Csuragaul / portrait identifier Csuragual",
+      "candidate_wording": "수라가울",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2603"
+    },
+    {
+      "id": "term-relic-arc-20261020-4",
+      "source_referent": "Lord Ashgard",
+      "candidate_wording": "애시가드 경",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2606"
+    },
+    {
+      "id": "term-relic-arc-20261020-5",
+      "source_referent": "Tael",
+      "candidate_wording": "타엘",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2606"
+    },
+    {
+      "id": "term-relic-arc-20261020-6",
+      "source_referent": "Astral Potion",
+      "candidate_wording": "아스트랄 물약",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2620"
+    },
+    {
+      "id": "term-relic-arc-20261020-7",
+      "source_referent": "The Harbinger",
+      "candidate_wording": "전령",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:3007"
+    },
+    {
+      "id": "term-relic-arc-20261020-8",
+      "source_referent": "The Oracle",
+      "candidate_wording": "예언자",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2623"
+    },
+    {
+      "id": "term-relic-arc-20261020-9",
+      "source_referent": "Orb of Containment",
+      "candidate_wording": "봉인의 구슬",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2623"
+    },
+    {
+      "id": "term-relic-arc-20261020-10",
+      "source_referent": "Shadowed God",
+      "candidate_wording": "그림자 신",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2627"
+    },
+    {
+      "id": "term-relic-arc-20261020-11",
+      "source_referent": "Xoquoxxotil",
+      "candidate_wording": "조쿠옥소틸",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2627"
+    },
+    {
+      "id": "term-relic-arc-20261020-12",
+      "source_referent": "Masters of the Brotherhood",
+      "candidate_wording": "형제단의 대가들",
+      "applicability": "Only this four-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/relic_arc_20261020_preflight.json"
+      ],
+      "candidate_wording_decision_ref": "development_relic_arc_20261020:trans:2627"
+    },
+    {
+      "id": "term-main-story-20261020-0",
+      "source_referent": "The Cardinal Sentry",
+      "candidate_wording": "카디널 파수꾼",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2671",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-1",
+      "source_referent": "Golden Urn",
+      "candidate_wording": "황금 유골함",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3529",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-2",
+      "source_referent": "Marble Urn",
+      "candidate_wording": "대리석 유골함",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3711",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-3",
+      "source_referent": "Bone Urn",
+      "candidate_wording": "뼈 유골함",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3712",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-4",
+      "source_referent": "Ethereal Urn",
+      "candidate_wording": "에테르 유골함",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3713",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-5",
+      "source_referent": "The Steel Warden",
+      "candidate_wording": "강철의 간수",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2710",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-6",
+      "source_referent": "The Lunar Sage",
+      "candidate_wording": "달의 현자",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2716",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-7",
+      "source_referent": "The Savage Matriarch",
+      "candidate_wording": "야성의 여족장",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2720",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-8",
+      "source_referent": "The Phantom Savant",
+      "candidate_wording": "환영의 현자",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2722",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-9",
+      "source_referent": "The Avatar",
+      "candidate_wording": "화신",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2726",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-10",
+      "source_referent": "Warden's Key",
+      "candidate_wording": "간수의 열쇠",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:2736",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-11",
+      "source_referent": "Templar Thereos",
+      "candidate_wording": "성전기사 테레오스",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3529",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-12",
+      "source_referent": "Shaelunn Maul",
+      "candidate_wording": "셰일런 마울",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3529",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ],
+      "superseded_in_development_by": "term-sidequests_20261020-8"
+    },
+    {
+      "id": "term-main-story-20261020-13",
+      "source_referent": "Elder Waelunn",
+      "candidate_wording": "와엘런 장로",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3530",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-14",
+      "source_referent": "Madam Tatiana",
+      "candidate_wording": "타티아나 부인",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3531",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-15",
+      "source_referent": "Overseer Athenya",
+      "candidate_wording": "아테냐 감독관",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3532",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-main-story-20261020-16",
+      "source_referent": "Foundation Academy",
+      "candidate_wording": "파운데이션 아카데미",
+      "candidate_wording_decision_ref": "development_main_story_20261020:trans:3532",
+      "applicability": "Only this late-main-quest development cohort; no global replacement or approval",
+      "state": "unresolved",
+      "approval": null,
+      "evidence": [
+        "qa/reports/main_story_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-0",
+      "source_referent": "Calipso",
+      "candidate_wording": "칼립소",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2773",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-1",
+      "source_referent": "Wildmoon",
+      "candidate_wording": "와일드문",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2773",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-2",
+      "source_referent": "Sabine Firehand",
+      "candidate_wording": "사빈 파이어핸드",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2776",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-3",
+      "source_referent": "Acolyte Maia",
+      "candidate_wording": "마이아 수련생",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2782",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-4",
+      "source_referent": "gate stone",
+      "candidate_wording": "관문석",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2779",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-5",
+      "source_referent": "Shepherd Grailynn",
+      "candidate_wording": "그레일린 목자",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2820",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-6",
+      "source_referent": "Sir Braelynn",
+      "candidate_wording": "브레일린 경",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2787",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-7",
+      "source_referent": "Sir Gerard",
+      "candidate_wording": "제라드 경",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2787",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-8",
+      "source_referent": "Shaelunn Maul",
+      "candidate_wording": "셰일룬 몰",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2784",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ],
+      "previous_candidate_ref": "term-main-story-20261020-12"
+    },
+    {
+      "id": "term-sidequests_20261020-9",
+      "source_referent": "The Weeping Banshee",
+      "candidate_wording": "통곡의 밴시",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2801",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-10",
+      "source_referent": "Wayfarer's Testament",
+      "candidate_wording": "나그네의 증언",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2816",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-11",
+      "source_referent": "The Scourge",
+      "candidate_wording": "재앙",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2836",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-12",
+      "source_referent": "Megarra",
+      "candidate_wording": "메가라",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2851",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-13",
+      "source_referent": "Blightfallow",
+      "candidate_wording": "블라이트팰로",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2856",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-14",
+      "source_referent": "Bolthorr",
+      "candidate_wording": "볼토르",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2865",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-15",
+      "source_referent": "Nepharath",
+      "candidate_wording": "네파라스",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:2908",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    },
+    {
+      "id": "term-sidequests_20261020-16",
+      "source_referent": "Tome of Aven",
+      "candidate_wording": "아벤의 고서",
+      "candidate_wording_decision_ref": "development_sidequests_20261020:trans:3502",
+      "state": "unresolved",
+      "approval": null,
+      "applicability": "This source-bound cohort; naming/voice not human approved; no global replacement",
+      "evidence": [
+        "qa/reports/sidequests_20261020_preflight.json"
+      ]
+    }
+  ],
+  "voice_proposals": [
+    {
+      "id": "voice-ui-description-001",
+      "scope": "Observed class and attribute descriptions",
+      "proposal": "Concise neutral UI descriptions with consistent endings; labels handled separately",
+      "state": "unresolved",
+      "approval": null
+    }
+  ],
+  "evidence": "contexts.json and diagnostic_decisions.jsonl preserve observed scene and wording references",
+  "invalidation": "A terminology or voice decision change requires revalidation of affected wording decisions; state names alone do not grant eligibility"
+}

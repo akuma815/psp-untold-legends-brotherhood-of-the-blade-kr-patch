@@ -1,0 +1,9 @@
+{
+  "status": "approved_exact_wording_and_python_existing_font_method",
+  "date": "2026-10-24",
+  "text": "불러오는 중",
+  "question": "로딩 문구 ‘불러오는 중’은 작은 UI 이미지이므로, Python과 기존 한글 글꼴로 정확한 128×32 픽셀 이미지로 제작할까요? 이미지 생성 초안은 규격을 지키지 못했습니다. 문구와 원래 팔레트·배경은 유지하는 제안입니다.",
+  "answer": "Python·기존 한글 글꼴로 정확한 규격 제작 (권장)",
+  "scope": "Only loading_0/index5080 Korean wording and exact-size existing-font method;preserve palette/background/container.",
+  "full_layout_or_translation_or_release_approval": false
+}

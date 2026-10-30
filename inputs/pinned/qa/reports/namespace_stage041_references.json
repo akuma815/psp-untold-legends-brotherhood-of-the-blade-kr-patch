@@ -1,0 +1,179 @@
+{
+  "status": "PASS_BOUNDED_SELECTOR_ENTRY_REFERENCE_CATALOG",
+  "source_BOOT_sha256": "b603934d7d1a938ae4d3f6cfdac83ef96cdbf12489f673f4079666eae447d1d1",
+  "old_function_relative": [
+    824792,
+    824832
+  ],
+  "intended_entry_replacement_relative": [
+    824792,
+    824800
+  ],
+  "old_function_words_verified": 10,
+  "all_ELF_relocation_sections": 11,
+  "all_ELF_relocation_records": 46778,
+  "relocation_types": {
+    "4": 21636,
+    "5": 8292,
+    "6": 11039,
+    "2": 5811
+  },
+  "control_references": [
+    {
+      "pc": 824596,
+      "target": 824792,
+      "kind": "direct_jump_or_call",
+      "instruction": {
+        "pc": 824596,
+        "word": 201532790,
+        "name": "jal",
+        "fields": {
+          "target": 206198
+        },
+        "assembly": "jal 0x000C95D8",
+        "backend": "rabbitizer_allegrex"
+      },
+      "internal_to_old_function": false
+    },
+    {
+      "pc": 824800,
+      "target": 824816,
+      "kind": "relative_branch",
+      "instruction": {
+        "pc": 824800,
+        "word": 348127235,
+        "name": "bne",
+        "fields": {
+          "rs": 6,
+          "rt": 0,
+          "offset": 3
+        },
+        "assembly": "bne         $a2, $zero, . + 4 + (0x3 << 2)",
+        "backend": "rabbitizer_allegrex"
+      },
+      "internal_to_old_function": true
+    },
+    {
+      "pc": 824808,
+      "target": 824824,
+      "kind": "relative_branch",
+      "instruction": {
+        "pc": 824808,
+        "word": 268435459,
+        "name": "beq",
+        "fields": {
+          "rs": 0,
+          "rt": 0,
+          "offset": 3
+        },
+        "assembly": "beq         $zero, $zero, . + 4 + (0x3 << 2)",
+        "backend": "rabbitizer_allegrex"
+      },
+      "internal_to_old_function": true
+    },
+    {
+      "pc": 826052,
+      "target": 824792,
+      "kind": "direct_jump_or_call",
+      "instruction": {
+        "pc": 826052,
+        "word": 201532790,
+        "name": "jal",
+        "fields": {
+          "target": 206198
+        },
+        "assembly": "jal 0x000C95D8",
+        "backend": "rabbitizer_allegrex"
+      },
+      "internal_to_old_function": false
+    },
+    {
+      "pc": 827004,
+      "target": 824792,
+      "kind": "direct_jump_or_call",
+      "instruction": {
+        "pc": 827004,
+        "word": 201532790,
+        "name": "jal",
+        "fields": {
+          "target": 206198
+        },
+        "assembly": "jal 0x000C95D8",
+        "backend": "rabbitizer_allegrex"
+      },
+      "internal_to_old_function": false
+    }
+  ],
+  "raw_data_candidates": [],
+  "relocated_data_references": [],
+  "HI_LO_overapproximation": [],
+  "blocking_interior_references": [],
+  "source_locale_character_sets": [
+    {
+      "locale": "en_us",
+      "above255": {},
+      "collisions_with_current_virtual_slot_range": []
+    },
+    {
+      "locale": "de_de",
+      "above255": {},
+      "collisions_with_current_virtual_slot_range": []
+    },
+    {
+      "locale": "es_es",
+      "above255": {},
+      "collisions_with_current_virtual_slot_range": []
+    },
+    {
+      "locale": "fr_fr",
+      "above255": {
+        "U+2026": 5,
+        "U+2019": 6
+      },
+      "collisions_with_current_virtual_slot_range": [
+        {
+          "unicode": "U+2026",
+          "occurrences": 5,
+          "original_slot": 63,
+          "current_slot": 8230,
+          "current_virtual_Hangul": "U+CB26"
+        },
+        {
+          "unicode": "U+2019",
+          "occurrences": 6,
+          "original_slot": 63,
+          "current_slot": 8217,
+          "current_virtual_Hangul": "U+CB19"
+        }
+      ]
+    },
+    {
+      "locale": "it_it",
+      "above255": {
+        "U+2026": 1,
+        "U+2019": 1
+      },
+      "collisions_with_current_virtual_slot_range": [
+        {
+          "unicode": "U+2026",
+          "occurrences": 1,
+          "original_slot": 63,
+          "current_slot": 8230,
+          "current_virtual_Hangul": "U+CB26"
+        },
+        {
+          "unicode": "U+2019",
+          "occurrences": 1,
+          "original_slot": 63,
+          "current_slot": 8217,
+          "current_virtual_Hangul": "U+CB19"
+        }
+      ]
+    }
+  ],
+  "foreign_locale_runtime_tested": false,
+  "scope": "Main BOOT executable sections,all ELF relocation sections,allocated raw data and overapproximated HI/LO forms; not a whole-game dynamic-indirect proof",
+  "next_design": "Separate PoC public selector: Latin1 unchanged,AC00..D7A3 maps to font256..11427,all other public codes retain original slot63; internal texture metrics already use direct pointers",
+  "game_files_changed": false,
+  "release_eligible": false
+}

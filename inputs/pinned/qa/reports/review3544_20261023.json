@@ -1,0 +1,61 @@
+{
+  "status": "AWAITING_SINGLE_ENTRY_EDITORIAL_CHOICE_NO_SSOT_WRITE",
+  "key": 3544,
+  "source_id": "ULKS46015-v1.01:en_us/trans:3544",
+  "source_sha256": "17e8d5a15933a7e8e3782f3a7d1a9e37e6e08b47bc3b4414c260e8552e81925d",
+  "baseline_entries_sha256": "7540d0f4684be419d662942c9a2cae79af850306d5eaa8b9f3d629b9dcee6907",
+  "original_wording_ref": {
+    "path": "workspace/translation/authored/late_dialogue_20261020.json",
+    "sha256": "d4ae81a372f03ba38702d4c1d053927a278b791975089eee6a7db6fb283d2158",
+    "json_pointer": "/held_drafts/0/text"
+  },
+  "before": "[i_PI_MadamDiana]수호자, 자네가 실패하리라는 것을 한순간도 의심하지 않았다. 결국 우리를 이 새 시대로 이끄는 것이 자네의 운명이 아니었나?",
+  "proposed": "[i_PI_MadamDiana]수호자, 자네가 성공하리라는 것을 한순간도 의심하지 않았다. 결국 우리를 이 새 시대로 이끄는 것이 자네의 운명이 아니었나?",
+  "source_locales": [
+    {
+      "locale": "de_de",
+      "source": "[i_PI_MadamDiana]Ich habe nie daran gezweifelt, dass du siegen würdest, Hüter. Schließlich war es dein Schicksal, uns in diese neue Ära zu führen, nicht wahr?",
+      "directory_sha256": "36d2a249c14149f90fa388611bbd7adb667e0f8af87c6d01bbc42139ea2fbe65",
+      "trans_sha256": "105fa623bb63a297b14a4058e61dc1047969a4523b87c8de4622c97b952d458c",
+      "offset": 173694,
+      "byte_length": 163
+    },
+    {
+      "locale": "en_us",
+      "source": "[i_PI_MadamDiana]There was never a doubt in my mind that you would fail, Guardian.  Afterall, it was your destiny to usher us into this new era, was it not?",
+      "directory_sha256": "3e414006517beb42c448c2216e11fc87db50a4289b8bd3880d44b1053feefc2e",
+      "trans_sha256": "30bc95d1813ccff79290572e515052d9034711051c460173b0d156f54ea3aca4",
+      "offset": 158985,
+      "byte_length": 156
+    },
+    {
+      "locale": "es_es",
+      "source": "[i_PI_MadamDiana]Vigilante, en mi mente nunca cupo la menor duda sobre tu éxito. Después de todo era tu destino llevarnos a esta nueva era, ¿no?",
+      "directory_sha256": "e7b9f966587e369e89499b32104579dafad774589cfd5af959167c9a32a03efa",
+      "trans_sha256": "522a41a8d3ebc413272a389660036ade8920123f37a71fedf9bf3c9a9410df09",
+      "offset": 171746,
+      "byte_length": 147
+    },
+    {
+      "locale": "fr_fr",
+      "source": "[i_PI_MadamDiana]Je n'ai jamais cessé de croire en vous, \\1|h. Après tout, c'était votre destin de nous guider vers cette nouvelle ère, n'est-ce pas ?",
+      "directory_sha256": "b5933c69fe3bb6257b57ffc909f070d853c24fcb33651a2868035638a38d49c5",
+      "trans_sha256": "0d757a2b428350c30bd989b44eb9c87fd9406db2cb66df8e18d9992c2e293870",
+      "offset": 181279,
+      "byte_length": 154
+    },
+    {
+      "locale": "it_it",
+      "source": "[i_PI_MadamDiana]Non ho mai dubitato del tuo successo, guerriero! Dopotutto, il tuo destino era aprirci le porte di una nuova era! Giusto?",
+      "directory_sha256": "a86f2804ea02d462b4ad24c739cf6383b2f699894a9d5694dd9d4c4518bb6ef4",
+      "trans_sha256": "91595b60f4383661df8777d6bc056f282907c3334aeede888bf4a217bb65146c",
+      "offset": 163962,
+      "byte_length": 138
+    }
+  ],
+  "interpretation": "German siegen,Spanish exito,Italian successo and French never ceased believing support success, while English explicitly says fail. This supports an English source inconsistency; editorial correction is a separate human choice.",
+  "other_wording_scope": 0,
+  "selected": false,
+  "human_approval": null,
+  "release_eligible": false
+}

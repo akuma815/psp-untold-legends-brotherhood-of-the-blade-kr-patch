@@ -1,0 +1,69 @@
+{
+  "status": "USER_CONFIRMED_LOADING5080_APPEARANCE",
+  "authority": "user",
+  "date_local": "2026-10-30",
+  "question_item_id": "[\"request_user_input_async\",\"call_eaa8becc8d6c40a9a84ca0ff194bc4a5\",0]",
+  "answer": "현재 로딩 외관으로 확정",
+  "artifact_name": "map_crisp27_20261030",
+  "artifact_sha256": "e8b97741db23f8a32d4eabe649fb7b58f18ea5c009fd9609692761cdb5f5b61a",
+  "index": 5080,
+  "offset": 299487232,
+  "bytes": 5152,
+  "source_record_sha256": "22c6dd4b801ed5cf0be7ca9b0d430ae144954b8f8aeb72549ac0897040968284",
+  "current_record_sha256": "acff429e82232ea0075ef817896b0623450561b5e3acc8b682e809d108b3cf5e",
+  "exact_text": "불러오는 중",
+  "image_size": [
+    128,
+    32
+  ],
+  "draw_origin": [
+    176,
+    120
+  ],
+  "appearance_approved": true,
+  "approved_scope": "Only5080 text readability,size,central placement;wording/method were already approved.",
+  "proposal": {
+    "path": "qa/reports/loading5080_appearance_proposal_20261030.json",
+    "size": 1888,
+    "sha256": "ca36ec7ed25164bea4e24d273dc557b813ab3a944ba65d444bff3f9cba70b619"
+  },
+  "actual_historical_screens": [
+    {
+      "case": "01",
+      "descriptor_pointer": 148389632,
+      "expected_record_except_pointer_equal": true,
+      "draw_origin": [
+        176,
+        120
+      ],
+      "draw_size": [
+        128,
+        32
+      ],
+      "source_two_buffer_iterations": 2,
+      "screenshot": "qa/runtime/20261024_loading_korean_attempt01/loading_01.png",
+      "screenshot_sha256": "8408fd0f1cbe71e44b0993e8ab8c730574eb9c8c0fcce95482dd28a9597e51cc"
+    },
+    {
+      "case": "02",
+      "descriptor_pointer": 148389632,
+      "expected_record_except_pointer_equal": true,
+      "draw_origin": [
+        176,
+        120
+      ],
+      "draw_size": [
+        128,
+        32
+      ],
+      "source_two_buffer_iterations": 2,
+      "screenshot": "qa/runtime/20261024_loading_korean_attempt01/loading_02.png",
+      "screenshot_sha256": "8408fd0f1cbe71e44b0993e8ab8c730574eb9c8c0fcce95482dd28a9597e51cc"
+    }
+  ],
+  "future_loading_routes_or_generic5079_approved": false,
+  "whole_support_or_distribution_approved": false,
+  "invalidated_if": "Listed source/current record or selected text/size/position changes;reassess affected loading appearance.",
+  "game_SSOT_font_code_and_PNG_unchanged": true,
+  "release_eligible": false
+}

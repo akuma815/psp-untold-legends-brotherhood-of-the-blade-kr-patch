@@ -1,0 +1,741 @@
+{
+  "status": "EXACT_SIX_WORDING_CHOICES_FROM_COMPLETE_SECOND_REVIEW_UNAPPLIED",
+  "artifact_sha256": "39c2a18a28102c9ed4e95aa6dc7e9d2bb2ea32c2e95ab88cc466d890c0710c3d",
+  "entries_sha256": "f7894e7aea806531bb0e610e160de96bfaa9703c3e91751ffac03ef134d0aa55",
+  "audit": "qa/reports/second_review25_20261030_audit.json",
+  "audit_sha256": "5d59206c8b3975c21c73937f4642a73d4cdb76d0ca26f363494177d676e4a91e",
+  "independently_reviewed_entries": 3571,
+  "meaning_disambiguation1": true,
+  "optional_label_consistency5": true,
+  "rows": [
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2561",
+      "bank": "trans",
+      "key": 2561,
+      "group": "chronology",
+      "source": "[i_PI_DeanLysetta]The entire tome you recovered from the Nethereye is a dark passage from the prophecy that speaks of corruption and a vile power.  There are many spells written amidst the prophecy and I admit that I have never seen anything like them before.\r\n\r\nAccording to the journal Kaylee found during her imprisonment, the Nethereye acquired this knowledge from Aldus, who was briefly imprisoned as Kaylee was not so long ago.\r\n\r\nThe Nethereye had managed to harness some part of this power, somehow connecting himself to the greater threat lurking in our world.\r\n\r\nIt is now certain -- a vile darkness looms over our future and we must prepare ourselves for the inevitable struggle.\r\n\r\nI have managed to uncover information that will lead us to the second tool of the Brotherhood of the Blade; the Aegis of Purity.\r\n\r\nI need you to recover this artifact posthaste while I search the Nethereye's tome for a cure to Kaylee's curse.\r\n\r\nThe Aegis is located in the second level of the Temple of Dreams.  My research has indicated that the artifact resides in the clutches of the siren known as Acaelstra.  \r\n\r\nWe know little else about the temple and the state of its inhabitants, but it is reasonable to assume that Acaelstra and her siren sisters are most powerful.\r\n\r\nMake haste, young hero.  Time, I fear, is a luxury we no longer possess.",
+      "source_sha256": "725d5d5a29833e469de318d5a2322d7f5cf96dc2f7bf2569422c7f5dcb293efb",
+      "before": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리처럼 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "after": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리가 그랬듯 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "before_sha256": "314a0da48b089333f960ed08ee30f1caa3af23400dd01b091128a800d3b5f0ad",
+      "after_sha256": "937fb0e92bd33d3e582c2f6e0fd996bfb6aadff0d30d7bca536d7ce1f79783c2",
+      "exact_changes": [
+        {
+          "before": "얼마 전 케일리처럼",
+          "after": "얼마 전 케일리가 그랬듯"
+        }
+      ],
+      "source_paragraph": "According to the journal Kaylee found during her imprisonment, the Nethereye acquired this knowledge from Aldus, who was briefly imprisoned as Kaylee was not so long ago.",
+      "before_paragraph": "케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리처럼 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.",
+      "after_paragraph": "케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리가 그랬듯 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.",
+      "reason": "최근 시점을 케일리의 수감 경험에만 명시하는 최소 수정안입니다. 알두스의 과거 수감과 현재 사건의 구분을 분명히 하며, 승인했던 마지막 문장은 유지합니다.",
+      "reviewer_finding": "qa/second_review/20261030_schema25/narrative_journals/result.json",
+      "reviewer_full_paragraph_alternative": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 알두스에게서 이 지식을 얻었다고 하네. 알두스도 얼마 전의 케일리처럼 잠시 수감되었던 적이 있었지.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "source_context_keys": [
+        2482,
+        2532,
+        2606,
+        2607
+      ],
+      "parent_agrees_disambiguation_worth_presenting": true,
+      "previous_exact11_approved_last_sentence_unchanged": true,
+      "local_models": {
+        "before": {
+          "lines": 32,
+          "indexes": [
+            0,
+            29,
+            60,
+            89,
+            95,
+            96,
+            123,
+            149,
+            173,
+            174,
+            201,
+            231,
+            243,
+            244,
+            270,
+            303,
+            304,
+            334,
+            346,
+            347,
+            375,
+            406,
+            407,
+            435,
+            461,
+            471,
+            472,
+            501,
+            530,
+            557,
+            566,
+            567
+          ],
+          "height": 608,
+          "pages": [
+            {
+              "first_line": 0,
+              "last_line": 2,
+              "end": 88
+            },
+            {
+              "first_line": 3,
+              "last_line": 5,
+              "end": 122
+            },
+            {
+              "first_line": 6,
+              "last_line": 8,
+              "end": 173
+            },
+            {
+              "first_line": 9,
+              "last_line": 11,
+              "end": 242
+            },
+            {
+              "first_line": 13,
+              "last_line": 15,
+              "end": 303
+            },
+            {
+              "first_line": 16,
+              "last_line": 18,
+              "end": 346
+            },
+            {
+              "first_line": 19,
+              "last_line": 21,
+              "end": 406
+            },
+            {
+              "first_line": 22,
+              "last_line": 24,
+              "end": 470
+            },
+            {
+              "first_line": 26,
+              "last_line": 28,
+              "end": 556
+            },
+            {
+              "first_line": 29,
+              "last_line": 31,
+              "end": 595
+            }
+          ],
+          "guard_accesses": 7054,
+          "guard_opcodes": [
+            35,
+            37,
+            40,
+            43,
+            49,
+            57
+          ],
+          "metrics_and_text_unchanged": true,
+          "images": [
+            0
+          ],
+          "p_markers": []
+        },
+        "minimal": {
+          "lines": 32,
+          "indexes": [
+            0,
+            29,
+            60,
+            89,
+            95,
+            96,
+            123,
+            152,
+            176,
+            177,
+            204,
+            234,
+            246,
+            247,
+            273,
+            306,
+            307,
+            337,
+            349,
+            350,
+            378,
+            409,
+            410,
+            438,
+            464,
+            474,
+            475,
+            504,
+            533,
+            560,
+            569,
+            570
+          ],
+          "height": 608,
+          "pages": [
+            {
+              "first_line": 0,
+              "last_line": 2,
+              "end": 88
+            },
+            {
+              "first_line": 3,
+              "last_line": 5,
+              "end": 122
+            },
+            {
+              "first_line": 6,
+              "last_line": 8,
+              "end": 176
+            },
+            {
+              "first_line": 9,
+              "last_line": 11,
+              "end": 245
+            },
+            {
+              "first_line": 13,
+              "last_line": 15,
+              "end": 306
+            },
+            {
+              "first_line": 16,
+              "last_line": 18,
+              "end": 349
+            },
+            {
+              "first_line": 19,
+              "last_line": 21,
+              "end": 409
+            },
+            {
+              "first_line": 22,
+              "last_line": 24,
+              "end": 473
+            },
+            {
+              "first_line": 26,
+              "last_line": 28,
+              "end": 559
+            },
+            {
+              "first_line": 29,
+              "last_line": 31,
+              "end": 598
+            }
+          ],
+          "guard_accesses": 7068,
+          "guard_opcodes": [
+            35,
+            37,
+            40,
+            43,
+            49,
+            57
+          ],
+          "metrics_and_text_unchanged": true,
+          "images": [
+            0
+          ],
+          "p_markers": []
+        },
+        "reviewer_explicit": {
+          "lines": 33,
+          "indexes": [
+            0,
+            29,
+            60,
+            89,
+            95,
+            96,
+            123,
+            151,
+            180,
+            187,
+            188,
+            215,
+            245,
+            257,
+            258,
+            284,
+            317,
+            318,
+            348,
+            360,
+            361,
+            389,
+            420,
+            421,
+            449,
+            475,
+            485,
+            486,
+            515,
+            544,
+            571,
+            580,
+            581
+          ],
+          "height": 627,
+          "pages": [
+            {
+              "first_line": 0,
+              "last_line": 2,
+              "end": 88
+            },
+            {
+              "first_line": 3,
+              "last_line": 5,
+              "end": 122
+            },
+            {
+              "first_line": 6,
+              "last_line": 8,
+              "end": 186
+            },
+            {
+              "first_line": 10,
+              "last_line": 12,
+              "end": 256
+            },
+            {
+              "first_line": 14,
+              "last_line": 16,
+              "end": 317
+            },
+            {
+              "first_line": 17,
+              "last_line": 19,
+              "end": 360
+            },
+            {
+              "first_line": 20,
+              "last_line": 22,
+              "end": 420
+            },
+            {
+              "first_line": 23,
+              "last_line": 25,
+              "end": 484
+            },
+            {
+              "first_line": 27,
+              "last_line": 29,
+              "end": 570
+            },
+            {
+              "first_line": 30,
+              "last_line": 32,
+              "end": 609
+            }
+          ],
+          "guard_accesses": 7211,
+          "guard_opcodes": [
+            35,
+            37,
+            40,
+            43,
+            49,
+            57
+          ],
+          "metrics_and_text_unchanged": true,
+          "images": [
+            0
+          ],
+          "p_markers": []
+        }
+      },
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1386:occurrence1",
+      "bank": "static",
+      "key": 1386,
+      "group": "templar_optional",
+      "source": "Templar Plate Great Helm",
+      "source_sha256": "36115e14873e8e09ad347e9562527187bf7f36f8a4675aef330423fc05f8cae4",
+      "before": "성당기사 판금 대형 투구",
+      "after": "성전기사 판금 대형 투구",
+      "before_sha256": "d352d482ca60f5ebe3b38f13ba9d6d97743745ba217d175d82c1985ca6770162",
+      "after_sha256": "35a60e10d09df83a2f7820f1a4fbba86962f15b851a17efbe07528345e3025e1",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "reason": "같은 영문 Templar의 장비명5개를 기존 인물 직함의 성전기사 표기와 맞추는 선택안입니다. 같은 결사 소유 장비라는 증거는 없어 확정 의미 오류로 세지 않습니다.",
+      "original_faction_identity_proven": false,
+      "confirmed_meaning_defect": false,
+      "reviewer_question": "qa/second_review/20261030_schema25/names_affixes/result.json",
+      "font_metric_checks": [
+        {
+          "font": "Fonts\\fon_Arial10",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Morpheus",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Small",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        }
+      ],
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1582:occurrence1",
+      "bank": "static",
+      "key": 1582,
+      "group": "templar_optional",
+      "source": "Templar Plate Legplates",
+      "source_sha256": "cb12058ca67f3e1f1fc8429f19cc41f91fd84a74cc526605429e155416182e11",
+      "before": "성당기사 판금 다리 판금",
+      "after": "성전기사 판금 다리 판금",
+      "before_sha256": "50a58232c9834c286457266b2e1838a1a5fb95edefb01f60f3a280210b9c9c8f",
+      "after_sha256": "43571dbf7b1a6081904816d20a8a349b8e0bb476a601a5f1d44f10392144acf7",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "reason": "같은 영문 Templar의 장비명5개를 기존 인물 직함의 성전기사 표기와 맞추는 선택안입니다. 같은 결사 소유 장비라는 증거는 없어 확정 의미 오류로 세지 않습니다.",
+      "original_faction_identity_proven": false,
+      "confirmed_meaning_defect": false,
+      "reviewer_question": "qa/second_review/20261030_schema25/names_affixes/result.json",
+      "font_metric_checks": [
+        {
+          "font": "Fonts\\fon_Arial10",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Morpheus",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Small",
+          "before_advance": 155,
+          "after_advance": 155,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        }
+      ],
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1638:occurrence1",
+      "bank": "static",
+      "key": 1638,
+      "group": "templar_optional",
+      "source": "Templar Plate Vambraces",
+      "source_sha256": "67d25bf34cf2331a7ff8577848d83052e0b0e059b9f5082b9eeb6c2f92a4bc51",
+      "before": "성당기사 판금 팔뚝 보호대",
+      "after": "성전기사 판금 팔뚝 보호대",
+      "before_sha256": "eb4cc2a3775d9a5ebc344ee57e3c886d2995257da2cfba312012cfa9be99e28a",
+      "after_sha256": "6cc4e3ca9a7d1190e850f6e1a8afcc688cd1ab5ea56cea1f1c221e1149aef0cf",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "reason": "같은 영문 Templar의 장비명5개를 기존 인물 직함의 성전기사 표기와 맞추는 선택안입니다. 같은 결사 소유 장비라는 증거는 없어 확정 의미 오류로 세지 않습니다.",
+      "original_faction_identity_proven": false,
+      "confirmed_meaning_defect": false,
+      "reviewer_question": "qa/second_review/20261030_schema25/names_affixes/result.json",
+      "font_metric_checks": [
+        {
+          "font": "Fonts\\fon_Arial10",
+          "before_advance": 169,
+          "after_advance": 169,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13",
+          "before_advance": 169,
+          "after_advance": 169,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_advance": 169,
+          "after_advance": 169,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Morpheus",
+          "before_advance": 169,
+          "after_advance": 169,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Small",
+          "before_advance": 169,
+          "after_advance": 169,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        }
+      ],
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1834:occurrence1",
+      "bank": "static",
+      "key": 1834,
+      "group": "templar_optional",
+      "source": "Templar Plate Chestplate",
+      "source_sha256": "b1ea61587138d83849a6b775c1095556b08c8ab3770695cbaff766306c246ac3",
+      "before": "성당기사 판금 흉갑",
+      "after": "성전기사 판금 흉갑",
+      "before_sha256": "7be506a24dcd2c805dde2ddf6221b776a0b27cd01db5e53e335b810794defb23",
+      "after_sha256": "f618e1b5f449dc8364c56bfe3b1a01b0e41924c2614066aa8c40dc0147f75698",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "reason": "같은 영문 Templar의 장비명5개를 기존 인물 직함의 성전기사 표기와 맞추는 선택안입니다. 같은 결사 소유 장비라는 증거는 없어 확정 의미 오류로 세지 않습니다.",
+      "original_faction_identity_proven": false,
+      "confirmed_meaning_defect": false,
+      "reviewer_question": "qa/second_review/20261030_schema25/names_affixes/result.json",
+      "font_metric_checks": [
+        {
+          "font": "Fonts\\fon_Arial10",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Morpheus",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Small",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        }
+      ],
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:2030:occurrence1",
+      "bank": "static",
+      "key": 2030,
+      "group": "templar_optional",
+      "source": "Templar Plate Greaves",
+      "source_sha256": "194a20f8325866e2f9186e37fecc19f29e9903d58eebead9753d1cfeb02cbc5a",
+      "before": "성당기사 판금 경갑",
+      "after": "성전기사 판금 경갑",
+      "before_sha256": "1449d5ad0a5191daf73c7710444c76cb72b7322336da0dad37f9c878b1bfbdf0",
+      "after_sha256": "1122ef677315b2b32bda11de1c686ac54f238058e5b810cf30d82927b29fc1ac",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "reason": "같은 영문 Templar의 장비명5개를 기존 인물 직함의 성전기사 표기와 맞추는 선택안입니다. 같은 결사 소유 장비라는 증거는 없어 확정 의미 오류로 세지 않습니다.",
+      "original_faction_identity_proven": false,
+      "confirmed_meaning_defect": false,
+      "reviewer_question": "qa/second_review/20261030_schema25/names_affixes/result.json",
+      "font_metric_checks": [
+        {
+          "font": "Fonts\\fon_Arial10",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Arial13_OLD",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Morpheus",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        },
+        {
+          "font": "Fonts\\fon_Small",
+          "before_advance": 122,
+          "after_advance": 122,
+          "glyphs_present": true,
+          "advance_equal": true,
+          "not_after_native_or_pixel_approval": true
+        }
+      ],
+      "after_native_verified": false,
+      "applied": false,
+      "approved": false
+    }
+  ],
+  "chronology_context": [
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2482",
+      "key": 2482,
+      "source": "[i_PI_DeanLysetta]I have briefly studied the tome you recovered from the Western Catacombs and it has revealed some most intriguing things.\r\n\r\nThe tome was written two centuries ago by a historian named Aldus.  According to Aldus' text, Aven once experienced a rising chaos that curiously mirrors the turmoil of the recent days.\r\n\r\nMy illness and dire need for a cure has prevented me from studying the tome any further.  Elder Aidas has been most gracious in lending me his wisdom on the matter and has taken over study of the tome. \r\n\r\nI want you to speak with Elder Aidas.  I believe your services will be most helpful in our further quest for the truth.",
+      "wording": "[i_PI_DeanLysetta]자네가 서쪽 지하묘지에서 되찾은 책을 잠시 살펴봤는데, 무척 흥미로운 사실이 몇 가지 드러났네.\r\n\r\n이 책은 이백 년 전 알두스라는 역사가가 썼네. 그의 기록에 따르면, 아벤은 과거에도 혼란이 일어난 적이 있는데 최근의 소요와 기묘할 정도로 닮아 있더군.\r\n\r\n내가 병들고 치료가 절실해 더는 책을 연구할 수 없었네. 아이다스 장로께서 친절히 지혜를 나눠 주셨고, 이제 책의 연구도 맡아 주셨다네.\r\n\r\n아이다스 장로와 이야기를 나눠 주게. 진실을 더 밝혀내는 데 자네의 도움이 무척 요긴할 걸세.",
+      "source_sha256": "510c306a7b7e06a88bc25442d4db74818620e7ab899a00c29eb7d539dcf1080a",
+      "wording_sha256": "7e02dcbea1e5a7c014edfdeeedbac53e771d4264f94f1822d6a27d7701db5d42"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2532",
+      "key": 2532,
+      "source": "[i_PI_AncientTome]Tael has joined me in my investigation of the coming turmoil.  She shares a very deep and personal concern for the subject of my study.  There is much I must still learn about this intriguing young woman, but she is without a doubt a most unique and inspiring woman.\r\n\r\n[i_PI_Aldus]After nearly a fortnight of wandering, our collective efforts have recently led us to the outer regions of the Badlands.  Further investigation indicated that the vrultok, a necromantic cult of powerful warriors and sorcerers, are somehow involved.\r\n\r\nIn this assessment, we were dangerously correct.  As I write these words, Tael and I sit in a vrultok prison cell; all of our work now aiding the cruel and diabolical Nethereye seal his malevolent pact with the darkness.\r\n\r\nOur naivety has only aided the darkness that threatens our world.  May the fates and our descendants forgive us...",
+      "wording": "[i_PI_AncientTome]타엘이 다가올 혼란을 조사하는 일에 함께하기로 했다. 그녀 역시 내 연구 주제에 깊이 관심을 품고 있으며, 자신과도 밀접한 문제라고 생각한다. 이 흥미로운 젊은 여인에 관해 아직 알아야 할 것이 많지만, 독특하고 내게 영감을 주는 사람임은 틀림없다.\r\n\r\n[i_PI_Aldus]거의 보름 동안 떠돈 끝에, 함께 힘을 모은 우리의 조사는 최근 황무지 외곽으로 이어졌다. 더 조사해 보니 강력한 전사와 마법사들로 이루어진 사령술 집단, 브룰토크가 어떤 식으로든 연루되어 있었다.\r\n\r\n이 판단은 위험할 만큼 정확했다. 이 글을 쓰는 지금 타엘과 나는 브룰토크의 감방에 앉아 있다. 우리의 모든 연구는 잔혹하고 악마 같은 네더아이가 어둠과 사악한 계약을 맺는 데 쓰이고 있다.\r\n\r\n우리의 순진함은 세상을 위협하는 어둠을 도왔을 뿐이다. 운명과 우리의 후손들이 부디 우리를 용서하기를...",
+      "source_sha256": "7f7b702997eb4f8ed9d5359879b5c00a8220e50cee9048f185ae70cd1e77b682",
+      "wording_sha256": "826c900b0e174d9e75b10e249b3dc141751ff0a84df607a2b501616ce3ecbe90"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2606",
+      "key": 2606,
+      "source": "[i_PI_Csuragual]You are the champion of Aven?  So, Aldus and Tael's efforts have not been in vain... and yet I see that you have much to learn of your purpose.\r\n\r\nWhen Aldus and Tael arrived in this realm, the dark plague followed.  Lord Ashgard, the eldest of my order, was infected by the disease during his efforts to aid the scholars.\r\n\r\nYour ancestors were innocent in this tragedy.  They fled to the Abyss when the reality of their purpose became dire, leaving us to fend alone against a powerful corruption. \r\n\r\nIt has been two centuries since Ashgard's infection and he alone has brought our people to the brink of extinction.  As the champion of your people, you are the only one who can right what Aldus and Tael could not.\r\n\r\nRelieve us of Lord Ashgard and in return, I will grant you the counsel Ashgard gave to your predecessors; the counsel you so desperately need to fulfill your purpose.\r\n\r\nGo to the Shiverdark.  There, you will find the corrupted remains of Lord Ashgard.  Only when his tortured existence is at its end shall I honor my word to release your females and counsel you through these darkened times.",
+      "wording": "[i_PI_Csuragual]그대가 아벤의 용사인가? 그렇다면 알두스와 타엘의 노력이 헛되지는 않았군... 하지만 그대가 자신의 사명에 관해 배워야 할 것은 아직 많아 보인다.\r\n\r\n알두스와 타엘이 이 땅에 왔을 때 어두운 역병이 뒤따랐다. 우리 무리에서 가장 나이가 많았던 애시가드 경은 그 학자들을 돕다가 그 병에 감염되었지.\r\n\r\n그대의 선조들에게 이 비극의 책임은 없었다. 그들은 자신들의 사명이 얼마나 절박한지 깨닫자 심연으로 달아났다. 강력한 타락에 맞서 싸우는 일은 우리만의 몫이 되었지.\r\n\r\n애시가드가 감염된 지 이백 년이 지났다. 그 하나만으로도 우리 종족은 멸종 직전까지 내몰렸다. 그대 백성의 용사인 그대만이 알두스와 타엘이 바로잡지 못한 일을 해결할 수 있다.\r\n\r\n애시가드 경에게서 우리를 해방해 다오. 그러면 애시가드가 그대의 선인들에게 전했던 조언을 들려주겠다. 그대의 사명을 이루려면 그 조언이 절실히 필요할 것이다.\r\n\r\n시버다크로 가라. 그곳에 타락한 애시가드 경의 잔재가 있다. 그의 고통스러운 생이 끝나야만 약속대로 그대의 여인들을 풀어 주고, 이 어두운 시기를 헤쳐 나갈 조언을 전하겠다.",
+      "source_sha256": "18a2e1d7e94697fca9bf440f308dbfbda4e2484cbe6072bc13c4fa20ed39e27c",
+      "wording_sha256": "e90056514a46988914339d4ec49e8e0c87464f990d1f6ddbf6653928e1416a27"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2607",
+      "key": 2607,
+      "source": "Lord Ashgard, a very powerful and ancient dragon, was infected by the shadow disease when he tried to help the scholar Aldus two centuries ago.  I must find Lord Ashgard in his lair, the Shiverdark beneath the Glacial Steppes, and destroy him.  Csuragaul has promised to lend me his counsel, but only if I am able to vanquish the corrupted remains of Lord Ashgard.",
+      "wording": "강력한 고대 용인 애시가드 경은 이백 년 전 학자 알두스를 도우려다가 그림자 역병에 감염되었다. 빙하 대초원 아래의 시버다크에 있는 그의 소굴을 찾아 그를 처치해야 한다. 수라가울은 조언을 주겠다고 약속했지만, 타락한 애시가드 경의 잔재를 쓰러뜨려야만 들려주겠다고 했다.",
+      "source_sha256": "0285fd1cc97a3418ef2eb134524779939afeeedc81740fcc41e1c17736cb42c8",
+      "wording_sha256": "6fc849cb05f248f40e9d624c103eecdb1cfa6c42b2e38fcf6e6b12e0e01feb98"
+    }
+  ],
+  "before_actual2561_pages": 10,
+  "proposed_local2561_pages": 10,
+  "reviewer_explicit_alternative_local_pages": 10,
+  "common_dialogue_original_CR_to_space_input_contract_preserved": true,
+  "initial_unconverted_CR_model_probe_rejected_before_output": true,
+  "five_names_five_fonts_equal_advance": true,
+  "all_current_game_SSOT_wordings_unchanged": true,
+  "proposal_native_captures": 0,
+  "whole_wording_or_release_approved": false,
+  "release_eligible": false
+}

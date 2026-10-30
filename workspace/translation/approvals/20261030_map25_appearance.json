@@ -1,0 +1,217 @@
+{
+  "status": "USER_CONFIRMED_EXACT_MAP25_APPEARANCE",
+  "authority": "user",
+  "date_local": "2026-10-30",
+  "question_item_id": "[\"request_user_input_async\",\"call_24a2cde889a54e9da4163274aebc7681\",0]",
+  "answer": "새 지도 외관으로 확정",
+  "artifact_name": "map_crisp27_20261030",
+  "artifact_sha256": "e8b97741db23f8a32d4eabe649fb7b58f18ea5c009fd9609692761cdb5f5b61a",
+  "appearance_approved": true,
+  "approved_scope": "Only these25 map tiles:letter readability,typeface,size,placement. Six place names/eleven occurrences.",
+  "frozen_proposal": {
+    "path": "qa/reports/map27_quality_proposal_20261030.json",
+    "size": 5431,
+    "sha256": "4fafa0d3f4e5c4c8d81f0b2f8c2967ea0c9402bc2602e0d451e0735aef18000f"
+  },
+  "reviewed_HTML_snapshot": {
+    "path": "qa/ssot/20261030_map25_appearance_approved/workspace/graphics/map_crisp27_20261030_v2/review.html",
+    "size": 7880,
+    "sha256": "2583aa405ed48b3c4dc855a90e9d73519e294f93a5c0923c8fc7c05807fe93d6"
+  },
+  "native_evidence": {
+    "path": "qa/reports/map_crisp81_20261030_runtime.json",
+    "size": 4671,
+    "sha256": "891472301493a6549eb876ee7ca37980c0bfb6e4f5f190010670a31ee1c87c56"
+  },
+  "records": [
+    {
+      "index": 5096,
+      "offset": 299687936,
+      "bytes": 8288,
+      "source_record_sha256": "6a8690c857b08dc7eb6c993d08ba6e841b2fbeb3489661c8fccbde11624fd3b5",
+      "current_record_sha256": "de2e0dfb878bf35d32e98a10109b8529d62699191ac006fef0bcc9b2a84a6925"
+    },
+    {
+      "index": 5097,
+      "offset": 299698176,
+      "bytes": 8288,
+      "source_record_sha256": "2ef9cd82d407579815df5346076644bf18cc9b5bb449c660f1de0cbbc314e18e",
+      "current_record_sha256": "63de6ea6cbdc283d558aaa2cbfae1411ddc25f9209fb8e49b99d42c2fc971f50"
+    },
+    {
+      "index": 5100,
+      "offset": 299728896,
+      "bytes": 8288,
+      "source_record_sha256": "106208246e673a30fe38219f41d407b06def6d12d917fcb65d879bf8cb3b7b81",
+      "current_record_sha256": "685827e0ed838768a8dc91ac2a1480421f697316cdd394551101576b1f15439b"
+    },
+    {
+      "index": 5101,
+      "offset": 299739136,
+      "bytes": 8288,
+      "source_record_sha256": "856cfb9af7d1910b30753dfa41cf648fb8053e5ff15ad0a1714bf7ce592ebdcc",
+      "current_record_sha256": "a41052dca55c1b5d8034ffdbc9191c8d1a8b9f93c89248e51070c6bf6671291a"
+    },
+    {
+      "index": 5107,
+      "offset": 299800576,
+      "bytes": 8288,
+      "source_record_sha256": "2ea5f1d9ba022e32915a3066016f69623def461518d07c38c62750a7ba068388",
+      "current_record_sha256": "227c77b58a12a018181628764eb09ef474ddd50fe43a3628939524a5821c5413"
+    },
+    {
+      "index": 5108,
+      "offset": 299810816,
+      "bytes": 8288,
+      "source_record_sha256": "7579ef670d542cd138f0d0d670b5ea0bf6e70688ac25e6b91d1c1661f25f10f6",
+      "current_record_sha256": "bb6561c9eaafe8b7d38e8567e463208ae1124d2b18d72a5591e060d10695b8b5"
+    },
+    {
+      "index": 5114,
+      "offset": 299872256,
+      "bytes": 8288,
+      "source_record_sha256": "03914ae5c5e857057f79d622736a054a22736e12322caddc3887d8da83fdc566",
+      "current_record_sha256": "40ca4aff79dc44d1001d42dc8f7ce0323a2e4267937baa2cd3a24d7c93765d28"
+    },
+    {
+      "index": 5116,
+      "offset": 299892736,
+      "bytes": 8288,
+      "source_record_sha256": "8bbc1562500a5c8241cd873721f617303dd45d9075fc3afa2092f8a37be4c6ca",
+      "current_record_sha256": "573272d1afbe8ddc2deb6cf09f8c9791a0e3041d1df306e0d16b1acd973ff610"
+    },
+    {
+      "index": 5117,
+      "offset": 299902976,
+      "bytes": 8288,
+      "source_record_sha256": "3a5aafb4c5a40940197a4fa98c30410ce7bb22acf002fbfcef0c5051b6516be4",
+      "current_record_sha256": "741d92e55cbed81e65264f73cf52d01bed42f826eae9b351339b38791fa0d569"
+    },
+    {
+      "index": 5122,
+      "offset": 299954176,
+      "bytes": 8288,
+      "source_record_sha256": "508c7bd9621628a59a57837b6e400cd2b96b1bd7ce00681eae9e7e728877cfe9",
+      "current_record_sha256": "9e3fd8565738313219d34405185e7bd5ce85fdcecd96b952cbf34d5a2431513f"
+    },
+    {
+      "index": 5123,
+      "offset": 299964416,
+      "bytes": 8288,
+      "source_record_sha256": "a722c18a528637e3d89e94b5e3d76f7bce6ed3d9ed4fbc43a9aa97a9edb65f1d",
+      "current_record_sha256": "e0ae7c5d7ebb60039bf20488f22f189b9e023ed70d7f8b6d6f307f0233117bee"
+    },
+    {
+      "index": 5124,
+      "offset": 299974656,
+      "bytes": 8288,
+      "source_record_sha256": "b0ce3b8ab70a884f1f82bae417ef96078c18d66b44ba713a1058af14244168a0",
+      "current_record_sha256": "1c0d37ec9105548e3db861cfea75ec0b7f37ca11033b0777a86b05b67441dea7"
+    },
+    {
+      "index": 5125,
+      "offset": 299984896,
+      "bytes": 8288,
+      "source_record_sha256": "804c057dcb5565ba98e7f26578decc779474d817dd87be07cd7dfe3c1c3f4b29",
+      "current_record_sha256": "bf3d18781ce9e57fd4128c57b7caa8d220592804e681d2a398c27ae71a0e5925"
+    },
+    {
+      "index": 5126,
+      "offset": 299995136,
+      "bytes": 8288,
+      "source_record_sha256": "d9bc35ac90197643b86fa3c1821b39229c9e3c13c572d99705719c20530df59f",
+      "current_record_sha256": "744f0cfdee5794c61659166e440bacebbb89d29e1873121ea1ba31fb0b90a45b"
+    },
+    {
+      "index": 5127,
+      "offset": 300005376,
+      "bytes": 8288,
+      "source_record_sha256": "538aff2dcd34acf9c6c7b3b14eedeedbcad9f80af92468502079aa4054e36f56",
+      "current_record_sha256": "4795eb58b59b64a2c29d501df74997dc6850eeb8cc700d265d0194b5c835d3fc"
+    },
+    {
+      "index": 5129,
+      "offset": 300025856,
+      "bytes": 8288,
+      "source_record_sha256": "0c94cdf9b64ba0a5acd81581f12f5b48e0d24287eb14db536545de3629491722",
+      "current_record_sha256": "f994c5c924aff06a2f142e6bdc22a6f67b27a15f22abdd3ad8f92c358e8cf33b"
+    },
+    {
+      "index": 5137,
+      "offset": 300107776,
+      "bytes": 8288,
+      "source_record_sha256": "e15d48017e7c7842aa8ae2f8b119e23b929da8be498207c70baee8c32762af71",
+      "current_record_sha256": "931f15abe2d8549879d68dccf8a96792a747c036d09c51e81182a59941c04cf9"
+    },
+    {
+      "index": 5138,
+      "offset": 300118016,
+      "bytes": 8288,
+      "source_record_sha256": "f67ceb73992ba6c139ea191877eaed564886449704f871944ad25b18a14d8c43",
+      "current_record_sha256": "278eef1c54d423fc9293b2d2a83d9a6054a1db10faf00bf0bdb9b2e953196d57"
+    },
+    {
+      "index": 5140,
+      "offset": 300138496,
+      "bytes": 8288,
+      "source_record_sha256": "473b8d0abe9d3b0912313dee784291549d54ac7a2e3472a096eb317ed241f49c",
+      "current_record_sha256": "dc4c19e35393db1c43f8f38b2066db8cbb43e95974707cd96c24bdf359ab682d"
+    },
+    {
+      "index": 5141,
+      "offset": 300148736,
+      "bytes": 8288,
+      "source_record_sha256": "8776ef384796d00e734df9eba7ff92e28e3a68eea60526d9a87ab41128097dd0",
+      "current_record_sha256": "680d6215cd0239dd64a4d0a2a686ff569d8818dc78fbb0e5b05958c0a3db7367"
+    },
+    {
+      "index": 5142,
+      "offset": 300158976,
+      "bytes": 8288,
+      "source_record_sha256": "1bcd9df6a66b37125239724802eee9aaf0a0daf9320cda637c5d0e44fe2d5a67",
+      "current_record_sha256": "889d485250823bac2a8bdafa670a1396c66e7d758ce2ac625062f157cec300d6"
+    },
+    {
+      "index": 5145,
+      "offset": 300189696,
+      "bytes": 8288,
+      "source_record_sha256": "cb26c0223b41f37042597e5a84c50b492901c11cff7e329a30e87ec2708f6f9c",
+      "current_record_sha256": "cd04afca5cc529b7e5e43862369396214db96b84f36ee7ec9971dff2e5e15475"
+    },
+    {
+      "index": 5146,
+      "offset": 300199936,
+      "bytes": 8288,
+      "source_record_sha256": "505c4316d9838f5c4d9d1f0c1737cac34519aaea1d2717e510bda973fecfd9bd",
+      "current_record_sha256": "096e3c545e62e9bde438a367aa031f2973b9150b3d8deed2145ce998315d5d5f"
+    },
+    {
+      "index": 5153,
+      "offset": 300271616,
+      "bytes": 8288,
+      "source_record_sha256": "7e2834679dc3c2ce23f2f5f62aa14562494241cc3b662de5eea73c7d22ce153b",
+      "current_record_sha256": "6d52ea2e1962873623a49d51b88879d396a04e6fc39c0c97c22d83107b989275"
+    },
+    {
+      "index": 5154,
+      "offset": 300281856,
+      "bytes": 8288,
+      "source_record_sha256": "47bd4eb35c363c78dc997b1392bfd0e5e89d779cc39ae5c5b949359ac7b203c0",
+      "current_record_sha256": "a73fab36aefd423f79f40eea2e5f79f94b1c95f801e2393d35c4a7ce02d38179"
+    }
+  ],
+  "source_terrain_below_Unataca_retained": true,
+  "loading_appearance_approved": false,
+  "all_body_layout_approved": false,
+  "whole_support_or_distribution_approved": false,
+  "unaffected": [
+    "Current3571 approved wording",
+    "404 excluded original texts",
+    "13 retained original graphics",
+    "Original title map",
+    "Unchanged Korean loading"
+  ],
+  "invalidated_if": "Any listed source/current record or selected lettering/typeface/size/placement changes;reassess affected map approval.",
+  "no_new_game_font_code_SSOT_or_ISO_bytes": true,
+  "release_eligible": false
+}

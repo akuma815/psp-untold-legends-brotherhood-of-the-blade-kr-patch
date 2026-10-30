@@ -1,0 +1,15 @@
+{
+  "status": "USER_REQUESTED_SINGLE_SHARED_PLAIN_STYLE_REVISION",
+  "authority": "user",
+  "date_local": "2026-10-23",
+  "user_answer": "이 문장만 두 인물의 성격에 크게 벗어나지 않게 평어체로 번역할 순 없을까?",
+  "scope": "3548_only_plain_style_preserve_original_shared_references_and_portrait",
+  "review_path": "qa/reports/shared3548_voice_review_20261023.json",
+  "review_sha256": "7b2d4cf473ff6f85b4b31ef1f671e261ecc1de503334f1e63a5dc58ee2c9b325",
+  "prior_polite_proposal_not_approved": true,
+  "agent_authored_plain_revision": "[i_PI_SabineFirehand]우리 운명이 불확실했던 가장 어두운 시간에, 그곳에서 나란히 싸울 수 있었다면 좋았을 텐데...\r\n\r\n하지만 그것은 내 운명이 아니었다. 앞선 누구도 이루지 못한 승리를 거두고 우리의 영광스러운 미래를 굳건히 하는 일은 오직 수호자만의 운명이었다.",
+  "common_address": "수호자: established player role instead of speaker-dependent 당신/자네",
+  "exact_wording_human_approval": false,
+  "style_direction_human_selected": true,
+  "full_translation_or_release_approval": false
+}

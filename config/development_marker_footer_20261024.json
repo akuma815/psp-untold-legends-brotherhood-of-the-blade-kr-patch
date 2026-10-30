@@ -1,0 +1,114 @@
+{
+  "schema_version": 14,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_retained_numeric_formats_20261024.json",
+  "parent_config_sha256": "fb1f2302138d7141399d1488327dc3d9838bb6a4c4df5fa95e39af81acd7315d",
+  "proposal_path": "workspace/translation/review/20261024_marker_footer_proposal/packet.json",
+  "proposal_sha256": "00905062e86ed3605ded55e3ac7377d20a3510df9dd1f70606aa8305b898616a",
+  "rule_approval_path": "workspace/translation/review/20261024_marker_footer_proposal/approval.json",
+  "rule_approval_sha256": "17edb5336bb8f9f493ac073fbc708559127c5f5912a51a7c8b621f558f294e50",
+  "trans_overrides": [
+    {
+      "key": 2309,
+      "before": "[i_PI_BronMorris]그러니까 거미들을 해치웠다는 거냐? 케일리도 구했다고?! 뭐, 누구나 가끔은 운이 좋을 수도 있겠지.\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]그러니까 거미들을 해치웠다는 거냐? 케일리도 구했다고?! 뭐, 누구나 가끔은 운이 좋을 수도 있겠지.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2320,
+      "before": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 거나 다름없지. 그래, 제대로 들었어. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 거나 다름없지. 그래, 제대로 들었어. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2322,
+      "before": "[i_PI_BradyReid]그렇게 흥분할 필요 없어! 아직 살아 있잖아? 게다가 네가 그 사람들 편이잖아, 그렇지? 그러니 아직 희망이 있어. 희망이 있는 한 징징대고 걱정할 필요는 없지.\r\n*BUG THIS*",
+      "text": "[i_PI_BradyReid]그렇게 흥분할 필요 없어! 아직 살아 있잖아? 게다가 네가 그 사람들 편이잖아, 그렇지? 그러니 아직 희망이 있어. 희망이 있는 한 징징대고 걱정할 필요는 없지.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2325,
+      "before": "[i_PI_RonanWalker]애슬록시아와 그 새끼들이 이번에는 너무 심했어! 누군가 나서서 이 일을 완전히 끝내겠다니 반가운걸!\r\n*BUG THIS*",
+      "text": "[i_PI_RonanWalker]애슬록시아와 그 새끼들이 이번에는 너무 심했어! 누군가 나서서 이 일을 완전히 끝내겠다니 반가운걸!",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2332,
+      "before": "[i_PI_BronMorris]싸움이라도 걸러 왔냐?! 뭐... 운 좋은 줄 알아. 앨리스한테 얌전히 굴겠다고 약속했으니 멀쩡히 걸어 나가게 해 주지... 이번만은.\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]싸움이라도 걸러 왔냐?! 뭐... 운 좋은 줄 알아. 앨리스한테 얌전히 굴겠다고 약속했으니 멀쩡히 걸어 나가게 해 주지... 이번만은.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2333,
+      "before": "[i_PI_BronMorris]몸이 성하고 싶으면 계속 가던 길이나 가라.\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]몸이 성하고 싶으면 계속 가던 길이나 가라.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2334,
+      "before": "[i_PI_BronMorris]네 속셈은 다 보여, \"영웅\" 나리. 곧 네가 모두를 실망시킬 날이 오겠지.\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]네 속셈은 다 보여, \"영웅\" 나리. 곧 네가 모두를 실망시킬 날이 오겠지.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2335,
+      "before": "[i_PI_BronMorris]나한테 말할 때는 웃어라, 꼬맹아! 앨리스가 보고 있잖아. 내가 좋은 인상을 주도록 도와주면 멀쩡히 걸어 나가게 해 주지, 알아들었냐?\r\n*BUG THIS*",
+      "text": "[i_PI_BronMorris]나한테 말할 때는 웃어라, 꼬맹아! 앨리스가 보고 있잖아. 내가 좋은 인상을 주도록 도와주면 멀쩡히 걸어 나가게 해 주지, 알아들었냐?",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2351,
+      "before": "[i_PI_BradyReid]여기서 뭘 하는 거냐, 꼬마야? 나가서 어여쁜 아가씨를 구하거나 고대 유물을 찾아야 하는 거 아니냐?\r\n*BUG THIS*",
+      "text": "[i_PI_BradyReid]여기서 뭘 하는 거냐, 꼬마야? 나가서 어여쁜 아가씨를 구하거나 고대 유물을 찾아야 하는 거 아니냐?",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2352,
+      "before": "[i_PI_BradyReid]자, 여기서 나가서 뭐라도 이뤄 봐라. 명성과 칭찬에 우쭐대지는 말고! 난 프레이톡스보다 건방진 젊은것들이 더 싫거든.\r\n*BUG THIS*",
+      "text": "[i_PI_BradyReid]자, 여기서 나가서 뭐라도 이뤄 봐라. 명성과 칭찬에 우쭐대지는 말고! 난 프레이톡스보다 건방진 젊은것들이 더 싫거든.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2353,
+      "before": "[i_PI_BradyReid]윌럼은 이곳을 네이선에게 물려줄 생각이라더군. 하지만 그 녀석이 허황된 꿈에서 벗어나야만 그럴 거야!\r\n*BUG THIS*",
+      "text": "[i_PI_BradyReid]윌럼은 이곳을 네이선에게 물려줄 생각이라더군. 하지만 그 녀석이 허황된 꿈에서 벗어나야만 그럴 거야!",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2354,
+      "before": "[i_PI_BradyReid]어떻게 그러는지 모르겠군.\r\n\r\n너한테는 눈곱만큼도 관심 없는 사람들을 위해 기꺼이 목숨을 거는 거 말이야.\r\n\r\n그러니까 네가 영웅인 거겠지.\r\n*BUG THIS*",
+      "text": "[i_PI_BradyReid]어떻게 그러는지 모르겠군.\r\n\r\n너한테는 눈곱만큼도 관심 없는 사람들을 위해 기꺼이 목숨을 거는 거 말이야.\r\n\r\n그러니까 네가 영웅인 거겠지.",
+      "removed_exact_suffix": "\r\n*BUG THIS*"
+    },
+    {
+      "key": 2363,
+      "before": "[i_PI_RonanWalker]침공 이후 레일라가 여기 내려오기를 거부하고 있어. 내가 이 구멍을 지키고 있는데도 말이야! 여자들이란, 정말! 대체 호들갑을 떨지 않는 일이 있기는 한 거야?!\r\n*BUG ME*",
+      "text": "[i_PI_RonanWalker]침공 이후 레일라가 여기 내려오기를 거부하고 있어. 내가 이 구멍을 지키고 있는데도 말이야! 여자들이란, 정말! 대체 호들갑을 떨지 않는 일이 있기는 한 거야?!",
+      "removed_exact_suffix": "\r\n*BUG ME*"
+    },
+    {
+      "key": 2364,
+      "before": "[i_PI_RonanWalker]나라면 도리안 앞에서는 조심하겠어. 침공 때문에 카드놀이를 못 하게 된 뒤로 좀... 날이 서 있거든.\r\n*BUG ME*",
+      "text": "[i_PI_RonanWalker]나라면 도리안 앞에서는 조심하겠어. 침공 때문에 카드놀이를 못 하게 된 뒤로 좀... 날이 서 있거든.",
+      "removed_exact_suffix": "\r\n*BUG ME*"
+    },
+    {
+      "key": 2365,
+      "before": "[i_PI_RonanWalker]이 구멍을 지키는 건 너무 지루해! 프레이톡스 한 마리라도 나오면 좋겠어. 아주 작은 새끼 프레이톡스 한 마리면 돼. 그럼 아무 의미도 없이 지루하기만 한 이 일에도 보람이 있을 텐데!\r\n*BUG ME*",
+      "text": "[i_PI_RonanWalker]이 구멍을 지키는 건 너무 지루해! 프레이톡스 한 마리라도 나오면 좋겠어. 아주 작은 새끼 프레이톡스 한 마리면 돼. 그럼 아무 의미도 없이 지루하기만 한 이 일에도 보람이 있을 텐데!",
+      "removed_exact_suffix": "\r\n*BUG ME*"
+    },
+    {
+      "key": 2366,
+      "before": "[i_PI_RonanWalker]그냥 들어가서 둘러보면 어떨까... 아무 문제도 없는지 확인하는 거지. 네가 이미 다 처리했으니 괜찮겠지, 그렇지?\r\n*BUG ME*",
+      "text": "[i_PI_RonanWalker]그냥 들어가서 둘러보면 어떨까... 아무 문제도 없는지 확인하는 거지. 네가 이미 다 처리했으니 괜찮겠지, 그렇지?",
+      "removed_exact_suffix": "\r\n*BUG ME*"
+    }
+  ],
+  "approved_working_only_held_keys": [
+    2299,
+    2300,
+    2301,
+    2317
+  ]
+}

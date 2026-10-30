@@ -1,0 +1,18 @@
+{
+  "status": "USER_EXPLICITLY_RETAINS_ORIGINAL_TITLE_MAP_PLACE_NAMES",
+  "authority": "user",
+  "date_local": "2026-10-25",
+  "user_instruction": "이거 타이틀의 지도명은 굳이 번역하지 말고 원문 그대로 둬",
+  "previous_artifact": "workspace/runtime/review17_20261024/artifact.json",
+  "previous_artifact_sha256": "706c8201d70fc31c9afd11e3fb5c009fdca822c0551f1e09db8a3325ef4d5d9a",
+  "restore_source_title_record5419": true,
+  "source_title_place_names_retained": [
+    "Aven",
+    "The Badlands",
+    "clipped original Woodland Ring"
+  ],
+  "in_game_map_six_Korean_labels_and_body_text_retained": true,
+  "original_logo_retained": true,
+  "new_left_title_Korean_draft_not_adopted": true,
+  "whole_project_wording_layout_or_release_approval": false
+}

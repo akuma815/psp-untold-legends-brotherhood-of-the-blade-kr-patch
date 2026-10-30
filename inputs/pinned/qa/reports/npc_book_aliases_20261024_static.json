@@ -1,0 +1,165 @@
+{
+  "status": "SOURCE_TWO_NPC_BOOK_ALIASES_AND_PRESERVED_STAR_B_BOUNDARY",
+  "records": [
+    {
+      "key": 2334,
+      "source": {
+        "id": "ULKS46015-v1.01:en_us/trans:2334",
+        "bank": "trans",
+        "ordinal": 72,
+        "source_path": "PSP_GAME/USRDIR/locale/en_us_trans.dat",
+        "source_file_sha256": "30bc95d1813ccff79290572e515052d9034711051c460173b0d156f54ea3aca4",
+        "source_candidate_id": "en_us/trans:2334",
+        "key": 2334,
+        "offset": 15568,
+        "byte_length": 99,
+        "source_hex": "5b695f50495f42726f6e4d6f727269735d4920736565207269676874207468726f7567682079612c20226865726f2e222020536f6f6e20656e6f7567682c207961276c6c206c6574207468656d20616c6c20646f776e2e0d0a2a42554720544849532a",
+        "source_sha256": "6316bfc9d1e38b14c1fa05af44137577c5bae2076805618a57adcbdad966f0a8",
+        "source_text": "[i_PI_BronMorris]I see right through ya, \"hero.\"  Soon enough, ya'll let them all down.\r\n*BUG THIS*",
+        "encoding": "utf-8",
+        "source_utf16_units": 99,
+        "token_candidates": [
+          "[i_PI_BronMorris]"
+        ],
+        "structural_fields": {
+          "directory_record_offset": 1440,
+          "directory_fields": [
+            2334,
+            15566,
+            15568,
+            99,
+            99,
+            1,
+            52428
+          ],
+          "english_hex": "5b695f50495f42726f6e4d6f727269735d4920736565207269676874207468726f7567682079612c20226865726f2e222020536f6f6e20656e6f7567682c207961276c6c206c6574207468656d20616c6c20646f776e2e0d0a2a42554720544849532a",
+          "english_text": "[i_PI_BronMorris]I see right through ya, \"hero.\"  Soon enough, ya'll let them all down.\r\n*BUG THIS*",
+          "english_encoding_candidate": "utf-8"
+        }
+      },
+      "existing_held_draft": "[i_PI_BronMorris]네 속셈은 다 보여, \"영웅\" 나리. 곧 네가 모두를 실망시킬 날이 오겠지.\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 13,
+          "row": 8,
+          "field": 12,
+          "width": 4,
+          "offset": 338112,
+          "expected_hex": "1e090000",
+          "role": "npc_dialogue",
+          "key": 2334
+        },
+        {
+          "table": 15,
+          "row": 81,
+          "field": 40,
+          "width": 4,
+          "offset": 347256,
+          "expected_hex": "1e090000",
+          "role": "quest_title",
+          "key": 2334
+        }
+      ],
+      "null_actor_expected": "[i_PI_BronMorris]I see right through ya, \"hero.\"  Soon enough, ya'll let them all down. \nItselfUG THIS*",
+      "expected_scope": "Prediction for preserved null-actor async Book formatting only; not actual Bron actor formatting"
+    },
+    {
+      "key": 2335,
+      "source": {
+        "id": "ULKS46015-v1.01:en_us/trans:2335",
+        "bank": "trans",
+        "ordinal": 73,
+        "source_path": "PSP_GAME/USRDIR/locale/en_us_trans.dat",
+        "source_file_sha256": "30bc95d1813ccff79290572e515052d9034711051c460173b0d156f54ea3aca4",
+        "source_candidate_id": "en_us/trans:2335",
+        "key": 2335,
+        "offset": 15667,
+        "byte_length": 172,
+        "source_hex": "5b695f50495f42726f6e4d6f727269735d536d696c65207768656e20796f752074616c6b20746f206d652c206b6964212020416c696365206973207761746368696e2720616e272069662079612068656c70206d65206d616b65206120676f6f6420696d7072657373696f6e2c2049276c6c206c65742079612077616c6b206f7574206f27206865726520696e206f6e652070696563652c20676f742069743f0d0a2a42554720544849532a",
+        "source_sha256": "81242d74af0933e238fa6be89d038db57b745409154b0fcb24737644a0783a01",
+        "source_text": "[i_PI_BronMorris]Smile when you talk to me, kid!  Alice is watchin' an' if ya help me make a good impression, I'll let ya walk out o' here in one piece, got it?\r\n*BUG THIS*",
+        "encoding": "utf-8",
+        "source_utf16_units": 172,
+        "token_candidates": [
+          "[i_PI_BronMorris]"
+        ],
+        "structural_fields": {
+          "directory_record_offset": 1460,
+          "directory_fields": [
+            2335,
+            15665,
+            15667,
+            172,
+            172,
+            1,
+            52428
+          ],
+          "english_hex": "5b695f50495f42726f6e4d6f727269735d536d696c65207768656e20796f752074616c6b20746f206d652c206b6964212020416c696365206973207761746368696e2720616e272069662079612068656c70206d65206d616b65206120676f6f6420696d7072657373696f6e2c2049276c6c206c65742079612077616c6b206f7574206f27206865726520696e206f6e652070696563652c20676f742069743f0d0a2a42554720544849532a",
+          "english_text": "[i_PI_BronMorris]Smile when you talk to me, kid!  Alice is watchin' an' if ya help me make a good impression, I'll let ya walk out o' here in one piece, got it?\r\n*BUG THIS*",
+          "english_encoding_candidate": "utf-8"
+        }
+      },
+      "existing_held_draft": "[i_PI_BronMorris]나한테 말할 때는 웃어라, 꼬맹아! 앨리스가 보고 있잖아. 내가 좋은 인상을 주도록 도와주면 멀쩡히 걸어 나가게 해 주지, 알아들었냐?\r\n*BUG THIS*",
+      "references": [
+        {
+          "table": 13,
+          "row": 8,
+          "field": 16,
+          "width": 4,
+          "offset": 338116,
+          "expected_hex": "1f090000",
+          "role": "npc_dialogue",
+          "key": 2335
+        },
+        {
+          "table": 15,
+          "row": 81,
+          "field": 24,
+          "width": 4,
+          "offset": 347240,
+          "expected_hex": "1f090000",
+          "role": "Book_body",
+          "key": 2335
+        }
+      ],
+      "null_actor_expected": "[i_PI_BronMorris]Smile when you talk to me, kid!  Alice is watchin' an' if ya help me make a good impression, I'll let ya walk out o' here in one piece, got it? \nItselfUG THIS*",
+      "expected_scope": "Prediction for preserved null-actor async Book formatting only; not actual Bron actor formatting"
+    }
+  ],
+  "verified_windows": [
+    {
+      "name": "body_title_prefetch",
+      "start": 324532,
+      "end_exclusive": 324900,
+      "sha256": "24d275d14892f03fae395ee779c1bd7b3c5bf77229af701ca959b7e17e6222bc",
+      "instructions": 92
+    },
+    {
+      "name": "NPC_actor_decoder",
+      "start": 460540,
+      "end_exclusive": 460748,
+      "sha256": "f98b22b0674c775541d2fed90044c895cd950bdf2d96bbbd1af1aa3f64d92dd3",
+      "instructions": 52
+    }
+  ],
+  "original_table13_row8_hex": "3d028ded1c0900001d0900001e0900001f090000ffffffffffffffffe908000005090000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe8080000f808000010090000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "original_table15_row81_hex": "8b9b6b1b00000000000000000000000000000000c51099491f090000ffffffffffffffffffffffff1e0900000e002f000500640106cccccc",
+  "signed_table14_six_slot_links_to_row81": [],
+  "missing_known_link_not_unused_proof": true,
+  "intervention_plan": {
+    "table15_row": 73,
+    "fields": {
+      "24": 2335,
+      "40": 2334
+    },
+    "previous_fields": {
+      "24": 2502,
+      "40": 2266
+    },
+    "bytes": 8,
+    "meaning": "Borrow the two original row81 text keys into existing first quest; no original row81 acquisition claim"
+  },
+  "SSOT_or_game_changed": false,
+  "new_selected": 0,
+  "release_eligible": false
+}

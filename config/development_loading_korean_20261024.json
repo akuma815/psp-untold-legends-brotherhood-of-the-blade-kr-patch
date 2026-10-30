@@ -1,0 +1,62 @@
+{
+  "schema_version": 15,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_marker_footer_20261024.json",
+  "parent_config_sha256": "31883c0831088147694d356bc5154dafe18e6f0eaf18b3532511d729d882a9bd",
+  "graphic": {
+    "WAD_index": 5080,
+    "WAD_offset": 299487232,
+    "source_record_sha256": "22c6dd4b801ed5cf0be7ca9b0d430ae144954b8f8aeb72549ac0897040968284",
+    "original_record_bytes": 5152,
+    "header_palette_preserved_bytes": 1056,
+    "pixel_payload_bytes": 4096,
+    "png": "workspace/graphics/loading_kr_20261024/loading_kr_128x32.png",
+    "png_sha256": "ead4814a660cdea50c4ee511a8759bade75b7d4edc0460cdcf6de202e909ee3c",
+    "texture": "workspace/graphics/loading_kr_20261024/loading_kr_128x32.bin",
+    "texture_sha256": "acff429e82232ea0075ef817896b0623450561b5e3acc8b682e809d108b3cf5e",
+    "render": {
+      "text": "불러오는 중",
+      "font": "workspace/font/morpheus_stage003/source_galmuri_2.40.4/Galmuri11.ttf",
+      "font_sha256": "e24256f42e43713d2ea086a1e1669d78b968f5b3cc547e5c157f0606ffa5def1",
+      "font_size": 16,
+      "fontmode": "1",
+      "text_origin": [
+        20,
+        7
+      ],
+      "ink_bbox": [
+        20,
+        8,
+        106,
+        23
+      ],
+      "editable_rectangle": [
+        16,
+        4,
+        112,
+        28
+      ],
+      "source_record_sha256": "22c6dd4b801ed5cf0be7ca9b0d430ae144954b8f8aeb72549ac0897040968284",
+      "record_sha256": "acff429e82232ea0075ef817896b0623450561b5e3acc8b682e809d108b3cf5e",
+      "source_record_bytes": 5152,
+      "protected_header_palette_bytes": 1056,
+      "packed_pixel_bytes": 4096,
+      "RGBA_pixels_sha256": "9e5d98127e886663f5747def5835538b28f0f67cabfd2dba35a9184d8e3413dc",
+      "ink_RGBA": [
+        230,
+        220,
+        222,
+        255
+      ],
+      "new_palette_colors": 0,
+      "palette_bytes_equal": true,
+      "outside_edit_rectangle_equal": true,
+      "all_canvas_alpha255": true,
+      "code_rasterization_explicitly_user_requested": true
+    },
+    "approval": "workspace/graphics/loading_kr_20261024/approval.json",
+    "approval_sha256": "d71bed9f8f018edfe85ea2edde8a3269fe719701b34daf3d360d85230206fcf0"
+  },
+  "text_SSOT_changed": false,
+  "full_translation_or_release_approval": false
+}

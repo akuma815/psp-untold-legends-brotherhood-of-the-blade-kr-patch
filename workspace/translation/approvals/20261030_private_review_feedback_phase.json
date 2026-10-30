@@ -1,0 +1,20 @@
+{
+  "status": "USER_SELECTED_FROZEN_PRIVATE_REVIEW_AND_PLAY_FEEDBACK_PHASE",
+  "authority": "user",
+  "date_local": "2026-10-30",
+  "question_item_id": "[\"request_user_input_async\",\"call_bb53f8da877b47baad9adf38e1aad40c\",0]",
+  "answer": "개인 검수판 고정·플레이 피드백 단계 (권장)",
+  "artifact_name": "map_crisp27_20261030",
+  "artifact_sha256": "e8b97741db23f8a32d4eabe649fb7b58f18ea5c009fd9609692761cdb5f5b61a",
+  "archive": {
+    "path": "workspace/packaging/UntoldLegends_KR_PrivateReview_20261030.zip",
+    "size": 1292421,
+    "sha256": "744429512fd8eee314590b8f41444f8d022da094bc6125e68f89f66cad8f2979"
+  },
+  "frozen_current_private_candidate": true,
+  "next_work_mode": "actual_user_play_feedback_and_targeted_fixes",
+  "additional_autonomous_natural_progression_selected": false,
+  "unverified_body_layout_late_combat_ending_physical_PSP_other_versions_remain_unverified": true,
+  "full_QA_final_RC_whole_support_or_public_upload_approved": false,
+  "release_eligible": false
+}

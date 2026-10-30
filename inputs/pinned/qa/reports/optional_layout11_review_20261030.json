@@ -1,0 +1,216 @@
+{
+  "status": "ELEVEN_EXACT_OPTIONAL_WORDINGS_PRIVATE_REVIEW_ONLY_NOT_APPLIED",
+  "records": [
+    {
+      "key": 3647,
+      "source_packet": "workspace/translation/review/20261029_document3647_optional_v2/proposal.json",
+      "source_packet_sha256": "0d7b463fb47208435e7194db85d8192884bf94de8202db68c9dd641c0d01342f",
+      "current_wording_sha256": "74ac62d767af5ac6b9c23d00e7feb6acde9d445fc7a03793693dc6eee3d10b73",
+      "proposed_wording_sha256": "d8a9279ef084208c8a3c1a63d2e8f9274dd10be6e7c4f6d8de64cd2c68818511",
+      "exact_changes": [
+        {
+          "before": "그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+          "after": "그가 풀려나면 모든 것이 무너진다."
+        }
+      ],
+      "current_actual_pages": 3,
+      "proposed_local_pages": 2,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2320,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "7d5a857db466e3155b1d8f6bb814873373e5d6750c4c5b9bccf90eb3c8ee643e",
+      "proposed_wording_sha256": "c74227eddde9a5c8dc28e7f435970db66d8169c12f15257f03f760ff6c29b4ef",
+      "exact_changes": [
+        {
+          "before": "끝장난 거나 다름없지.",
+          "after": "끝장난 셈이지."
+        },
+        {
+          "before": "그래, 제대로 들었어.",
+          "after": "그래, 맞아."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2362,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "a58ed2431f6c790650776b9a6b767ba0ccda5484ec6e4df51903b675a0769c98",
+      "proposed_wording_sha256": "0df3f2b689e5d342a952bf04cd279de5a2eb0843a68996467d5c9c17e23eae66",
+      "exact_changes": [
+        {
+          "before": "로넌이 내게 진 빚이 한 재산인데,",
+          "after": "로넌에게 받을 거금을"
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2377,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "1226bf3902bb63fd9135d8cdc3c2a240430b68a5958939ffc0374ec079d31e7d",
+      "proposed_wording_sha256": "9cf46585f281ef48f37cc8680a4b785bbf9661653923b0555e10262a7f5d2886",
+      "exact_changes": [
+        {
+          "before": "최선을 다하고 계시지만, 모든 게 가망없어 보여.",
+          "after": "최선을 다하시지만, 영 가망없어 보여."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2405,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "3db877f638fd1f69be6b36046f6a3905359eb760debe96b7f52fde25e73485d0",
+      "proposed_wording_sha256": "22f5f4b32eb1a3e35f506175cf40b749d3222308fc09b0b3512bfaab8fa51cf5",
+      "exact_changes": [
+        {
+          "before": "그대 앞에 놓인 일이 무엇이든,",
+          "after": "그대의 일이 무엇이든,"
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2407,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "e80526664a6ecf51443b9ba01451d57a336163ac344bcb189556b4667f12a5f4",
+      "proposed_wording_sha256": "7a1d550c6da2ee806543828a2048ebac66affaa05038b7f9fb083067f2e0997c",
+      "exact_changes": [
+        {
+          "before": "지하묘지에 들끓는 그놈들을 이제라도 어떻게 해야 할 때가 되었지.",
+          "after": "지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 3552,
+      "source_packet": "workspace/translation/review/20261029_npc_short6_optional_v3/proposal.json",
+      "source_packet_sha256": "305c26c474fff7677507464dc94c68d644791e544a9959838767c2347d3d0fbc",
+      "current_wording_sha256": "245db0c578cc7da4524cd238c72336c744b475b5192ab9d287aa3c0dc5d9e34c",
+      "proposed_wording_sha256": "3c72f9d02464f93ec2c4cf74a1c69ed67579de8fff7f5c04584d7b4db4df3733",
+      "exact_changes": [
+        {
+          "before": "할 수만 있다면",
+          "after": "가능하다면"
+        },
+        {
+          "before": "당신과 부인이 실패할 경우에 대비해",
+          "after": "두 분의 실패에 대비해"
+        },
+        {
+          "before": "저는 남아서",
+          "after": "남아"
+        }
+      ],
+      "current_actual_pages": 3,
+      "proposed_local_pages": 2,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2561,
+      "source_packet": "workspace/translation/review/20261029_quest_short3_optional_v2/proposal.json",
+      "source_packet_sha256": "62587f88e640e835fe8a3750ccfeff69d28678109b6349f83fb123ca7b2b6c55",
+      "current_wording_sha256": "814989ecca44f2ad2781a7201573e1b1f84c0aea10f43a9b004ef3bf1313266d",
+      "proposed_wording_sha256": "314a0da48b089333f960ed08ee30f1caa3af23400dd01b091128a800d3b5f0ad",
+      "exact_changes": [
+        {
+          "before": "서두르게, 젊은 영웅이여. 우리에게 더는 시간의 여유가 없을까 두렵네.",
+          "after": "서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네."
+        }
+      ],
+      "current_actual_pages": 11,
+      "proposed_local_pages": 10,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2823,
+      "source_packet": "workspace/translation/review/20261029_quest_short3_optional_v2/proposal.json",
+      "source_packet_sha256": "62587f88e640e835fe8a3750ccfeff69d28678109b6349f83fb123ca7b2b6c55",
+      "current_wording_sha256": "43cb90351d3e141b3b931afba0596a2e8127d4891e21511bea4e9d43cd2334ee",
+      "proposed_wording_sha256": "974439280a46c16ae10cd28965f7c069ea988d47035e9b150707a1842d2af69e",
+      "exact_changes": [
+        {
+          "before": "그 노력으로 제 걱정이 근거 없었다는 사실만 드러나더라도,",
+          "after": "그 수고로 제 걱정이 기우였다는 것만 드러나도,"
+        }
+      ],
+      "current_actual_pages": 6,
+      "proposed_local_pages": 5,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2919,
+      "source_packet": "workspace/translation/review/20261029_quest_short3_optional_v2/proposal.json",
+      "source_packet_sha256": "62587f88e640e835fe8a3750ccfeff69d28678109b6349f83fb123ca7b2b6c55",
+      "current_wording_sha256": "ce93c88b6068dac7f18421509e50bf4ec3f5b501c1f67a69a05c8402fbd85bfa",
+      "proposed_wording_sha256": "f1e1493c1f03e6aa0298eb08dae812601ecc7ebc56a5f85e73b887b3c2247dae",
+      "exact_changes": [
+        {
+          "before": "우리가 나머지 조각을 가지고 있음을 알아차리기 전에,",
+          "after": "남은 조각이 우리에게 있음을 알기 전에,"
+        }
+      ],
+      "current_actual_pages": 4,
+      "proposed_local_pages": 3,
+      "applied": false,
+      "human_approval": false
+    },
+    {
+      "key": 2675,
+      "source_packet": "workspace/translation/review/20261030_quest2675_optional/proposal.json",
+      "source_packet_sha256": "9546830910d498e9fb9c635a9dd025a6ca8ef6f497e905ec2244112e18b3ceac",
+      "current_wording_sha256": "b2d7a74172904b7220f0f881bddafcc9b668a128ba3bac71a5739c2cb27d69ff",
+      "proposed_wording_sha256": "76ae5d595628a8b3d6a50db404b157f9a566f572a04d9801b12fc48664619b73",
+      "exact_changes": [
+        {
+          "before": "그림자 신과, 그가",
+          "after": "그림자 신과 그가"
+        },
+        {
+          "before": "혼란에 관해 자세히 알려 주실 거예요.",
+          "after": "혼란을 자세히 알려 주실 거예요."
+        }
+      ],
+      "current_actual_pages": 15,
+      "proposed_local_pages": 14,
+      "applied": false,
+      "human_approval": false
+    }
+  ],
+  "actual_current_pages": 52,
+  "proposed_local_pages": 41,
+  "proposed_native_captures": 0,
+  "prior10_hub_preserved": "workspace/translation/review/20261029_optional_layout10/index.html",
+  "new2675_index": "workspace/translation/review/20261030_quest2675_optional/index.html",
+  "actual2675_runtime": "qa/reports/quest2675_78_20261030_runtime.json",
+  "scope": "Old10 andnew2675 remainseparate approvalgroups;noneapplied. Current52rasters areactual;proposed41pages arelocalonly. Doesnotincludeother6short-endingcandidates,wholewording/support/releaseapproval.",
+  "game_SSOT_decision_changes": 0
+}

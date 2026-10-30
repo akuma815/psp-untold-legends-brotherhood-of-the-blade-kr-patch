@@ -1,0 +1,21 @@
+{
+  "status": "DEFERRED6_REVIEW_QA_AND_CONCISE_CURRENT_FULL_HANDOFF",
+  "pins": {
+    "docs/HANDOFF.md": "ca3d08f3bb5c0bb56f7f2c9300e94c116dc26cc42d8dd40f32b9fd7bf9ae9534",
+    "docs/HANDOFF_2026-10-25.md": "ca3d08f3bb5c0bb56f7f2c9300e94c116dc26cc42d8dd40f32b9fd7bf9ae9534",
+    "AGENTS.md": "e4b258a1b4fe9014f9f2e71268d19238b6b220f10e1215068abb6162015403a6",
+    "README.md": "66fd6700ea6f16f138b71c48b3a4c26dfa414a0acfc030c78ddad0b503e068e2",
+    "qa/reports/continuation_queue_20261024.json": "9595862a068cb1c38bbae0bda606ba3d6faf4c3768a63c340c31c926f20f7c28",
+    "docs/OPTIONAL6_REVIEW_PAGE_2026-10-25.md": "a213a43819481c98f090fd34828c2fb974e7a9e4e6ce043b33f3821c9248c3a8",
+    "workspace/translation/review/20261025_optional6_wording_review/index.html": "5d878eab885884228708f5e7d9c7591c98eae3467fe02950f16bce0a739e45c4",
+    "workspace/translation/review/20261025_optional6_wording_review/packet.json": "e45dd30745c7ce113bf3cc3ba27856a79cb6b4048fb8893dd2b0f9ae40180fd3",
+    "qa/review/20261025_optional6_wording_review_attempt01/interaction_result.json": "11d838196f9fb02bbbf79edd23e955dafd2b0f11ee727dc63c5e2c78d5a30e1f",
+    "qa/reports/optional6_wording_review_20261025_QA.json": "367e883f3f4878f0b44fa734e69a27ab74565bd3c6b353792ab9c02b3a82e58f",
+    "scripts/review_optional6_wording_20261025.py": "2e12636557c6ac031fd6de258a7442aa908810c06c2f248c84a3cad7633d319a",
+    "scripts/verify_optional6_wording_20261025.py": "ae231593d604a7768c9b570ba471025c9f741fd0edca412b4d019538e8534750",
+    "scripts/checkpoint_optional6_review_20261025.py": "65179f4dfcc801cc042fa78a77f0ba1d22dc544aff2b36cd0f09aaf4c5969f5a",
+    "workspace/analysis/optional6_browser_verifier_20261025.py": "c91cbb8faccaaffec5aac8956d67af4ad1508424e7a5c0e61e045759503f5c2b"
+  },
+  "previous_full_handoff_sha256": "571278c3d35fe98454080afba8d4d6849de35ac4d702931b01c05fea4e732c32",
+  "release_eligible": false
+}

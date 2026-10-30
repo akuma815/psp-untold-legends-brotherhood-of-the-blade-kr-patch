@@ -1,0 +1,27 @@
+{
+  "schema_version": 26,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_optional_layout_20261030.json",
+  "parent_config_sha256": "5526cb9ac839fa2ac0403364c2af3576c83a14822efbc5aaec89eb1754998682",
+  "parent_artifact": "workspace/runtime/optional_layout_20261030/artifact.json",
+  "parent_artifact_sha256": "39c2a18a28102c9ed4e95aa6dc7e9d2bb2ea32c2e95ab88cc466d890c0710c3d",
+  "packet": "workspace/translation/review/20261030_second_review25_choices/packet.json",
+  "packet_sha256": "b6a158bcc9f54930786715cd9174ed24e117ea706bab983ad39f827e9ddd0a50",
+  "approval": "workspace/translation/approvals/20261030_second_review6.json",
+  "approval_sha256": "9662de3229877adf56b7726265cac609679f63abefe672d7688543cc77112f62",
+  "author": "workspace/translation/authored/second_review_apply_20261030.json",
+  "author_sha256": "db8e3e92f142200f23cdf1c4aeffcfca2c75c25e3a19a3091b721f76582d52bd",
+  "exact_static_keys": [
+    1386,
+    1582,
+    1638,
+    1834,
+    2030
+  ],
+  "exact_trans_keys": [
+    2561
+  ],
+  "terminology_sha256": "d78795c5fad4afcfc65ab50fd80868e371a7264345e845b47929ec4cbe0e87b7",
+  "scope": "Exact approved six scoped edits only; current3569+derived2 and user exclusion404 retained. Portraits/controls/paragraphs/numbers/references/other prose preserved. Not whole-wording/support/distribution approval.",
+  "release_eligible": false
+}

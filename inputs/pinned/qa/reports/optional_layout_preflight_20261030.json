@@ -1,0 +1,280 @@
+{
+  "status": "PASS_PENDING_OPTIONAL10_OR11_IN_MEMORY_LOCALE_REWRITE_PLAN_NOT_APPLIED",
+  "parent_artifact_sha256": "6847b0b4d0627af0fc5cf2c7d02569d95f320bd0d70047f45c6fb49c7922b2f2",
+  "entries_sha256": "a61e3654b73b04c0d86e6a5f3bc39540bb3db605a4cf45ada03afa530604e301",
+  "hub": "qa/reports/optional_layout11_review_20261030.json",
+  "hub_sha256": "5c0778f3de2fc164622d1973ceb556e3490a00c57c45e399cf99790ed7b3677d",
+  "rows": [
+    {
+      "key": 3647,
+      "id": "ULKS46015-v1.01:en_us/trans:3647",
+      "source_sha256": "d44ae618a78700d21e0b9774c0fd053f1ed64b0f259aa4361d5b4491ba0c4c6c",
+      "previous_decision": "development_item_docs_20261020:trans:3647",
+      "before": "검의 형제단 네 구성원이 각자 지녔던 고대의 인장이다.\r\n\r\n고대의 힘이 주위를 감싸자 갑자기 두려움도 망설임도 사라진다. 해야 할 일은 분명하다. 그림자 신을 파괴해야 한다. 그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+      "after": "검의 형제단 네 구성원이 각자 지녔던 고대의 인장이다.\r\n\r\n고대의 힘이 주위를 감싸자 갑자기 두려움도 망설임도 사라진다. 해야 할 일은 분명하다. 그림자 신을 파괴해야 한다. 그가 풀려나면 모든 것이 무너진다.",
+      "before_sha256": "74ac62d767af5ac6b9c23d00e7feb6acde9d445fc7a03793693dc6eee3d10b73",
+      "after_sha256": "d8a9279ef084208c8a3c1a63d2e8f9274dd10be6e7c4f6d8de64cd2c68818511",
+      "exact_changes": [
+        {
+          "before": "그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+          "after": "그가 풀려나면 모든 것이 무너진다."
+        }
+      ]
+    },
+    {
+      "key": 2320,
+      "id": "ULKS46015-v1.01:en_us/trans:2320",
+      "source_sha256": "2f297b00cc8df6612650ac7ea6dd52f6b82ce0bd274e6a18d3a0af262b33e937",
+      "previous_decision": "marker_footer_20261024:trans:2320",
+      "before": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 거나 다름없지. 그래, 제대로 들었어. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "after": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 셈이지. 그래, 맞아. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "before_sha256": "7d5a857db466e3155b1d8f6bb814873373e5d6750c4c5b9bccf90eb3c8ee643e",
+      "after_sha256": "c74227eddde9a5c8dc28e7f435970db66d8169c12f15257f03f760ff6c29b4ef",
+      "exact_changes": [
+        {
+          "before": "끝장난 거나 다름없지.",
+          "after": "끝장난 셈이지."
+        },
+        {
+          "before": "그래, 제대로 들었어.",
+          "after": "그래, 맞아."
+        }
+      ]
+    },
+    {
+      "key": 2362,
+      "id": "ULKS46015-v1.01:en_us/trans:2362",
+      "source_sha256": "0ec94b7d58984acaf97314c4d4b516332f38e8fc3fa4125e275aceacb3461787",
+      "previous_decision": "development317:trans:2362",
+      "before": "[i_PI_DealerPrice]가엾은 로넌. 가엾은 도리안. 가엾은 나!\r\n\r\n로넌이 내게 진 빚이 한 재산인데, 이젠 영영 못 돌려받겠군요.",
+      "after": "[i_PI_DealerPrice]가엾은 로넌. 가엾은 도리안. 가엾은 나!\r\n\r\n로넌에게 받을 거금을 이젠 영영 못 돌려받겠군요.",
+      "before_sha256": "a58ed2431f6c790650776b9a6b767ba0ccda5484ec6e4df51903b675a0769c98",
+      "after_sha256": "0df3f2b689e5d342a952bf04cd279de5a2eb0843a68996467d5c9c17e23eae66",
+      "exact_changes": [
+        {
+          "before": "로넌이 내게 진 빚이 한 재산인데,",
+          "after": "로넌에게 받을 거금을"
+        }
+      ]
+    },
+    {
+      "key": 2377,
+      "id": "ULKS46015-v1.01:en_us/trans:2377",
+      "source_sha256": "928f2a82fd2c5e9beb2857d95025b7ae80ecfe72066c32c76bfc497602036763",
+      "previous_decision": "development386:trans:2377",
+      "before": "[i_PI_KayleeSickly]상태가 좋지 않아, 수호자. 리세타 감독관님도 걱정돼.\r\n\r\n최선을 다하고 계시지만, 모든 게 가망없어 보여. 가서 살펴봐 줘.",
+      "after": "[i_PI_KayleeSickly]상태가 좋지 않아, 수호자. 리세타 감독관님도 걱정돼.\r\n\r\n최선을 다하시지만, 영 가망없어 보여. 가서 살펴봐 줘.",
+      "before_sha256": "1226bf3902bb63fd9135d8cdc3c2a240430b68a5958939ffc0374ec079d31e7d",
+      "after_sha256": "9cf46585f281ef48f37cc8680a4b785bbf9661653923b0555e10262a7f5d2886",
+      "exact_changes": [
+        {
+          "before": "최선을 다하고 계시지만, 모든 게 가망없어 보여.",
+          "after": "최선을 다하시지만, 영 가망없어 보여."
+        }
+      ]
+    },
+    {
+      "key": 2405,
+      "id": "ULKS46015-v1.01:en_us/trans:2405",
+      "source_sha256": "1b9f80b67865153956bd3fa0a9ad56c814aa8ae8e8b4fea7cebcfb4c671d92ef",
+      "previous_decision": "development373:trans:2405",
+      "before": "[i_PI_SirArmon]그대는 성문 밖으로 나갈 허가를 받지 못했소.\r\n\r\n그대 앞에 놓인 일이 무엇이든, 성벽 안에 있는 게 분명하오.",
+      "after": "[i_PI_SirArmon]그대는 성문 밖으로 나갈 허가를 받지 못했소.\r\n\r\n그대의 일이 무엇이든, 성벽 안에 있는 게 분명하오.",
+      "before_sha256": "3db877f638fd1f69be6b36046f6a3905359eb760debe96b7f52fde25e73485d0",
+      "after_sha256": "22f5f4b32eb1a3e35f506175cf40b749d3222308fc09b0b3512bfaab8fa51cf5",
+      "exact_changes": [
+        {
+          "before": "그대 앞에 놓인 일이 무엇이든,",
+          "after": "그대의 일이 무엇이든,"
+        }
+      ]
+    },
+    {
+      "key": 2407,
+      "id": "ULKS46015-v1.01:en_us/trans:2407",
+      "source_sha256": "7ae0c047eb03836776168628a25cd6cbdd33cc23a5b70049f35892955d62ae6d",
+      "previous_decision": "development373:trans:2407",
+      "before": "[i_PI_SirArmon]프레이톡스 둥지를 파괴하러 떠난다고 들었소.\r\n\r\n지하묘지에 들끓는 그놈들을 이제라도 어떻게 해야 할 때가 되었지.",
+      "after": "[i_PI_SirArmon]프레이톡스 둥지를 파괴하러 떠난다고 들었소.\r\n\r\n지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지.",
+      "before_sha256": "e80526664a6ecf51443b9ba01451d57a336163ac344bcb189556b4667f12a5f4",
+      "after_sha256": "7a1d550c6da2ee806543828a2048ebac66affaa05038b7f9fb083067f2e0997c",
+      "exact_changes": [
+        {
+          "before": "지하묘지에 들끓는 그놈들을 이제라도 어떻게 해야 할 때가 되었지.",
+          "after": "지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지."
+        }
+      ]
+    },
+    {
+      "key": 3552,
+      "id": "ULKS46015-v1.01:en_us/trans:3552",
+      "source_sha256": "9fc8c3621c25d594e9fd3e98be95a99d095ffa320654dcdcbe270f461756f7a7",
+      "previous_decision": "development_late_dialogue_20261020:trans:3552",
+      "before": "[i_PI_SabineFirehand]라이트폴 숲으로 가야 해요, 수호자님! 할 수만 있다면 함께 가겠지만 다이애나 부인이 아직 밖에 계시니, 당신과 부인이 실패할 경우에 대비해 저는 남아서 할 수 있는 일을 해야 해요...\r\n\r\n가세요, 수호자님! 야생의 분노가 당신에게 승리를 가져다주기를!",
+      "after": "[i_PI_SabineFirehand]라이트폴 숲으로 가야 해요, 수호자님! 가능하다면 함께 가겠지만 다이애나 부인이 아직 밖에 계시니, 두 분의 실패에 대비해 남아 할 수 있는 일을 해야 해요...\r\n\r\n가세요, 수호자님! 야생의 분노가 당신에게 승리를 가져다주기를!",
+      "before_sha256": "245db0c578cc7da4524cd238c72336c744b475b5192ab9d287aa3c0dc5d9e34c",
+      "after_sha256": "3c72f9d02464f93ec2c4cf74a1c69ed67579de8fff7f5c04584d7b4db4df3733",
+      "exact_changes": [
+        {
+          "before": "할 수만 있다면",
+          "after": "가능하다면"
+        },
+        {
+          "before": "당신과 부인이 실패할 경우에 대비해",
+          "after": "두 분의 실패에 대비해"
+        },
+        {
+          "before": "저는 남아서",
+          "after": "남아"
+        }
+      ]
+    },
+    {
+      "key": 2561,
+      "id": "ULKS46015-v1.01:en_us/trans:2561",
+      "source_sha256": "725d5d5a29833e469de318d5a2322d7f5cf96dc2f7bf2569422c7f5dcb293efb",
+      "previous_decision": "development533:trans:2561",
+      "before": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리처럼 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅이여. 우리에게 더는 시간의 여유가 없을까 두렵네.",
+      "after": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리처럼 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "before_sha256": "814989ecca44f2ad2781a7201573e1b1f84c0aea10f43a9b004ef3bf1313266d",
+      "after_sha256": "314a0da48b089333f960ed08ee30f1caa3af23400dd01b091128a800d3b5f0ad",
+      "exact_changes": [
+        {
+          "before": "서두르게, 젊은 영웅이여. 우리에게 더는 시간의 여유가 없을까 두렵네.",
+          "after": "서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네."
+        }
+      ]
+    },
+    {
+      "key": 2823,
+      "id": "ULKS46015-v1.01:en_us/trans:2823",
+      "source_sha256": "436b601fc880ac3ca38b75ac4c61ce95c36ae0aefac2ae90665c3d8214c83b0f",
+      "previous_decision": "development_sidequests_20261020:trans:2823",
+      "before": "[i_PI_ShepherdGrailynn]더 큰 사명을 수행하는 데 방해가 되고 싶지는 않습니다. 하지만 제 침묵 때문에 내부에서 또 다른 공격이 일어나는 것도 원치 않습니다.\r\n\r\n도시 깊은 곳에서 어두운 무언가가 꿈틀거리는 것을 느꼈습니다. 그 어둠 속에는 고통이 있습니다. 해방을 부르짖는, 거대하고 오래된 아픔입니다.\r\n\r\n그 뒤 아벤이 한때 내란에 시달렸고 폭군들의 지배를 받았다는 것을 알게 되었습니다. 먼 옛날 정치적 반대자들로 가득한 감옥이 물에 잠겼다고 합니다.\r\n\r\n저는 고대 수로가 이 잔혹한 사건의 현장이며, 그 안에서 고통받는 혼령들이 그 아픔의 근원이라고 생각합니다.\r\n\r\n잊힌 구역의 알 수 없는 위험에 맞설 수 있는 분은 당신뿐입니다. 그 노력으로 제 걱정이 근거 없었다는 사실만 드러나더라도, 이 도움을 영원히 고맙게 여기겠습니다.",
+      "after": "[i_PI_ShepherdGrailynn]더 큰 사명을 수행하는 데 방해가 되고 싶지는 않습니다. 하지만 제 침묵 때문에 내부에서 또 다른 공격이 일어나는 것도 원치 않습니다.\r\n\r\n도시 깊은 곳에서 어두운 무언가가 꿈틀거리는 것을 느꼈습니다. 그 어둠 속에는 고통이 있습니다. 해방을 부르짖는, 거대하고 오래된 아픔입니다.\r\n\r\n그 뒤 아벤이 한때 내란에 시달렸고 폭군들의 지배를 받았다는 것을 알게 되었습니다. 먼 옛날 정치적 반대자들로 가득한 감옥이 물에 잠겼다고 합니다.\r\n\r\n저는 고대 수로가 이 잔혹한 사건의 현장이며, 그 안에서 고통받는 혼령들이 그 아픔의 근원이라고 생각합니다.\r\n\r\n잊힌 구역의 알 수 없는 위험에 맞설 수 있는 분은 당신뿐입니다. 그 수고로 제 걱정이 기우였다는 것만 드러나도, 이 도움을 영원히 고맙게 여기겠습니다.",
+      "before_sha256": "43cb90351d3e141b3b931afba0596a2e8127d4891e21511bea4e9d43cd2334ee",
+      "after_sha256": "974439280a46c16ae10cd28965f7c069ea988d47035e9b150707a1842d2af69e",
+      "exact_changes": [
+        {
+          "before": "그 노력으로 제 걱정이 근거 없었다는 사실만 드러나더라도,",
+          "after": "그 수고로 제 걱정이 기우였다는 것만 드러나도,"
+        }
+      ]
+    },
+    {
+      "key": 2919,
+      "id": "ULKS46015-v1.01:en_us/trans:2919",
+      "source_sha256": "0f594050d3db514b4f9c392c531ef935ba01aef6cf847f9b209f27e478ac8782",
+      "previous_decision": "development_sidequests_20261020:trans:2919",
+      "before": "[i_PI_AlchemistMaia]당신이 브룰토크에게서 회수한 고대 무기의 빠진 부품을 되찾을 때가 드디어 왔어요.\r\n\r\n수정 고개 아래 깊은 곳에는 흰서리 수용소의 숨겨진 방이 있어요. 잃어버린 무기 조각이 거기에 보관되어 있다는 결론을 내렸어요.\r\n\r\n네파라스 과학자들은 분명 그 용도와 힘을 알아냈을 거예요. 우리가 나머지 조각을 가지고 있음을 알아차리기 전에, 서둘러 그들 쪽의 무기 조각을 회수해야 해요.",
+      "after": "[i_PI_AlchemistMaia]당신이 브룰토크에게서 회수한 고대 무기의 빠진 부품을 되찾을 때가 드디어 왔어요.\r\n\r\n수정 고개 아래 깊은 곳에는 흰서리 수용소의 숨겨진 방이 있어요. 잃어버린 무기 조각이 거기에 보관되어 있다는 결론을 내렸어요.\r\n\r\n네파라스 과학자들은 분명 그 용도와 힘을 알아냈을 거예요. 남은 조각이 우리에게 있음을 알기 전에, 서둘러 그들 쪽의 무기 조각을 회수해야 해요.",
+      "before_sha256": "ce93c88b6068dac7f18421509e50bf4ec3f5b501c1f67a69a05c8402fbd85bfa",
+      "after_sha256": "f1e1493c1f03e6aa0298eb08dae812601ecc7ebc56a5f85e73b887b3c2247dae",
+      "exact_changes": [
+        {
+          "before": "우리가 나머지 조각을 가지고 있음을 알아차리기 전에,",
+          "after": "남은 조각이 우리에게 있음을 알기 전에,"
+        }
+      ]
+    },
+    {
+      "key": 2675,
+      "id": "ULKS46015-v1.01:en_us/trans:2675",
+      "source_sha256": "02cb5eed387ef02d6fc844bac539aa860f21b2ca78012c1c081b8f3cbb15f196",
+      "previous_decision": "development_main_story_20261020:trans:2675",
+      "before": "[i_PI_LaylaGoodmorrow]운명의 가호로 살아남으셨군요. 아직 우리에게 희망이 남아 있을지도 모르겠어요.\r\n\r\n자, 이것을 받으세요. 얼마 전 심연에서 찾았어요. 저보다는 당신이 더 잘 쓰실 수 있을 거예요.\r\n\r\n이제 이야기를 나눠야겠군요...\r\n\r\n우리 부족의 장로들은 당신이 그 짐승과 맞서러 간다는 소식을 들었어요. 당신이 실패할 경우에 대비해 저를 뒤따라 보냈지만, 지금은 그 이유를 설명할 때가 아니에요. 자세히 말할 시간이 없으니 잘 듣고 제 말을 믿어 주세요.\r\n\r\n그림자 신이 탈출했어요. 제 눈으로 직접 봤어요. 분명 당신과 당신의 사람들 앞에는 위험하고, 불가능해 보이는 일이 놓여 있어요.\r\n\r\n그림자 신이 당신의 도시인 아벤으로 달아났을까 두려워요. 하지만 상황을 예측할 수 없는 지금 무작정 뛰어드는 건 현명하지 않겠죠.\r\n\r\n다이애나 부인과 정찰병들은 톤우드 숲에 주둔하고 있어요.\r\n\r\n당신이 이 임무를 위해 떠난 직후에 숲에 도착했어요. 당신의 도시를 감시하려는 것 같아요. 같은 아벤 사람들조차 당신의 성공 가능성을 의심했던 게 분명하군요.\r\n\r\n하지만 지금은 스스로를 의심하거나 동포들의 의도를 따질 때가 아니에요! 싸움은 이제 시작됐으니 굳건히 버텨야 해요.\r\n\r\n톤우드 숲으로 가세요. 아벤으로 가기 전에 다이애나 부인과 이야기하세요. 젊은 수호자님, 영웅답게 나서기 전에 상황부터 확실히 알아야 해요.\r\n\r\n저는 이제 가야 해요. 제 사람들에게도 경고하고, 그들과 함께 싸워야 하니까요. 톤우드 숲까지는 혼자 가실 수 있겠죠? 그러시겠어요? 좋아요.\r\n\r\n기억하세요. 도착하면 바로 톤우드 숲의 다이애나 부인과 이야기하세요. 그림자 신과, 그가 아벤과 당신의 사람들에게 일으킨 혼란에 관해 자세히 알려 주실 거예요.",
+      "after": "[i_PI_LaylaGoodmorrow]운명의 가호로 살아남으셨군요. 아직 우리에게 희망이 남아 있을지도 모르겠어요.\r\n\r\n자, 이것을 받으세요. 얼마 전 심연에서 찾았어요. 저보다는 당신이 더 잘 쓰실 수 있을 거예요.\r\n\r\n이제 이야기를 나눠야겠군요...\r\n\r\n우리 부족의 장로들은 당신이 그 짐승과 맞서러 간다는 소식을 들었어요. 당신이 실패할 경우에 대비해 저를 뒤따라 보냈지만, 지금은 그 이유를 설명할 때가 아니에요. 자세히 말할 시간이 없으니 잘 듣고 제 말을 믿어 주세요.\r\n\r\n그림자 신이 탈출했어요. 제 눈으로 직접 봤어요. 분명 당신과 당신의 사람들 앞에는 위험하고, 불가능해 보이는 일이 놓여 있어요.\r\n\r\n그림자 신이 당신의 도시인 아벤으로 달아났을까 두려워요. 하지만 상황을 예측할 수 없는 지금 무작정 뛰어드는 건 현명하지 않겠죠.\r\n\r\n다이애나 부인과 정찰병들은 톤우드 숲에 주둔하고 있어요.\r\n\r\n당신이 이 임무를 위해 떠난 직후에 숲에 도착했어요. 당신의 도시를 감시하려는 것 같아요. 같은 아벤 사람들조차 당신의 성공 가능성을 의심했던 게 분명하군요.\r\n\r\n하지만 지금은 스스로를 의심하거나 동포들의 의도를 따질 때가 아니에요! 싸움은 이제 시작됐으니 굳건히 버텨야 해요.\r\n\r\n톤우드 숲으로 가세요. 아벤으로 가기 전에 다이애나 부인과 이야기하세요. 젊은 수호자님, 영웅답게 나서기 전에 상황부터 확실히 알아야 해요.\r\n\r\n저는 이제 가야 해요. 제 사람들에게도 경고하고, 그들과 함께 싸워야 하니까요. 톤우드 숲까지는 혼자 가실 수 있겠죠? 그러시겠어요? 좋아요.\r\n\r\n기억하세요. 도착하면 바로 톤우드 숲의 다이애나 부인과 이야기하세요. 그림자 신과 그가 아벤과 당신의 사람들에게 일으킨 혼란을 자세히 알려 주실 거예요.",
+      "before_sha256": "b2d7a74172904b7220f0f881bddafcc9b668a128ba3bac71a5739c2cb27d69ff",
+      "after_sha256": "76ae5d595628a8b3d6a50db404b157f9a566f572a04d9801b12fc48664619b73",
+      "exact_changes": [
+        {
+          "before": "그림자 신과, 그가",
+          "after": "그림자 신과 그가"
+        },
+        {
+          "before": "혼란에 관해 자세히 알려 주실 거예요.",
+          "after": "혼란을 자세히 알려 주실 거예요."
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "choice": "existing10",
+      "keys": [
+        2320,
+        2362,
+        2377,
+        2405,
+        2407,
+        2561,
+        2823,
+        2919,
+        3552,
+        3647
+      ],
+      "changed_trans_payloads": 10,
+      "unchanged_trans_payloads": 850,
+      "expected_changed_files": [
+        "PSP_GAME/USRDIR/locale/en_us_dir.dat",
+        "PSP_GAME/USRDIR/locale/en_us_trans.dat"
+      ],
+      "directory_bytes": 17200,
+      "before_trans_bytes": 235741,
+      "after_trans_bytes": 235531,
+      "delta_trans_bytes": -210,
+      "planned_file_sha256": {
+        "PSP_GAME/USRDIR/locale/en_us_dir.dat": "027492dae8b6f92fdf293e7186637c768b4e521ba741c97b0f9ba682d856c01a",
+        "PSP_GAME/USRDIR/locale/en_us_trans.dat": "b11200c49f0df984232d61138f783e66eacd4122430d0cfc3f0434c6c7c87d09"
+      },
+      "all860_reextracted_payloads_exact": true,
+      "English_offsets_lengths_flags_reserved_and_order_preserved": true,
+      "all_other78_current_files_are_outside_writer_scope": true,
+      "binary_outputs_written": false,
+      "user_approval_received": false
+    },
+    {
+      "choice": "all11",
+      "keys": [
+        2320,
+        2362,
+        2377,
+        2405,
+        2407,
+        2561,
+        2675,
+        2823,
+        2919,
+        3552,
+        3647
+      ],
+      "changed_trans_payloads": 11,
+      "unchanged_trans_payloads": 849,
+      "expected_changed_files": [
+        "PSP_GAME/USRDIR/locale/en_us_dir.dat",
+        "PSP_GAME/USRDIR/locale/en_us_trans.dat"
+      ],
+      "directory_bytes": 17200,
+      "before_trans_bytes": 235741,
+      "after_trans_bytes": 235523,
+      "delta_trans_bytes": -218,
+      "planned_file_sha256": {
+        "PSP_GAME/USRDIR/locale/en_us_dir.dat": "448b575b701c20ae8965e80830aad281e6a575c5363999a0ba6469dbcccab02c",
+        "PSP_GAME/USRDIR/locale/en_us_trans.dat": "5ecadbb4c6aa478f4ca932d4711047a87733e4d2e6c8ea0756e2c59638df92c2"
+      },
+      "all860_reextracted_payloads_exact": true,
+      "English_offsets_lengths_flags_reserved_and_order_preserved": true,
+      "all_other78_current_files_are_outside_writer_scope": true,
+      "binary_outputs_written": false,
+      "user_approval_received": false
+    }
+  ],
+  "unchanged_roundtrip_exact": true,
+  "existing_full_modern_Hangul11172_font_proof_reused": true,
+  "new_font_build_needed": false,
+  "approved_scope_before_write_required": true,
+  "choices_pending": true,
+  "game_SSOT_approval_decision_recipe_ISO_changes": 0,
+  "scope": "Memory-onlyserialization/reextraction. It doesnotcreateanapprovedrecipe,productbuild,patch,source-onlyreproduction ornewnativeproof. Actualselectionmustbindtheuseranswerandmatchthefrozenhashes;thenfullbuild/apply/runtimechecksremain.",
+  "release_eligible": false
+}

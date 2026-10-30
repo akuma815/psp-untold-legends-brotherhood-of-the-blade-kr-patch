@@ -1,0 +1,54 @@
+{
+  "status": "PASS_SOURCE_DIRECT3991_VICTORY_JOURNAL_DECODER_DRAW_REENTRY",
+  "artifact_name": "mode3_journal_20261024",
+  "artifact_sha256": "6f97cea500092c36a89afca1d0cb3157ea98cae7b0bd7fe29df7b0a95c685874",
+  "key": 3991,
+  "kind": "source_victory_journal",
+  "screens": [
+    {
+      "path": "qa/runtime/20261024_victory_journal_source_attempt01/Book_visible.png",
+      "sha256": "1ea8493836740cd894147dad7efa36bba11bd5b3a4336db35c5beabb73c7cbde"
+    },
+    {
+      "path": "qa/runtime/20261024_victory_journal_source_attempt01/Book_right.png",
+      "sha256": "5e49ad50e73728dc348c3c858566e08ed0f99af25e1df3861f142772d0c059c5"
+    },
+    {
+      "path": "qa/runtime/20261024_victory_journal_source_attempt01/Book_reopen.png",
+      "sha256": "dae33183b7815d4537ab88b89576009bdb9d9823992df64bc49fae0c1f77201d"
+    },
+    {
+      "path": "qa/runtime/20261024_victory_journal_source_attempt01/Book_visible.png",
+      "sha256": "1ea8493836740cd894147dad7efa36bba11bd5b3a4336db35c5beabb73c7cbde"
+    },
+    {
+      "path": "qa/runtime/20261024_victory_journal_source_attempt01/Book_close.png",
+      "sha256": "2e0fa7c2321e744ab6450b2117b21ea06bd01fde29bcf2fa22867111bb6e36d5"
+    }
+  ],
+  "full_decoded_draw_reentry_UTF16_NUL_equal": true,
+  "actual_decoder_key3991": true,
+  "actual_Book_draw694D4": true,
+  "explicit_RAM_history_record_bytes": 4,
+  "explicit_RAM_history_count_bytes": 1,
+  "total_RAM_intervention_bytes": 5,
+  "code_text_register_pointer_capacity_injections": 0,
+  "CPU_and4072_bytes_restored": true,
+  "cold_boot": false,
+  "same_artifact_state_imports": 1,
+  "cross_artifact_state_imports": 0,
+  "all80_after_verified": true,
+  "environment": {
+    "managed12_equal": true,
+    "external_equal": true,
+    "controlled_exit_code": 1,
+    "bridge_warning": null,
+    "both_owned_processes_exited": true,
+    "owned_after_count": 0,
+    "other_PPSSPP_after_count": 0,
+    "ownership_scope": "Exact launch generation plus live PID/create_time; unrelated instances are not required to disappear."
+  },
+  "natural_endgame_or_history_acquisition_verified": false,
+  "exact_wording_or_presentation_human_approval": false,
+  "release_eligible": false
+}

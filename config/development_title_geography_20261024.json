@@ -1,0 +1,19 @@
+{
+  "schema_version": 18,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_map_generated_korean_20261024.json",
+  "parent_config_sha256": "c6329a2d542980f2665b177caa85289e7123d781a556f56fc64359bc3bc6d560",
+  "title_map": {
+    "index": 5419,
+    "record_sha256": "f22fef7a91efffccbdeea007803184844755c342d32dec276e56e4e6dcf9a439",
+    "adoption": "workspace/graphics/title_geography_kr_20261024_v3/adoption.json",
+    "adoption_sha256": "5edbe0ea9f34c83be8a1a4c38cdd1c5e3050d7bfaaf5a1bb91488bc2d9821138",
+    "captions": [
+      "아벤",
+      "황무지"
+    ],
+    "final_human_layout_accepted": false
+  },
+  "main_text_SSOT_changed": false,
+  "release_eligible": false
+}

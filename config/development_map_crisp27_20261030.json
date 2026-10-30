@@ -1,0 +1,16 @@
+{
+  "schema_version": 27,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_second_review_apply_20261030.json",
+  "parent_config_sha256": "9429f68cca579433be912549f20b82820e24d568604ab7813b936cf2478a0ffd",
+  "frozen_inputs": {
+    "workspace/graphics/map_crisp27_20261030_v2/map_crisp1024.png": "dee70cb0da07a573ce53fa8e019bb26cfc7994aad76fe73b4652b09b03485190",
+    "workspace/graphics/map_crisp27_20261030_v2/ink1024.png": "361a71623274951b8608b5a545663cb0e122887debc9ef45c836e16e604f6884",
+    "workspace/graphics/map_crisp27_20261030_v2/allowed1024.png": "8f22ffde3ada43b1c0870eeac554d57bc00a7ccab5d5261b64f22145ba55b1b9",
+    "workspace/graphics/map_crisp27_20261030_v2/raster.json": "e6a25886baec9c72112fee446184a7c5e1dca683483b0714f5d7a1fc3d20a1f4"
+  },
+  "preserved_wording_approval": "workspace/translation/approvals/20261030_current3571_wording.json",
+  "preserved_original13_scope": "workspace/translation/approvals/20261030_graphics13_original_scope.json",
+  "human_graphics_quality_approved": false,
+  "release_eligible": false
+}

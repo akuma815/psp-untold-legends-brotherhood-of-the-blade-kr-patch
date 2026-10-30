@@ -1,0 +1,30 @@
+{
+  "status": "approved_exact_footer_rule",
+  "user_answer": "20개 모두 표식 제거 — 반영 16개와 보류 원고 4개에 동일 규칙 적용 (권장)",
+  "date": "2026-10-24",
+  "packet_sha256": "00905062e86ed3605ded55e3ac7377d20a3510df9dd1f70606aa8305b898616a",
+  "scope_keys": [
+    2299,
+    2300,
+    2301,
+    2309,
+    2317,
+    2320,
+    2322,
+    2325,
+    2332,
+    2333,
+    2334,
+    2335,
+    2351,
+    2352,
+    2353,
+    2354,
+    2363,
+    2364,
+    2365,
+    2366
+  ],
+  "rule": "Remove only the one terminal debug-marker line and immediately preceding line break from the20 pinned wordings. Preserve prior story text,portrait andquest references.16 selected payloads change;4 held working drafts remain held.",
+  "full_translation_or_release_approval": false
+}

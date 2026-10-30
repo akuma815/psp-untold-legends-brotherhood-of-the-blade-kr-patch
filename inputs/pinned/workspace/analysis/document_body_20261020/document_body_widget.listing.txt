@@ -1,0 +1,74 @@
+00026038 ori         $a0, $zero, 0x1
+0002603C sb          $a0, 0x11C($s0)
+00026040 addiu       $s2, $sp, 0x10
+00026044 jal 0x000BD4BC
+00026048 or          $a0, $s2, $zero
+0002604C lw          $a0, 0x10($s0)
+00026050 lui         $a1, 0x14
+00026054 sll         $a0, $a0, 2
+00026058 addiu       $a1, $a1, 0x2030
+0002605C addu        $a0, $a0, $a1
+00026060 lw          $a0, 0x0($a0)
+00026064 lui         $a1, 0x14
+00026068 lw          $a1, 0x2020($a1)
+0002606C bne         $a1, $a0, . + 4 + (0xF << 2)
+00026070 lui         $s1, 0x16
+00026074 jal 0x0006F5D4
+00026078 nop
+0002607C lw          $a1, 0x118($s0)
+00026080 or          $a0, $v0, $zero
+00026084 lw          $a1, 0x0($a1)
+00026088 jal 0x000705DC
+0002608C lw          $a1, 0x48($a1)
+00026090 or          $a0, $s2, $zero
+00026094 jal 0x000BDCB0
+00026098 or          $a1, $v0, $zero
+0002609C lw          $s1, -0x12E0($s1)
+000260A0 lw          $a0, 0x0($s0)
+000260A4 beq         $zero, $zero, . + 4 + (0xC << 2)
+000260A8 addiu       $s1, $s1, 0x2C0
+000260AC jal 0x0006F5D4
+000260B0 nop
+000260B4 or          $a0, $v0, $zero
+000260B8 jal 0x000705DC
+000260BC ori         $a1, $zero, 0xF28
+000260C0 or          $a0, $s2, $zero
+000260C4 jal 0x000BDCB0
+000260C8 or          $a1, $v0, $zero
+000260CC lw          $s1, -0x12E0($s1)
+000260D0 lw          $a0, 0x0($s0)
+000260D4 addiu       $s1, $s1, 0x2C0
+000260D8 addiu       $s3, $a0, 0x4
+000260DC or          $a0, $s3, $zero
+000260E0 jal 0x000C2C14
+000260E4 or          $a1, $s1, $zero
+000260E8 lui         $a1, 0x14
+000260EC or          $a0, $s3, $zero
+000260F0 jal 0x000C2E80
+000260F4 addiu       $a1, $a1, -0x6FEC
+000260F8 jal 0x000BE088
+000260FC or          $a0, $s2, $zero
+00026100 or          $a0, $s3, $zero
+00026104 jal 0x000C3024
+00026108 or          $a1, $v0, $zero
+0002610C ori         $a0, $zero, 0x1
+00026110 sw          $a0, 0x2E1C($s3)
+00026114 sb          $a0, 0x1B($s3)
+00026118 lui         $a0, 0x3F40
+0002611C mtc1        $a0, $f12
+00026120 or          $a1, $s3, $zero
+00026124 swc1        $f12, 0x20($s3)
+00026128 lw          $a0, 0x0($s0)
+0002612C or          $a2, $s0, $zero
+00026130 jal 0x000C52DC
+00026134 or          $a3, $zero, $zero
+00026138 or          $a0, $s2, $zero
+0002613C jal 0x000BD630
+00026140 ori         $a1, $zero, 0x2
+00026144 or          $v0, $zero, $zero
+00026148 lw          $s0, 0x18($sp)
+0002614C lw          $s1, 0x1C($sp)
+00026150 lw          $s2, 0x20($sp)
+00026154 lw          $s3, 0x24($sp)
+00026158 lw          $ra, 0x28($sp)
+0002615C jr          $ra

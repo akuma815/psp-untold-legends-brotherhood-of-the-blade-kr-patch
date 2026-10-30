@@ -1,0 +1,28 @@
+{
+  "status": "PASS_SOURCE_MODE3_PREACCEPTANCE_BOOK_GETTER_DRAW_AND_REENTRY",
+  "source_key": 3578,
+  "artifact_name": "book_role_compat_20261024",
+  "artifact_sha256": "3d19942de7c87ccfc7920d594b4d1c6bf14a7e549e2682ff6fb2086f36a2cc5b",
+  "native_mode3_prefetch": true,
+  "phase7D_zero_getter_returns_context24": true,
+  "exact_Book_C9850_input_and_NUL": true,
+  "Book_screens": 4,
+  "tab_and_reentry_masks_equal": true,
+  "reference_bytes": 4,
+  "phase_bytes": 1,
+  "CPU_and9620_restored": true,
+  "environment": {
+    "managed12_equal": true,
+    "external_equal": true,
+    "controlled_exit_code": 1,
+    "bridge_warning": "taskkill failed for pid 22848",
+    "both_owned_processes_exited": true,
+    "owned_after_count": 0,
+    "other_PPSSPP_after_count": 0,
+    "ownership_scope": "Exact launch generation plus live PID/create_time; unrelated instances are not required to disappear."
+  },
+  "native_natural_quest_row18_or_acceptance": false,
+  "earlier_phase1_Book_watch_did_not_cover_this_branch": true,
+  "new_selected": 0,
+  "release_eligible": false
+}

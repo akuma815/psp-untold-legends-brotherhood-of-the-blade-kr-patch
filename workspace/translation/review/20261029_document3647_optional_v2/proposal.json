@@ -1,0 +1,106 @@
+{
+  "status": "OPTIONAL_EXACT_WORDING_V2_NOT_APPLIED_OR_APPROVED",
+  "key": 3647,
+  "source": "This ancient signet was worn by each of the four members of the Brotherhood of the Blade.\r\n\r\nYou can feel its ancient power surround you and suddenly, you know neither fear nor hesitation.  What must be done is obvious -- the Shadowed God must be destroyed, else all will fall in the wake of his freedom.",
+  "source_sha256": "d44ae618a78700d21e0b9774c0fd053f1ed64b0f259aa4361d5b4491ba0c4c6c",
+  "current": "검의 형제단 네 구성원이 각자 지녔던 고대의 인장이다.\r\n\r\n고대의 힘이 주위를 감싸자 갑자기 두려움도 망설임도 사라진다. 해야 할 일은 분명하다. 그림자 신을 파괴해야 한다. 그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+  "current_wording_sha256": "74ac62d767af5ac6b9c23d00e7feb6acde9d445fc7a03793693dc6eee3d10b73",
+  "proposed": "검의 형제단 네 구성원이 각자 지녔던 고대의 인장이다.\r\n\r\n고대의 힘이 주위를 감싸자 갑자기 두려움도 망설임도 사라진다. 해야 할 일은 분명하다. 그림자 신을 파괴해야 한다. 그가 풀려나면 모든 것이 무너진다.",
+  "proposed_wording_sha256": "d8a9279ef084208c8a3c1a63d2e8f9274dd10be6e7c4f6d8de64cd2c68818511",
+  "change_before": "그렇지 않으면 풀려난 그로 인해 모든 것이 무너질 것이다.",
+  "change_after": "그가 풀려나면 모든 것이 무너진다.",
+  "scope": "Only the final sentence. First sentence,earlier paragraph,CRLFseparators,controls,sourceT5references,numbers andgame behavior unchanged.",
+  "semantic_reason": "Original else all will fall in the wake of his freedom. Prior sentence still requiresdestroyingtheShadowedGod. Conditional 그가 풀려나면 with 무너진다 expresses the same warning consequence;human judgement remains pending.",
+  "actual_current_runtime": "qa/reports/document3647_73_20261029_runtime.json",
+  "current_actual_pages": 3,
+  "local_before": {
+    "lines": 8,
+    "indexes": [
+      0,
+      31,
+      32,
+      33,
+      34,
+      63,
+      90,
+      120
+    ],
+    "height": 152,
+    "pages": [
+      {
+        "first_line": 0,
+        "last_line": 2,
+        "end": 32
+      },
+      {
+        "first_line": 4,
+        "last_line": 6,
+        "end": 119
+      },
+      {
+        "first_line": 7,
+        "last_line": 7,
+        "end": 131
+      }
+    ],
+    "guard_accesses": 1671,
+    "guard_opcodes": [
+      35,
+      37,
+      40,
+      43,
+      49,
+      57
+    ],
+    "metrics_and_text_unchanged": true,
+    "images": [],
+    "p_markers": []
+  },
+  "local_proposed": {
+    "lines": 7,
+    "indexes": [
+      0,
+      31,
+      32,
+      33,
+      34,
+      63,
+      90
+    ],
+    "height": 133,
+    "pages": [
+      {
+        "first_line": 0,
+        "last_line": 2,
+        "end": 32
+      },
+      {
+        "first_line": 4,
+        "last_line": 6,
+        "end": 118
+      }
+    ],
+    "guard_accesses": 1504,
+    "guard_opcodes": [
+      35,
+      37,
+      40,
+      43,
+      49,
+      57
+    ],
+    "metrics_and_text_unchanged": true,
+    "images": [],
+    "p_markers": []
+  },
+  "predicted_proposed_pages": 2,
+  "proposed_native_pages": 0,
+  "not_applied_to_game_or_SSOT": true,
+  "user_decision_deferred": true,
+  "if_user_selects": "Apply only this exact sentence through existingrecipe/SSOTdecision,thenverifyactualpagebreakandnormalregression appropriate to newpayload. Do notcalllocal2pagesanactualcapture.",
+  "full_wording_layout_or_release_approval": false,
+  "release_eligible": false,
+  "previous_candidate": "workspace/translation/review/20261029_document3647_optional/proposal.json",
+  "previous_three_page_candidate_not_preferred": true,
+  "reason_for_v2": "First shortening still left3pages/endfragment;v2retainsfreedomconditionandcollapseusingnaturalKoreanconditionalpresent."
+}

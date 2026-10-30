@@ -1,0 +1,4 @@
+# Preserve exact bytes of hash-pinned source and inputs across checkouts.
+* -text
+*.png binary
+*.ttf binary

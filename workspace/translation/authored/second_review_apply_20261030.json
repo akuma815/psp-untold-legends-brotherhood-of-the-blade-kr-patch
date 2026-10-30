@@ -1,0 +1,119 @@
+{
+  "policy": "Only six exact approved fragments; no rule outside these IDs",
+  "records": [
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2561",
+      "bank": "trans",
+      "key": 2561,
+      "source": "[i_PI_DeanLysetta]The entire tome you recovered from the Nethereye is a dark passage from the prophecy that speaks of corruption and a vile power.  There are many spells written amidst the prophecy and I admit that I have never seen anything like them before.\r\n\r\nAccording to the journal Kaylee found during her imprisonment, the Nethereye acquired this knowledge from Aldus, who was briefly imprisoned as Kaylee was not so long ago.\r\n\r\nThe Nethereye had managed to harness some part of this power, somehow connecting himself to the greater threat lurking in our world.\r\n\r\nIt is now certain -- a vile darkness looms over our future and we must prepare ourselves for the inevitable struggle.\r\n\r\nI have managed to uncover information that will lead us to the second tool of the Brotherhood of the Blade; the Aegis of Purity.\r\n\r\nI need you to recover this artifact posthaste while I search the Nethereye's tome for a cure to Kaylee's curse.\r\n\r\nThe Aegis is located in the second level of the Temple of Dreams.  My research has indicated that the artifact resides in the clutches of the siren known as Acaelstra.  \r\n\r\nWe know little else about the temple and the state of its inhabitants, but it is reasonable to assume that Acaelstra and her siren sisters are most powerful.\r\n\r\nMake haste, young hero.  Time, I fear, is a luxury we no longer possess.",
+      "source_sha256": "725d5d5a29833e469de318d5a2322d7f5cf96dc2f7bf2569422c7f5dcb293efb",
+      "previous_decision": "optional_layout_20261030:trans:2561",
+      "before": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리처럼 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "after": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리가 그랬듯 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네.",
+      "before_sha256": "314a0da48b089333f960ed08ee30f1caa3af23400dd01b091128a800d3b5f0ad",
+      "after_sha256": "937fb0e92bd33d3e582c2f6e0fd996bfb6aadff0d30d7bca536d7ce1f79783c2",
+      "exact_changes": [
+        {
+          "before": "얼마 전 케일리처럼",
+          "after": "얼마 전 케일리가 그랬듯"
+        }
+      ],
+      "text": "[i_PI_DeanLysetta]네더아이에게서 회수한 책 전체가 타락과 사악한 힘을 말하는 예언의 어두운 한 구절이더군. 예언 곳곳에 많은 주문이 적혀 있는데, 솔직히 말해 그런 주문은 처음 보네.\r\n\r\n케일리가 붙잡혀 있던 동안 찾은 일지에 따르면, 네더아이는 얼마 전 케일리가 그랬듯 잠시 갇혀 있던 알두스에게서 이 지식을 얻었다고 하네.\r\n\r\n네더아이는 그 힘의 일부를 부리는 데 성공했고, 어떻게든 자신을 우리 세상에 도사린 더 거대한 위협과 연결한 모양일세.\r\n\r\n이제는 확실하네. 사악한 어둠이 우리의 앞날에 드리워져 있으니, 피할 수 없는 싸움에 대비해야 하네.\r\n\r\n검의 형제단의 두 번째 도구인 순수의 방패로 이어지는 단서를 알아냈네.\r\n\r\n내가 네더아이의 책에서 케일리의 저주를 풀 방법을 찾는 동안, 자네는 서둘러 이 유물을 회수해 주게.\r\n\r\n방패는 꿈의 신전 2층에 있네. 내 연구에 따르면 아카엘스트라라는 세이렌이 그 유물을 손에 넣고 있다고 하네.\r\n\r\n그 밖에는 신전이나 그곳에 사는 이들의 상태에 대해 아는 바가 별로 없네. 하지만 아카엘스트라와 그녀의 세이렌 자매들이 대단히 강력할 거라 짐작하는 게 타당하겠지.\r\n\r\n서두르게, 젊은 영웅. 더는 시간이 없을까 두렵네."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1386:occurrence1",
+      "bank": "static",
+      "key": 1386,
+      "source": "Templar Plate Great Helm",
+      "source_sha256": "36115e14873e8e09ad347e9562527187bf7f36f8a4675aef330423fc05f8cae4",
+      "previous_decision": "development_armor_sw_20261020:static:1386",
+      "before": "성당기사 판금 대형 투구",
+      "after": "성전기사 판금 대형 투구",
+      "before_sha256": "d352d482ca60f5ebe3b38f13ba9d6d97743745ba217d175d82c1985ca6770162",
+      "after_sha256": "35a60e10d09df83a2f7820f1a4fbba86962f15b851a17efbe07528345e3025e1",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "text": "성전기사 판금 대형 투구"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1582:occurrence1",
+      "bank": "static",
+      "key": 1582,
+      "source": "Templar Plate Legplates",
+      "source_sha256": "cb12058ca67f3e1f1fc8429f19cc41f91fd84a74cc526605429e155416182e11",
+      "previous_decision": "development_armor_sw_20261020:static:1582",
+      "before": "성당기사 판금 다리 판금",
+      "after": "성전기사 판금 다리 판금",
+      "before_sha256": "50a58232c9834c286457266b2e1838a1a5fb95edefb01f60f3a280210b9c9c8f",
+      "after_sha256": "43571dbf7b1a6081904816d20a8a349b8e0bb476a601a5f1d44f10392144acf7",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "text": "성전기사 판금 다리 판금"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1638:occurrence1",
+      "bank": "static",
+      "key": 1638,
+      "source": "Templar Plate Vambraces",
+      "source_sha256": "67d25bf34cf2331a7ff8577848d83052e0b0e059b9f5082b9eeb6c2f92a4bc51",
+      "previous_decision": "development_armor_sw_20261020:static:1638",
+      "before": "성당기사 판금 팔뚝 보호대",
+      "after": "성전기사 판금 팔뚝 보호대",
+      "before_sha256": "eb4cc2a3775d9a5ebc344ee57e3c886d2995257da2cfba312012cfa9be99e28a",
+      "after_sha256": "6cc4e3ca9a7d1190e850f6e1a8afcc688cd1ab5ea56cea1f1c221e1149aef0cf",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "text": "성전기사 판금 팔뚝 보호대"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:1834:occurrence1",
+      "bank": "static",
+      "key": 1834,
+      "source": "Templar Plate Chestplate",
+      "source_sha256": "b1ea61587138d83849a6b775c1095556b08c8ab3770695cbaff766306c246ac3",
+      "previous_decision": "development_armor_sw_20261020:static:1834",
+      "before": "성당기사 판금 흉갑",
+      "after": "성전기사 판금 흉갑",
+      "before_sha256": "7be506a24dcd2c805dde2ddf6221b776a0b27cd01db5e53e335b810794defb23",
+      "after_sha256": "f618e1b5f449dc8364c56bfe3b1a01b0e41924c2614066aa8c40dc0147f75698",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "text": "성전기사 판금 흉갑"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:2030:occurrence1",
+      "bank": "static",
+      "key": 2030,
+      "source": "Templar Plate Greaves",
+      "source_sha256": "194a20f8325866e2f9186e37fecc19f29e9903d58eebead9753d1cfeb02cbc5a",
+      "previous_decision": "development_armor_sw_20261020:static:2030",
+      "before": "성당기사 판금 경갑",
+      "after": "성전기사 판금 경갑",
+      "before_sha256": "1449d5ad0a5191daf73c7710444c76cb72b7322336da0dad37f9c878b1bfbdf0",
+      "after_sha256": "1122ef677315b2b32bda11de1c686ac54f238058e5b810cf30d82927b29fc1ac",
+      "exact_changes": [
+        {
+          "before": "성당기사",
+          "after": "성전기사"
+        }
+      ],
+      "text": "성전기사 판금 경갑"
+    }
+  ]
+}

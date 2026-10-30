@@ -1,0 +1,584 @@
+{
+  "status": "GENERATED_LETTERING_TRANSFER_CANDIDATE_VISUAL_REVIEW_PENDING",
+  "user_direction": "Original PNG -> generative translation -> reinsertion;Python used for exact size/palette/container preparation.",
+  "generator": "built-in image_gen",
+  "generated_source": "workspace/graphics/map_kr_drafts_20261024/imagegen_01.png",
+  "generated_sha256": "041cdf45739285c9122ce1c3198b9b1b16e4ad5a8a308f862e2780656cc7253a",
+  "full_prompt_receipt": "workspace/graphics/map_kr_drafts_20261024/imagegen_01_receipt.json",
+  "generated_full_map_rejected_as_direct_input": true,
+  "normalized_generated_map_is_analysis_only": true,
+  "background": "workspace/graphics/map_kr_20261024/background_candidate1024.png",
+  "background_sha256": "f84c222029fd8c68005d3b9e61471d877a6e809c33b3591c419e04517e512b15",
+  "transfer": "Generated dark lettering silhouette only;source-normalized LANCZOS then native-slot fit of binary mask;existing darkest/lightest palette entries.",
+  "labels": [
+    {
+      "id": "map-caption-01",
+      "expected_text": "우나타카",
+      "generated_crop": [
+        36,
+        45,
+        242,
+        123
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          50,
+          58,
+          224,
+          109
+        ]
+      ],
+      "recovered_ink_bbox": [
+        55,
+        58,
+        218,
+        109
+      ],
+      "recovered_ink_size": [
+        163,
+        51
+      ],
+      "adopted_ink_size": [
+        160,
+        50
+      ],
+      "adopted_origin": [
+        59,
+        59
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-02",
+      "expected_text": "심연",
+      "generated_crop": [
+        586,
+        84,
+        671,
+        143
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          600,
+          101,
+          655,
+          128
+        ]
+      ],
+      "recovered_ink_bbox": [
+        602,
+        103,
+        650,
+        128
+      ],
+      "recovered_ink_size": [
+        48,
+        25
+      ],
+      "adopted_ink_size": [
+        48,
+        25
+      ],
+      "adopted_origin": [
+        604,
+        101
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-03",
+      "expected_text": "툰드라",
+      "generated_crop": [
+        392,
+        152,
+        493,
+        204
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          411,
+          165,
+          490,
+          192
+        ]
+      ],
+      "recovered_ink_bbox": [
+        414,
+        168,
+        485,
+        192
+      ],
+      "recovered_ink_size": [
+        71,
+        24
+      ],
+      "adopted_ink_size": [
+        71,
+        24
+      ],
+      "adopted_origin": [
+        407,
+        166
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-04",
+      "expected_text": "황무지",
+      "generated_crop": [
+        281,
+        367,
+        401,
+        426
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          304,
+          383,
+          378,
+          411
+        ]
+      ],
+      "recovered_ink_bbox": [
+        305,
+        388,
+        374,
+        411
+      ],
+      "recovered_ink_size": [
+        69,
+        23
+      ],
+      "adopted_ink_size": [
+        69,
+        23
+      ],
+      "adopted_origin": [
+        306,
+        385
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-05",
+      "expected_text": "툰드라",
+      "generated_crop": [
+        588,
+        368,
+        686,
+        419
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          608,
+          383,
+          686,
+          407
+        ]
+      ],
+      "recovered_ink_bbox": [
+        613,
+        385,
+        684,
+        407
+      ],
+      "recovered_ink_size": [
+        71,
+        22
+      ],
+      "adopted_ink_size": [
+        70,
+        22
+      ],
+      "adopted_origin": [
+        602,
+        382
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-06",
+      "expected_text": "심연",
+      "generated_crop": [
+        867,
+        406,
+        975,
+        465
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          902,
+          422,
+          959,
+          450
+        ]
+      ],
+      "recovered_ink_bbox": [
+        908,
+        424,
+        955,
+        450
+      ],
+      "recovered_ink_size": [
+        47,
+        26
+      ],
+      "adopted_ink_size": [
+        47,
+        26
+      ],
+      "adopted_origin": [
+        897,
+        422
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-07",
+      "expected_text": "우들랜드 링",
+      "generated_crop": [
+        134,
+        540,
+        262,
+        617
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          151,
+          554,
+          255,
+          580
+        ],
+        [
+          188,
+          582,
+          214,
+          610
+        ]
+      ],
+      "recovered_ink_bbox": [
+        153,
+        557,
+        251,
+        610
+      ],
+      "recovered_ink_size": [
+        98,
+        53
+      ],
+      "adopted_ink_size": [
+        91,
+        49
+      ],
+      "adopted_origin": [
+        152,
+        554
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-08",
+      "expected_text": "황무지",
+      "generated_crop": [
+        571,
+        651,
+        691,
+        711
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          594,
+          665,
+          667,
+          697
+        ]
+      ],
+      "recovered_ink_bbox": [
+        597,
+        673,
+        666,
+        697
+      ],
+      "recovered_ink_size": [
+        69,
+        24
+      ],
+      "adopted_ink_size": [
+        69,
+        24
+      ],
+      "adopted_origin": [
+        596,
+        669
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-09",
+      "expected_text": "툰드라",
+      "generated_crop": [
+        772,
+        666,
+        871,
+        718
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          791,
+          679,
+          865,
+          706
+        ]
+      ],
+      "recovered_ink_bbox": [
+        794,
+        679,
+        865,
+        706
+      ],
+      "recovered_ink_size": [
+        71,
+        27
+      ],
+      "adopted_ink_size": [
+        63,
+        24
+      ],
+      "adopted_origin": [
+        790,
+        680
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-10",
+      "expected_text": "아벤",
+      "generated_crop": [
+        209,
+        739,
+        282,
+        795
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          219,
+          761,
+          235,
+          777
+        ],
+        [
+          230,
+          757,
+          243,
+          784
+        ],
+        [
+          244,
+          759,
+          267,
+          784
+        ]
+      ],
+      "recovered_ink_bbox": [
+        220,
+        759,
+        264,
+        784
+      ],
+      "recovered_ink_size": [
+        44,
+        25
+      ],
+      "adopted_ink_size": [
+        44,
+        25
+      ],
+      "adopted_origin": [
+        223,
+        754
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    },
+    {
+      "id": "map-caption-11",
+      "expected_text": "우들랜드 링",
+      "generated_crop": [
+        162,
+        890,
+        345,
+        946
+      ],
+      "visually_bounded_letter_windows": [
+        [
+          188,
+          906,
+          324,
+          940
+        ]
+      ],
+      "recovered_ink_bbox": [
+        189,
+        910,
+        314,
+        938
+      ],
+      "recovered_ink_size": [
+        125,
+        28
+      ],
+      "adopted_ink_size": [
+        125,
+        28
+      ],
+      "adopted_origin": [
+        191,
+        904
+      ],
+      "size_fitted_inside_original_slot": true,
+      "text_accuracy_visual_review_pending": true
+    }
+  ],
+  "changed_tiles": [
+    {
+      "number": 1,
+      "index": 5096,
+      "changed_pixels": 2874
+    },
+    {
+      "number": 2,
+      "index": 5097,
+      "changed_pixels": 3011
+    },
+    {
+      "number": 5,
+      "index": 5100,
+      "changed_pixels": 1032
+    },
+    {
+      "number": 6,
+      "index": 5101,
+      "changed_pixels": 353
+    },
+    {
+      "number": 12,
+      "index": 5107,
+      "changed_pixels": 1339
+    },
+    {
+      "number": 13,
+      "index": 5108,
+      "changed_pixels": 48
+    },
+    {
+      "number": 19,
+      "index": 5114,
+      "changed_pixels": 48
+    },
+    {
+      "number": 21,
+      "index": 5116,
+      "changed_pixels": 45
+    },
+    {
+      "number": 22,
+      "index": 5117,
+      "changed_pixels": 23
+    },
+    {
+      "number": 27,
+      "index": 5122,
+      "changed_pixels": 1807
+    },
+    {
+      "number": 28,
+      "index": 5123,
+      "changed_pixels": 38
+    },
+    {
+      "number": 29,
+      "index": 5124,
+      "changed_pixels": 710
+    },
+    {
+      "number": 30,
+      "index": 5125,
+      "changed_pixels": 562
+    },
+    {
+      "number": 31,
+      "index": 5126,
+      "changed_pixels": 185
+    },
+    {
+      "number": 32,
+      "index": 5127,
+      "changed_pixels": 1191
+    },
+    {
+      "number": 34,
+      "index": 5129,
+      "changed_pixels": 2847
+    },
+    {
+      "number": 42,
+      "index": 5137,
+      "changed_pixels": 447
+    },
+    {
+      "number": 43,
+      "index": 5138,
+      "changed_pixels": 223
+    },
+    {
+      "number": 45,
+      "index": 5140,
+      "changed_pixels": 1394
+    },
+    {
+      "number": 46,
+      "index": 5141,
+      "changed_pixels": 678
+    },
+    {
+      "number": 47,
+      "index": 5142,
+      "changed_pixels": 1297
+    },
+    {
+      "number": 50,
+      "index": 5145,
+      "changed_pixels": 379
+    },
+    {
+      "number": 51,
+      "index": 5146,
+      "changed_pixels": 169
+    },
+    {
+      "number": 58,
+      "index": 5153,
+      "changed_pixels": 1747
+    },
+    {
+      "number": 59,
+      "index": 5154,
+      "changed_pixels": 1376
+    }
+  ],
+  "changed_pixels": 23823,
+  "protected_source_pixels_outside_exact_mask_equal": true,
+  "all_original_headers_palettes_retained": true,
+  "logo_unchanged": true,
+  "full_layout_or_release_human_approved": false,
+  "release_eligible": false
+}

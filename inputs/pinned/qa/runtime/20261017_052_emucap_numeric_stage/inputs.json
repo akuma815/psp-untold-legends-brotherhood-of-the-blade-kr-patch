@@ -1,0 +1,40 @@
+{
+  "boundary": {
+    "clocks": [
+      {
+        "domain": "psp.vblank_start",
+        "value": 5019
+      }
+    ],
+    "memory_mapping_epoch": "native-stop:354#s234",
+    "runtime_generation": "launch-01m54rc9pmnwd2eebpa9qdnytb",
+    "stop_epoch": "native-stop:354#s234"
+  },
+  "consistency": "frozen_boundary",
+  "reads": [
+    {
+      "address": 8554180,
+      "hex": "ef0eae8421c9c1f4bc1a9e940000000000000000000000000000000000000000000000000000000004000500ffffffffffffffff00000000000100002d030000090c00000500030701030501010601010000010000010000010000007994ab1d",
+      "index": 0,
+      "length": 96,
+      "memory_type": "main"
+    },
+    {
+      "address": 25163632,
+      "hex": "cdcc4c3dcdcc4c3d9a99993f3333b33f000080bf000080bf000080bf",
+      "index": 1,
+      "length": 28,
+      "memory_type": "main"
+    },
+    {
+      "address": 8650784,
+      "hex": "0000000070100409",
+      "index": 2,
+      "length": 8,
+      "memory_type": "main"
+    }
+  ],
+  "state": "frozen",
+  "total_bytes": 132
+}
+

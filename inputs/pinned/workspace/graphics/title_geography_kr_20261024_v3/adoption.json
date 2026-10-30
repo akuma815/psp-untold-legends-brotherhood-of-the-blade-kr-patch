@@ -1,0 +1,18 @@
+{
+  "status": "AGENT_VISUALLY_ADOPTED_TWO_TITLE_MAP_CAPTIONS_DEVELOPMENT",
+  "visual_review": "Aven and Badlands generated silhouettes readable;old English masks and final512 image reviewed;logo,far-left clipped inscription,padding and nonmask pixels preserved.",
+  "pinned_inputs": {
+    "workspace/graphics/title_geography_kr_20261024_v3/imagegen_01.png": "6b85bd81be8bbf65ab883f12c68c02ccfb43f04e368754be87e4e066f62d8760",
+    "workspace/graphics/title_geography_kr_20261024_v3/prompt.txt": "4695f8c4bde4ef2542eb829de8ee8d34dd4db1ab15152b679ffbc378a2f558d4",
+    "workspace/graphics/title_geography_kr_20261024_v3/imagegen_receipt.json": "04bced64f8ab6527218424cb62cd2b0a34dc02275b17420623e203e00cfe40fb",
+    "workspace/graphics/title_geography_kr_20261024_v3/title_korean512.png": "3aaa93b4a162fbc89883bcc96394806db22eaf166a7a975832552c8e9a7d70ce",
+    "workspace/graphics/title_geography_kr_20261024_v3/title_korean512.bin": "f22fef7a91efffccbdeea007803184844755c342d32dec276e56e4e6dcf9a439",
+    "workspace/graphics/title_geography_kr_20261024_v3/adopted_local_background512.png": "0bc688baee4ac7f437315eb8876971d31e7c711f8a5df44e798ec2c56b8618c7",
+    "workspace/graphics/title_geography_kr_20261024_v3/old_ink_cleanup_mask512.png": "716d50d49f283260fe258520e85d91ad68050c41c5a38c8c5131fe3e728af750",
+    "workspace/graphics/title_geography_kr_20261024_v3/generated_letter_mask512.png": "c89b973e28b0ecf9c419ba1822ac5310478b4f9bcac871a568b863c6ce3944e7",
+    "workspace/graphics/title_geography_kr_20261024_v3/allowed_mask512.png": "c8bc204012d5cc02350b3b453fadb01e01c8406e513819746d26c09dec1dcffc",
+    "workspace/graphics/title_geography_kr_20261024_v3/preparation.json": "01f8eaa03c4df41854ea63089a40aef03032c2dacf02c5c1fdff96fe3e2603aa"
+  },
+  "human_final_layout_accepted": false,
+  "release_eligible": false
+}

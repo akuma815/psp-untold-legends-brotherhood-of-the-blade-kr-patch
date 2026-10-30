@@ -1,0 +1,28 @@
+{
+  "status": "USER_ALTERNATIVE_EXACT_FRAGMENT_3541",
+  "authority": "user",
+  "date_local": "2026-10-26",
+  "user_answer": "'그리고 말이야. 저기 프라이스와' 부분을 '그리고, 프라이스와'로 줄이면 될거 같은데",
+  "source_id": "ULKS46015-v1.01:en_us/trans:3541",
+  "source_sha256": "d5edf795fbeece131333a9aa9f4915f867825a6ccea3293b61cac01958ab6f1e",
+  "packet": "workspace/translation/review/20261025_schema23_inventory_v16/packet.json",
+  "packet_sha256": "b7115d02f5e2ba018e6512517580fb8d20015c2abb358fe292970ffcf1a2245c",
+  "exact_before_fragment": "그리고 말이야. 저기 프라이스와",
+  "exact_after_fragment": "그리고, 프라이스와",
+  "before": "[i_PI_DorianWalker]솔직히 우리 모두 끝장난 줄 알았어. 로넌이 죽고 나니 그렇게 확신하게 되었나 봐...\r\n\r\n그런데 봐, 이제 자네가 내 생각이 틀렸다는 걸 증명했잖아! 고맙네, 수호자. 자네를 의심해서 미안해.\r\n\r\n아, 그리고 말이야. 저기 프라이스와 한 내기에서 날 지게 했으니 금화 100개를 내게 빚진 거야. 그래, 자네가 실패하는 쪽에 걸었어. 하지만 날 탓할 수 있겠나?",
+  "after": "[i_PI_DorianWalker]솔직히 우리 모두 끝장난 줄 알았어. 로넌이 죽고 나니 그렇게 확신하게 되었나 봐...\r\n\r\n그런데 봐, 이제 자네가 내 생각이 틀렸다는 걸 증명했잖아! 고맙네, 수호자. 자네를 의심해서 미안해.\r\n\r\n아, 그리고, 프라이스와 한 내기에서 날 지게 했으니 금화 100개를 내게 빚진 거야. 그래, 자네가 실패하는 쪽에 걸었어. 하지만 날 탓할 수 있겠나?",
+  "old_wording_sha256": "faac9a3bb62b5e6fbb24a6544e31f4bb20cdf1e8e5ed18be1c114a3287a6cc80",
+  "new_wording_sha256": "da852dfef93269009c1cf2b327fd9d182563eb975bad6f7679b96a7b51e8bc67",
+  "last_sentence_preserved": true,
+  "initial_아_comma_preserved": true,
+  "earlier_last_sentence_proposal_not_applied": true,
+  "preserved": [
+    "All other prose",
+    "100gold",
+    "Portrait",
+    "CRLF and control tags",
+    "DBrefs",
+    "Other keys and terms"
+  ],
+  "full_wording_layout_or_release_approval": false
+}

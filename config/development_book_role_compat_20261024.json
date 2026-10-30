@@ -1,0 +1,22 @@
+{
+  "schema_version": 10,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_book_role_split_20261024.json",
+  "parent_config_sha256": "757281cf50352c875166bc95826c39e9782571ec1fcff5eb41393d8555575079",
+  "compatibility_locales": [
+    "de_de",
+    "es_es",
+    "fr_fr",
+    "it_it"
+  ],
+  "source_to_alias_keys": [
+    [
+      2334,
+      4009
+    ],
+    [
+      2335,
+      4010
+    ]
+  ]
+}

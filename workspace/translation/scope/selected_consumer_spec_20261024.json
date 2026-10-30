@@ -1,0 +1,2103 @@
+{
+  "format": "ULKS46015-v1.01-established-selected-source-bindings-v1",
+  "role": "declarative source consumer catalogue supplement;not product wording or runtime procedure",
+  "supported_source_BOOT_sha256": "b603934d7d1a938ae4d3f6cfdac83ef96cdbf12489f673f4079666eae447d1d1",
+  "supported_source_DB_sha256": "d852979a6a7b1166dc433281dae61b96494e359dee25d732698726959d0eaca2",
+  "original_review_packet_sha256": "2d9a27f2dece5c53bdb7f9aeea45fca61d06f74ba2096e9fad8de21c9ab185b2",
+  "source_proof_reports": {
+    "qa/reports/lookup_ingress_20261024.json": "6410ebdcb88ad7e0375f331f273d37ebbb9065374543aef2535ba1cd0137663e",
+    "qa/reports/class_definition_consumer_20261024.json": "dd89f97769aec18a1bcb9b45eb60bb7479a5aae2ede0300bec0be27e3057532c",
+    "qa/reports/selected_ui_source_bindings_20261024.json": "185b0498dc524d4ab49bf923fce1f452b2b07a862b061e6edb1df18d68706e09"
+  },
+  "logical_records": 80,
+  "reference_count": 127,
+  "references_by_id": {
+    "ULKS46015-v1.01:en_us/static:2554:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 7396,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 7272,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 7268,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 173280,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 173156,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 173152,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264836,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 264712,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 264708,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265752,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 265628,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 265624,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 296224,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 296100,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 296096,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 356016,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 355892,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 355888,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 386392,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 386268,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 386264,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 391720,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 391596,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 391592,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2554,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 418400,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfa090534",
+        "call_pc": 418276,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 418272,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2556:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2556,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 7500,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfc090534",
+        "call_pc": 7376,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 7372,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2556,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 173384,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfc090534",
+        "call_pc": 173260,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 173256,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2556,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 356052,
+        "width": 12,
+        "expected_hex": "2520400077c1010cfc090534",
+        "call_pc": 355928,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 355924,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2075:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2075,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 44848,
+        "width": 12,
+        "expected_hex": "2520400077c1010c1b080534",
+        "call_pc": 44724,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 44720,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3751:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3751,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 44908,
+        "width": 12,
+        "expected_hex": "2520400077c1010ca70e0534",
+        "call_pc": 44784,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 44780,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3751,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 452096,
+        "width": 12,
+        "expected_hex": "2520400077c1010ca70e0534",
+        "call_pc": 451972,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 451968,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2834:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 134948,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 134824,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 134820,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 135932,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 135808,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 135804,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137448,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 137324,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137320,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 139560,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 139436,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 139432,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145964,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 145840,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145836,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 164788,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 164664,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 164660,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 267008,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 266884,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266880,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 296184,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 296060,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 296056,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2834,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 444720,
+        "width": 12,
+        "expected_hex": "2520400077c1010c120b0534",
+        "call_pc": 444596,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 444592,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2093:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 135360,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 135236,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 135232,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 135868,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 135744,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 135740,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 136320,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 136196,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 136192,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 136728,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 136604,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 136600,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137200,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 137076,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137072,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137532,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 137408,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137404,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137764,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 137640,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137636,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 139432,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 139308,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 139304,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2093,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 144988,
+        "width": 12,
+        "expected_hex": "2520400077c1010c2d080534",
+        "call_pc": 144864,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 144860,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2754:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2754,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137596,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc20a0534",
+        "call_pc": 137472,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137468,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2754,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 139496,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc20a0534",
+        "call_pc": 139372,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 139368,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2754,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145400,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc20a0534",
+        "call_pc": 145276,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145272,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2072:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2072,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137660,
+        "width": 12,
+        "expected_hex": "2520400077c1010c18080534",
+        "call_pc": 137536,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137532,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2072,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 137828,
+        "width": 12,
+        "expected_hex": "2520400077c1010c18080534",
+        "call_pc": 137704,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 137700,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2072,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145892,
+        "width": 12,
+        "expected_hex": "2520400077c1010c18080534",
+        "call_pc": 145768,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145764,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2072,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 164984,
+        "width": 12,
+        "expected_hex": "2520400077c1010c18080534",
+        "call_pc": 164860,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 164856,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2144:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2144,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 139032,
+        "width": 12,
+        "expected_hex": "2520400077c1010c60080534",
+        "call_pc": 138908,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 138904,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2144,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 152768,
+        "width": 12,
+        "expected_hex": "2520400077c1010c60080534",
+        "call_pc": 152644,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 152640,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2144,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 349864,
+        "width": 12,
+        "expected_hex": "2520400077c1010c60080534",
+        "call_pc": 349740,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 349736,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2144,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 391256,
+        "width": 12,
+        "expected_hex": "2520400077c1010c60080534",
+        "call_pc": 391132,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 391128,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2144,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 439652,
+        "width": 12,
+        "expected_hex": "2520400077c1010c60080534",
+        "call_pc": 439528,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 439524,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2755:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2755,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145272,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc30a0534",
+        "call_pc": 145148,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145144,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:4006:occurrence1": [
+      {
+        "bank": "static",
+        "key": 4006,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145532,
+        "width": 12,
+        "expected_hex": "2520400077c1010ca60f0534",
+        "call_pc": 145408,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145404,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 4006,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347668,
+        "width": 12,
+        "expected_hex": "2520400077c1010ca60f0534",
+        "call_pc": 347544,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347540,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2749:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2749,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145596,
+        "width": 12,
+        "expected_hex": "2520400077c1010cbd0a0534",
+        "call_pc": 145472,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145468,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2749,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347700,
+        "width": 12,
+        "expected_hex": "2520400077c1010cbd0a0534",
+        "call_pc": 347576,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347572,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3888:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3888,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 145660,
+        "width": 12,
+        "expected_hex": "2520400077c1010c300f0534",
+        "call_pc": 145536,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 145532,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2552:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2552,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 172180,
+        "width": 12,
+        "expected_hex": "2520400077c1010cf8090534",
+        "call_pc": 172056,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 172052,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2552,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 172620,
+        "width": 12,
+        "expected_hex": "2520400077c1010cf8090534",
+        "call_pc": 172496,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 172492,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3901:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3901,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 189604,
+        "width": 12,
+        "expected_hex": "2520400077c1010c3d0f0534",
+        "call_pc": 189480,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 189476,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3902:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3902,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 189640,
+        "width": 12,
+        "expected_hex": "2520400077c1010c3e0f0534",
+        "call_pc": 189516,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 189512,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3903:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3903,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 189676,
+        "width": 12,
+        "expected_hex": "2520400077c1010c3f0f0534",
+        "call_pc": 189552,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 189548,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3904:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3904,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 189712,
+        "width": 12,
+        "expected_hex": "2520400077c1010c400f0534",
+        "call_pc": 189588,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 189584,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3900:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3900,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 190656,
+        "width": 12,
+        "expected_hex": "2520400077c1010c3c0f0534",
+        "call_pc": 190532,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 190528,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2759:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2759,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 259596,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc70a0534",
+        "call_pc": 259472,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 259468,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2758:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2758,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 259632,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc60a0534",
+        "call_pc": 259508,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 259504,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3600:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3600,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264248,
+        "width": 12,
+        "expected_hex": "2520400077c1010c100e0534",
+        "call_pc": 264124,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 264120,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3600,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 266332,
+        "width": 12,
+        "expected_hex": "2520400077c1010c100e0534",
+        "call_pc": 266208,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266204,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3600,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 266736,
+        "width": 12,
+        "expected_hex": "2520400077c1010c100e0534",
+        "call_pc": 266612,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266608,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3595:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3595,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265156,
+        "width": 12,
+        "expected_hex": "2520400077c1010c0b0e0534",
+        "call_pc": 265032,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 265028,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3595,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 266432,
+        "width": 12,
+        "expected_hex": "2520400077c1010c0b0e0534",
+        "call_pc": 266308,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266304,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3595,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 266912,
+        "width": 12,
+        "expected_hex": "2520400077c1010c0b0e0534",
+        "call_pc": 266788,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266784,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2757:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2757,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 266152,
+        "width": 12,
+        "expected_hex": "2520400077c1010cc50a0534",
+        "call_pc": 266028,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 266024,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2164:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2164,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 325320,
+        "width": 12,
+        "expected_hex": "2520400077c1010c74080534",
+        "call_pc": 325196,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 325192,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2833:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2833,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347572,
+        "width": 12,
+        "expected_hex": "2520400077c1010c110b0534",
+        "call_pc": 347448,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347444,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2769:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2769,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347604,
+        "width": 12,
+        "expected_hex": "2520400077c1010cd10a0534",
+        "call_pc": 347480,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347476,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2750:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2750,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347636,
+        "width": 12,
+        "expected_hex": "2520400077c1010cbe0a0534",
+        "call_pc": 347512,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347508,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3841:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3841,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 347764,
+        "width": 12,
+        "expected_hex": "2520400077c1010c010f0534",
+        "call_pc": 347640,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 347636,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2683:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2683,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 386308,
+        "width": 12,
+        "expected_hex": "2520400077c1010c7b0a0534",
+        "call_pc": 386184,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 386180,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2683,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 391636,
+        "width": 12,
+        "expected_hex": "2520400077c1010c7b0a0534",
+        "call_pc": 391512,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 391508,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2670:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2670,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 388072,
+        "width": 12,
+        "expected_hex": "2520400077c1010c6e0a0534",
+        "call_pc": 387948,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 387944,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2670,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 392600,
+        "width": 12,
+        "expected_hex": "2520400077c1010c6e0a0534",
+        "call_pc": 392476,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 392472,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 2670,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 434688,
+        "width": 12,
+        "expected_hex": "2520400077c1010c6e0a0534",
+        "call_pc": 434564,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 434560,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3992:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3992,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 396216,
+        "width": 12,
+        "expected_hex": "2520400077c1010c980f0534",
+        "call_pc": 396092,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 396088,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3072:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3072,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 396252,
+        "width": 12,
+        "expected_hex": "2520400077c1010c000c0534",
+        "call_pc": 396128,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 396124,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3506:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3506,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 396288,
+        "width": 12,
+        "expected_hex": "2520400077c1010cb20d0534",
+        "call_pc": 396164,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 396160,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      },
+      {
+        "bank": "static",
+        "key": 3506,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 398544,
+        "width": 12,
+        "expected_hex": "2520400077c1010cb20d0534",
+        "call_pc": 398420,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 398416,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2685:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2685,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 396324,
+        "width": 12,
+        "expected_hex": "2520400077c1010c7d0a0534",
+        "call_pc": 396200,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 396196,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2674:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2674,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 400248,
+        "width": 12,
+        "expected_hex": "2520400077c1010c720a0534",
+        "call_pc": 400124,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 400120,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2673:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2673,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 400284,
+        "width": 12,
+        "expected_hex": "2520400077c1010c710a0534",
+        "call_pc": 400160,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 400156,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2886:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2886,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 400320,
+        "width": 12,
+        "expected_hex": "2520400077c1010c460b0534",
+        "call_pc": 400196,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 400192,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2672:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2672,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 400356,
+        "width": 12,
+        "expected_hex": "2520400077c1010c700a0534",
+        "call_pc": 400232,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 400228,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2668:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2668,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 434652,
+        "width": 12,
+        "expected_hex": "2520400077c1010c6c0a0534",
+        "call_pc": 434528,
+        "target": 460252,
+        "key_argument_register": 5,
+        "block_start": 434524,
+        "role": "source_constant_shared_locale_call",
+        "consumer_evidence": "qa/reports/lookup_ingress_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2687:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2687,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350440,
+        "width": 2,
+        "expected_hex": "7f0a",
+        "role": "class_name",
+        "table": 18,
+        "row": 0,
+        "field": 12,
+        "call_pc": 434644,
+        "target": 460252,
+        "original_runtime_field_offset": 12,
+        "load_pc": 434640,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2693:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2693,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350442,
+        "width": 2,
+        "expected_hex": "850a",
+        "role": "class_description",
+        "table": 18,
+        "row": 0,
+        "field": 14,
+        "call_pc": 434184,
+        "target": 460252,
+        "original_runtime_field_offset": 14,
+        "load_pc": 434180,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2688:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2688,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350460,
+        "width": 2,
+        "expected_hex": "800a",
+        "role": "class_name",
+        "table": 18,
+        "row": 1,
+        "field": 12,
+        "call_pc": 434644,
+        "target": 460252,
+        "original_runtime_field_offset": 12,
+        "load_pc": 434640,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2694:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2694,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350462,
+        "width": 2,
+        "expected_hex": "860a",
+        "role": "class_description",
+        "table": 18,
+        "row": 1,
+        "field": 14,
+        "call_pc": 434184,
+        "target": 460252,
+        "original_runtime_field_offset": 14,
+        "load_pc": 434180,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2689:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2689,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350480,
+        "width": 2,
+        "expected_hex": "810a",
+        "role": "class_name",
+        "table": 18,
+        "row": 2,
+        "field": 12,
+        "call_pc": 434644,
+        "target": 460252,
+        "original_runtime_field_offset": 12,
+        "load_pc": 434640,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2696:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2696,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350482,
+        "width": 2,
+        "expected_hex": "880a",
+        "role": "class_description",
+        "table": 18,
+        "row": 2,
+        "field": 14,
+        "call_pc": 434184,
+        "target": 460252,
+        "original_runtime_field_offset": 14,
+        "load_pc": 434180,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2690:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2690,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350500,
+        "width": 2,
+        "expected_hex": "820a",
+        "role": "class_name",
+        "table": 18,
+        "row": 3,
+        "field": 12,
+        "call_pc": 434644,
+        "target": 460252,
+        "original_runtime_field_offset": 12,
+        "load_pc": 434640,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2697:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2697,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350502,
+        "width": 2,
+        "expected_hex": "890a",
+        "role": "class_description",
+        "table": 18,
+        "row": 3,
+        "field": 14,
+        "call_pc": 434184,
+        "target": 460252,
+        "original_runtime_field_offset": 14,
+        "load_pc": 434180,
+        "consumer_evidence": "qa/reports/class_definition_consumer_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2763:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2763,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264432,
+        "width": 4,
+        "expected_hex": "cb0a0734",
+        "role": "settings_original_key_argument",
+        "call_pc": 264308,
+        "target": 259344,
+        "key_register": 7,
+        "final_lookup_call": 259768,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3504:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3504,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264516,
+        "width": 4,
+        "expected_hex": "b00d0734",
+        "role": "settings_original_key_argument",
+        "call_pc": 264392,
+        "target": 259344,
+        "key_register": 7,
+        "final_lookup_call": 259768,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3621:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3621,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264600,
+        "width": 4,
+        "expected_hex": "250e0734",
+        "role": "settings_original_key_argument",
+        "call_pc": 264476,
+        "target": 259344,
+        "key_register": 7,
+        "final_lookup_call": 259768,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3758:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3758,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264684,
+        "width": 4,
+        "expected_hex": "ae0e0734",
+        "role": "settings_original_key_argument",
+        "call_pc": 264560,
+        "target": 259344,
+        "key_register": 7,
+        "final_lookup_call": 259768,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3620:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3620,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 264768,
+        "width": 4,
+        "expected_hex": "240e0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 264636,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2760:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2760,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265304,
+        "width": 4,
+        "expected_hex": "c80a0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265172,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3596:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3596,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265380,
+        "width": 4,
+        "expected_hex": "0c0e0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265248,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3597:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3597,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265456,
+        "width": 4,
+        "expected_hex": "0d0e0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265324,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3598:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3598,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265532,
+        "width": 4,
+        "expected_hex": "0e0e0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265400,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3599:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3599,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265608,
+        "width": 4,
+        "expected_hex": "0f0e0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265476,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2761:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2761,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 265684,
+        "width": 4,
+        "expected_hex": "c90a0834",
+        "role": "settings_original_key_argument",
+        "call_pc": 265552,
+        "target": 259988,
+        "key_register": 8,
+        "final_lookup_call": 260276,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2120:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2120,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387500,
+        "width": 4,
+        "expected_hex": "48080434",
+        "role": "attribute_name",
+        "final_lookup_call": 388000,
+        "object_array_row": 0,
+        "object_field_offset": 44,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2121:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2121,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387508,
+        "width": 4,
+        "expected_hex": "49080434",
+        "role": "attribute_description",
+        "final_lookup_call": 386420,
+        "object_array_row": 0,
+        "object_field_offset": 48,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2122:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2122,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387524,
+        "width": 4,
+        "expected_hex": "4a080434",
+        "role": "attribute_name",
+        "final_lookup_call": 388000,
+        "object_array_row": 1,
+        "object_field_offset": 56,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2123:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2123,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387532,
+        "width": 4,
+        "expected_hex": "4b080434",
+        "role": "attribute_description",
+        "final_lookup_call": 386420,
+        "object_array_row": 1,
+        "object_field_offset": 60,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2124:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2124,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387548,
+        "width": 4,
+        "expected_hex": "4c080434",
+        "role": "attribute_name",
+        "final_lookup_call": 388000,
+        "object_array_row": 2,
+        "object_field_offset": 68,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2125:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2125,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387556,
+        "width": 4,
+        "expected_hex": "4d080434",
+        "role": "attribute_description",
+        "final_lookup_call": 386420,
+        "object_array_row": 2,
+        "object_field_offset": 72,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2126:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2126,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387572,
+        "width": 4,
+        "expected_hex": "4e080434",
+        "role": "attribute_name",
+        "final_lookup_call": 388000,
+        "object_array_row": 3,
+        "object_field_offset": 80,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2127:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2127,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 387580,
+        "width": 4,
+        "expected_hex": "4f080434",
+        "role": "attribute_description",
+        "final_lookup_call": 386420,
+        "object_array_row": 3,
+        "object_field_offset": 84,
+        "source_array_stride": 12,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2682:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2682,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 386260,
+        "width": 4,
+        "expected_hex": "7a0a0534",
+        "role": "attribute_remaining_points_numeric",
+        "call_pc": 386136,
+        "target": 457264,
+        "key_register": 5,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2951:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2951,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 393300,
+        "width": 4,
+        "expected_hex": "870b0534",
+        "role": "attribute_points_required_notice",
+        "call_pc": 393168,
+        "target": 390976,
+        "key_register": 5,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3079:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3079,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 309072,
+        "width": 4,
+        "expected_hex": "070c0534",
+        "role": "quest_changed_toast",
+        "call_pc": 308948,
+        "target": 85680,
+        "key_register": 5,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/trans:3881": [
+      {
+        "bank": "trans",
+        "key": 3881,
+        "source_path": "PSP_GAME/SYSDIR/BOOT.BIN",
+        "offset": 461376,
+        "width": 4,
+        "expected_hex": "290f0634",
+        "role": "story_scroll_selector0",
+        "call_pc": 461400,
+        "target": 894516,
+        "selector": 0,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2888:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2888,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350410,
+        "width": 2,
+        "expected_hex": "480b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 0,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:2889:occurrence1": [
+      {
+        "bank": "static",
+        "key": 2889,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350412,
+        "width": 2,
+        "expected_hex": "490b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 1,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3033:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3033,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350414,
+        "width": 2,
+        "expected_hex": "d90b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 2,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3034:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3034,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350416,
+        "width": 2,
+        "expected_hex": "da0b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 3,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3036:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3036,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350418,
+        "width": 2,
+        "expected_hex": "dc0b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 4,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3037:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3037,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350420,
+        "width": 2,
+        "expected_hex": "dd0b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 5,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3038:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3038,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350422,
+        "width": 2,
+        "expected_hex": "de0b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 6,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3039:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3039,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350424,
+        "width": 2,
+        "expected_hex": "df0b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 7,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ],
+    "ULKS46015-v1.01:en_us/static:3040:occurrence1": [
+      {
+        "bank": "static",
+        "key": 3040,
+        "source_path": "PSP_GAME/USRDIR/res/gam_db_T4",
+        "offset": 350426,
+        "width": 2,
+        "expected_hex": "e00b",
+        "role": "proximity_place_notification",
+        "table": 17,
+        "row": 8,
+        "field": 0,
+        "final_lookup_call": 461188,
+        "consumer_evidence": "qa/reports/selected_ui_source_bindings_20261024.json",
+        "not_new_native_runtime_evidence": true
+      }
+    ]
+  },
+  "limits": "Finite source relationships for previously selected80 catalogue entries. No new wording,selection,approval,whole-game denominator,global unused exclusion or current natural/runtime visibility. No RSC alias inference.",
+  "release_eligible": false
+}

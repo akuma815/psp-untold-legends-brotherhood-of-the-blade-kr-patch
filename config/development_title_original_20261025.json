@@ -1,0 +1,13 @@
+{
+  "schema_version": 22,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_review17_20261024.json",
+  "parent_config_sha256": "e09ab784d22d098aeb9c21d5025196591feba01bc4f77f82afa408d7b3015561",
+  "title_map_scope_decision": "workspace/translation/approvals/20261025_title_map_original.json",
+  "title_map_scope_decision_sha256": "04b8d7eae3924325d7d49f84777099902b9dbfa527b25717a87c5b46d144b09b",
+  "restore_original_WAD_index": 5419,
+  "restore_original_record_sha256": "4f2bd149ebf75bca7816fbf33936290475a769e82a2c3013181dfb0ce93d7475",
+  "scope": "All place-name pixels in title background remain original,including Aven,Badlands and clipped Woodland Ring. In-game worldmap and all text unchanged.",
+  "main_translation_SSOT_changed": false,
+  "release_eligible": false
+}

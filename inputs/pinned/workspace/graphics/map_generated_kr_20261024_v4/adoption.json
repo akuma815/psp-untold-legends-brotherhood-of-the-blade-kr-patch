@@ -1,0 +1,18 @@
+{
+  "status": "agent_visually_adopted_generated_lettering_development_candidate",
+  "user_direction": "이미지를 png로 받은 후에 해당 이미지를 생성형으로 번역한 다음에 다시 삽입하는 방법은 안되는가?",
+  "pipeline": "Source PNG -> built-in generated Korean map -> normalize for lettering extraction only ->11 bounded silhouettes ->frozen source-color map PNG ->4bpp containers. Original whole-map redraw never imported.",
+  "pinned_inputs": {
+    "workspace/graphics/map_generated_kr_20261024_v4/map_korean_candidate1024.png": "f983a903ffd19a89ad433c7ce1450097d78941cfca1d8dc06efe318a1dc0b0aa",
+    "workspace/graphics/map_generated_kr_20261024_v4/generated_ink_mask1024.png": "a451e7af822e533d4c8a95e4fe5dc3ee2602fd5d0b61c767440f20b212bc0cf1",
+    "workspace/graphics/map_generated_kr_20261024_v4/allowed_changes_mask1024.png": "1ecca2839d43d75fdc884a51ee33ed4688312e0b9bcf8fbf4839d60bff7a110c",
+    "workspace/graphics/map_generated_kr_20261024_v4/derivation.json": "7d4fed65a5b50891c0c2c740bf33d61ce67ece227864f193af4103eb85802666",
+    "workspace/graphics/map_kr_drafts_20261024/imagegen_01.png": "041cdf45739285c9122ce1c3198b9b1b16e4ad5a8a308f862e2780656cc7253a",
+    "workspace/graphics/map_kr_20261024/background_candidate1024.png": "f84c222029fd8c68005d3b9e61471d877a6e809c33b3591c419e04517e512b15",
+    "workspace/graphics/map_kr_20261024/source_ink_mask1024.png": "97fba6355ed8910118d724f508eaa5197ddba2fca9d30b179e7756e463f3a375",
+    "workspace/graphics/map_kr_20261024/approval.json": "c53c5d062d4ba8ddbc1f2033b12eba32c0786f2507a14a0458abcf9520effb11"
+  },
+  "visual_review": "Inspected all11 labels at2x native pixels;v1/v2 noisy masks andv3 clipped final syllable refinements retained;v4 removes nearby map geometry and restores complete Aven/Woodland Ring strokes. Dark generated ink is heavier than rejected Galmuri preview.",
+  "final_layout_human_approved": false,
+  "release_eligible": false
+}

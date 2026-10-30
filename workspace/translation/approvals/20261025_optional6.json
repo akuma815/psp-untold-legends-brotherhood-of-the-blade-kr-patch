@@ -1,0 +1,98 @@
+{
+  "status": "USER_APPROVED_EXACT6_SCOPED_WORDING",
+  "authority": "user",
+  "date_local": "2026-10-25",
+  "question_item_id": "[\"request_user_input_async\",\"call_4159e79ac98e4bb6b2a3792496ca7a37\",0]",
+  "answer": "6개 모두 제안대로 반영 (권장)",
+  "packet": "workspace/translation/review/20261025_optional6_wording_review/packet.json",
+  "packet_sha256": "e45dd30745c7ce113bf3cc3ba27856a79cb6b4048fb8893dd2b0f9ae40180fd3",
+  "pairs": [
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3096",
+      "bank": "trans",
+      "key": 3096,
+      "title": "정신 교란",
+      "source_sha256": "1bc4da0eba5cd42bc2ccd920a67b9cf4ed1773ce155b7153d52e9cff4e0e90f8",
+      "source": "Converts $1 of enemies to fight for you over a $2 second duration.",
+      "before": "적의 $1 비율을 $2초 동안 아군으로 바꾸어 싸우게 합니다.",
+      "after": "적 중 $1를 $2초 동안 아군으로 바꾸어 싸우게 합니다.",
+      "previous_decision": "development_abilities_20261020:trans:3096"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3104",
+      "bank": "trans",
+      "key": 3104,
+      "title": "방어",
+      "source_sha256": "054b8c866af1b2f6d7227175574242194bcac3d6e528a690f82e538334a04eaf",
+      "source": "Adds $1 extra damage mitigation to all blocks. Has a $2 chance of rooting the attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 속박합니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 속박합니다.",
+      "previous_decision": "development_abilities_20261020:trans:3104"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3116",
+      "bank": "trans",
+      "key": 3116,
+      "title": "방어",
+      "source_sha256": "35eaff65c8064e9d02f215ade33870256255aa85bbe9852c8f38902a1d853bd1",
+      "source": "Adds $1 extra damage mitigation to all blocks.  Has a $2 chance of stunning the attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 기절시킵니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 기절시킵니다.",
+      "previous_decision": "development_abilities_20261020:trans:3116"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3122",
+      "bank": "trans",
+      "key": 3122,
+      "title": "강타",
+      "source_sha256": "5b1772515092fd0d55b8dd9f46568430d6abb05272754e5954d281b92114cd2a",
+      "source": "Swing your melee weapon multiple times for a chance to hit each enemy in a radius around you for $1-$2 damage per swing.",
+      "before": "근접 무기를 여러 번 휘두릅니다. 휘두를 때마다 주변 범위 안의 각 적에게 $1-$2 피해를 줄 기회가 있습니다.",
+      "after": "근접 무기를 여러 번 휘두릅니다. 휘두를 때마다 주변 범위 안의 각 적에게 $1-$2 피해를 줄 수 있습니다.",
+      "previous_decision": "development_abilities_20261020:trans:3122"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3129",
+      "bank": "trans",
+      "key": 3129,
+      "title": "힘의 귀감",
+      "source_sha256": "a94ebe2b39e3148e4beb012b9c89670eeba59c282a672b08952ca539e126d21d",
+      "source": "Ups melee damage to $1, blocking to $2, and melee instant kill to $3.  Cuts speed to $4. Lasts $5 seconds.",
+      "before": "근접 피해는 $1, 방어는 $2, 근접 공격의 즉사 확률은 $3 수준으로 높아집니다. 속도는 $4 수준으로 낮아집니다. $5초 동안 지속됩니다.",
+      "after": "근접 피해는 $1, 막기는 $2, 근접 공격의 즉사 확률은 $3 수준으로 높아집니다. 속도는 $4 수준으로 낮아집니다. $5초 동안 지속됩니다.",
+      "previous_decision": "development_abilities_20261020:trans:3129"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3131",
+      "bank": "trans",
+      "key": 3131,
+      "title": "방어",
+      "source_sha256": "d76e8e50a7b9349e22919d8ee80b5eb47b952d42a17574e00fe968e3b0da1383",
+      "source": "Adds $1 extra damage mitigation to all blocks.  Has a $2 chance of slowing an attacker for $3 seconds while blocking.",
+      "before": "모든 방어의 피해 경감량이 $1 증가합니다. 방어 중 $2 확률로 공격자를 $3초 동안 느리게 만듭니다.",
+      "after": "막기로 받는 피해가 $1 더 감소합니다. 막기 중 $2 확률로 공격자를 $3초 동안 느리게 만듭니다.",
+      "previous_decision": "development_abilities_20261020:trans:3131"
+    }
+  ],
+  "entries_before_sha256": "ad40660cc0c6c586d47a6cfb6b2e2a9099c4f4088959c6d35c7fad04bfd3b894",
+  "terminology_before_sha256": "2764534652f859271e620515543e6f45e2804a941497de1e9b166719c0b5ea9a",
+  "artifact_before_sha256": "8d2bd3a0e28e2c20a167fbce035c21ae3d3618f6512f9022424ec065a8a24c5a",
+  "approved_blocking_keys": [
+    3104,
+    3116,
+    3129,
+    3131
+  ],
+  "approved_grammar_keys": [
+    3096,
+    3122
+  ],
+  "exclusions": [
+    "Ability titles including 방어",
+    "Numbers,variable order,control tags,effects and definitions",
+    "All other text and label terminology",
+    "Title-map original scope",
+    "Whole wording/layout/release approval"
+  ],
+  "full_wording_layout_or_release_approval": false
+}

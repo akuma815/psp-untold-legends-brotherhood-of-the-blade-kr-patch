@@ -1,0 +1,59 @@
+{
+  "status": "REVIEW_SHARED3548_OWNER_HASH_BINDINGS_AND_EXPLICIT_SHARED_VOICE_CHOICE",
+  "key": 3548,
+  "source_sha256": "b822f0802f631e420bdcc94348896bad62d8eebb87c45193a68635b285cf6c15",
+  "source_text": "[i_PI_SabineFirehand]I wish I could have been there, fighting beside you in the darkest hours of our then uncertain fate...\r\n\r\nBut such was not my destiny.  No, it was yours alone; to triumph where no one before you was able and to seal the glory of our future.",
+  "existing_draft": "[i_PI_SabineFirehand]우리 운명이 불확실했던 가장 어두운 시간에, 그곳에서 당신 곁에 서서 싸울 수 있었다면 좋았을 텐데요...\r\n\r\n하지만 그건 제 운명이 아니었어요. 앞선 누구도 이루지 못한 승리를 거두고 영광스러운 미래를 굳건히 하는 일은 오직 당신의 운명이었죠.",
+  "owners": [
+    {
+      "table13_row": 4,
+      "table13_field": 132,
+      "table13_owner_hash": "0xd0c89a74",
+      "table2_row": 262,
+      "table2_hash_field": 4,
+      "label_key": 802,
+      "source_label": "Elder Aidas",
+      "table13_complete_hex": "749ac8d068090000690900006a0900006b090000ffffffffffffffff6c0900006e09000070090000ffffffffffffffffca090000cb090000ffffffff0d0a0000210a0000220a0000230a0000360a0000370a0000370a0000380a0000ffffffffffffffffffffffffffffffffffffffffffffffffe10d0000ffffffffffffffffffffffffdc0d0000ffffffffffffffffffffffff6c0900006f09000071090000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe30d0000ffffffffffffffffffffffffffffffffffffffff",
+      "actor_complete_hex": "2203cccc749ac8d08f3a3929000000000000000000000000640064000000640064006e0064006400e8030000000000000000000000000000000000005900cccc0000000000000000000000000000000000000000000000000000803f010219cc2e2e2323232323090009000332010201"
+    },
+    {
+      "table13_row": 7,
+      "table13_field": 132,
+      "table13_owner_hash": "0xfbf7496d",
+      "table2_row": 248,
+      "table2_hash_field": 4,
+      "label_key": 788,
+      "source_label": "Sabine Firehand",
+      "table13_complete_hex": "6d49f7fb7e0900007f0900008009000081090000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe00d0000ffffffffffffffffffffffffdc0d0000fffffffffffffffffffffffff30b0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe40d0000ffffffffffffffffffffffffffffffffffffffff",
+      "actor_complete_hex": "1403cccc6d49f7fb7acae831000000000000000000000000640064000000640064006e0064006400e8030000000000000000000000000000000000003f00cccc0000000000000000000000000000000000000000000000000000803f010219cc2e2e2323232323090009000319020001"
+    }
+  ],
+  "verified_windows": [
+    {
+      "name": "owner_hash_lookup",
+      "start": 377696,
+      "end_exclusive": 377808,
+      "source_sha256": "37af0ac1732e101f9ca75340bfc73b37bbd340e1b9b2e3793a72698e69095568",
+      "instructions": 28
+    },
+    {
+      "name": "NPC_selector",
+      "start": 428828,
+      "end_exclusive": 429320,
+      "source_sha256": "4115acbfa463d44375ad98186fb8780375a0105cd03fdf2e11374baa18631f41",
+      "instructions": 123
+    }
+  ],
+  "source_fallback": "NPC selector5 with no selected context:68C38 reads table13+132;cache/flags still gate execution",
+  "original_portrait": "[i_PI_SabineFirehand]",
+  "original_key_and_two_references_preserved": true,
+  "source_owner_mapping_is_not_natural_speaking_proof": true,
+  "voice_tradeoff": "Existing Aidas lines use hage style, Sabine uses polite yo style; one physical draft would use polite yo for both original references",
+  "choice_scope": "Only3548: retain original shared key/two references/portrait, choose unchanged shared polite draft or retain hold. No clone, pointer rewrite, portrait correction or natural scene claim.",
+  "entries_sha256": "aa22f0a00205fbd0321a47e18c23737e35fd974d718967dcf801cdb8589f135f",
+  "config_sha256": "122e27d6ef3476f223b0652e265cc80ed29e0bb4e8d1a28033a5dd82b1de5e3b",
+  "pending_user_choice": true,
+  "new_selected": 0,
+  "SSOT_or_game_changed": false,
+  "release_eligible": false
+}

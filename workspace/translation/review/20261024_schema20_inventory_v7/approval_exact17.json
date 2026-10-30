@@ -1,0 +1,160 @@
+{
+  "status": "USER_APPROVED_EXACT17",
+  "authority": "user",
+  "date_local": "2026-10-24",
+  "question_item_id": "[\"request_user_input_async\",\"call_0d72e63412114a54b670e90dd6c52208\",0]",
+  "answer": "17개 모두 제시한 범위로 반영",
+  "packet": "workspace/translation/review/20261024_schema20_inventory_v7/packet.json",
+  "packet_sha256": "fd3653be6b740f6bc5bae1792cb92d88f620aefc55bed4483c08da0b786a4e79",
+  "entries_before_sha256": "caf7ca71f5228718ddcc83027f3b0480251374b3497aab0951f393dacfe9b615",
+  "terminology_before_sha256": "f01592af2339abc882a7b20436b62eb28de1c6ff51f7fa36371be1b63cbeba6a",
+  "artifact_before_sha256": "af22b4f64c17e3450e715670ab36702d48226dd1220885bb1056f805de3aae75",
+  "scope_ids": [
+    "ULKS46015-v1.01:en_us/static:468:occurrence1",
+    "ULKS46015-v1.01:en_us/static:569:occurrence1",
+    "ULKS46015-v1.01:en_us/static:772:occurrence1",
+    "ULKS46015-v1.01:en_us/static:3865:occurrence1",
+    "ULKS46015-v1.01:en_us/static:3866:occurrence1",
+    "ULKS46015-v1.01:en_us/trans:2280",
+    "ULKS46015-v1.01:en_us/trans:2281",
+    "ULKS46015-v1.01:en_us/trans:2284",
+    "ULKS46015-v1.01:en_us/trans:2285",
+    "ULKS46015-v1.01:en_us/trans:2597",
+    "ULKS46015-v1.01:en_us/trans:2678",
+    "ULKS46015-v1.01:en_us/trans:2903",
+    "ULKS46015-v1.01:en_us/trans:3098",
+    "ULKS46015-v1.01:en_us/trans:3101",
+    "ULKS46015-v1.01:en_us/trans:3118",
+    "ULKS46015-v1.01:en_us/trans:3143",
+    "ULKS46015-v1.01:en_us/trans:3732"
+  ],
+  "pairs": [
+    {
+      "id": "ULKS46015-v1.01:en_us/static:468:occurrence1",
+      "bank": "static",
+      "key": 468,
+      "before": "띠 두른 대형 망치",
+      "after": "띠 두른 마울"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:569:occurrence1",
+      "bank": "static",
+      "key": 569,
+      "before": "검은뼈 대형 망치",
+      "after": "검은뼈 마울"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:772:occurrence1",
+      "bank": "static",
+      "key": 772,
+      "before": "성전사 하라데일",
+      "after": "성전기사 하라데일"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:3865:occurrence1",
+      "bank": "static",
+      "key": 3865,
+      "before": "그늘진 Pal 2h",
+      "after": "그늘진 양손 성기사"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/static:3866:occurrence1",
+      "bank": "static",
+      "key": 3866,
+      "before": "그늘진 Pal 에픽",
+      "after": "그늘진 에픽 성기사"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2280",
+      "bank": "trans",
+      "key": 2280,
+      "before": "뭐야? 그 크고 흉악한 거미들과 맞서기 전에 응원이라도 좀 해 달라는 거냐?\r\n*Bug This if You See It*",
+      "after": "뭐야? 그 크고 흉악한 거미들과 맞서기 전에 응원이라도 좀 해 달라는 거냐?"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2281",
+      "bank": "trans",
+      "key": 2281,
+      "before": "그걸 영웅다운 짓이라고 한 거냐?! 쳇! 초보자 운이 좋았던 것뿐이야!\r\n*Bug This if You See It*",
+      "after": "그걸 영웅다운 짓이라고 한 거냐?! 쳇! 초보자 운이 좋았던 것뿐이야!"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2284",
+      "bank": "trans",
+      "key": 2284,
+      "before": "프레이톡스가 공격해 오는데 잡담이나 하자는 거냐? 제정신이야?!\r\n*Bug This if You See It*",
+      "after": "프레이톡스가 공격해 오는데 잡담이나 하자는 거냐? 제정신이야?!"
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2285",
+      "bank": "trans",
+      "key": 2285,
+      "before": "도시에는 그 피에 굶주린 거미들이 더 있을지도 몰라. 너무 편히 쉬기 전에 거리를 돌며 다른 사람들도 모두 무사한지 확인하는 게 좋겠다.\r\n*Bug This if You See It*",
+      "after": "도시에는 그 피에 굶주린 거미들이 더 있을지도 몰라. 너무 편히 쉬기 전에 거리를 돌며 다른 사람들도 모두 무사한지 확인하는 게 좋겠다."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2597",
+      "bank": "trans",
+      "key": 2597,
+      "before": "[i_PI_DeanLysetta]네더아이가 케일리에게 저주를 걸 때 쓴 주문을 찾아냈네. 쉽지는 않았지만, 그 책을 바탕으로 저주를 풀 주문을 제대로 만들어 낸 것 같군.\r\n\r\n다가올 싸움에 대비할 시간이 절박할 만큼 줄어들고 있네.\r\n\r\n형제단의 나머지 도구들을 한시라도 빨리 회수해야 하네. 세 번째 도구의 위치를 알아냈는데, 그 회수를 맡길 수 있는 사람은 자네뿐일세.\r\n\r\n예언에는 이 땅 어딘가에 얼어붙은 황무지가 있다고 나와 있네. 그 지역을 찾아냈지만, 그곳까지 가는 길은 몹시 위험할 걸세.\r\n\r\n꿈의 신전 아래에 있는 꿈의 공간으로 들어갈 길을 찾아야 하네. 그 영적인 영역을 통과해야만 늦지 않게 툰드라에 도착할 수 있어.\r\n\r\n툰드라에 도착하면 수정 탑이라는 곳을 찾아 주게. 예언에 따르면 재생의 연고는 그 탑의 맨 위층에 보관되어 있네.",
+      "after": "[i_PI_DeanLysetta]네더아이가 케일리에게 저주를 걸 때 쓴 주문을 찾아냈네. 쉽지는 않았지만, 그 책을 바탕으로 저주를 풀 주문을 제대로 만들어 낸 것 같군.\r\n\r\n다가올 싸움에 대비할 시간이 절박할 만큼 줄어들고 있네.\r\n\r\n형제단의 나머지 도구들을 한시라도 빨리 회수해야 하네. 세 번째 도구의 위치를 알아냈는데, 그 회수를 맡길 수 있는 사람은 자네뿐일세.\r\n\r\n예언에는 이 땅 어딘가에 얼어붙은 황무지가 있다고 나와 있네. 그 지역을 찾아냈지만, 그곳까지 가는 길은 몹시 위험할 걸세.\r\n\r\n꿈의 신전 아래에 있는, 경계가 삼엄한 꿈의 공간으로 들어갈 길을 찾아야 하네. 그 영적인 영역을 통과해야만 늦지 않게 툰드라에 도착할 수 있어.\r\n\r\n툰드라에 도착하면 수정 탑이라는 곳을 찾아 주게. 예언에 따르면 재생의 연고는 그 탑의 맨 위층에 보관되어 있네."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2678",
+      "bank": "trans",
+      "key": 2678,
+      "before": "가을 나무에 앉아 있던 새들이 갑자기 날아오른다. 작고 검은 형체들이 서둘러 안개 낀 푸른 저편으로 날갯짓하며 사라진다...\r\n\r\n다이애나 부인이 손가락을 입술에 대어 조용히 하라는 뜻을 전한다. 그녀는 고개를 아주 조금 기울이고, 아름다운 얼굴을 긴장시킨 채 집중한다. 침묵 속에서, 단련된 감각에 걸린 그 소리를 놓치지 않으려 귀를 기울인다.\r\n\r\n마침내 먼 곳에서 희미한 소리가 들려온다. 고통과 공포의 비명이 숲에서 솟구친다. 어둠의 도래를 알리는, 추방자들과 정찰병들의 마지막 외침이다...\r\n\r\n[i_PI_MadamDiana]\"파괴가 시작되는군요...\r\n\r\n\"지금 가요, 수호자! 모든 것을 잃기 전에 그를 막아요!\"",
+      "after": "가을 나무에 앉아 있던 새들이 갑자기 날아오른다. 작고 검은 형체들이 서둘러 안개 낀 푸른 저편으로 날갯짓하며 사라진다...\r\n\r\n다이애나 부인이 손가락을 입술에 대어 조용히 하라는 뜻을 전한다. 그녀는 고개를 아주 조금 기울이고, 아름다운 얼굴을 긴장시킨 채 집중한다. 침묵 속에서, 단련된 감각에 걸린 그 소리를 놓치지 않으려 귀를 기울인다.\r\n\r\n마침내 먼 곳에서 희미한 소리가 들려온다. 고통과 공포의 비명이 숲에서 솟구친다. 어둠의 도래를 알리는, 추방자들과 정찰병들의 마지막 외침이다...\r\n\r\n[i_PI_MadamDiana]\"파괴가 시작되는군...\r\n\r\n\"지금 가라, 수호자! 모든 것을 잃기 전에 그를 막아라!\""
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:2903",
+      "bank": "trans",
+      "key": 2903,
+      "before": "$1 확률로 체력 또는 기력 약병을 만듭니다. 다만 $2 확률로 하급 약병이 만들어집니다. 금화 $3 사용.",
+      "after": "$1 확률로 생명력 또는 기력 약병을 만듭니다. 다만 $2 확률로 하급 약병이 만들어집니다. 금화 $3 사용."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3098",
+      "bank": "trans",
+      "key": 3098,
+      "before": "체력 재생 속도가 $1 수준으로 높아집니다. 자신과 반경 $2 안의 아군에게 적용됩니다.",
+      "after": "생명력 재생 속도가 $1 수준으로 높아집니다. 자신과 반경 $2 안의 아군에게 적용됩니다."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3101",
+      "bank": "trans",
+      "key": 3101,
+      "before": "일정 확률로 $1초 동안 기절시키고 범위 안에 $2-$3 피해를 줍니다. 자신과 반경 $4 안의 아군에게 체력을 돌려줍니다.",
+      "after": "일정 확률로 $1초 동안 기절시키고 범위 안에 $2-$3 피해를 줍니다. 자신과 반경 $4 안의 아군에게 생명력을 돌려줍니다."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3118",
+      "bank": "trans",
+      "key": 3118,
+      "before": "반경 $1 안의 모든 플레이어와 자신의 체력을 $2-$3만큼 $4초에 걸쳐 회복합니다.",
+      "after": "반경 $1 안의 모든 플레이어와 자신의 생명력을 $2-$3만큼 $4초에 걸쳐 회복합니다."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3143",
+      "bank": "trans",
+      "key": 3143,
+      "before": "적을 $1초 동안 아군으로 바꾸고 체력을 완전히 회복시킵니다. 그 적의 피해는 $2 수준으로 높아지며 $3초 동안 지속됩니다.",
+      "after": "적을 $1초 동안 아군으로 바꾸고 생명력을 완전히 회복시킵니다. 그 적의 피해는 $2 수준으로 높아지며 $3초 동안 지속됩니다."
+    },
+    {
+      "id": "ULKS46015-v1.01:en_us/trans:3732",
+      "bank": "trans",
+      "key": 3732,
+      "before": "일정 확률로 자신의 체력을 일부 회복합니다.",
+      "after": "일정 확률로 자신의 생명력을 일부 회복합니다."
+    }
+  ],
+  "exclusions": [
+    "3548 exact wording",
+    "derived Book4009/4010 exact wording",
+    "all other source keys or occurrences",
+    "full wording and layout approval",
+    "distribution approval"
+  ],
+  "full_wording_or_release_approval": false
+}

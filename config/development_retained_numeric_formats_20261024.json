@@ -1,0 +1,36 @@
+{
+  "schema_version": 13,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_victory_journal_20261024.json",
+  "parent_config_sha256": "14070edcc41f19cc59be4fd3116b7727b67297317c611927e366e23ae697e911",
+  "retained_static_formats": [
+    {
+      "key": 3085,
+      "source_text": "$a - $b",
+      "text": "$a - $b",
+      "policy": "source_identical_numeric_control_no_prose_transformation"
+    },
+    {
+      "key": 3086,
+      "source_text": "$a / $b",
+      "text": "$a / $b",
+      "policy": "source_identical_numeric_control_no_prose_transformation"
+    },
+    {
+      "key": 3087,
+      "source_text": "(x$a)",
+      "text": "(x$a)",
+      "policy": "source_identical_numeric_control_no_prose_transformation"
+    }
+  ],
+  "runtime_evidence": [
+    {
+      "path": "qa/reports/numeric_inventory_20261024_runtime.json",
+      "sha256": "8e6ebe9a21761774f60b3db4c04a942fdd4806c709e1320039021dd676ec8871"
+    },
+    {
+      "path": "qa/reports/count_ammo_reference_20261024_runtime.json",
+      "sha256": "bb898d69323a256574b6842e1b5bdfcaeb1c7a640d9b46000e77be199c68e68e"
+    }
+  ]
+}

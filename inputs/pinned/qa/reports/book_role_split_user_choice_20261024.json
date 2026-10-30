@@ -1,0 +1,15 @@
+{
+  "authority": "user",
+  "date_local": "2026-10-24",
+  "user_answer": "그럼 분리해서 번역하자",
+  "both_NPC_and_Book_Korean": true,
+  "rejected_English_Book_preservation_proposal": true,
+  "scope": "2334/2335 original NPC and row81 title/body only",
+  "agent_development_title_adaptation": "영웅을 향한 불신",
+  "Book_only_portrait_metadata_omitted": true,
+  "Book_only_nonstory_diagnostic_suffix_omitted": true,
+  "source_English_and_prior_drafts_preserved": true,
+  "NPC_diagnostic_suffix_and_actor_effects_preserved": true,
+  "exact_wording_or_presentation_human_approval": false,
+  "full_translation_release_approval": false
+}

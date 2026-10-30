@@ -1,0 +1,24 @@
+{
+  "schema_version": 23,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_title_original_20261025.json",
+  "parent_config_sha256": "d2528c80c601f1d45f675e466b9567dbede92185bb7519d9a3e1fa35d5dc153e",
+  "parent_artifact": "workspace/runtime/title_original_20261025/artifact.json",
+  "parent_artifact_sha256": "8d2bd3a0e28e2c20a167fbce035c21ae3d3618f6512f9022424ec065a8a24c5a",
+  "packet": "workspace/translation/review/20261025_optional6_wording_review/packet.json",
+  "packet_sha256": "e45dd30745c7ce113bf3cc3ba27856a79cb6b4048fb8893dd2b0f9ae40180fd3",
+  "approval": "workspace/translation/approvals/20261025_optional6.json",
+  "approval_sha256": "4799a3c2546c010f9400504fa557c8c8eff504a23163ebc2aa4d3b11d4981a01",
+  "author": "workspace/translation/authored/optional6_20261025.json",
+  "author_sha256": "7cb5f37e493db29985f619803778316e65fd344ced7b99d1c627e2f354db022c",
+  "exact_trans_keys": [
+    3096,
+    3104,
+    3116,
+    3122,
+    3129,
+    3131
+  ],
+  "scope": "Only six frozen source/current/proposed pairs:four blocking-clarity andtwo grammar edits. Titles,variables,numbers,controls,effects,all other prose,original title-map and credits/name-entry decisions retained.",
+  "release_eligible": false
+}

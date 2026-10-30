@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FULL_U16_SELECTOR_MODEL",
+  "runtime_tested": false,
+  "selector_origin": 5750592,
+  "selector_bytes": 100,
+  "selector_sha256": "2e8230e125f8d9cd0d997446faf4526ed06b532fea29a28095c1be35a4186f97",
+  "source_asm_sha256": "9b2c744cd62be472fc67089910ecf5d7905aa9f47da40ba4b9d61f004461c2cf",
+  "profile_sha256": "7068a1f94aefe1007d347975f67a6787cd2535e6c622826e416a696c01f3a7cc",
+  "old_selector_sha256": "d787579d9682a3b3305459d50f7aaad4ce420527d50dcdc2f1bc80f29a09c9f2",
+  "u16_inputs_checked": 65536,
+  "high_word_mask_inputs_checked": 5,
+  "total_inputs_checked": 65541,
+  "non_Hangul_full_GPR_results_equal_original": 54367,
+  "modern_Hangul_slots_checked": 11172,
+  "Latin1_slots_preserved": 256,
+  "all_other_public_inputs_original_question_fallback": true,
+  "only_modified_GPR": [
+    "v0",
+    "a0",
+    "a1",
+    "a2"
+  ],
+  "RA_SP_all_other_GPR_preserved": true,
+  "FPR_instructions": 0,
+  "interpretation_limit": "Local pure-GPR model after full declared ISA decode/assembly; not hardware or full-game runtime proof",
+  "release_eligible": false
+}

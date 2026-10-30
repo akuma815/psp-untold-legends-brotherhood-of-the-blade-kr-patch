@@ -1,0 +1,66 @@
+{
+  "hook_vma": 5749312,
+  "hook_file_offset": 2172800,
+  "hook_bytes": 360,
+  "hook_sha256": "77936713648fda4d6694aa305f98ac2fb434a23061048cdef5de3607eb85287f",
+  "old_memory_end": 5749264,
+  "program_header_offset": 2172656,
+  "program_header_count": 3,
+  "source_instructions_moved": false,
+  "old_load_segments_identical": true,
+  "callsite_relative": 824672,
+  "callsite_before": "9a24030c",
+  "callsite_after": "90ee150c",
+  "retained_relocation_file_offset": 2025272,
+  "retained_relocation_info": 4,
+  "relative_branch_edges": [
+    {
+      "pc": 5749320,
+      "target": 5749660,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749332,
+      "target": 5749660,
+      "kind": "beq"
+    },
+    {
+      "pc": 5749584,
+      "target": 5749596,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749600,
+      "target": 5749424,
+      "kind": "bne"
+    }
+  ],
+  "all_delay_slots_checked": true,
+  "return_paths": [
+    "ordinary tail-call original quad, original RA unchanged",
+    "virtual restores s0..s6/ra/f0/f2/sp, returns to original caller"
+  ],
+  "preserved_extra_live_state": [
+    "s0..s6",
+    "sp",
+    "ra",
+    "f0",
+    "f2"
+  ],
+  "placement_checks": [
+    {
+      "module_base": 142622720,
+      "hook_pc": 148372032,
+      "return_pc": 143447400,
+      "quad_pc": 143446632
+    },
+    {
+      "module_base": 143671296,
+      "hook_pc": 149420608,
+      "return_pc": 144495976,
+      "quad_pc": 144495208
+    }
+  ],
+  "profile_sha256": "7068a1f94aefe1007d347975f67a6787cd2535e6c622826e416a696c01f3a7cc",
+  "scope": "Generated hook and original quad/caller/selector only; no whole-game reference completeness claim"
+}

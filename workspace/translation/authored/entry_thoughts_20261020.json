@@ -1,0 +1,538 @@
+{
+  "policy": "working_manuscript_not_build_input",
+  "drafts": [
+    {
+      "key": 3575,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3575",
+      "source_sha256": "f2995cb0be0d7fcf46efdb304567ba874b1937e682633debec70dcdbad19edbe",
+      "source_text": "Elder Aidas has asked that I speak with Templar Draven at once.  I'm honored to be of use to the Templar, but I can't help but feel worried by his continued need of my services.  Then again, maybe all he wants is to share a victory toast in the Howling Pine?  Wait, what am I thinking?!  The Templar enjoying himself?  Ha!  This is not going to be good.",
+      "text": "아이다스 장로가 즉시 성전기사 드레이븐과 이야기해 달라고 했다. 성전기사에게 도움이 된다니 영광이지만, 계속 내 힘이 필요하다는 사실에 걱정이 앞선다. 어쩌면 울부짖는 소나무 여관에서 승리의 건배를 나누려는 것뿐일지도? 잠깐, 무슨 생각을 하는 거야?! 성전기사가 즐거운 시간을 보낸다고? 하! 아무래도 좋은 일은 아닐 것 같다.",
+      "reference": {
+        "table": 14,
+        "row": 15,
+        "field": 8,
+        "width": 4,
+        "offset": 341368,
+        "expected_hex": "f70d0000",
+        "complete_row_hex": "cf090000fffffffff70d00000787fc040100000001000200ffffffffffff2c013c000100010b030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3576,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3576",
+      "source_sha256": "7ee07d3c23d43f48ff20cb5ae5d7420c920ec15d911ca1f304a004ef6158ea3c",
+      "source_text": "Another once-passive enemy, the necromantic vrultok, are preparing themselves to invade our territories.  Why is this happening?!  I am getting real sick and tired of things trying to kill us!  Well, I guess I had better report to the Templar.  He's likely going to need my help until the vrultok forces have been entirely quelled.",
+      "text": "한때는 얌전했던 또 다른 적, 사령술을 쓰는 브룰토크가 우리 영토를 침공할 준비를 한다. 도대체 왜 이런 일이 벌어지는 거지?! 우리를 죽이려 드는 것들에 정말 신물이 난다! 아무래도 성전기사에게 보고해야겠다. 브룰토크 군대를 완전히 진압할 때까지는 내 도움이 필요하겠지.",
+      "reference": {
+        "table": 14,
+        "row": 16,
+        "field": 8,
+        "width": 4,
+        "offset": 341412,
+        "expected_hex": "f80d0000",
+        "complete_row_hex": "d5090000fffffffff80d00000787fc04010003000400ffffffffffffffff2c013c000100010c030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3577,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3577",
+      "source_sha256": "1fae63d64c51cb4c63f51353aaa79fa29165b508a6f5d4c352038e35b0c6d01e",
+      "source_text": "While Templar Draven assesses the situation with the vrultok, I am to speak with Overseer Lysetta and do whatever I can to oblige her request of me.  When I took the job of Guardian, I thought I'd just be Kaylee's attendant; not everyone in the city's!  Oh well, at least I'm doing some good...",
+      "text": "성전기사 드레이븐이 브룰토크의 상황을 살피는 동안, 리세타 감독관과 이야기하고 그 부탁을 들어주기 위해 할 수 있는 일을 해야 한다. 수호자를 맡을 때는 케일리의 수행원만 되는 줄 알았지, 도시의 모든 사람을 모시게 될 줄은 몰랐다! 뭐, 적어도 좋은 일을 하고 있기는 하니까...",
+      "reference": {
+        "table": 14,
+        "row": 17,
+        "field": 8,
+        "width": 4,
+        "offset": 341456,
+        "expected_hex": "f90d0000",
+        "complete_row_hex": "da090000fffffffff90d00008ce17b2c010005000600ffffffffffffffff2c013c000100010d030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3578,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3578",
+      "source_sha256": "a724dbc582697db3b3f0f5a4d363812775defe434539f21bfc945ca45d142a1d",
+      "source_text": "The sound of the Overseer's voice was both urgent and concerned when she told me to speak with the Templar.  I hope that everything's alright...",
+      "text": "성전기사와 이야기하라고 하던 감독관의 목소리에는 다급함과 걱정이 함께 묻어났다. 별일 없기를 바란다...",
+      "reference": {
+        "table": 14,
+        "row": 18,
+        "field": 8,
+        "width": 4,
+        "offset": 341500,
+        "expected_hex": "fa0d0000",
+        "complete_row_hex": "f5090000fffffffffa0d00000787fc040100070008000900ffffffffffff2c013c000100010e030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3579,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3579",
+      "source_sha256": "0a3a52ea457af80368faa9496110797effdb78b0e27ee8e94324486cf01c911d",
+      "source_text": "Those blasted vrultok kidnapped Kaylee!  That poor girl.  Maybe if I was alowed to do my job as Guardian and protect her, she wouldn't be getting kidnapped by the enemy!  I had better check with Overseer Lysetta and see how Kaylee has faired this most recent abduction.",
+      "text": "망할 브룰토크가 케일리를 납치하다니! 가엾은 사람. 수호자로서 그녀를 지키는 내 일을 하게 내버려 뒀다면 적에게 납치되지 않았을지도 모른다! 리세타 감독관을 찾아가 이번 납치 뒤 케일리의 상태가 어떤지 알아봐야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 19,
+        "field": 8,
+        "width": 4,
+        "offset": 341544,
+        "expected_hex": "fb0d0000",
+        "complete_row_hex": "f6090000fffffffffb0d00000000000001000a000b000c000d00ffffffff2c013c000100010f010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3580,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3580",
+      "source_sha256": "c8015b8cb17b65209b81c543bfdfcc96a0ebfa60b61cb4628d1caf5c83a262d7",
+      "source_text": "The vrultok threat has been quelled.  In two days I've helped eliminate the threat of three enemies.  You'd think that was enough, but the fun doesn't stop there.  Overseer Lysetta has yet another task for me.  I just hope this is the last of it so I can tend to Kaylee.",
+      "text": "브룰토크의 위협을 진압했다. 이틀 동안 세 적대 세력의 위협을 없애는 데 힘을 보탰다. 그 정도면 충분할 것 같지만, 재미있는 일은 아직 끝나지 않았다. 리세타 감독관이 또 다른 일을 맡기려 한다. 이번이 마지막이어야 케일리를 돌볼 수 있을 텐데.",
+      "reference": {
+        "table": 14,
+        "row": 20,
+        "field": 8,
+        "width": 4,
+        "offset": 341588,
+        "expected_hex": "fc0d0000",
+        "complete_row_hex": "010a0000fffffffffc0d00008ce17b2c01000e000f00ffffffffffffffff2c013c0001000110030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3581,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3581",
+      "source_sha256": "db19cc49fece618929b34b3a70a584d0e0546bbc10e3ec73071ed4c5967ac278",
+      "source_text": "The Overseer now has me chasing down four ancient relics of a forgotten order of our city.  I've been able to recover two of them, leaving two more out there for our enemies to discover and use against us.  I had better check in with the Overseer and see if she's discovered the location of the other artifacts yet.",
+      "text": "이제 감독관은 우리 도시의 잊힌 형제단이 남긴 고대 유물 네 개를 찾아다니게 한다. 둘을 회수했으니 아직 둘이 남아 있다. 적이 먼저 발견해 우리에게 쓸 수도 있다. 감독관을 찾아가 나머지 유물들의 위치를 알아냈는지 확인해야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 21,
+        "field": 8,
+        "width": 4,
+        "offset": 341632,
+        "expected_hex": "fd0d0000",
+        "complete_row_hex": "250a0000fffffffffd0d0000000000000100160010001100ffffffffffff2c013c0001000111010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3582,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3582",
+      "source_sha256": "b8263469e3490fad4c36c2e41f2fdb9434817db9c38b75134f67727f83c98283",
+      "source_text": "The Overseer says that she needs a little more time to find the location of the final artifact.  This would be the perfect time for some rest and relaxation in the Howling Pine, but there's no rest for the weary!  Madam Diana has requested my services, and considering her reputation, I'd hate to keep her waiting.",
+      "text": "감독관은 마지막 유물의 위치를 찾으려면 시간이 조금 더 필요하다고 한다. 울부짖는 소나무 여관에서 쉬며 느긋하게 보내기에 딱 좋겠지만, 지친 몸을 쉴 틈은 없다! 다이애나 부인이 도움을 청했다. 그 평판을 생각하면 오래 기다리게 하고 싶지는 않다.",
+      "reference": {
+        "table": 14,
+        "row": 22,
+        "field": 8,
+        "width": 4,
+        "offset": 341676,
+        "expected_hex": "fe0d0000",
+        "complete_row_hex": "2b0a0000fffffffffe0d000057ccf65201001200130014001500ffffffff2c013c0001000112030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3583,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3583",
+      "source_sha256": "f7d82077c61061d3999e1d4e9e14d253e06b9e4879a0fd03c0b7eb474c78f45c",
+      "source_text": "Now dragons are getting involved with our affairs!   I had better speak with the Overseer about this.  She'll know whether or not we can trust this Csuragual or if I should go show him exactly what happens to those who kidnap our citizens!",
+      "text": "이제는 용들까지 우리 일에 끼어들다니! 감독관과 이야기해 봐야겠다. 이 수라가울을 믿어도 되는지, 아니면 우리 시민을 납치하면 어떻게 되는지 똑똑히 보여 줘야 할지 그분은 아실 것이다!",
+      "reference": {
+        "table": 14,
+        "row": 23,
+        "field": 8,
+        "width": 4,
+        "offset": 341720,
+        "expected_hex": "ff0d0000",
+        "complete_row_hex": "3e0a0000ffffffffff0d00008ce17b2c0100270028003200ffffffffffff2c013c0001000113030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3584,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3584",
+      "source_sha256": "972a69940b4b5adae4aa6b62297ac6fbb51de13d055b70a6315e53c030ac0c3f",
+      "source_text": "The Abyss is everything I had thought it to be -- vast, wide-open spaces, and hellish. At least the Overseer will be happy to know that I've found this formerly lost \"treasure\" of Unataca's wilderness...",
+      "text": "심연은 생각했던 그대로다. 광활하고 탁 트였으며, 지옥 같다. 적어도 우나타카의 야생에서 잊혔던 이 \"보물\"을 찾아냈다는 소식에는 감독관도 기뻐하겠지...",
+      "reference": {
+        "table": 14,
+        "row": 24,
+        "field": 8,
+        "width": 4,
+        "offset": 341764,
+        "expected_hex": "000e0000",
+        "complete_row_hex": "3f0a0000ffffffff000e000000000000010029002a00ffffffffffffffff2c013c0001000114010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3585,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3585",
+      "source_sha256": "893f8db330bb19cd19b55041a07247304f903cc27cefbe4f93c9a6464b7a2ebe",
+      "source_text": "Now that we have the four artifacts, we can adequately prepare to fight against this one called the Shadowed God. Templar Draven has the details of my next mission and if all goes well, we'll be able to put an end to this chaos and I'll be able to tend to Kaylee's recovery.",
+      "text": "이제 유물 네 개를 모았으니 그림자 신이라는 존재와 맞설 준비를 제대로 할 수 있다. 다음 임무의 자세한 내용은 성전기사 드레이븐이 알고 있다. 모든 일이 잘 풀리면 이 혼란을 끝내고 케일리의 회복을 돌볼 수 있을 것이다.",
+      "reference": {
+        "table": 14,
+        "row": 25,
+        "field": 8,
+        "width": 4,
+        "offset": 341808,
+        "expected_hex": "010e0000",
+        "complete_row_hex": "630a0000ffffffff010e00000787fc0401002b002c002d0033003400ffff2c013c009cff0115030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3586,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3586",
+      "source_sha256": "732c0eb7345f7b8702e0ca31bd927cffcb1f276799093eb3e4077efa82541a20",
+      "source_text": "We now have a way to breach the Marianas Guard, the ancient prison containing the Shadowed God.  The Overseer has the details of my next assignment and if all goes well, I'll be returning home as the victor over this ancient and menacing evil!",
+      "text": "그림자 신을 가둔 고대 감옥인 마리아나스 수비성을 돌파할 방법이 생겼다. 다음 임무의 자세한 내용은 감독관이 알고 있다. 모든 일이 잘 풀리면 이 오래되고 위협적인 악을 이긴 승자로 집에 돌아갈 수 있겠지!",
+      "reference": {
+        "table": 14,
+        "row": 27,
+        "field": 8,
+        "width": 4,
+        "offset": 341896,
+        "expected_hex": "020e0000",
+        "complete_row_hex": "6b0a0000ffffffff020e00008ce17b2c010048003b003c003e00ffffffff2c013c009cff0117030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3588,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3588",
+      "source_sha256": "96bb69d54b99a2e08b27c7f71f1610bf9f8903bc51f438ae73c2e1f646c75352",
+      "source_text": "I should speak with Madam Diana and see what she has learned of the whereabouts of the Shadowed God.",
+      "text": "다이애나 부인과 이야기하고 그림자 신이 있는 곳에 관해 무엇을 알아냈는지 확인해야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 28,
+        "field": 8,
+        "width": 4,
+        "offset": 341940,
+        "expected_hex": "040e0000",
+        "complete_row_hex": "050e0000ffffffff040e00000000000012003f004000ffffffffffffffff2c013c0001000118010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3590,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3590",
+      "source_sha256": "8e44fab01eecb74a446e69a0c20755d5fd96c8f18058ef10014b338fa666915b",
+      "source_text": "I must find out what has become of the city and her people!  Templar Draven will know what has happened... if he's still alive.",
+      "text": "도시와 사람들에게 무슨 일이 일어났는지 알아내야 한다! 성전기사 드레이븐이라면 무슨 일이 있었는지 알 것이다... 아직 살아 있다면.",
+      "reference": {
+        "table": 14,
+        "row": 29,
+        "field": 8,
+        "width": 4,
+        "offset": 341984,
+        "expected_hex": "060e0000",
+        "complete_row_hex": "8e0a0000ffffffff060e000000000000010041004200ffffffffffffffff2c013c0001000119010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3591,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3591",
+      "source_sha256": "ebf7d7860f578a18d9f9c95f757dafc5dadec96eea3f577bee5f2e4887bcf4dd",
+      "source_text": "Kaylee is dead... and by my hand.  I have failed her.  I have failed as Guardian, but I will not fail as the champion of this city!  Aven and her people depend on me now, and in this, I cannot let them down.  Elder Aidas is the only one who can guide me on my next step toward vanquishing this evil.  I must go to him!",
+      "text": "케일리는 죽었다... 내 손에 죽었다. 그녀를 지키지 못했다. 수호자로서는 실패했지만, 이 도시의 용사로서는 실패하지 않겠다! 이제 아벤과 그 사람들이 나를 의지하고 있으니, 이 일만큼은 실망시킬 수 없다. 이 악을 쓰러뜨릴 다음 단계로 이끌어 줄 사람은 아이다스 장로뿐이다. 그분을 찾아가야 한다!",
+      "reference": {
+        "table": 14,
+        "row": 30,
+        "field": 8,
+        "width": 4,
+        "offset": 342028,
+        "expected_hex": "070e0000",
+        "complete_row_hex": "9d0a0000a40a0000070e0000749ac8d0010043005200530055005400ffff2c013c000100011a030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3592,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3592",
+      "source_sha256": "824be931da8a45612ae324794e59fe5dc3f380181eecbfd93ec5c2157225ae57",
+      "source_text": "The Overseer is the only one who can help me through my next mission.  She is waiting for me in the Icen Halls East.  For the sake of Aven, I must not hesitate to speak with her.",
+      "text": "다음 임무를 해낼 수 있도록 도와줄 사람은 감독관뿐이다. 아이센 전당 동부에서 나를 기다리고 있다. 아벤을 위해서라도 망설이지 말고 그분과 이야기해야 한다.",
+      "reference": {
+        "table": 14,
+        "row": 31,
+        "field": 8,
+        "width": 4,
+        "offset": 342072,
+        "expected_hex": "080e0000",
+        "complete_row_hex": "a50a0000ffffffff080e00008ce17b2c3d005700580059005a005c005d002c013c000100011b030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3570,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3570",
+      "source_sha256": "dd63767af7aff20b822464f233ce57bae961b864513d334618ebe4b0c3e9a0e2",
+      "source_text": "The Overseer assures me that she will be able to create an antidote before any permanent damage is done to either her or Kaylee.  In the meantime, she has asked that I speak with Elder Aidas.",
+      "text": "감독관은 자신이나 케일리에게 돌이킬 수 없는 손상이 생기기 전에 해독제를 만들 수 있을 거라고 확신한다. 그동안에는 아이다스 장로와 이야기해 달라고 했다.",
+      "reference": {
+        "table": 14,
+        "row": 32,
+        "field": 8,
+        "width": 4,
+        "offset": 342116,
+        "expected_hex": "f20d0000",
+        "complete_row_hex": "84090000fffffffff20d0000749ac8d0010018002f00300019001a00ffff2c013c0001000106030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3571,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3571",
+      "source_sha256": "af2664d3861a81355a002f58eb32b553b75ad039587ced93aad4e6225569c670",
+      "source_text": "I haven't heard from the Academy in some time.  I hope that everyone is faring well since the attack, especially Kaylee.  I know that she is strong, but being abducted by praetox and held captive by strange, shadow-speaking zombies would affect even the strongest of us.",
+      "text": "한동안 아카데미 소식을 듣지 못했다. 습격 이후 모두 잘 지내고 있기를, 특히 케일리가 무사하기를 바란다. 강한 사람이라는 것은 알지만, 프레이톡스에게 납치되어 그림자에게 말을 거는 기묘한 좀비에게 붙잡혀 있었으니 아무리 강한 사람이라도 충격을 받았을 것이다.",
+      "reference": {
+        "table": 14,
+        "row": 33,
+        "field": 8,
+        "width": 4,
+        "offset": 342160,
+        "expected_hex": "f30d0000",
+        "complete_row_hex": "8b090000fffffffff30d00008559c76601001b001c001d001e00ffffffff2c013c0001000107030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3572,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3572",
+      "source_sha256": "a1e72fcf28055c0b9eccb18667bde46c547f1e55ff461d097ff85f8fd0b29a66",
+      "source_text": "Although the aftermath of the praetox invasion seems to be winding down, I can't be entirely certain that our enemies have been stopped.  Madam Diana would know if anything suspicious is underway...",
+      "text": "프레이톡스 침공의 여파는 잦아드는 것 같지만, 적들을 막아 냈다고 완전히 확신할 수는 없다. 수상한 일이 벌어지고 있는지는 다이애나 부인이 알 것이다...",
+      "reference": {
+        "table": 14,
+        "row": 34,
+        "field": 8,
+        "width": 4,
+        "offset": 342204,
+        "expected_hex": "f40d0000",
+        "complete_row_hex": "a1090000fffffffff40d000057ccf65201001f0020002100ffffffffffff2c013c0001000108030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3573,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3573",
+      "source_sha256": "4b4f7fb3706a1a2b01c434c83b153e2f8a3be65d624941230fe44c84c04cee38",
+      "source_text": "It's not been a day since the praetox invasion and another enemy rises against us!  It's so strange that the gorgein are organizing against us.  We've lived with them for countless years, but why are they attacking us now?  I had better speak with the Templar on the matter, as I'm sure I'll be needed.",
+      "text": "프레이톡스가 침공한 지 하루도 지나지 않았는데 또 다른 적이 우리에게 맞선다! 고르진이 힘을 모아 우리를 노리는 것은 정말 이상하다. 셀 수 없이 오랜 세월 함께 살았는데 왜 지금 공격하는 걸까? 분명 내 도움이 필요할 테니, 이 일로 성전기사와 이야기해 봐야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 35,
+        "field": 8,
+        "width": 4,
+        "offset": 342248,
+        "expected_hex": "f50d0000",
+        "complete_row_hex": "ac090000fffffffff50d00000787fc04010022002300ffffffffffffffff2c013c0001000109030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3574,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3574",
+      "source_sha256": "c9322c6c19f848aeb5a4c44b9588c53fc31353ee48c1c7848faa810da55458e1",
+      "source_text": "I wonder how the Overseer is coming with her development of an antidote.  I should check in with her and see if there's anything else she may need of me.",
+      "text": "감독관의 해독제 개발은 얼마나 진전되었을까? 찾아가서 달리 내 도움이 필요한 일이 있는지 알아봐야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 36,
+        "field": 8,
+        "width": 4,
+        "offset": 342292,
+        "expected_hex": "f60d0000",
+        "complete_row_hex": "b2090000fffffffff60d00008ce17b2c0100240025002600ffffffffffff2c013c000100010a030101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3593,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3593",
+      "source_sha256": "7c2bbd374420e75216b15b184d714b9164f3a7f9905250a898af16afc644c00b",
+      "source_text": "I must learn whatever I can from the Masters.  Only they can show me the way to the beast.  Only they can help me defeat it.",
+      "text": "대가들에게 배울 수 있는 것은 모두 배워야 한다. 그들만이 그 짐승에게 가는 길을 알려 줄 수 있다. 그들만이 놈을 쓰러뜨리도록 도와줄 수 있다.",
+      "reference": {
+        "table": 14,
+        "row": 37,
+        "field": 8,
+        "width": 4,
+        "offset": 342336,
+        "expected_hex": "090e0000",
+        "complete_row_hex": "b50a0000ffffffff090e0000000000004a005e005f00ffffffffffffffff2c0190010100011c010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3567,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3567",
+      "source_sha256": "5f68a0cb1e1906ade8523faf8c63d261a4c3223bf8809708943cc9652b151219",
+      "source_text": "The praetox in the tavern have been taken care of, but we've yet to know the fate of the rest of the city.  I must make haste before it is too late...",
+      "text": "술집의 프레이톡스는 처리했지만, 도시의 다른 곳은 어떻게 되었는지 아직 모른다. 너무 늦기 전에 서둘러야 한다...",
+      "reference": {
+        "table": 14,
+        "row": 42,
+        "field": 8,
+        "width": 4,
+        "offset": 342556,
+        "expected_hex": "ef0d0000",
+        "complete_row_hex": "d80b0000ffffffffef0d00000000000001004d002e004c004e005b00ffff00003c009cff0103000101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3569,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3569",
+      "source_sha256": "f2ea459776e773f39aa3bbe15570e9019bb7135002416d14164ff68602c19622",
+      "source_text": "I was able to gather an ancient tome from the ruins of the city's former library, but I am not certain if the Overseer was able to make use of the find.  I should check with her and see if there's anything else she needs me to do.",
+      "text": "도시의 옛 도서관 폐허에서 고서를 구했지만, 감독관이 이 발견을 활용할 수 있었는지는 모르겠다. 찾아가서 달리 해야 할 일이 있는지 알아봐야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 43,
+        "field": 8,
+        "width": 4,
+        "offset": 342600,
+        "expected_hex": "f10d0000",
+        "complete_row_hex": "07090000fffffffff10d00000000000001004f005000ffffffffffffffff2c013c0001000105010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    },
+    {
+      "key": 3568,
+      "source_id": "ULKS46015-v1.01:en_us/trans:3568",
+      "source_sha256": "c748539b7fdba8530805c39c37d44db6464b876ce8de2375f4a1acc85a75ff57",
+      "source_text": "Kaylee is safe again, but not everyone was so fortunate.  I should speak with the Overseer and lend my services wherever possible.",
+      "text": "케일리는 다시 무사해졌지만, 모두가 그렇게 운이 좋았던 것은 아니다. 감독관과 이야기하고 도움이 필요한 곳이라면 어디든 힘을 보태야겠다.",
+      "reference": {
+        "table": 14,
+        "row": 44,
+        "field": 8,
+        "width": 4,
+        "offset": 342644,
+        "expected_hex": "f00d0000",
+        "complete_row_hex": "2b090000fffffffff00d00008ce17b2c010031001700ffffffffffffffff2c013c0001000104010101cccccc"
+      },
+      "speaker": "Protagonist first-person reflection; tied to original quest row, not a voiced NPC",
+      "build_hold": "Mode3 consumer/display lifecycle unresolved; manuscript is not an insertion input",
+      "human_reviewed": false,
+      "independent_review": null,
+      "distribution_eligible": false
+    }
+  ],
+  "context_notes": [
+    "Use actual quest states and narrative knowledge, not storage ordering.",
+    "3575 Howling Pine follows human-approved inn spelling; retain humorous disbelief at Templar celebrating.",
+    "3571 shadow-speaking is linked to source2291 explicitly describing a monster talking to Kaylee shadow; do not invent a separate named language.",
+    "3580 two days/three hostile groups retained;3581/3585 four relics retained.",
+    "3591 explicit player responsibility for Kaylee death preserved; earlier reflections do not know the later reveal.",
+    "Typed field8 source association is not proof of actual display; no runtime eligibility or visual approval claimed."
+  ]
+}

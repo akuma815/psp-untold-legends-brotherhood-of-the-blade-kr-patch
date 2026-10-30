@@ -1,0 +1,16 @@
+{
+  "schema_version": 12,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_mode3_journal_20261024.json",
+  "parent_config_sha256": "9ab3b733ce06b7bd7e528119613d26a8a731a2b8f7ba52c52e306351a1b923e4",
+  "trans_overrides": [
+    {
+      "key": 3991,
+      "source_text": "The Avatar assures me that this triumph over Xoquoxxotil will remain absolute, forever ensuring the safety of our realm from the taint of the shadow.  Perhaps now our lives can return to normal and from the ashes of our turmoil, a new peace can be forged.  I had best make my way back to Aven and see how my fellow citizens are fairing in this newfound victory.",
+      "text": "화신은 이번에 조쿠옥소틸에게 거둔 승리가 영원하며, 우리 세상이 그림자의 오염으로부터 영원히 안전할 것이라고 확언했다. 이제 우리 삶도 평소로 돌아가고, 혼란의 잿더미에서 새로운 평화를 빚어 낼 수 있을지도 모른다. 아벤으로 돌아가 새로 얻은 승리 속에서 동포들이 어떻게 지내는지 살펴봐야겠다.",
+      "control_policy": "direct3991_Book_first_type1_history_quest28_flag0_v1"
+    }
+  ],
+  "consumer_evidence": "qa/reports/victory_journal_source_20261024_runtime.json",
+  "consumer_evidence_sha256": "b3c4d1ee983812810826e2a9a1fdc294851213022928dd609959de52b4f93a26"
+}

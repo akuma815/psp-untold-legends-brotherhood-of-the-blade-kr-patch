@@ -1,0 +1,463 @@
+{
+  "status": "SIX_NPC_EXACT_WORDING_V3_OPTIONAL_NOT_APPLIED_OR_APPROVED",
+  "rows": [
+    {
+      "key": 2320,
+      "source": "[i_PI_BronMorris]If you're all they got, then those poor saps are surely done for.  Oh yes, ya heard me right.  I don't think ya can pull this one off.  No, your luck's all run out, I guarantee it.\r\n*BUG THIS*",
+      "source_sha256": "2f297b00cc8df6612650ac7ea6dd52f6b82ce0bd274e6a18d3a0af262b33e937",
+      "current": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 거나 다름없지. 그래, 제대로 들었어. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "current_wording_sha256": "7d5a857db466e3155b1d8f6bb814873373e5d6750c4c5b9bccf90eb3c8ee643e",
+      "proposed": "[i_PI_BronMorris]기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 셈이지. 그래, 맞아. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "proposed_wording_sha256": "c74227eddde9a5c8dc28e7f435970db66d8169c12f15257f03f760ff6c29b4ef",
+      "changes": [
+        {
+          "before": "끝장난 거나 다름없지.",
+          "after": "끝장난 셈이지."
+        },
+        {
+          "before": "그래, 제대로 들었어.",
+          "after": "그래, 맞아."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "local_model": {
+        "lines": 3,
+        "indexes": [
+          0,
+          30,
+          63
+        ],
+        "height": 57,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 90
+          }
+        ],
+        "guard_accesses": 1130,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 8,
+          "field": 152,
+          "width": 4,
+          "offset": 338252,
+          "expected_hex": "10090000",
+          "role": "npc_dialogue",
+          "key": 2320
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": true,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "불신·운 소진·마지막 장담은 유지하고 같은 뜻의 “끝장난 셈”과 확인 응답으로 압축한다.",
+      "proposed_final_clean_segment": "기댈 사람이 너밖에 없다면 그 불쌍한 녀석들은 끝장난 셈이지. 그래, 맞아. 난 네가 이 일을 해낼 거라고 생각 안 해. 아니, 네 운은 다했어. 내가 장담하지.",
+      "supersedes_internal_drafts1and2_only": true
+    },
+    {
+      "key": 2362,
+      "source": "[i_PI_DealerPrice]Poor Ronan.  Poor Dorian.  Poor me!\r\n\r\nRonan owed me a fortune I will never see.",
+      "source_sha256": "0ec94b7d58984acaf97314c4d4b516332f38e8fc3fa4125e275aceacb3461787",
+      "current": "[i_PI_DealerPrice]가엾은 로넌. 가엾은 도리안. 가엾은 나!\r\n\r\n로넌이 내게 진 빚이 한 재산인데, 이젠 영영 못 돌려받겠군요.",
+      "current_wording_sha256": "a58ed2431f6c790650776b9a6b767ba0ccda5484ec6e4df51903b675a0769c98",
+      "proposed": "[i_PI_DealerPrice]가엾은 로넌. 가엾은 도리안. 가엾은 나!\r\n\r\n로넌에게 받을 거금을 이젠 영영 못 돌려받겠군요.",
+      "proposed_wording_sha256": "0df3f2b689e5d342a952bf04cd279de5a2eb0843a68996467d5c9c17e23eae66",
+      "changes": [
+        {
+          "before": "로넌이 내게 진 빚이 한 재산인데,",
+          "after": "로넌에게 받을 거금을"
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "local_model": {
+        "lines": 3,
+        "indexes": [
+          0,
+          26,
+          27
+        ],
+        "height": 57,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 54
+          }
+        ],
+        "guard_accesses": 749,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 12,
+          "field": 16,
+          "width": 4,
+          "offset": 339156,
+          "expected_hex": "3a090000",
+          "role": "npc_dialogue",
+          "key": 2362
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": true,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "로넌의 큰 빚과 영영 돌려받지 못한다는 의미를 “받을 거금”으로 묶는다. 세 번의 가엾다는 반복과 말끝은 유지한다.",
+      "proposed_final_clean_segment": "가엾은 로넌. 가엾은 도리안. 가엾은 나! \n \n로넌에게 받을 거금을 이젠 영영 못 돌려받겠군요.",
+      "supersedes_internal_drafts1and2_only": true
+    },
+    {
+      "key": 2377,
+      "source": "[i_PI_KayleeSickly]I am not doing well, Guardian.  And I am worried about Overseer Lysetta.\r\n\r\nShe is working as hard as she can, but it all seems so hopeless.  Please check in on her.",
+      "source_sha256": "928f2a82fd2c5e9beb2857d95025b7ae80ecfe72066c32c76bfc497602036763",
+      "current": "[i_PI_KayleeSickly]상태가 좋지 않아, 수호자. 리세타 감독관님도 걱정돼.\r\n\r\n최선을 다하고 계시지만, 모든 게 가망없어 보여. 가서 살펴봐 줘.",
+      "current_wording_sha256": "1226bf3902bb63fd9135d8cdc3c2a240430b68a5958939ffc0374ec079d31e7d",
+      "proposed": "[i_PI_KayleeSickly]상태가 좋지 않아, 수호자. 리세타 감독관님도 걱정돼.\r\n\r\n최선을 다하시지만, 영 가망없어 보여. 가서 살펴봐 줘.",
+      "proposed_wording_sha256": "9cf46585f281ef48f37cc8680a4b785bbf9661653923b0555e10262a7f5d2886",
+      "changes": [
+        {
+          "before": "최선을 다하고 계시지만, 모든 게 가망없어 보여.",
+          "after": "최선을 다하시지만, 영 가망없어 보여."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "local_model": {
+        "lines": 3,
+        "indexes": [
+          0,
+          33,
+          34
+        ],
+        "height": 57,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 65
+          }
+        ],
+        "guard_accesses": 859,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 15,
+          "field": 36,
+          "width": 4,
+          "offset": 339956,
+          "expected_hex": "49090000",
+          "role": "npc_dialogue",
+          "key": 2377
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": true,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "최선의 노력·존대·가망없어 보인다는 판단을 유지한다. “모든 게”의 상황 전체 절망 표현을 “영”으로 압축하는 해석이므로 인간 문안 판단이 필요하다.",
+      "proposed_final_clean_segment": "상태가 좋지 않아, 수호자. 리세타 감독관님도 걱정돼. \n \n최선을 다하시지만, 영 가망없어 보여. 가서 살펴봐 줘.",
+      "supersedes_internal_drafts1and2_only": true
+    },
+    {
+      "key": 2405,
+      "source": "[i_PI_SirArmon]You have not been authorized to venture outside of the city gates.\r\n\r\nIt is obvious that whatever task before you resides within the city walls.",
+      "source_sha256": "1b9f80b67865153956bd3fa0a9ad56c814aa8ae8e8b4fea7cebcfb4c671d92ef",
+      "current": "[i_PI_SirArmon]그대는 성문 밖으로 나갈 허가를 받지 못했소.\r\n\r\n그대 앞에 놓인 일이 무엇이든, 성벽 안에 있는 게 분명하오.",
+      "current_wording_sha256": "3db877f638fd1f69be6b36046f6a3905359eb760debe96b7f52fde25e73485d0",
+      "proposed": "[i_PI_SirArmon]그대는 성문 밖으로 나갈 허가를 받지 못했소.\r\n\r\n그대의 일이 무엇이든, 성벽 안에 있는 게 분명하오.",
+      "proposed_wording_sha256": "22f5f4b32eb1a3e35f506175cf40b749d3222308fc09b0b3512bfaab8fa51cf5",
+      "changes": [
+        {
+          "before": "그대 앞에 놓인 일이 무엇이든,",
+          "after": "그대의 일이 무엇이든,"
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "local_model": {
+        "lines": 3,
+        "indexes": [
+          0,
+          28,
+          29
+        ],
+        "height": 57,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 58
+          }
+        ],
+        "guard_accesses": 789,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 3,
+          "field": 152,
+          "width": 4,
+          "offset": 336952,
+          "expected_hex": "65090000",
+          "role": "npc_dialogue",
+          "key": 2405
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": true,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "앞에 놓인 자신의 일을 소유 표현으로 줄인다. 출입 허가 부재와 마지막 “분명하오”는 유지한다.",
+      "proposed_final_clean_segment": "그대는 성문 밖으로 나갈 허가를 받지 못했소. \n \n그대의 일이 무엇이든, 성벽 안에 있는 게 분명하오.",
+      "supersedes_internal_drafts1and2_only": true
+    },
+    {
+      "key": 2407,
+      "source": "[i_PI_SirArmon]I've heard that you are going off to destroy the praetox nest.\r\n\r\nIt's about time that something is done about their infestation of the catacombs.",
+      "source_sha256": "7ae0c047eb03836776168628a25cd6cbdd33cc23a5b70049f35892955d62ae6d",
+      "current": "[i_PI_SirArmon]프레이톡스 둥지를 파괴하러 떠난다고 들었소.\r\n\r\n지하묘지에 들끓는 그놈들을 이제라도 어떻게 해야 할 때가 되었지.",
+      "current_wording_sha256": "e80526664a6ecf51443b9ba01451d57a336163ac344bcb189556b4667f12a5f4",
+      "proposed": "[i_PI_SirArmon]프레이톡스 둥지를 파괴하러 떠난다고 들었소.\r\n\r\n지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지.",
+      "proposed_wording_sha256": "7a1d550c6da2ee806543828a2048ebac66affaa05038b7f9fb083067f2e0997c",
+      "changes": [
+        {
+          "before": "지하묘지에 들끓는 그놈들을 이제라도 어떻게 해야 할 때가 되었지.",
+          "after": "지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지."
+        }
+      ],
+      "current_actual_pages": 2,
+      "proposed_local_pages": 1,
+      "local_model": {
+        "lines": 3,
+        "indexes": [
+          0,
+          27,
+          28
+        ],
+        "height": 57,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 57
+          }
+        ],
+        "guard_accesses": 779,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 3,
+          "field": 156,
+          "width": 4,
+          "offset": 336956,
+          "expected_hex": "67090000",
+          "role": "npc_dialogue",
+          "key": 2407
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": false,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "들끓는 해충을 이제라도 처리해야 한다는 의미를 유지한다. 불필요한 “그”를 덜고 “어떻게 해야 할”을 “처리할”로,말끝 “되었지”를 “됐지”로 줄인다.",
+      "proposed_final_clean_segment": "프레이톡스 둥지를 파괴하러 떠난다고 들었소. \n \n지하묘지에 들끓는 놈들을 이제라도 처리할 때가 됐지.",
+      "supersedes_internal_drafts1and2_only": true
+    },
+    {
+      "key": 3552,
+      "source": "[i_PI_SabineFirehand]You must go to Lightfall Grove, Guardian!  I would go with you if I could, but with Madam Diana still out there, I must stay behind and do what I can should you and she fail...\r\n\r\nGo, Guardian!  And may the fury of the wild bring you victory!",
+      "source_sha256": "9fc8c3621c25d594e9fd3e98be95a99d095ffa320654dcdcbe270f461756f7a7",
+      "current": "[i_PI_SabineFirehand]라이트폴 숲으로 가야 해요, 수호자님! 할 수만 있다면 함께 가겠지만 다이애나 부인이 아직 밖에 계시니, 당신과 부인이 실패할 경우에 대비해 저는 남아서 할 수 있는 일을 해야 해요...\r\n\r\n가세요, 수호자님! 야생의 분노가 당신에게 승리를 가져다주기를!",
+      "current_wording_sha256": "245db0c578cc7da4524cd238c72336c744b475b5192ab9d287aa3c0dc5d9e34c",
+      "proposed": "[i_PI_SabineFirehand]라이트폴 숲으로 가야 해요, 수호자님! 가능하다면 함께 가겠지만 다이애나 부인이 아직 밖에 계시니, 두 분의 실패에 대비해 남아 할 수 있는 일을 해야 해요...\r\n\r\n가세요, 수호자님! 야생의 분노가 당신에게 승리를 가져다주기를!",
+      "proposed_wording_sha256": "3c72f9d02464f93ec2c4cf74a1c69ed67579de8fff7f5c04584d7b4db4df3733",
+      "changes": [
+        {
+          "before": "할 수만 있다면",
+          "after": "가능하다면"
+        },
+        {
+          "before": "당신과 부인이 실패할 경우에 대비해",
+          "after": "두 분의 실패에 대비해"
+        },
+        {
+          "before": "저는 남아서",
+          "after": "남아"
+        }
+      ],
+      "current_actual_pages": 3,
+      "proposed_local_pages": 2,
+      "local_model": {
+        "lines": 6,
+        "indexes": [
+          0,
+          31,
+          61,
+          93,
+          94,
+          122
+        ],
+        "height": 114,
+        "pages": [
+          {
+            "first_line": 0,
+            "last_line": 2,
+            "end": 92
+          },
+          {
+            "first_line": 4,
+            "last_line": 5,
+            "end": 129
+          }
+        ],
+        "guard_accesses": 1613,
+        "guard_opcodes": [
+          35,
+          37,
+          40,
+          43,
+          49,
+          57
+        ],
+        "metrics_and_text_unchanged": true,
+        "images": [
+          0
+        ],
+        "p_markers": []
+      },
+      "local_pages_reduced": true,
+      "paragraph_controls_portrait_and_final_expression_preserved": true,
+      "source_refs": [
+        {
+          "table": 13,
+          "row": 7,
+          "field": 116,
+          "width": 4,
+          "offset": 337956,
+          "expected_hex": "e00d0000",
+          "role": "npc_dialogue",
+          "key": 3552
+        }
+      ],
+      "applied": false,
+      "human_approval": false,
+      "proposed_native_captures": 0,
+      "scope": "Only listed phrase(s);not a global replacement or wholetranslation/releaseapproval.",
+      "paragraph_controls_and_portrait_preserved": true,
+      "final_expression_byte_identical": true,
+      "final_expression_scope": "2407 되었다→됐다 contraction explicitlylisted;otherfinalexpressionsretained.",
+      "semantic_review_note": "가능 여부의 조건은 “가능하다면”,수호자·다이애나는 “두 분”으로 받는다. 화자 “저는”은 문맥상 생략하되 남아 할 수 있는 일을 해야 한다는 의무와 마지막 축원 전체는 유지한다.",
+      "proposed_final_clean_segment": " \n가세요, 수호자님! 야생의 분노가 당신에게 승리를 가져다주기를!",
+      "supersedes_internal_drafts1and2_only": true
+    }
+  ],
+  "all_reduce_pages": true,
+  "current_actual_report": "qa/reports/npc_short74_20261029_runtime.json",
+  "current_actual_total_pages": 13,
+  "proposed_local_total_pages": 7,
+  "previous_internal_drafts": [
+    "qa/reports/npc_short6_draft_20261029.json",
+    "qa/reports/npc_short6_draft_v2_20261029.json"
+  ],
+  "no_game_SSOT_recipe_or_decision_changes": true,
+  "user_decision_deferred": true,
+  "approval_scope_if_chosen": "Only exact listed6key phrase changes in thisv3. Otherbody/portrait/controls/numbers/references/game behavior unchanged. Human selection precedes application;then actualnewpayload page checks required. No fulltranslation/releaseapproval.",
+  "release_eligible": false
+}

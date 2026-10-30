@@ -1,0 +1,92 @@
+000C3760 addiu       $sp, $sp, -0x50
+000C3764 sw          $s0, 0x40($sp)
+000C3768 or          $s0, $a0, $zero
+000C376C sw          $s1, 0x44($sp)
+000C3770 addiu       $s1, $s0, 0x130
+000C3774 sw          $s2, 0x48($sp)
+000C3778 sw          $ra, 0x4C($sp)
+000C377C jal 0x000BD7E8
+000C3780 or          $a0, $s1, $zero
+000C3784 bne         $v0, $zero, . + 4 + (0x1B << 2)
+000C3788 ori         $a1, $zero, 0x1
+000C378C mtc1        $zero, $f12
+000C3790 sb          $a1, 0x140($s0)
+000C3794 swc1        $f12, 0x144($s0)
+000C3798 sw          $zero, 0x148($s0)
+000C379C sw          $zero, 0x14C($s0)
+000C37A0 sw          $zero, 0x150($s0)
+000C37A4 ori         $a0, $zero, 0x64
+000C37A8 sw          $a0, 0x154($s0)
+000C37AC sw          $zero, 0x15C($s0)
+000C37B0 addiu       $a0, $zero, -0x1
+000C37B4 sw          $a0, 0x2E10($s0)
+000C37B8 swc1        $f12, 0x10($s0)
+000C37BC lw          $a2, 0x2F8($s0)
+000C37C0 sw          $a0, 0x2E1C($s0)
+000C37C4 lw          $a3, 0x2F4($s0)
+000C37C8 sb          $zero, 0x1C($s0)
+000C37CC sb          $a1, 0x1B($s0)
+000C37D0 subu        $a1, $a2, $a3
+000C37D4 sra         $a2, $a1, 2
+000C37D8 srl         $a2, $a2, 30
+000C37DC addu        $a1, $a1, $a2
+000C37E0 sra         $a1, $a1, 2
+000C37E4 beq         $a1, $zero, . + 4 + (0x5 << 2)
+000C37E8 sb          $zero, 0x2F0($s0)
+000C37EC beq         $zero, $zero, . + 4 + (0x4 << 2)
+000C37F0 sw          $zero, 0x2EC($s0)
+000C37F4 beq         $zero, $zero, . + 4 + (0x30 << 2)
+000C37F8 sb          $zero, 0x140($s0)
+000C37FC sw          $a0, 0x2EC($s0)
+000C3800 lw          $a1, 0x308($s0)
+000C3804 lw          $a2, 0x304($s0)
+000C3808 ori         $a3, $zero, 0xC
+000C380C subu        $a1, $a1, $a2
+000C3810 div $5, $7
+000C3814 mflo        $a1
+000C3818 beq         $a1, $zero, . + 4 + (0x3 << 2)
+000C381C nop
+000C3820 beq         $zero, $zero, . + 4 + (0x2 << 2)
+000C3824 sw          $zero, 0x300($s0)
+000C3828 sw          $a0, 0x300($s0)
+000C382C jal 0x000C28B0
+000C3830 or          $a0, $s0, $zero
+000C3834 addiu       $a0, $sp, 0x30
+000C3838 jal 0x000C2BCC
+000C383C or          $a1, $s0, $zero
+000C3840 lw          $a0, 0x30($sp)
+000C3844 lw          $a1, 0x34($sp)
+000C3848 lw          $a2, 0x38($sp)
+000C384C sw          $a0, 0x20($sp)
+000C3850 lw          $a0, 0x3C($sp)
+000C3854 sw          $a1, 0x24($sp)
+000C3858 sw          $a2, 0x28($sp)
+000C385C sw          $a0, 0x2C($sp)
+000C3860 addiu       $s2, $s0, 0x8
+000C3864 jal 0x0012DBFC
+000C3868 or          $a0, $s2, $zero
+000C386C lw          $a0, 0x2C($sp)
+000C3870 lw          $a1, 0x10($v0)
+000C3874 lw          $a2, 0x24($sp)
+000C3878 subu        $a0, $a0, $a2
+000C387C div $4, $5
+000C3880 or          $a0, $s2, $zero
+000C3884 mflo        $a1
+000C3888 jal 0x0012DBFC
+000C388C sw          $a1, 0x158($s0)
+000C3890 lui         $t0, 0x3C
+000C3894 addiu       $a3, $sp, 0x20
+000C3898 addiu       $t2, $s0, 0x15C
+000C389C addiu       $t3, $s0, 0x154
+000C38A0 or          $a0, $v0, $zero
+000C38A4 or          $a1, $zero, $zero
+000C38A8 or          $a2, $s1, $zero
+000C38AC ori         $t1, $zero, 0x8
+000C38B0 jal 0x000C9850
+000C38B4 addiu       $t0, $t0, 0x54A0
+000C38B8 lw          $s0, 0x40($sp)
+000C38BC lw          $s1, 0x44($sp)
+000C38C0 lw          $s2, 0x48($sp)
+000C38C4 lw          $ra, 0x4C($sp)
+000C38C8 jr          $ra
+000C38CC addiu       $sp, $sp, 0x50

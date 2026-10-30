@@ -1,0 +1,41 @@
+{
+  "status": "PASS_READ_ONLY_NATIVE_RANGE_AND_RATIO_LOOKUP_AND_DRAW_OWNER",
+  "artifact": "book_role_split_20261024",
+  "artifact_sha256": "0ecb8ff4e9ddc136d68369fd1cb090477876e46ef00499c0697b5dd75085d679",
+  "records": [
+    {
+      "key": 3085,
+      "text": "6 - 12",
+      "UTF16_NUL_units": 7,
+      "actual_key_wrapper_and_return": true
+    },
+    {
+      "key": 3086,
+      "text": "31.7 / 164.0",
+      "UTF16_NUL_units": 13,
+      "actual_key_wrapper_and_return": true
+    }
+  ],
+  "range_tooltip_screen_verified": true,
+  "ratio_C9850_draw_input_verified": true,
+  "ratio_numeric_visual_identity_claimed": false,
+  "quantity3087_not_observed_in_starting_inventory": true,
+  "non_hit_not_unused_proof": true,
+  "CPU_and2116_bytes_restored": true,
+  "same_artifact_state_imports": 1,
+  "cross_artifact_state_imports": 0,
+  "RAM_writes": 0,
+  "environment": {
+    "managed12_equal": true,
+    "external_equal": true,
+    "controlled_exit_code": 1,
+    "bridge_warning": "taskkill failed for pid 16348",
+    "both_owned_processes_exited": true,
+    "owned_after_count": 0,
+    "other_PPSSPP_after_count": 0,
+    "ownership_scope": "Exact launch generation plus live PID/create_time; unrelated instances are not required to disappear."
+  },
+  "SSOT_or_game_changed": false,
+  "new_selected": 0,
+  "release_eligible": false
+}

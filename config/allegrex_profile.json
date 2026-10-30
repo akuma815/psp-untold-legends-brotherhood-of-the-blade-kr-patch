@@ -1,0 +1,3176 @@
+{
+  "profile_id": "allegrex_le32_documented_scalar_fpu_r1",
+  "endianness": "little",
+  "instruction_bytes": 4,
+  "cpu": "PSP Allegrex",
+  "fpu": "single precision32; FCR31 interpretation retained",
+  "instruction_forms": 132,
+  "nop_alias_of": "sll zero,zero,0",
+  "excluded_extensions": [
+    "VFPU and COP2",
+    "system-cache and undocumented privileged extensions",
+    "MIPS64/double FPU",
+    "PPSSPP EmuHack"
+  ],
+  "restrictions": {
+    "cfc1_fs": [
+      0,
+      31
+    ],
+    "ctc1_fs": [
+      31
+    ],
+    "ext": "1<=size<=32-pos",
+    "ins": "1<=size<=32-pos"
+  },
+  "manuals": [
+    {
+      "file": "Allegrex_Manual.pdf",
+      "sha256": "d6cda055a106c663132c187cfd27be448277dbfb97f631dd373c11ece35354bb",
+      "pages": 135
+    },
+    {
+      "file": "FPU_Manual.pdf",
+      "sha256": "8b3761c9bb8d878b0435489137b8ff29e087667a6c4218b1d02677c0739e6849",
+      "pages": 64
+    }
+  ],
+  "instructions": {
+    "add": {
+      "name": "add",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 32,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 7
+    },
+    "addi": {
+      "name": "addi",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 536870912,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 8
+    },
+    "addiu": {
+      "name": "addiu",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 603979776,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 9
+    },
+    "addu": {
+      "name": "addu",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 33,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 10
+    },
+    "and": {
+      "name": "and",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 36,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 11
+    },
+    "andi": {
+      "name": "andi",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 805306368,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 12
+    },
+    "bc1f": {
+      "name": "bc1f",
+      "syntax": "offset",
+      "operands": [
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4294901760,
+      "fixed_value": 1157627904,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 13
+    },
+    "bc1fl": {
+      "name": "bc1fl",
+      "syntax": "offset",
+      "operands": [
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4294901760,
+      "fixed_value": 1157758976,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 14
+    },
+    "bc1t": {
+      "name": "bc1t",
+      "syntax": "offset",
+      "operands": [
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4294901760,
+      "fixed_value": 1157693440,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 16
+    },
+    "bc1tl": {
+      "name": "bc1tl",
+      "syntax": "offset",
+      "operands": [
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4294901760,
+      "fixed_value": 1157824512,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 17
+    },
+    "beq": {
+      "name": "beq",
+      "syntax": "rs,rt,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 268435456,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 19
+    },
+    "beql": {
+      "name": "beql",
+      "syntax": "rs,rt,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 1342177280,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 20
+    },
+    "bgez": {
+      "name": "bgez",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 67174400,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 21
+    },
+    "bgezal": {
+      "name": "bgezal",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 68222976,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 22
+    },
+    "bgezall": {
+      "name": "bgezall",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 68354048,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 23
+    },
+    "bgezl": {
+      "name": "bgezl",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 67305472,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 25
+    },
+    "bgtz": {
+      "name": "bgtz",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 469762048,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 26
+    },
+    "bgtzl": {
+      "name": "bgtzl",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 1543503872,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 27
+    },
+    "blez": {
+      "name": "blez",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 402653184,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 28
+    },
+    "blezl": {
+      "name": "blezl",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 1476395008,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 29
+    },
+    "bltz": {
+      "name": "bltz",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 67108864,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 30
+    },
+    "bltzal": {
+      "name": "bltzal",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 68157440,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 31
+    },
+    "bltzall": {
+      "name": "bltzall",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 68288512,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 32
+    },
+    "bltzl": {
+      "name": "bltzl",
+      "syntax": "rs,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4229890048,
+      "fixed_value": 67239936,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 33
+    },
+    "bne": {
+      "name": "bne",
+      "syntax": "rs,rt,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 335544320,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 34
+    },
+    "bnel": {
+      "name": "bnel",
+      "syntax": "rs,rt,offset",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 1409286144,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 35
+    },
+    "break": {
+      "name": "break",
+      "syntax": "code",
+      "operands": [
+        {
+          "name": "code",
+          "shift": 6,
+          "bits": 20,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4227858495,
+      "fixed_value": 13,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 36
+    },
+    "cfc1": {
+      "name": "cfc1",
+      "syntax": "rt,fs",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fcr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1145044992,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 37
+    },
+    "ctc1": {
+      "name": "ctc1",
+      "syntax": "rt,fs",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fcr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1153433600,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 38
+    },
+    "div": {
+      "name": "div",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 26,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 40
+    },
+    "divu": {
+      "name": "divu",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 27,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 41
+    },
+    "eret": {
+      "name": "eret",
+      "syntax": "",
+      "operands": [],
+      "fixed_mask": 4294967295,
+      "fixed_value": 1107296280,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 42
+    },
+    "j": {
+      "name": "j",
+      "syntax": "target",
+      "operands": [
+        {
+          "name": "target",
+          "shift": 0,
+          "bits": 26,
+          "kind": "jump26"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 134217728,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 43
+    },
+    "jal": {
+      "name": "jal",
+      "syntax": "target",
+      "operands": [
+        {
+          "name": "target",
+          "shift": 0,
+          "bits": 26,
+          "kind": "jump26"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 201326592,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 44
+    },
+    "jalr": {
+      "name": "jalr",
+      "syntax": "rd,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229892095,
+      "fixed_value": 9,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 45
+    },
+    "jr": {
+      "name": "jr",
+      "syntax": "rs",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229955583,
+      "fixed_value": 8,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 46
+    },
+    "lb": {
+      "name": "lb",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2147483648,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 47
+    },
+    "lbu": {
+      "name": "lbu",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2415919104,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 48
+    },
+    "lh": {
+      "name": "lh",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2214592512,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 49
+    },
+    "lhu": {
+      "name": "lhu",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2483027968,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 50
+    },
+    "lui": {
+      "name": "lui",
+      "syntax": "rt,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4292870144,
+      "fixed_value": 1006632960,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 51
+    },
+    "lw": {
+      "name": "lw",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2348810240,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 52
+    },
+    "lwc1": {
+      "name": "lwc1",
+      "syntax": "ft,offset(base)",
+      "operands": [
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 3288334336,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 53
+    },
+    "lwl": {
+      "name": "lwl",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2281701376,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 54
+    },
+    "lwr": {
+      "name": "lwr",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2550136832,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 56
+    },
+    "mfc0": {
+      "name": "mfc0",
+      "syntax": "rt,rd",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "cop0"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1073741824,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 58
+    },
+    "mfc1": {
+      "name": "mfc1",
+      "syntax": "rt,fs",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1140850688,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 59
+    },
+    "mfhi": {
+      "name": "mfhi",
+      "syntax": "rd",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4294903807,
+      "fixed_value": 16,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 60
+    },
+    "mflo": {
+      "name": "mflo",
+      "syntax": "rd",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4294903807,
+      "fixed_value": 18,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 61
+    },
+    "mtc0": {
+      "name": "mtc0",
+      "syntax": "rt,rd",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "cop0"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1082130432,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 62
+    },
+    "mtc1": {
+      "name": "mtc1",
+      "syntax": "rt,fs",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1149239296,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 63
+    },
+    "mthi": {
+      "name": "mthi",
+      "syntax": "rs",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229955583,
+      "fixed_value": 17,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 64
+    },
+    "mtlo": {
+      "name": "mtlo",
+      "syntax": "rs",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229955583,
+      "fixed_value": 19,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 65
+    },
+    "mult": {
+      "name": "mult",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 24,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 66
+    },
+    "multu": {
+      "name": "multu",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 25,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 67
+    },
+    "nop": {
+      "name": "nop",
+      "syntax": "",
+      "operands": [],
+      "fixed_mask": 4294967295,
+      "fixed_value": 0,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 68
+    },
+    "nor": {
+      "name": "nor",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 39,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 69
+    },
+    "or": {
+      "name": "or",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 37,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 70
+    },
+    "ori": {
+      "name": "ori",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 872415232,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 71
+    },
+    "sb": {
+      "name": "sb",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2684354560,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 72
+    },
+    "sh": {
+      "name": "sh",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2751463424,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 73
+    },
+    "sll": {
+      "name": "sll",
+      "syntax": "rd,rt,sa",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "sa",
+          "shift": 6,
+          "bits": 5,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 0,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 74
+    },
+    "sllv": {
+      "name": "sllv",
+      "syntax": "rd,rt,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 4,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 75
+    },
+    "slt": {
+      "name": "slt",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 42,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 76
+    },
+    "slti": {
+      "name": "slti",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 671088640,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 77
+    },
+    "sltiu": {
+      "name": "sltiu",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 738197504,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 78
+    },
+    "sltu": {
+      "name": "sltu",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 43,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 79
+    },
+    "sra": {
+      "name": "sra",
+      "syntax": "rd,rt,sa",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "sa",
+          "shift": 6,
+          "bits": 5,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 3,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 80
+    },
+    "srav": {
+      "name": "srav",
+      "syntax": "rd,rt,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 7,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 81
+    },
+    "srl": {
+      "name": "srl",
+      "syntax": "rd,rt,sa",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "sa",
+          "shift": 6,
+          "bits": 5,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 2,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 82
+    },
+    "srlv": {
+      "name": "srlv",
+      "syntax": "rd,rt,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 6,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 83
+    },
+    "sub": {
+      "name": "sub",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 34,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 84
+    },
+    "subu": {
+      "name": "subu",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 35,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 85
+    },
+    "sw": {
+      "name": "sw",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2885681152,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 86
+    },
+    "swc1": {
+      "name": "swc1",
+      "syntax": "ft,offset(base)",
+      "operands": [
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 3825205248,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 87
+    },
+    "swl": {
+      "name": "swl",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 2818572288,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 88
+    },
+    "swr": {
+      "name": "swr",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 3087007744,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 90
+    },
+    "syscall": {
+      "name": "syscall",
+      "syntax": "code",
+      "operands": [
+        {
+          "name": "code",
+          "shift": 6,
+          "bits": 20,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4227858495,
+      "fixed_value": 12,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 92
+    },
+    "xor": {
+      "name": "xor",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 38,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 93
+    },
+    "xori": {
+      "name": "xori",
+      "syntax": "rt,rs,immediate",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "immediate",
+          "shift": 0,
+          "bits": 16,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 939524096,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 94
+    },
+    "clo": {
+      "name": "clo",
+      "syntax": "rd,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229892095,
+      "fixed_value": 23,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 96
+    },
+    "clz": {
+      "name": "clz",
+      "syntax": "rd,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4229892095,
+      "fixed_value": 22,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 97
+    },
+    "madd": {
+      "name": "madd",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 28,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 98
+    },
+    "maddu": {
+      "name": "maddu",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 29,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 99
+    },
+    "msub": {
+      "name": "msub",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 46,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 100
+    },
+    "msubu": {
+      "name": "msubu",
+      "syntax": "rs,rt",
+      "operands": [
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227923967,
+      "fixed_value": 47,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 101
+    },
+    "max": {
+      "name": "max",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 44,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 102
+    },
+    "min": {
+      "name": "min",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 45,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 103
+    },
+    "movn": {
+      "name": "movn",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 11,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 104
+    },
+    "movz": {
+      "name": "movz",
+      "syntax": "rd,rs,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 10,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 105
+    },
+    "ext": {
+      "name": "ext",
+      "syntax": "rt,rs,pos,size",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "pos",
+          "shift": 6,
+          "bits": 5,
+          "kind": "position"
+        },
+        {
+          "name": "size",
+          "shift": 11,
+          "bits": 5,
+          "kind": "size_minus_one"
+        }
+      ],
+      "fixed_mask": 4227858495,
+      "fixed_value": 2080374784,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 106
+    },
+    "ins": {
+      "name": "ins",
+      "syntax": "rt,rs,pos,size",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "pos",
+          "shift": 6,
+          "bits": 5,
+          "kind": "position"
+        },
+        {
+          "name": "size",
+          "shift": 11,
+          "bits": 5,
+          "kind": "size_msb"
+        }
+      ],
+      "fixed_mask": 4227858495,
+      "fixed_value": 2080374788,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 107
+    },
+    "seb": {
+      "name": "seb",
+      "syntax": "rd,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 2080375840,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 108,
+      "manual_printed_fixed_value": 2080375841,
+      "erratum": {
+        "description": "Page108 prints bit0=1; corrected to0 by independent assembler and emulator tables. This is an implementation-supported correction, not a Sony-issued erratum.",
+        "visual_evidence": "workspace/tools/pdf_render020/seb_page108.png",
+        "assembler": "https://github.com/Kingcom/armips/blob/62adab4ef30da765f5cf22a451eb08a59c54dc8b/Archs/MIPS/MipsOpcodes.cpp",
+        "emulator": "https://github.com/hrydgard/ppsspp/blob/56c694d/Core/MIPS/MIPSTables.cpp"
+      }
+    },
+    "seh": {
+      "name": "seh",
+      "syntax": "rd,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 2080376352,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 109
+    },
+    "bitrev": {
+      "name": "bitrev",
+      "syntax": "rd,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 2080376096,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 110
+    },
+    "rotr": {
+      "name": "rotr",
+      "syntax": "rd,rt,sa",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "sa",
+          "shift": 6,
+          "bits": 5,
+          "kind": "unsigned"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 2097154,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 111
+    },
+    "rotrv": {
+      "name": "rotrv",
+      "syntax": "rd,rt,rs",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rs",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227860479,
+      "fixed_value": 70,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 112
+    },
+    "wsbh": {
+      "name": "wsbh",
+      "syntax": "rd,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 2080374944,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 113
+    },
+    "wsbw": {
+      "name": "wsbw",
+      "syntax": "rd,rt",
+      "operands": [
+        {
+          "name": "rd",
+          "shift": 11,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 2080375008,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 114
+    },
+    "sync": {
+      "name": "sync",
+      "syntax": "",
+      "operands": [],
+      "fixed_mask": 4294967295,
+      "fixed_value": 15,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 130
+    },
+    "ll": {
+      "name": "ll",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 3221225472,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 131
+    },
+    "sc": {
+      "name": "sc",
+      "syntax": "rt,offset(base)",
+      "operands": [
+        {
+          "name": "rt",
+          "shift": 16,
+          "bits": 5,
+          "kind": "gpr"
+        },
+        {
+          "name": "offset",
+          "shift": 0,
+          "bits": 16,
+          "kind": "signed"
+        },
+        {
+          "name": "base",
+          "shift": 21,
+          "bits": 5,
+          "kind": "gpr"
+        }
+      ],
+      "fixed_mask": 4227858432,
+      "fixed_value": 3758096384,
+      "manual": "Allegrex_Manual.pdf",
+      "page": 132
+    },
+    "abs.s": {
+      "name": "abs.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405125,
+      "manual": "FPU_Manual.pdf",
+      "page": 5
+    },
+    "add.s": {
+      "name": "add.s",
+      "syntax": "fd,fs,ft",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 1174405120,
+      "manual": "FPU_Manual.pdf",
+      "page": 6
+    },
+    "c.f.s": {
+      "name": "c.f.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405168,
+      "manual": "FPU_Manual.pdf",
+      "page": 13
+    },
+    "c.un.s": {
+      "name": "c.un.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405169,
+      "manual": "FPU_Manual.pdf",
+      "page": 15
+    },
+    "c.eq.s": {
+      "name": "c.eq.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405170,
+      "manual": "FPU_Manual.pdf",
+      "page": 17
+    },
+    "c.ueq.s": {
+      "name": "c.ueq.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405171,
+      "manual": "FPU_Manual.pdf",
+      "page": 19
+    },
+    "c.olt.s": {
+      "name": "c.olt.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405172,
+      "manual": "FPU_Manual.pdf",
+      "page": 21
+    },
+    "c.ult.s": {
+      "name": "c.ult.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405173,
+      "manual": "FPU_Manual.pdf",
+      "page": 23
+    },
+    "c.ole.s": {
+      "name": "c.ole.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405174,
+      "manual": "FPU_Manual.pdf",
+      "page": 25
+    },
+    "c.ule.s": {
+      "name": "c.ule.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405175,
+      "manual": "FPU_Manual.pdf",
+      "page": 27
+    },
+    "c.sf.s": {
+      "name": "c.sf.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405176,
+      "manual": "FPU_Manual.pdf",
+      "page": 29
+    },
+    "c.ngle.s": {
+      "name": "c.ngle.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405177,
+      "manual": "FPU_Manual.pdf",
+      "page": 31
+    },
+    "c.seq.s": {
+      "name": "c.seq.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405178,
+      "manual": "FPU_Manual.pdf",
+      "page": 33
+    },
+    "c.ngl.s": {
+      "name": "c.ngl.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405179,
+      "manual": "FPU_Manual.pdf",
+      "page": 35
+    },
+    "c.lt.s": {
+      "name": "c.lt.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405180,
+      "manual": "FPU_Manual.pdf",
+      "page": 37
+    },
+    "c.nge.s": {
+      "name": "c.nge.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405181,
+      "manual": "FPU_Manual.pdf",
+      "page": 39
+    },
+    "c.le.s": {
+      "name": "c.le.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405182,
+      "manual": "FPU_Manual.pdf",
+      "page": 41
+    },
+    "c.ngt.s": {
+      "name": "c.ngt.s",
+      "syntax": "fs,ft",
+      "operands": [
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292872191,
+      "fixed_value": 1174405183,
+      "manual": "FPU_Manual.pdf",
+      "page": 43
+    },
+    "ceil.w.s": {
+      "name": "ceil.w.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405134,
+      "manual": "FPU_Manual.pdf",
+      "page": 45
+    },
+    "cvt.s.w": {
+      "name": "cvt.s.w",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1182793760,
+      "manual": "FPU_Manual.pdf",
+      "page": 49
+    },
+    "cvt.w.s": {
+      "name": "cvt.w.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405156,
+      "manual": "FPU_Manual.pdf",
+      "page": 50
+    },
+    "div.s": {
+      "name": "div.s",
+      "syntax": "fd,fs,ft",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 1174405123,
+      "manual": "FPU_Manual.pdf",
+      "page": 51
+    },
+    "floor.w.s": {
+      "name": "floor.w.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405135,
+      "manual": "FPU_Manual.pdf",
+      "page": 52
+    },
+    "mov.s": {
+      "name": "mov.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405126,
+      "manual": "FPU_Manual.pdf",
+      "page": 55
+    },
+    "mul.s": {
+      "name": "mul.s",
+      "syntax": "fd,fs,ft",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 1174405122,
+      "manual": "FPU_Manual.pdf",
+      "page": 57
+    },
+    "neg.s": {
+      "name": "neg.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405127,
+      "manual": "FPU_Manual.pdf",
+      "page": 58
+    },
+    "round.w.s": {
+      "name": "round.w.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405132,
+      "manual": "FPU_Manual.pdf",
+      "page": 59
+    },
+    "sqrt.s": {
+      "name": "sqrt.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405124,
+      "manual": "FPU_Manual.pdf",
+      "page": 60
+    },
+    "sub.s": {
+      "name": "sub.s",
+      "syntax": "fd,fs,ft",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "ft",
+          "shift": 16,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4292870207,
+      "fixed_value": 1174405121,
+      "manual": "FPU_Manual.pdf",
+      "page": 61
+    },
+    "trunc.w.s": {
+      "name": "trunc.w.s",
+      "syntax": "fd,fs",
+      "operands": [
+        {
+          "name": "fd",
+          "shift": 6,
+          "bits": 5,
+          "kind": "fpr"
+        },
+        {
+          "name": "fs",
+          "shift": 11,
+          "bits": 5,
+          "kind": "fpr"
+        }
+      ],
+      "fixed_mask": 4294901823,
+      "fixed_value": 1174405133,
+      "manual": "FPU_Manual.pdf",
+      "page": 63
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "references": [
+    {
+      "repository": "mcpads/3ds-puyo-puyo-chronicle-kr-patch",
+      "path": "README.md",
+      "git_blob_sha": "cdd70fc5c53d86e446d231f5f257cfaac771a3a9",
+      "url": "https://github.com/mcpads/3ds-puyo-puyo-chronicle-kr-patch/blob/main/README.md"
+    },
+    {
+      "repository": "akuma815/psp-death-jr-kr-patch",
+      "path": "README.md",
+      "git_blob_sha": "dda60b4745578748730bc45c5d1c9aedb4ba0842",
+      "url": "https://github.com/akuma815/psp-death-jr-kr-patch/blob/main/README.md"
+    },
+    {
+      "repository": "akuma815/psp-death-jr-kr-patch",
+      "path": ".github/ISSUE_TEMPLATE/site-bug-report.md",
+      "git_blob_sha": "c47588940cc343eb6ce31b53aa16189faf99ade1",
+      "url": "https://github.com/akuma815/psp-death-jr-kr-patch/blob/main/.github/ISSUE_TEMPLATE/site-bug-report.md"
+    },
+    {
+      "repository": "akuma815/psp-death-jr-kr-patch",
+      "path": ".github/ISSUE_TEMPLATE/site-guestbook.md",
+      "git_blob_sha": "ce93e1dc48245b146bd175d84fb85fda104d98c9",
+      "url": "https://github.com/akuma815/psp-death-jr-kr-patch/blob/main/.github/ISSUE_TEMPLATE/site-guestbook.md"
+    }
+  ],
+  "preserved_sections": [
+    "game description",
+    "preview",
+    "download/apply",
+    "notes",
+    "checksums",
+    "source records"
+  ],
+  "release_creation": false
+}

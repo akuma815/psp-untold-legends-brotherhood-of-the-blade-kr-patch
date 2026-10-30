@@ -1,0 +1,19 @@
+{
+  "schema_version": 24,
+  "policy": "development_poc_non_distributable",
+  "parent_config": "development_optional6_20261025.json",
+  "parent_config_sha256": "45b7c2d08e731d8841cf5e4b40f2f03f10d16052c136c24725a4a42c1b4d3dc0",
+  "parent_artifact": "workspace/runtime/optional6_20261025/artifact.json",
+  "parent_artifact_sha256": "7df1aca5d467902301ab8a575aae7e523944d6b2639250bc2b1c2566f67a52e7",
+  "packet": "workspace/translation/review/20261025_schema23_inventory_v16/packet.json",
+  "packet_sha256": "b7115d02f5e2ba018e6512517580fb8d20015c2abb358fe292970ffcf1a2245c",
+  "approval": "workspace/translation/approvals/20261026_dialogue3541.json",
+  "approval_sha256": "3e67ab458369191063f8e9d1090f4ca0080b08f625d37af486a7b4ff1b74d54b",
+  "author": "workspace/translation/authored/dialogue3541_20261026.json",
+  "author_sha256": "d985042602722e21a226ea5d49d9ef24f7bad2ceab9e269e25e652fe60369c0b",
+  "exact_trans_keys": [
+    3541
+  ],
+  "scope": "Only user-chosen preceding fragment in3541;preserveinitial아comma,finalrhetoricalquestion,allotherbody/portrait/numbers/controls/refs. Full wording/layout/release approval remains separate.",
+  "release_eligible": false
+}

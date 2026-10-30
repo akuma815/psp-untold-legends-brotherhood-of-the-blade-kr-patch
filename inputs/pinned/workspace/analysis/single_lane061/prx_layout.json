@@ -1,0 +1,307 @@
+{
+  "hook_vma": 5749312,
+  "hook_file_offset": 2172800,
+  "hook_bytes": 1380,
+  "hook_sha256": "dc5ce061ac38df3083968084cd2018e1476b42b15e8a7910472cff51c6a7349a",
+  "old_memory_end": 5749264,
+  "program_header_offset": 2172656,
+  "program_header_count": 3,
+  "source_instructions_moved": false,
+  "old_load_segments_identical": true,
+  "callsite_relative": 824672,
+  "callsite_before": "9a24030c",
+  "callsite_after": "90ee150c",
+  "retained_relocation_file_offset": 2025272,
+  "retained_relocation_info": 4,
+  "relative_branch_edges": [
+    {
+      "pc": 5749320,
+      "target": 5749676,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749332,
+      "target": 5749676,
+      "kind": "beq"
+    },
+    {
+      "pc": 5749600,
+      "target": 5749612,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749616,
+      "target": 5749440,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749684,
+      "target": 5749764,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749780,
+      "target": 5750052,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749876,
+      "target": 5749904,
+      "kind": "bne"
+    },
+    {
+      "pc": 5749888,
+      "target": 5749904,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750068,
+      "target": 5750336,
+      "kind": "bne"
+    },
+    {
+      "pc": 5750112,
+      "target": 5750296,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750160,
+      "target": 5750296,
+      "kind": "bne"
+    },
+    {
+      "pc": 5750220,
+      "target": 5750232,
+      "kind": "bne"
+    },
+    {
+      "pc": 5750240,
+      "target": 5750296,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750288,
+      "target": 5750216,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750348,
+      "target": 5750584,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750360,
+      "target": 5750380,
+      "kind": "beq"
+    },
+    {
+      "pc": 5750372,
+      "target": 5750584,
+      "kind": "bne"
+    },
+    {
+      "pc": 5750608,
+      "target": 5750664,
+      "kind": "bne"
+    },
+    {
+      "pc": 5750620,
+      "target": 5750644,
+      "kind": "bne"
+    }
+  ],
+  "all_delay_slots_checked": true,
+  "return_paths": [
+    "ordinary tail-call original quad, original RA unchanged",
+    "virtual restores s0..s6/ra/f0/f2/sp, returns to original caller"
+  ],
+  "preserved_extra_live_state": [
+    "s0..s6",
+    "sp",
+    "ra",
+    "f0",
+    "f2"
+  ],
+  "placement_checks": [
+    {
+      "module_base": 142622720,
+      "hook_pc": 148372032,
+      "return_pc": 143447400,
+      "quad_pc": 143446632
+    },
+    {
+      "module_base": 143671296,
+      "hook_pc": 149420608,
+      "return_pc": 144495976,
+      "quad_pc": 144495208
+    }
+  ],
+  "profile_sha256": "7068a1f94aefe1007d347975f67a6787cd2535e6c622826e416a696c01f3a7cc",
+  "scope": "New renderer only. Orthographic UI sprites require runtime equivalence; no arbitrary 3D-font claim.",
+  "implementation": "Hangul sprite/unchanged original ASCII triangles with explicit batch transition",
+  "symbols": {
+    "entry": 5749312,
+    "pair": 5749440,
+    "no_gap": 5749612,
+    "ordinary": 5749676,
+    "ordinary_ready": 5749764,
+    "sprite_quad": 5749772,
+    "sprite_white_hi": 5749896,
+    "sprite_white_lo": 5749900,
+    "sprite_normal_color": 5749904,
+    "sprite_ordinary": 5750052,
+    "sprite_flush": 5750060,
+    "sprite_material_loop": 5750216,
+    "sprite_have_material": 5750232,
+    "sprite_flush_done": 5750296,
+    "sprite_flush_ordinary": 5750336,
+    "ensure_text_mode": 5750344,
+    "ensure_mode_change": 5750380,
+    "ensure_mode_done": 5750584,
+    "unicode_selector": 5750592,
+    "unicode_hangul": 5750664
+  },
+  "relocations": [
+    [
+      120,
+      516
+    ],
+    [
+      192,
+      516
+    ],
+    [
+      248,
+      516
+    ],
+    [
+      416,
+      516
+    ],
+    [
+      452,
+      516
+    ],
+    [
+      584,
+      517
+    ],
+    [
+      588,
+      518
+    ],
+    [
+      592,
+      516
+    ],
+    [
+      620,
+      516
+    ],
+    [
+      632,
+      516
+    ],
+    [
+      660,
+      516
+    ],
+    [
+      696,
+      516
+    ],
+    [
+      740,
+      516
+    ],
+    [
+      808,
+      516
+    ],
+    [
+      856,
+      516
+    ],
+    [
+      876,
+      516
+    ],
+    [
+      884,
+      516
+    ],
+    [
+      940,
+      516
+    ],
+    [
+      964,
+      516
+    ],
+    [
+      1024,
+      516
+    ],
+    [
+      1164,
+      516
+    ],
+    [
+      1176,
+      516
+    ]
+  ],
+  "relocation_table_file_offset": 2174192,
+  "original_relocation_bytes_preserved": 327736,
+  "relocation_section_header_offset": 1796248,
+  "new_geometry_vertices_per_quad": 2,
+  "old_geometry_vertices_per_quad": 6,
+  "ASCII_geometry": "original quad,original triangle batch",
+  "font_begin_mode_original": 3,
+  "transitions_preserve_FPR0_to19": true,
+  "allocator_limit_unchanged": 491520,
+  "vertex_format_unchanged": 511,
+  "all_generated_words_profile_roundtrip": true,
+  "live_relocation_checks": [
+    {
+      "base": 142622720,
+      "bytes_sha256": "3242fa3406c374463cb5c8fe5b854ceb0f3ea2ab173ec6e1b19753725e92659f"
+    },
+    {
+      "base": 143671296,
+      "bytes_sha256": "4d20fb73f4edc0c013f22eb1af471bc50f6b12962ec16c974498096b48f1dda5"
+    }
+  ],
+  "runtime_verified": false,
+  "encoding": "utf8_modern_hangul_v1",
+  "selector_source_entry": 824792,
+  "selector_new_vma": 5750592,
+  "selector_bytes": 100,
+  "source_entry_relocations": [
+    [
+      824792,
+      4
+    ]
+  ],
+  "selector_entry_before": "ffffa5300001a628",
+  "selector_entry_after": "d0ef150800000000",
+  "selector_placement_checks": [
+    {
+      "module_base": 142622720,
+      "entry_pc": 143447512,
+      "selector_pc": 148373312
+    },
+    {
+      "module_base": 143671296,
+      "entry_pc": 144496088,
+      "selector_pc": 149421888
+    }
+  ],
+  "selector_reference_audit": "qa/reports/namespace_stage041_references.json",
+  "selector_interface": "Same modified a0,a1,a2,v0 as original; no stack/FPR/RA changes; full u16 domain requires audit",
+  "public_unmapped_fallback_metric": 63,
+  "internal_texture_metrics": "Direct pointer arithmetic in existing mixed dispatcher; never routed through public Unicode selector",
+  "constant_U_sampling": true,
+  "geometry_width_per_column": 1,
+  "glyph_raster_and_14_column_mapping_unchanged": true
+}
