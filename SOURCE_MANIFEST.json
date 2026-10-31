@@ -1,10 +1,8 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "project": "Untold Legends: Brotherhood of the Blade",
   "repository": "akuma815/psp-untold-legends-brotherhood-of-the-blade-kr-patch",
-  "status": "development_source_publication_no_release",
-  "release_created": false,
-  "tags_created": false,
+  "status": "official_v1_0_source_and_distribution",
   "source_profiles": [
     {
       "schema_version": 1,
@@ -190,14 +188,14 @@
     {
       "path": "docs/PATCH_GUIDE.txt",
       "source": "publication-authored",
-      "bytes": 735,
-      "sha256": "ceac8e51d3cfc27df5d1011b9dfd60bfe43e2c0da331e13ba6b3ba18303796a5"
+      "bytes": 2688,
+      "sha256": "a7f196311ed6712d1cd31ef9dbc4ce06177614a999bdb08b6e4f6542f308befc"
     },
     {
       "path": "docs/rebuild/README.md",
       "source": "publication-authored",
-      "bytes": 2678,
-      "sha256": "6db1c9077bbca48bfb5d5a0db88c30be7bc1318bd63d65f188ae56702b3a7bcc"
+      "bytes": 2802,
+      "sha256": "35baed79dade0faec57c7d9d29e9fafe119c8bb8d9c1753c76264a1ce0fccc0e"
     },
     {
       "path": "docs/REFERENCE_FORMAT.json",
@@ -220,8 +218,8 @@
     {
       "path": "docs/VALIDATION.md",
       "source": "publication-authored",
-      "bytes": 1315,
-      "sha256": "11be30df747722e95f08b8d42b3fbd25ac00dbbf4bbbed0c3644c5d3572e4d69"
+      "bytes": 2470,
+      "sha256": "23cf6a934a101a143ab7e4f249eb500a818077a44975bd3e85d5ed6ef2f3a5c9"
     },
     {
       "path": "img/map-20261030.png",
@@ -652,8 +650,8 @@
     {
       "path": "README.md",
       "source": "publication-authored",
-      "bytes": 4083,
-      "sha256": "ecc7e2b260129d20d240acffa5dc80187e59cf1d5d27624900c9b719840f4977"
+      "bytes": 4797,
+      "sha256": "1ca1e2485755fe7b32df94bf040ec6fe854e7f7bba8de4a33eef9fef3f61f4d6"
     },
     {
       "path": "requirements-rebuild.txt",
@@ -2754,6 +2752,41 @@
       "source": "workspace/translation/terminology.json",
       "bytes": 108679,
       "sha256": "d78795c5fad4afcfc65ab50fd80868e371a7264345e845b47929ec4cbe0e87b7"
+    },
+    {
+      "path": "docs/releases/v1.0/DISTRIBUTION.json",
+      "source": "official-v1-publication",
+      "bytes": 1125,
+      "sha256": "89d63c5a7fca11a49388f901682a2f251fb5bcd0c56f6ab954762980008f0572"
+    },
+    {
+      "path": "docs/releases/v1.0/PPSSPP_NOTES.txt",
+      "source": "official-v1-publication",
+      "bytes": 1222,
+      "sha256": "a8aaaef05176ed66914ab88c52b4879dac7e2e202afae9d9d692607b663e29e0"
+    },
+    {
+      "path": "docs/releases/v1.0/RELEASE_NOTES.md",
+      "source": "official-v1-publication",
+      "bytes": 3461,
+      "sha256": "de9cc806208f71958b1fae14e224e0abf19d5610fee5bb15cbf0b77f853b33bc"
+    },
+    {
+      "path": "scripts/release_iso.py",
+      "source": "official-v1-publication",
+      "bytes": 7308,
+      "sha256": "44a3c103098321acf8d8d11c79be2fb880c131ae06cc0db45779e0788660f96b"
+    },
+    {
+      "path": "scripts/release_v1_app.py",
+      "source": "official-v1-publication",
+      "bytes": 16858,
+      "sha256": "00ca4d52a2469c38a4e89564fe3973f9c7ec620d73fb40bda645c0d0de227fab"
     }
-  ]
+  ],
+  "release": {
+    "tag": "v1.0",
+    "url": "https://github.com/akuma815/psp-untold-legends-brotherhood-of-the-blade-kr-patch/releases/tag/v1.0",
+    "authorized": true
+  }
 }

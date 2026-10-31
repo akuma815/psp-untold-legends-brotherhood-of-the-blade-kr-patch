@@ -1,6 +1,6 @@
 # 개발 빌드 입력과 검증
 
-Python 3.12 기준입니다. 공개 릴리즈/설치 패키지는 없으며 아래는 개발자 절차입니다.
+Python 3.12 기준의 개발자 재빌드 절차입니다. 배포 ZIP을 원본 ISO에 적용하려면 [패치 적용 안내](../PATCH_GUIDE.txt)를 확인하세요. 해당 배포 패치에는 Python 설치가 필요하지 않습니다.
 
 ```powershell
 python -m pip install -r requirements-rebuild.txt

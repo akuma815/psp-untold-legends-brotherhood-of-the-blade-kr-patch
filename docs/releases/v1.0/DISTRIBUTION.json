@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "tag": "v1.0",
+  "release_url": "https://github.com/akuma815/psp-untold-legends-brotherhood-of-the-blade-kr-patch/releases/tag/v1.0",
+  "archive": {
+    "name": "UntoldLegends_KR_v1.0_Windows.zip",
+    "size": 11809865,
+    "sha256": "9aa5fbaa3410a9cee274e4476a9b93af8758f4b1e59c04416e3fcdab19f29aa3"
+  },
+  "members": 49,
+  "source_ISO": {
+    "size": 407601152,
+    "sha256": "27bdf09512f138ed40f76f4c575fd9d373a95026355e6c8d97e300c2d4a0c621"
+  },
+  "Korean_ISO": {
+    "size": 410986496,
+    "sha256": "d12edc5bac1d71bfa9ef6aa78eab4991749b4aa09022106a93c0957a1711faf8"
+  },
+  "game_deltas_and_executables_unchanged": true,
+  "documentation_only_archive_refresh": true,
+  "final_EXE_selftest_passed": true,
+  "final_EXE_verify_existing_ISO_passed": true,
+  "earlier_ISO_to_ISO_apply_verified": true,
+  "full_playthrough_verified": false,
+  "PPSSPP_save_test": "isolated GUI profile: normal load and save complete; copied save only",
+  "user_observation": "Save dialog visible after game-specific SkipBufferEffects=False; movement issue was PPSSPP settings",
+  "user_configuration_included": false
+}
