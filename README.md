@@ -54,4 +54,4 @@ PSP **Untold Legends: Brotherhood of the Blade** 한글 번역 패치 프로젝�
 
 [공개 소스 구성](docs/SOURCE_GUIDE.md) · [상세 적용 안내](docs/PATCH_GUIDE.txt) · [빌드 입력과 검증](docs/rebuild/README.md) · [현재 검증 범위](docs/VALIDATION.md) · [작업 인계](docs/HANDOFF_2026-10-30.md)
 
-**공개 소스만으로 전체 게임 재빌드를 완성하려면 별도 그래픽 입력과 어셈블러가 필요합니다.** 완성 패치를 적용하는 배포 ZIP은 해당 소스 재빌드 환경을 요구하지 않습니다.
+**소유한 등록 원본 ISO와 Git 파일로 v1.0 소스 빌드·xdelta 재생성이 가능합니다.** 필요한 그래픽 입력은 원본 텍스처 상대 차분에서 복구하며 라이선스가 허용하는 고정 버전 도구를 포함했습니다. 비공개 작업 폴더나 기존 릴리즈의 게임 차분은 사용하지 않습니다. Python 의존성을 설치한 뒤 [재빌드 안내](docs/rebuild/README.md)의 `tools/build_v1_xdelta.py`를 사용하세요. 기존 공식 v1.0 ZIP·태그·결과 게임은 변경하지 않았습니다.

@@ -1,0 +1,26 @@
+{
+  "commit": "62adab4ef30da765f5cf22a451eb08a59c54dc8b",
+  "submodule_filesystem": "3f1c185ab414e764c694b8171d1c4d8c5c437517",
+  "configuration": "Release x64",
+  "compiler": "MSVC19.44.35228",
+  "ctest_suites_passed": 1,
+  "full_ISA_verified": false,
+  "files": {
+    "armips_dev_build/Release/armips.exe": {
+      "size": 792064,
+      "sha256": "3c295bcff7ff8bc5220472e80cf0715aa03ff72b6ed074562fab5b09774e904d"
+    },
+    "armips_dev_build/Release/armipstests.exe": {
+      "size": 817664,
+      "sha256": "844c2516f98b9e4b4c7cb007623608e7ea8b28b19a1f8f047bd62cc77b0a3171"
+    },
+    "MIPSTables.cpp": {
+      "size": 48073,
+      "sha256": "960cdfcb001780ff8eb629eb8d0d1cd911dd96c3aa654bc3ad6c2860b5cca637"
+    },
+    "MIPSTables.h": {
+      "size": 4288,
+      "sha256": "1a50be449a053e91378543b49d40ca0c2c540fa3534cb127b62094c0843b788d"
+    }
+  }
+}

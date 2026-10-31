@@ -1,0 +1,198 @@
+{
+  "format": "original-relative-build-inputs-v1",
+  "owned_original_required": true,
+  "base_derivation": "Pillow12.3.0 RGBA PNG rendering of verified original map/title textures or original texture records;see tools/prepare_build_inputs.py",
+  "graphics_inputs": [
+    {
+      "target": "workspace/graphics/loading_kr_20261024/loading_kr_128x32.bin",
+      "result": {
+        "size": 5152,
+        "sha256": "acff429e82232ea0075ef817896b0623450561b5e3acc8b682e809d108b3cf5e"
+      },
+      "patch": "inputs/build_recovery/00.vcdiff",
+      "patch_pin": {
+        "size": 503,
+        "sha256": "0850dde7aae4056198263f2ccab3db861fe3e3205dce59d8a5953410214ae4eb"
+      },
+      "base": "loading_record",
+      "base_pin": {
+        "size": 5152,
+        "sha256": "22c6dd4b801ed5cf0be7ca9b0d430ae144954b8f8aeb72549ac0897040968284"
+      }
+    },
+    {
+      "target": "workspace/graphics/map_generated_kr_20261024_v4/map_korean_candidate1024.png",
+      "result": {
+        "size": 818409,
+        "sha256": "f983a903ffd19a89ad433c7ce1450097d78941cfca1d8dc06efe318a1dc0b0aa"
+      },
+      "patch": "inputs/build_recovery/01.vcdiff",
+      "patch_pin": {
+        "size": 797028,
+        "sha256": "6b74a8ec0a072f71fd98eeecda36ed794635e14bfdd2eb7db72bf192369ecfe4"
+      },
+      "base": "map_png",
+      "base_pin": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      }
+    },
+    {
+      "target": "workspace/graphics/map_kr_20261024/background_candidate1024.png",
+      "result": {
+        "size": 814561,
+        "sha256": "f84c222029fd8c68005d3b9e61471d877a6e809c33b3591c419e04517e512b15"
+      },
+      "patch": "inputs/build_recovery/02.vcdiff",
+      "patch_pin": {
+        "size": 795262,
+        "sha256": "cdd4dbcda438d6252199754d3ef725f7d78ebbd6d58aad17f8c5c0b02ca547e0"
+      },
+      "base": "map_png",
+      "base_pin": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      }
+    },
+    {
+      "target": "workspace/graphics/map_kr_drafts_20261024/imagegen_01.png",
+      "result": {
+        "size": 2551811,
+        "sha256": "041cdf45739285c9122ce1c3198b9b1b16e4ad5a8a308f862e2780656cc7253a"
+      },
+      "patch": "inputs/build_recovery/03.vcdiff",
+      "patch_pin": {
+        "size": 2362982,
+        "sha256": "060d801afdd0ea6fb5a6894751f6c79a477cd77686fa33e1686637e9e54e8a9b"
+      },
+      "base": "map_png",
+      "base_pin": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      }
+    },
+    {
+      "target": "workspace/graphics/map_source_review_20261024/analysis_english_map1024.png",
+      "result": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      },
+      "patch": "inputs/build_recovery/04.vcdiff",
+      "patch_pin": {
+        "size": 28,
+        "sha256": "fbfc7747f05a03bcb951337b8223327f92a64e3b560b55658d25cfe83c4168ea"
+      },
+      "base": "map_png",
+      "base_pin": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      }
+    },
+    {
+      "target": "workspace/graphics/title_geography_kr_20261024_v3/adopted_local_background512.png",
+      "result": {
+        "size": 163952,
+        "sha256": "0bc688baee4ac7f437315eb8876971d31e7c711f8a5df44e798ec2c56b8618c7"
+      },
+      "patch": "inputs/build_recovery/05.vcdiff",
+      "patch_pin": {
+        "size": 57531,
+        "sha256": "eba5a1d17d5ccd9ff31a2c16faf87dee9a8a9595966e7b9510db0dc4d6ddf4c0"
+      },
+      "base": "title_png",
+      "base_pin": {
+        "size": 165946,
+        "sha256": "32d7abb06d96d469f364fa45060e182c392424ff516d6acc424fbcf662b99d39"
+      }
+    },
+    {
+      "target": "workspace/graphics/title_geography_kr_20261024_v3/imagegen_01.png",
+      "result": {
+        "size": 1592739,
+        "sha256": "6b85bd81be8bbf65ab883f12c68c02ccfb43f04e368754be87e4e066f62d8760"
+      },
+      "patch": "inputs/build_recovery/06.vcdiff",
+      "patch_pin": {
+        "size": 1347189,
+        "sha256": "8f756bbcaf48670c36ba538142e9226fb96efaf9ae6b3095d41924d469318e50"
+      },
+      "base": "title_png",
+      "base_pin": {
+        "size": 165946,
+        "sha256": "32d7abb06d96d469f364fa45060e182c392424ff516d6acc424fbcf662b99d39"
+      }
+    },
+    {
+      "target": "workspace/graphics/title_geography_kr_20261024_v3/title_korean512.bin",
+      "result": {
+        "size": 263200,
+        "sha256": "f22fef7a91efffccbdeea007803184844755c342d32dec276e56e4e6dcf9a439"
+      },
+      "patch": "inputs/build_recovery/07.vcdiff",
+      "patch_pin": {
+        "size": 2001,
+        "sha256": "c372711b0e6c2180b2691b874e4e222e4e22cc4d70d725dae8567a16d38cc56b"
+      },
+      "base": "title_record",
+      "base_pin": {
+        "size": 263200,
+        "sha256": "4f2bd149ebf75bca7816fbf33936290475a769e82a2c3013181dfb0ce93d7475"
+      }
+    },
+    {
+      "target": "workspace/graphics/title_geography_kr_20261024_v3/title_korean512.png",
+      "result": {
+        "size": 164130,
+        "sha256": "3aaa93b4a162fbc89883bcc96394806db22eaf166a7a975832552c8e9a7d70ce"
+      },
+      "patch": "inputs/build_recovery/08.vcdiff",
+      "patch_pin": {
+        "size": 57207,
+        "sha256": "e74311da32ac9e1e824c8ab7a8d492d5c516699804a2c02142dc4e096a2824bf"
+      },
+      "base": "title_png",
+      "base_pin": {
+        "size": 165946,
+        "sha256": "32d7abb06d96d469f364fa45060e182c392424ff516d6acc424fbcf662b99d39"
+      }
+    },
+    {
+      "target": "workspace/graphics/map_crisp27_20261030_v2/map_crisp1024.png",
+      "result": {
+        "size": 815252,
+        "sha256": "dee70cb0da07a573ce53fa8e019bb26cfc7994aad76fe73b4652b09b03485190"
+      },
+      "patch": "inputs/build_recovery/09.vcdiff",
+      "patch_pin": {
+        "size": 794852,
+        "sha256": "34b51f067a1cc2a82681ef963b5786f51c08a3b49a3860caf6d8c7f4f25142db"
+      },
+      "base": "map_png",
+      "base_pin": {
+        "size": 840885,
+        "sha256": "684de9de19e32ba56ab8413b38c54c504f003f76d0a61612aa7bd53e904241f4"
+      }
+    }
+  ],
+  "licensed_tools": {
+    "tools/bin/armips.exe": {
+      "size": 792064,
+      "sha256": "3c295bcff7ff8bc5220472e80cf0715aa03ff72b6ed074562fab5b09774e904d"
+    },
+    "tools/bin/xdelta3.exe": {
+      "size": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    }
+  },
+  "assembler": {
+    "source": "tools/bin/armips.exe",
+    "target": "workspace/tools/allegrex_015/armips_dev_build/Release/armips.exe",
+    "pin": {
+      "size": 792064,
+      "sha256": "3c295bcff7ff8bc5220472e80cf0715aa03ff72b6ed074562fab5b09774e904d"
+    }
+  },
+  "scope": "Recover frozen legacy build inputs;does not change adopted v1.0 text/graphics scope. No complete original/game texture PNGs bundled.",
+  "delta_magic": "d6c3c4",
+  "all_ten_source_relative_deltas_roundtrip_verified": true
+}

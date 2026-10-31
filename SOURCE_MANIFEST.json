@@ -2,7 +2,7 @@
   "date": "2026-10-31",
   "project": "Untold Legends: Brotherhood of the Blade",
   "repository": "akuma815/psp-untold-legends-brotherhood-of-the-blade-kr-patch",
-  "status": "official_v1_0_source_and_distribution",
+  "status": "official_v1_source_build_and_xdelta_reproducible",
   "source_profiles": [
     {
       "schema_version": 1,
@@ -38,8 +38,8 @@
     {
       "path": ".gitignore",
       "source": "publication-authored",
-      "bytes": 391,
-      "sha256": "7f402e42f7a130dad8c3e9bc6509cd8d4bcf80800f12ede1a62d8969f5866685"
+      "bytes": 502,
+      "sha256": "195a836672f87b40c338bbb6221b696765bd1bff4a9e3b5c4a3400b6715fb90f"
     },
     {
       "path": "config/allegrex_profile.json",
@@ -194,8 +194,8 @@
     {
       "path": "docs/rebuild/README.md",
       "source": "publication-authored",
-      "bytes": 2802,
-      "sha256": "35baed79dade0faec57c7d9d29e9fafe119c8bb8d9c1753c76264a1ce0fccc0e"
+      "bytes": 3223,
+      "sha256": "1615a12effca844b1627a7138d536177105d5d747e483e392f228a149c35481e"
     },
     {
       "path": "docs/REFERENCE_FORMAT.json",
@@ -206,8 +206,8 @@
     {
       "path": "docs/SOURCE_GUIDE.md",
       "source": "publication-authored",
-      "bytes": 1922,
-      "sha256": "3592d3692f171be9f7399f77e76ecd9978be384c0f913508cbf0ab5bb3f50d9b"
+      "bytes": 2426,
+      "sha256": "2860a614ae97cecbc169b13c24901aa6bda8532e0609fe13aa33eac270d40b3c"
     },
     {
       "path": "docs/THIRD_PARTY_NOTICES.md",
@@ -218,8 +218,8 @@
     {
       "path": "docs/VALIDATION.md",
       "source": "publication-authored",
-      "bytes": 2470,
-      "sha256": "23cf6a934a101a143ab7e4f249eb500a818077a44975bd3e85d5ed6ef2f3a5c9"
+      "bytes": 3138,
+      "sha256": "b63c99936e3fc4dbc3080e8c63ecbcda6184bfcc858864fd5b6e08cfa63b5ce8"
     },
     {
       "path": "img/map-20261030.png",
@@ -626,8 +626,8 @@
     {
       "path": "inputs/PUBLIC_INPUTS.json",
       "source": "publication-authored",
-      "bytes": 53525,
-      "sha256": "afaf98b696dc65512b1372feef97373f56e3b823e8128c83e1a9db9a12a15d62"
+      "bytes": 53785,
+      "sha256": "72ad1d60f89d106e96487289c763cd34ab79c2e9acca6c779a22e2c63c6015e1"
     },
     {
       "path": "manifests/iso_inventory.json",
@@ -650,8 +650,8 @@
     {
       "path": "README.md",
       "source": "publication-authored",
-      "bytes": 4797,
-      "sha256": "1ca1e2485755fe7b32df94bf040ec6fe854e7f7bba8de4a33eef9fef3f61f4d6"
+      "bytes": 5118,
+      "sha256": "73168a6a5d70dbb7d8e6dca9f9a50c8602e597e4a8bc7e5e26ebc93a12823348"
     },
     {
       "path": "requirements-rebuild.txt",
@@ -1664,8 +1664,8 @@
     {
       "path": "tools/audit_public_tree.py",
       "source": "publication-authored",
-      "bytes": 2837,
-      "sha256": "ac153893f103bb6addb6674324c9eeb0280128698cb0f65a993f8348ed068408"
+      "bytes": 3957,
+      "sha256": "404e037d4f7eec226e50d2fbcf2d836ceca6a4ae00a299b41ff03fe2c1b7b8a9"
     },
     {
       "path": "tools/check_inputs.py",
@@ -1676,8 +1676,8 @@
     {
       "path": "tools/prepare_public_inputs.py",
       "source": "publication-authored",
-      "bytes": 2594,
-      "sha256": "00b9d1c262fc4c0baa87e5fc0fe07352b9d4c9495ed1f7ccc75a1bb0a4ed4d0f"
+      "bytes": 2638,
+      "sha256": "05b8aad301f50917742cff916af858a71285b281758439d25b70554ab051c8dd"
     },
     {
       "path": "workspace/reproduction/current27_inputs_20261030/manifest.json",
@@ -2782,6 +2782,156 @@
       "source": "official-v1-publication",
       "bytes": 16858,
       "sha256": "00ca4d52a2469c38a4e89564fe3973f9c7ec620d73fb40bda645c0d0de227fab"
+    },
+    {
+      "path": "tools/bin/armips.exe",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 792064,
+      "sha256": "3c295bcff7ff8bc5220472e80cf0715aa03ff72b6ed074562fab5b09774e904d"
+    },
+    {
+      "path": "tools/bin/armips_BUILD.json",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 883,
+      "sha256": "1398dddf11a68ffcf10877660148dc1c2675689aa148e58efbcb667ce7ce509a"
+    },
+    {
+      "path": "tools/bin/armips_MIT.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 1100,
+      "sha256": "bdae67c263357e00b5e0fd77fc1913af69f193ca7e27427d45e8ac16ed49a132"
+    },
+    {
+      "path": "tools/bin/BLAKE3_APACHE2.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 11361,
+      "sha256": "00fcc7a934ddbc9ece2a7cc063ac788e284b703b1d705ccbba72d462aa97921e"
+    },
+    {
+      "path": "tools/bin/BLAKE3_APACHE2_LLVM.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 12267,
+      "sha256": "a5695f57ea0c221e0e8b7d784ff774c35e88c3d3270353646a925880bb3492cc"
+    },
+    {
+      "path": "tools/bin/BLAKE3_CC0.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "tools/bin/README.md",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 1077,
+      "sha256": "572d83e54e598e999029c2be672e084864fcf47ebf5af8e1bb93a57a84270ab1"
+    },
+    {
+      "path": "tools/bin/xdelta3.exe",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 336896,
+      "sha256": "53d90226615f217d3380c39892833311b4e24acd863e1ca01f14b5e772e2e6d0"
+    },
+    {
+      "path": "tools/bin/xdelta_APACHE2.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 9156,
+      "sha256": "6cf63d87586c7c25c3ab8e62eef5c75bbaa982b0a6f9c00c59e2720255aac9ec"
+    },
+    {
+      "path": "tools/bin/xz_0BSD.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 607,
+      "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1"
+    },
+    {
+      "path": "tools/bin/xz_COPYING.txt",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 3119,
+      "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8"
+    },
+    {
+      "path": "inputs/build_recovery/00.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 503,
+      "sha256": "0850dde7aae4056198263f2ccab3db861fe3e3205dce59d8a5953410214ae4eb"
+    },
+    {
+      "path": "inputs/build_recovery/01.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 797028,
+      "sha256": "6b74a8ec0a072f71fd98eeecda36ed794635e14bfdd2eb7db72bf192369ecfe4"
+    },
+    {
+      "path": "inputs/build_recovery/02.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 795262,
+      "sha256": "cdd4dbcda438d6252199754d3ef725f7d78ebbd6d58aad17f8c5c0b02ca547e0"
+    },
+    {
+      "path": "inputs/build_recovery/03.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 2362982,
+      "sha256": "060d801afdd0ea6fb5a6894751f6c79a477cd77686fa33e1686637e9e54e8a9b"
+    },
+    {
+      "path": "inputs/build_recovery/04.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 28,
+      "sha256": "fbfc7747f05a03bcb951337b8223327f92a64e3b560b55658d25cfe83c4168ea"
+    },
+    {
+      "path": "inputs/build_recovery/05.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 57531,
+      "sha256": "eba5a1d17d5ccd9ff31a2c16faf87dee9a8a9595966e7b9510db0dc4d6ddf4c0"
+    },
+    {
+      "path": "inputs/build_recovery/06.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 1347189,
+      "sha256": "8f756bbcaf48670c36ba538142e9226fb96efaf9ae6b3095d41924d469318e50"
+    },
+    {
+      "path": "inputs/build_recovery/07.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 2001,
+      "sha256": "c372711b0e6c2180b2691b874e4e222e4e22cc4d70d725dae8567a16d38cc56b"
+    },
+    {
+      "path": "inputs/build_recovery/08.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 57207,
+      "sha256": "e74311da32ac9e1e824c8ab7a8d492d5c516699804a2c02142dc4e096a2824bf"
+    },
+    {
+      "path": "inputs/build_recovery/09.vcdiff",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 794852,
+      "sha256": "34b51f067a1cc2a82681ef963b5786f51c08a3b49a3860caf6d8c7f4f25142db"
+    },
+    {
+      "path": "inputs/BUILD_INPUT_RECOVERY.json",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 7163,
+      "sha256": "a310834dbb96e28e4f6b15ee0c3b65e47a1baee9e073f43f933be835941937a6"
+    },
+    {
+      "path": "tools/prepare_build_inputs.py",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 4391,
+      "sha256": "96ab823c1f252b2b8d0f30adc3cffc65e2fdf4cf689b114af59c18f3dae752f2"
+    },
+    {
+      "path": "tools/build_v1_xdelta.py",
+      "source": "source-recovery-original-relative-inputs-and-licensed-tools",
+      "bytes": 3420,
+      "sha256": "de6204eda9e49ce6c5a9eb8bdb03aa3549e9622d9b7fc109be7dc6dd8c34446b"
+    },
+    {
+      "path": "docs/rebuild/GIT_SOURCE_RECOVERY_20261031.json",
+      "source": "staged-source-rebuild-roundtrip-evidence",
+      "bytes": 742,
+      "sha256": "1dc7c08be0846aba7977f81a1d60f7b7ffe2b0e3e0f4fc0a02155af42d8b1510"
     }
   ],
   "release": {

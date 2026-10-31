@@ -31,3 +31,8 @@ __pycache__/
 *.zip
 *.xdelta
 *.vcdiff
+!inputs/build_recovery/*.vcdiff
+!tools/bin/armips.exe
+!tools/bin/xdelta3.exe
+.input-recovery-*/
+.iso-xdelta-*/

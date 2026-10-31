@@ -40,5 +40,5 @@ def main():
         for row in data['regenerate_from_owned_source']:
             if row['path'].startswith('extracted/text/') and pin(member(row['path']))!={k:row[k] for k in ['size','sha256']}:raise ValueError('Regenerated text differs')
     print(json.dumps(dict(status='PASS_PUBLIC_INPUT_PREPARATION',copied=copied,existing_identical=existing,source_text_regenerated=a.extract_text,
-        full_build_ready=False,note='Run check_inputs.py;excluded local graphics and assembler remain separate prerequisites.')))
+        full_build_ready=False,note='After owned source extraction,run tools/prepare_build_inputs.py for Git graphics deltas and licensed assembler,then check_inputs.py.')))
 if __name__=='__main__':main()

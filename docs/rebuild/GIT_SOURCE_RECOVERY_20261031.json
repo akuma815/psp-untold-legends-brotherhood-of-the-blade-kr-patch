@@ -1,0 +1,21 @@
+{
+  "status": "PASS_GIT_SOURCE_BUILD_XDELTA_ROUNDTRIP",
+  "patch": {
+    "size": 1274633,
+    "sha256": "2733f7c2c7be7fa859088518cb3ad63071e42766937dc636a335d980255cf5e2"
+  },
+  "source": {
+    "size": 407601152,
+    "sha256": "27bdf09512f138ed40f76f4c575fd9d373a95026355e6c8d97e300c2d4a0c621"
+  },
+  "target": {
+    "size": 410986496,
+    "sha256": "d12edc5bac1d71bfa9ef6aa78eab4991749b4aa09022106a93c0957a1711faf8"
+  },
+  "game_files": 80,
+  "private_workspace_inputs_used": false,
+  "translation_source_build": true,
+  "released_game_deltas_used": false,
+  "new_emulator_launch": false,
+  "verification_origin": "fresh staging checkout containing only the publication Git index;no private local build-input archive"
+}
